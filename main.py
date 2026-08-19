@@ -1,43 +1,25 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 import os
+import shutil
 import psycopg2
 
 app = FastAPI()
-
-def get_db():
-    DATABASE_URL = os.getenv("DATABASE_URL")
-    if not DATABASE_URL:
-        raise HTTPException(status_code=500, detail="Database URL not configured")
-    return psycopg2.connect(DATABASE_URL)
-
-@app.get("/")
-def read_root():
-    return {"status": "success", "message": "Bunker INJUL online y seguro"}
+UPLOAD_DIR = "/data"
 
 @app.post("/upload/")
 async def upload_file(file: UploadFile = File(...)):
+    file_path = os.path.join(UPLOAD_DIR, file.filename)
     try:
-        conn = get_db()
+        with open(file_path, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
+        
+        conn = psycopg2.connect(os.getenv("DATABASE_URL"))
         cur = conn.cursor()
-        
-        # Crear tabla si no existe
-        cur.execute("""
-            CREATE TABLE IF NOT EXISTS uploaded_files (
-                id SERIAL PRIMARY KEY,
-                filename VARCHAR(255),
-                content_type VARCHAR(100)
-            );
-        """)
-        
-        # Registrar metadatos del archivo subido
-        cur.execute("INSERT INTO uploaded_files (filename, content_type) VALUES (%s, %s);", 
-                    (file.filename, file.content_type))
+        cur.execute("CREATE TABLE IF NOT EXISTS uploaded_files (id SERIAL PRIMARY KEY, filename VARCHAR(255), path VARCHAR(255));")
+        cur.execute("INSERT INTO uploaded_files (filename, path) VALUES (%s, %s);", (file.filename, file_path))
         conn.commit()
-        
         cur.close()
         conn.close()
-        
-        return {"filename": file.filename, "status": "Archivo registrado correctamente en Postgres"}
+        return {"status": "success", "message": f"Archivo {file.filename} guardado en {file_path}"}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-

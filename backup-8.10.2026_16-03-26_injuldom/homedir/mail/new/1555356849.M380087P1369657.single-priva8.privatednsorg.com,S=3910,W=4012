@@ -1,0 +1,102 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id +FExFrHctFw55hQA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Mon, 15 Apr 2019 15:34:09 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Mon, 15 Apr 2019 15:34:09 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1hG7Mn-005lg4-Am
+	for injuldom@single-priva8.privatednsorg.com; Mon, 15 Apr 2019 15:34:09 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1555356849-eximdsn-1062620991
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hG7Mn-005lg4-Am@single-priva8.privatednsorg.com>
+Date: Mon, 15 Apr 2019 15:34:09 -0400
+
+--1555356849-eximdsn-1062620991
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1555356849-eximdsn-1062620991
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1555356849-eximdsn-1062620991
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1hG7Mn-005lfu-93
+	for info@injul.com.do; Mon, 15 Apr 2019 15:34:09 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "See how we got $4875 for a local Burger King franchise with Facebook advertising"
+X-PHP-Script: injul.com.do/index.php for 185.128.27.121
+Date: Mon, 15 Apr 2019 19:34:09 +0000
+From: BryanMup <info@injul.com.do>
+Reply-To: conciergexleads@gmail.com
+Message-ID: <b72263764394871c334d4b2ab977dc00@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+From: BryanMup <conciergexleads@gmail.com>
+Subject: See how we got $4875 for a local Burger King franchise with Facebook advertising
+
+Message Body:
+Hi, 
+ 
+Let's see how we can achieve better advertising result for your business. 
+ 
+I would like to start by sharing with you a case study of a local campaign we ran for a Burger King franchise. 
+Their budget was only $1200 and we got them $4,825 in value of sales! 
+ 
+See how we did it - Click here https://www.conciergedigitalleads.com/uploads/sYvnOSwp/SuccessStories-ReachFrequency-BurgerKing.pdf to download the Burger King case study 
+ 
+Our company runs full-service Facebook Advertising campaigns with guaranteed results for as low as $375 for a one-off campaign. 
+ 
+Let's schedule a quick call to see how we can get more clients for you on Facebook. 
+ 
+Our process is super short and easy 
+ 
+1.	We setup a 15min call in which we learn about your business 
+2.	On the same call, we can design a campaign and start running 
+3.	We do all the work – a 100% 
+4.	You can try us with a very low budget 
+ 
+Let’s talk today. Click here https://conciergeleads.youcanbook.me/ to book a call or just reply to this message. 
+ 
+Looking forward to talking with you. 
+Thanks, 
+ 
+Emily Van Garderen 
+Client Management Executive 
+Concierge Leads 
+conciergeseoleads@gmail.com 
+T. 844-899-9770 
+5887 N 42ND Street Milwaukee WI 53209
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1555356849-eximdsn-1062620991--

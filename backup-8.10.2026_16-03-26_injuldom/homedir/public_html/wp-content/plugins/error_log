@@ -1,0 +1,16 @@
+[22-Jun-2020 17:42:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/injuldom/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-content/plugins/hello.php on line 60
+[24-Jun-2020 09:02:13 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/injuldom/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-content/plugins/hello.php on line 60
+[26-Nov-2020 14:06:16 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/injuldom/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-content/plugins/hello.php on line 60
+[26-Nov-2020 14:06:16 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/injuldom/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-content/plugins/hello.php on line 60

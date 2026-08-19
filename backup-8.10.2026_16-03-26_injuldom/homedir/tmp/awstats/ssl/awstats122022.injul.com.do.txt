@@ -1,0 +1,425 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202212 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/ssl/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2677                
+POS_VISITOR 9555                
+POS_DAY 11667               
+POS_DOMAIN 3364                
+POS_LOGIN 3708                
+POS_ROBOT 3863                
+POS_WORMS 4225                
+POS_EMAILSENDER 4356                
+POS_EMAILRECEIVER 4499                
+POS_SESSION 12344               
+POS_SIDER 12502               
+POS_FILETYPES 4634                
+POS_DOWNLOADS 4857                
+POS_OS 4905                
+POS_BROWSER 5113                
+POS_SCREENSIZE 5693                
+POS_UNKNOWNREFERER 5767                
+POS_UNKNOWNREFERERBROWSER 6533                
+POS_ORIGIN 7107                
+POS_SEREFERRALS 7244                
+POS_PAGEREFS 7407                
+POS_SEARCHWORDS 8227                
+POS_KEYWORDS 8379                
+POS_MISC 2341                
+POS_ERRORS 8438                
+POS_CLUSTER 3564                
+POS_SIDER_404 8569                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230101004517 18 5031 8873293791374
+FirstTime 0
+LastTime 20221231111110
+LastUpdate 20230101072832 18 0 17 0 0
+TotalVisits 115                 
+TotalUnique 52                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 53                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 39271 4 25 409788
+1 3 3 60 9 16 91183
+2 1 1 0 2 4 93
+3 0 0 0 1 8 11109
+4 5 5 22387 3 24 440085
+5 2 2 20 10 14 418585
+6 4 4 80 8 33 485420
+7 6 6 31845 7 25 736520
+8 3 3 7489 4 6 33126
+9 11 11 117950 14 18 8644
+10 26 26 158415 4 34 371683
+11 6 15 120476 3 8 251
+12 4 4 28605 3 9 29743
+13 8 8 77361 4 9 60907
+14 17 74 2030246 14 36 850621
+15 6 7 122258 7 29 429163
+16 2 2 40 1 3 6877
+17 3 3 1292 3 10 16262
+18 2 2 12175 6 6 243
+19 7 7 7569 9 24 291976
+20 7 7 86135 12 51 835411
+21 5 5 12254 7 51 912907
+22 14 33 250798 11 38 551172
+23 6 6 31226 7 32 390276
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 129 205 2771552
+in 6 6 63567
+cn 5 14 120476
+ca 4 4 95720
+de 4 4 0
+ru 3 3 22347
+fr 1 1 12174
+eu 1 1 7449
+be 1 1 8392
+do 0 1 56275
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+AhrefsBot/ 307 6853160 20221228150603 13
+unknown 29 1541 20221231034901 29
+no_user_agent 25 28545 20221227210322 0
+bot[\s_+:,\.\;\/\\-] 15 1037 20221231123133 15
+bingbot/ 4 142278 20221205040430 2
+survey 4 125973 20221215001506 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+php 69 125380 0 0
+png 22 171886 0 0
+woff2 3 231480 0 0
+woff 9 204000 0 0
+html 73 709318 0 0
+js 27 607455 0 0
+svg 4 8330 0 0
+css 27 391452 0 0
+jpg 6 708651 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+macosx10 2 2
+androidnougat 29 10
+Unknown 94 75
+linux 35 26
+winlong 1 1
+winxp 1 1
+ios_iphone 22 2
+win8 1 1
+win10 43 24
+macosx15 3 3
+win8.1 9 9
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+chrome76.0.3809.71 27 8
+firefox63.0 9 9
+chrome37.0.2062.124 1 1
+chrome58.0.3029.110 1 1
+chrome83.0.4103.97 21 21
+safari11.0 21 2
+chrome94.0.4590.2 21 2
+chrome89.0.4389.114 3 3
+chrome60.0.3112.107 8 8
+chrome39.0.2171.95 1 1
+chrome91.0.4472.77 13 4
+mozilla 28 9
+chrome91.0.4472.114 2 2
+chrome19.0.1084.36 1 1
+chrome44.0.2403.155 1 1
+chrome35.0.3319.102 1 1
+Unknown 66 66
+chrome64.0.3282.189 1 1
+firefox75.0 2 2
+chrome71.0.3578.98 3 3
+chrome106.0.0.0 3 3
+safari 1 0
+chrome84.0.4147.125 3 3
+chrome106.0.5249.119 1 1
+firefox107.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+quic-go-HTTP/3 20221231111110
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20221210143313
+WordPress/4.9.22;_https://injul.com.do 20221231050602
+Mozilla/5.0_(compatible;_woorankreview/2.0;__https://www.woorank.com/) 20221210143323
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221230155329
+WordPress/4.9.22;_http://injul.com.do 20221223220527
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20221229093334
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+WordPress/4.9.22;_https://injul.com.do 20221231050602
+quic-go-HTTP/3 20221231111110
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20221210143313
+WordPress/4.9.22;_http://injul.com.do 20221223220527
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20221230155329
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 72 72
+From1 8 8
+From2 0 1
+From3 12 40
+From4 62 119
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 10
+https://webmail.injul.com.do/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/open_sans.min.css 6 6
+https://cpanel.injul.com.do/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/open_sans.min.css 3 3
+http://webmail.injul.com.do/wp-login.php 1 1
+http://cpanel.injul.com.do/wp-login.php 1 1
+http://cpanel.injul.com.do 1 1
+https://webmail.injul.com.do 0 3
+https://webmail.injul.com.do 0 3
+https://cpanel.injul.com.do 0 3
+https://cpanel.injul.com.do/cPanel_magic_revision_1631166555/unprotected/cpanel/style_v2_optimized.css 0 7
+https://webmail.injul.com.do/cPanel_magic_revision_1631166555/unprotected/cpanel/style_v2_optimized.css 0 12
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+401 76 3266
+400 2 42
+302 1 20
+301 13 160
+404 26 226023
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 13
+/sitemap.xml 1 -
+/wp-content/themes/seotheme/mar.php 1 www.google.com
+/wp-content/themes/seotheme/db.php 8 www.google.com
+/sitemap_index.xml 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 6 www.google.com
+/wp-content/plugins/td-composer/assets/js/js_files_for_wp_admin.min.js 1 -
+/wp-content/plugins/iubenda-cookie-law-solution/assets/js/frontend.js 2 -
+/wp-content/plugins/yith-woocommerce-gift-cards-premium/assets/js/ywgc-frontend.js 1 -
+/sitemap.xml.gz 1 -
+/dup-installer/main.installer.php 1 -
+/MgI6Bn1aDm0F/xZkrPNETWOIClFS9/pjhrzKLTcx6QAyyN4/riuSVz4AnPCHvqJB4QR/38aS3XtP4WJc 1 -
+/wp-content/plugins/seoplugins/mar.php 1 www.google.com
+/.well-known/security.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 53
+50.31.174.162 57 57 1080 20221231050602
+20.124.90.93 9 9 109538 20221212092355
+20.172.251.130 8 8 97505 20221221201713
+103.127.158.166 6 6 63567 20221213072651
+58.251.94.154 5 14 120476 20221231110220
+65.154.226.169 4 13 120469 20221205220724
+54.174.175.150 4 23 669211 20221210143313
+138.246.253.15 4 4 0 20221231111110
+65.154.226.166 4 14 121606 20221205220902
+54.225.107.146 4 23 669324 20221210143312
+34.220.74.68 3 3 23757 20221222235014
+18.224.251.3 2 2 14898 20221218040059
+107.21.221.94 2 2 14898 20221210142550
+93.159.230.87 2 2 14898 20221220081134
+3.230.219.226 2 21 654426 20221210143312
+54.145.95.28 2 2 14898 20221210143323
+34.210.145.38 1 1 7449 20221212101113
+35.91.121.141 1 1 7449 20221214101550
+18.237.139.221 1 1 7449 20221216102904
+87.236.176.163 1 1 8392 20221229093334
+198.235.24.133 1 1 28545 20221230135947
+142.93.14.238 1 1 1252 20221211170057
+164.90.152.238 1 1 7449 20221215045704
+205.210.31.47 1 1 37378 20221229154554
+54.200.95.75 1 1 7449 20221211100434
+54.191.199.248 1 1 7449 20221206105643
+35.93.146.41 1 1 7449 20221205101056
+65.109.10.195 1 1 37366 20221222201542
+35.91.168.121 1 1 7449 20221214101410
+54.202.40.177 1 1 7449 20221210105649
+47.88.78.84 1 1 1194 20221208222640
+152.166.205.83 0 1 56275 
+160.153.253.129 1 1 7449 20221215192020
+54.212.42.11 1 1 7449 20221202101508
+109.234.162.39 1 1 12174 20221228210414
+104.209.128.205 1 1 7449 20221223220348
+35.88.252.236 1 1 7449 20221221101908
+198.235.24.47 1 1 28545 20221230155329
+94.140.112.62 1 1 7449 20221227142600
+34.219.203.16 1 1 7449 20221212101043
+3.85.183.123 1 1 28545 20221220125442
+35.90.234.13 1 1 7449 20221202102007
+35.88.182.187 1 1 7449 20221206105621
+93.159.230.89 1 1 7449 20221220071150
+52.12.0.49 1 1 7449 20221227101102
+35.89.79.103 1 1 7449 20221216102844
+18.236.68.39 1 1 8392 20221230104210
+54.245.143.37 1 1 7449 20221211100712
+34.221.169.234 1 1 7449 20221202101755
+34.220.63.178 1 1 7449 20221202101400
+18.237.96.203 1 1 7449 20221214101616
+34.209.215.92 1 1 8392 20221230104146
+148.72.244.254 1 1 12175 20221228182817
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20221201 4 4 40 4
+20221202 8 8 29876 8
+20221203 3 3 60 3
+20221204 0 1 56275 0
+20221205 11 30 249564 5
+20221206 2 2 14898 2
+20221207 6 6 7549 6
+20221208 7 7 25607 6
+20221209 2 2 40 2
+20221210 19 76 2045144 9
+20221211 6 6 16210 6
+20221212 13 13 124476 5
+20221213 3 3 24356 2
+20221214 3 3 22347 3
+20221215 4 4 14938 4
+20221216 3 3 14918 3
+20221218 4 4 14938 3
+20221219 2 2 40 2
+20221220 6 6 43503 6
+20221221 9 9 104954 3
+20221222 5 5 61143 3
+20221223 4 4 7509 4
+20221224 1 1 20 1
+20221225 2 2 40 2
+20221226 2 2 40 2
+20221227 6 6 14978 6
+20221228 4 4 24369 4
+20221229 2 2 45770 2
+20221230 5 5 73874 5
+20221231 8 17 120476 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 114
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/ 61 580855 51 45
+/wp-cron.php 57 1080 57 57
+/wp-content/plugins/ioptimization/IOptimize.php 6 73132 1 2
+/wp-login.php 4 26795 4 4
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 3 231480 0 2
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Semibold-webfont.woff 3 68724 0 0
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Bold-webfont.woff 3 67296 0 3
+/cPanel_magic_revision_1616517441/unprotected/cpanel/fonts/open_sans/OpenSans-Regular-webfont.woff 3 67980 0 0
+/wp-content/themes/seotheme/db.php 2 24373 1 0
+/category/noticias/ 1 8774 0 1
+/test/ 1 12171 0 0
+/new/ 1 12170 0 0
+/contactenos/ 1 7534 0 0
+/old/ 1 12168 0 0
+/blog/ 1 12170 0 0
+/temp/ 1 12171 0 0
+/comments/feed/ 1 424 0 0
+/wp/ 1 12174 0 0
+/wordpress/ 1 12178 1 0
+/backup/ 1 12168 0 0
+/feed/ 1 14361 0 1
+END_SIDER

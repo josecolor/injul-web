@@ -1,0 +1,490 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202608 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/ssl/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2084                
+POS_TIME 2762                
+POS_VISITOR 10480               
+POS_DAY 13455               
+POS_DOMAIN 3448                
+POS_LOGIN 3903                
+POS_ROBOT 4058                
+POS_WORMS 4655                
+POS_EMAILSENDER 4786                
+POS_EMAILRECEIVER 4929                
+POS_SESSION 13746               
+POS_FILESIZE 14145               
+POS_REQUESTTIME 14267               
+POS_SIDER 13924               
+POS_FILETYPES 5064                
+POS_DOWNLOADS 5238                
+POS_OS 5286                
+POS_BROWSER 5477                
+POS_SCREENSIZE 6300                
+POS_UNKNOWNREFERER 6374                
+POS_UNKNOWNREFERERBROWSER 6734                
+POS_ORIGIN 7089                
+POS_SEREFERRALS 7225                
+POS_PAGEREFS 7430                
+POS_SEARCHWORDS 7706                
+POS_KEYWORDS 7858                
+POS_MISC 2426                
+POS_ERRORS 7917                
+POS_CLUSTER 3759                
+POS_SIDER_404 8043                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260810063628 36 7828 11661435325898
+FirstTime 20260801031855
+LastTime 20260810062304
+LastUpdate 20260810081936 36 0 36 0 0
+TotalVisits 80                  
+TotalUnique 73                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 74                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 1 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 6 11 30607
+1 3 6 302170 2 8 119114
+2 5 5 38839 6 11 15125
+3 7 16 936900 14 20 57426
+4 4 4 91080 8 13 65160
+5 9 9 86755 2 14 8756
+6 4 4 68965 3 8 13097
+7 3 3 112247 5 8 5608
+8 10 14 587980 14 27 392906
+9 14 17 496331 8 11 4108
+10 35 40 683734 4 9 17730
+11 22 22 181202 4 14 7245
+12 6 16 1100571 4 8 3980
+13 2 2 9562 6 8 8197
+14 1 1 10153 8 11 16002
+15 1 1 9562 5 16 42605
+16 2 2 35978 8 15 7217
+17 0 0 0 2 6 4776
+18 1 1 10153 5 12 4865
+19 0 0 0 6 12 16564
+20 4 4 69568 4 6 22139
+21 1 1 35978 4 8 32497
+22 4 7 296466 41 43 42789
+23 2 2 19715 9 15 61470
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+us 77 91 1980404
+do 17 34 1918637
+ca 12 12 426873
+dk 5 5 32638
+de 5 5 19715
+gb 4 4 38248
+cn 4 4 38839
+pl 3 3 46131
+gr 2 2 45540
+se 2 2 22648
+tn 2 2 15210
+fr 2 2 15210
+nl 1 1 9562
+ir 1 4 279522
+il 1 1 5648
+ru 1 1 9562
+ae 1 1 9562
+jp 0 3 269960
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bingbot/ 9 237480 20260809213813 1
+Googlebot/ 6 47810 20260810024117 0
+Googlebot\-Image/ 3 384946 20260804083845 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 20306 20260807190001 0
+YisouSpider 2 19124 20260809235402 0
+PetalBot 2 23657 20260810001218 0
+unknown 2 26 20260808054112 2
+bot[\s_+:,\.\;\/\\-] 2 20306 20260806221242 0
+Applebot/ 1 10153 20260804003334 0
+discover 1 10153 20260801045321 0
+crawl 1 33743 20260804152634 0
+[\s_+:,\.\;\/\\-]bot 1 10153 20260808202644 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 133 1695751 0 0
+cgi 6 23406 0 0
+Unknown 1 13268 0 0
+jpg 23 2808952 0 0
+png 12 608815 0 0
+css 2 33717 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+win7 2 2
+macosx15 41 25
+macosx8 1 1
+win8.1 1 1
+ios_iphone 9 3
+win10 80 65
+macosx 1 1
+Unknown 17 17
+linux 22 22
+android10 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 40
+opera64.0.3417.92 1 1
+chrome78.0.3904.97 1 1
+chrome125.0.0.0 1 1
+chrome117.0.5938.132 4 1
+chrome124.0.0.0 6 6
+chrome123.0.0.0 30 28
+chrome20.0.807.0 1 1
+chrome116.0.0.0 1 1
+safari4.0.5 1 1
+chrome108.0.0.0 1 1
+opera113.0.0.0 1 1
+chrome145.0.0.0 2 2
+chrome147.0.7727.102 1 1
+edge12 8 2
+chrome99.0.3809.100 1 1
+firefox29.0 1 1
+msie7.0 1 1
+chrome90.0.4430.212 1 1
+chrome134.0.0.0 2 2
+firefox142.0 3 3
+chrome121.0.0.0 2 2
+firefox22.0 1 1
+chrome138.0.0.0 3 3
+Unknown 17 17
+chrome105.0.0.0 1 1
+chrome151.0.0.0 7 3
+chrome137.0.0.0 2 2
+chrome130.0.0.0 13 13
+chrome147.0.0.0 1 1
+chrome131.0.0.0 8 5
+chrome114.0.0.0 3 3
+safari 1 1
+chrome150.0.0.0 30 17
+safari26.0 5 2
+chrome120.0.0.0 7 7
+firefox133.0 2 2
+chrome66.0.3359.158 1 1
+chrome100.0.4896.60 1 1
+safari15.4 3 0
+safari17.5 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260809075624
+quic-go-HTTP/3 20260807132224
+understory/0.1_(CT_research;_https://github.com/0x4b)__contact-via-repo 20260804110201
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+understory/0.1_(CT_research;_https://github.com/0x4b)__contact-via-repo 20260804110201
+quic-go-HTTP/3 20260807132224
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260809075624
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 89 89
+From1 0 0
+From2 8 8
+From3 31 36
+From4 12 44
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+inbox 3 3
+www_bing_com 1 1
+duckduckgo 2 2
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+https://webmail.injul.com.do 27 29
+http://webmail.injul.com.do 2 2
+http://cpanel.injul.com.do 2 2
+https://mail.injul.com.do 0 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 4 3084
+401 19 767
+404 208 167991
+403 28 10231
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 60
+/login 1 -
+/wp-admin/ 1 -
+/media/system/js/core.js 1 -
+/.well-known/security.txt 4 -
+/.well-known/traffic-advice 1 -
+/author/admin/ 1 -
+/feed/ 2 -
+/_next/webpack-hmr 1 -
+/wp-admin/admin-ajax.php 1 -
+/archivarix.cms.php 1 -
+/sitemap.rss 1 -
+/wp-admin/test/test/file/2013gdocs 8 -
+/2023/06/02/denuncian-la-suplantacion-en-twitter-del-embajador-espanol-en-republica-dominicana-para-difundir-que-felipe-gonzalez-ha-muerto/ 1 -
+/wp-json/gravitysmtp/v1/tests/mock-data 1 -
+/2021/06/01/esclarecer-el-origen-del-coronavirus/ 9 -
+/2023/05/25/denuncian-robo-de-vehiculo-en-el-residencial-monumental/ 9 -
+/category/novedades/feed/ 1 -
+/2023/05/18/muerte-de-joshua-levanta-ola-de-gran-consternacion/feed/ 1 -
+/2021/06/02/3-3-millones-de-dominicanos-se-han-aplicado-al-menos-una-dosis-de-vacuna-contra-el-covid-19/feed/ 1 -
+/wp-login.php 7 -
+/register 1 -
+/staff-member/ashley-bennett/ 2 -
+/2023/05/26/corto-investigativo/feed/ 1 -
+/perfiles 1 -
+/2023/05/31/trujillo-el-dominicano-mas-trascendente-de-todos-los-tiempos/ 9 -
+/administrator/manifests/files/joomla.xml 1 -
+/components/ 1 -
+/author-sitemap.xml 1 -
+/staff-member/johanna-lemon/ 1 -
+/administrator/ 2 -
+/staff-member/mike-roland/ 4 -
+/staff-member/karen-miller/ 1 -
+/category/uncategorized/feed/ 1 -
+/language/en-GB/en-GB.xml 1 -
+/contactenos/ 5 -
+/staff-member/emily-niche/ 1 -
+/adminer.php 1 -
+/auth 1 -
+/wp-json/wp/v2/users/me 1 -
+/_next/static/ 1 -
+/2023/05/31/trujillo-el-dominicano-mas-trascendente-de-todos-los-tiempos/feed/ 1 -
+/nosotros/ 2 -
+/2023/06/05/las-pandillas-se-expanden-y-siembran-terror-en-las-comunidades/feed/ 1 -
+/staff-member/sarah-peet/ 1 -
+/media/jui/js/jquery.min.js 1 -
+/staff-member/carol-smith/ 1 -
+/2023/06/05/las-pandillas-se-expanden-y-siembran-terror-en-las-comunidades/ 1 -
+/.git/config 1 -
+/contactenos/feed/ 1 -
+/wp-json/wp/v2/media 1 -
+/comments/feed/ 1 -
+/favicon.png 1 -
+/staff-member/tara-johnson/feed/ 1 -
+/robots.txt 88 -
+/2023/05/29/estudiante-acuchilla-a-su-profesora-y-amenaza-a-la-clase-con-pistola-juguete/ 9 -
+/sitemap-index.xml.gz 1 -
+/wp-includes/js/wp-emoji.js 1 -
+/_ignition/health-check 1 -
+/tag/derecho/ 1 -
+/xmlrpc.php 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 74
+20.242.40.9 28 30 388608 20260806101239
+154.28.229.134 10 10 80448 20260804110246
+148.101.179.194 7 14 806097 20260805123015
+159.195.80.30 5 5 32638 20260804110535
+40.75.10.14 5 5 32638 20260806082631
+148.0.45.180 4 7 292790 20260804101747
+148.255.16.19 4 8 535866 20260806122343
+70.224.228.87 3 3 23486 20260810053951 20260810053951 /
+138.246.253.7 3 3 0 20260807132224
+79.191.190.11 3 3 46131 20260805202610
+54.234.51.162 2 5 289675 20260809010519
+66.249.83.108 2 2 7802 20260805105435
+171.22.217.246 2 2 19124 20260804110256
+148.113.187.231 2 2 20306 20260801054101
+148.0.34.98 2 5 283884 20260803090252
+34.122.147.229 1 4 279522 20260801031855
+67.215.237.244 1 1 9562 20260804045947
+157.230.235.183 1 1 9562 20260809090334
+185.157.214.24 1 1 9562 20260802041205
+93.158.91.19 1 1 10153 20260805183513
+45.33.54.50 1 1 10153 20260806080843
+205.210.31.86 1 1 35978 20260807045825
+169.58.80.213 1 1 10153 20260804110556
+206.189.231.79 1 1 9562 20260804153943
+185.21.14.193 1 1 9562 20260801032332
+38.9.213.94 1 1 9562 20260810062304 20260810062304 /
+125.123.179.202 1 1 9562 20260808232521
+5.135.140.47 1 1 9562 20260809024704
+164.92.215.87 1 1 10153 20260807143528
+205.210.31.110 1 1 35978 20260809040458
+54.161.230.166 1 1 10153 20260802053800
+198.235.24.20 1 1 35978 20260809070036
+197.25.173.17 1 1 5648 20260808224553
+198.235.24.14 1 1 35978 20260805074114
+117.84.184.151 1 1 9562 20260808203319
+66.249.83.109 1 1 3901 20260805105434
+137.184.32.137 1 1 10153 20260806053744
+205.169.39.8 1 4 279522 20260801031009
+92.119.36.32 1 1 35978 20260803212350
+198.235.24.95 1 1 35978 20260804094101
+142.132.252.61 1 1 9562 20260805083820
+93.158.90.228 1 1 12495 20260803010316
+147.185.132.195 1 1 35978 20260801094926
+139.162.41.249 1 1 9562 20260809130038
+5.29.20.107 1 1 5648 20260807224429
+185.15.179.245 1 1 9562 20260807021225
+205.210.31.12 1 1 40279 20260802064629
+193.123.91.227 1 1 9562 20260804110201
+43.135.180.171 0 3 269960 
+86.97.103.116 1 1 9562 20260806061134
+52.25.88.44 1 1 35978 20260805080041
+147.185.132.85 1 1 40291 20260808034743
+106.111.209.59 1 1 10153 20260808095820
+178.16.55.97 1 1 10153 20260809023119
+83.196.135.10 1 1 5648 20260806224429
+205.210.31.142 1 1 40291 20260801205038
+34.123.170.104 1 4 279522 20260801030953
+173.46.91.182 1 1 9562 20260804110239
+45.79.38.219 1 1 10153 20260804114738
+88.218.62.29 1 1 9562 20260806204642
+134.209.69.163 1 1 9562 20260802025712
+198.235.24.47 1 1 40291 20260809075624
+18.212.140.52 1 1 10153 20260801235235
+73.140.190.43 1 1 9562 20260802061214
+159.203.164.16 1 1 12503 20260810032544
+121.224.160.17 1 1 9562 20260808221222
+34.45.39.161 1 1 12504 20260809055027
+91.98.178.12 1 4 279522 20260805083826
+205.210.31.138 1 1 35978 20260801033911
+162.120.186.186 1 1 9562 20260803090243
+41.230.71.57 1 1 9562 20260802112914
+205.210.31.141 1 1 40291 20260801093727
+159.65.37.58 1 1 10153 20260808051932
+198.235.24.46 1 1 40291 20260804095123
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 10
+20260801 11 20 1031125 10
+20260802 8 8 124658 7
+20260803 5 8 341919 4
+20260804 29 32 559823 13
+20260805 18 31 1482569 12
+20260806 40 43 718767 8
+20260807 7 10 331301 7
+20260808 7 7 94931 7
+20260809 10 13 453265 9
+20260810 5 5 45551 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+0s-30s 74
+30mn-1h 1
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 118 1624302 71 67
+/nosotros.html 7 37900 3 4
+/cgi-sys/suspendedpage.cgi 6 23406 3 4
+/noticias.html 5 21810 2 1
+/perfiles.html 3 11739 0 1
+/cpanel 1 13268 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 5
+44-100 8
+5K+ 184
+0-44 51
+2K-5K 17
+500-1K 231
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

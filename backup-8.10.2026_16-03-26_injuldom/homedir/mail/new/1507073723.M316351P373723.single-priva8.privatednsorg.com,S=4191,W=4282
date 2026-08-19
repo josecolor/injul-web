@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id AJWKErse1FnbswUA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Tue, 03 Oct 2017 19:35:23 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Tue, 03 Oct 2017 19:35:23 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dzWih-001eiR-8i
+	for injuldom@single-priva8.privatednsorg.com; Tue, 03 Oct 2017 19:35:23 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1507073723-eximdsn-2097659128
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dzWih-001eiR-8i@single-priva8.privatednsorg.com>
+Date: Tue, 03 Oct 2017 19:35:23 -0400
+
+--1507073723-eximdsn-2097659128
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1507073723-eximdsn-2097659128
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1507073723-eximdsn-2097659128
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dzWih-001eiH-7B
+	for info@injul.com.do; Tue, 03 Oct 2017 19:35:23 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 148.251.36.67
+Date: Tue, 3 Oct 2017 23:35:23 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <a6ea4e60abe9a0645ba0ab28e246d43c@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: Meble kuchenne (IP: 148.251.36.67, static.67.36.251.148.clients.your-server.de)
+Correo electrónico: alejandrinanimmo@t-online.de
+URL: https://is.gd/U8EPI0
+Comentario: 
+Przemiana kuchni nie musi znaczyć całkowitego remontu 
+i przymusu wydawania ogromnej kwoty środków pieniężnych.
+Bowiem wiadome jest, że zabudowie z mebli w tym pomieszczeniu można 
+nadać nowy look niskim kosztem. Najażniejsze to pędzel, farba, trochę 
+czxasu dla siebie i para rąk gotowych do pracy.
+Efekt? Stare meble kuchenne zaczną prezentować się 
+z innej strony.
+Jeżeli Meble kuchenne w naszym mieszkaniu nie jesat w bardzo złym kondycji, lecz chcielibyśmy do tego pomieszczenia zaaranżować kilka zmian, nie 
+musimy decydować się na jej kosztowną wymianę. W takiej kolei rzeczy dobrze jest zmienić jedynie 
+te fronty, na których widać upływ czasu, lub fronty, np.
+pokryte fornirem na lakierowane (przy okazji można zastanowić się o odrobnię nowoczesnym systemie otwierania szafek, np.
+
+przez delikatne naciśnięcie, czyli system tip-on). Jeżeli 
+marzymy o uniknięciu kapitalnego remontu, a szafki są w wystarczającym stanie technicznym, można podjąćsię ich odświeżenia.
+Zachęcamy ddo eksperymentów.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=177#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=177#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=177#wpbody-content
+Actualmente hay 176 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1507073723-eximdsn-2097659128--

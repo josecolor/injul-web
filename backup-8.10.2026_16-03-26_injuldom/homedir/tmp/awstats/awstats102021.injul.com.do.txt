@@ -1,0 +1,943 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202110 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2688                
+POS_VISITOR 17366               
+POS_DAY 26071               
+POS_DOMAIN 3529                
+POS_LOGIN 4231                
+POS_ROBOT 4386                
+POS_WORMS 5503                
+POS_EMAILSENDER 5634                
+POS_EMAILRECEIVER 5777                
+POS_SESSION 26898               
+POS_SIDER 27109               
+POS_FILETYPES 5912                
+POS_DOWNLOADS 6195                
+POS_OS 6473                
+POS_BROWSER 6916                
+POS_SCREENSIZE 9181                
+POS_UNKNOWNREFERER 9255                
+POS_UNKNOWNREFERERBROWSER 9760                
+POS_ORIGIN 10207               
+POS_SEREFERRALS 10347               
+POS_PAGEREFS 10529               
+POS_SEARCHWORDS 10677               
+POS_KEYWORDS 10829               
+POS_MISC 2352                
+POS_ERRORS 10888               
+POS_CLUSTER 4087                
+POS_SIDER_404 11049               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211101000742 55 12199 16500882209806
+FirstTime 20211001020525
+LastTime 20211031234450
+LastUpdate 20211101083005 55 0 54 0 0
+TotalVisits 579                 
+TotalUnique 221                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 228                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 43 44 628150 53 67 670868
+1 35 35 98714 71 108 1467773
+2 45 45 329536 41 180 3566005
+3 24 24 29936 38 168 1520717
+4 34 34 40082 57 118 1574840
+5 35 35 227541 47 155 918030
+6 44 44 171697 29 47 411236
+7 90 123 388917 45 280 1647914
+8 30 30 10566 26 150 1161334
+9 34 56 838335 95 113 953659
+10 32 33 156819 34 82 7193127
+11 99 137 1440420 32 82 333586
+12 37 72 1083885 30 75 552349
+13 40 100 1847246 24 91 845995
+14 46 91 1949778 42 102 1704397
+15 33 80 2229103 46 77 864829
+16 35 36 93538 39 103 1466257
+17 27 49 328930 63 105 946234
+18 35 36 307190 77 113 1135922
+19 37 64 777875 43 85 1076090
+20 36 36 39924 66 124 1509842
+21 18 32 354733 15 41 539493
+22 29 60 327787 40 110 1634590
+23 30 30 73309 28 54 741208
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 37
+us 725 858 3485840
+fr 44 44 507634
+ru 30 30 624083
+do 23 162 5161030
+gb 19 42 974289
+cn 11 11 48646
+eu 10 10 114550
+in 9 18 178597
+lt 7 7 52108
+th 7 7 37308
+it 6 6 58775
+pl 6 6 1428
+se 6 6 44664
+ca 5 5 22292
+nl 4 4 15364
+br 3 3 22420
+bg 3 3 56570
+mx 3 38 987866
+de 2 2 476
+tr 2 2 8636
+ro 2 2 14976
+tw 2 2 8692
+dm 2 21 487584
+zz 2 3 11594
+sc 2 2 8692
+hk 1 1 238
+gr 1 1 6752
+ir 1 1 238
+ie 1 1 7444
+id 1 1 238
+no 1 1 27967
+sa 1 1 461
+ec 2 21 781433
+ar 1 1 7444
+au 1 1 238
+kh 1 1 7444
+cz 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+bot[\s_+:,\.\;\/\\-] 357 5230375 20211031204200 44
+bingbot/ 218 4674032 20211031080952 24
+Googlebot/ 190 8215586 20211030191751 25
+AhrefsBot/ 160 1278379 20211031202501 36
+DotBot/ 100 3398661 20211031235047 51
+SemrushBot/ 60 252145 20211028170256 33
+no_user_agent 43 413463 20211030151624 0
+Applebot/ 39 735719 20211031013035 7
+bingpreview 31 1368075 20211026092436 0
+yak 29 296687 20211030204842 4
+spider 28 530107 20211005140724 1
+link 22 190862 20211018011740 1
+Lightspeed 17 77375 20211009051005 1
+unknown 15 1031 20211030053853 15
+BLEXBot/ 15 33507 20211027001511 1
+facebookexternalhit/ 6 15026 20211014220424 2
+crawl 6 58444 20211031003841 0
+Feedfetcher\-Google 4 57432 20211028195804 0
+linkdexbot/ 4 22401 20211031094808 1
+robot 4 15026 20211027072811 2
+curl 2 42900 20211021045013 0
+YisouSpider 2 25721 20211029221208 1
+(firefox/)([0-9]\.|[0-1][0]\.) 2 830 20211027155935 0
+Velen 1 7532 20211006020620 0
+Dalvik/ 1 7444 20211031173218 0
+Go\-http\-client/ 1 69 20211006020614 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+js 165 3325950 0 0
+html 323 3566502 0 0
+Unknown 19 73019 0 0
+css 114 1658650 0 0
+php 593 46020 0 0
+mp4 2 0 0 0
+xml 2 461 0 0
+jpeg 10 763629 0 0
+woff2 11 848760 0 0
+jpg 38 2054300 0 0
+png 32 1435424 0 0
+txt 17 1296 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/.well-known/pki-validation/098C73F055675A4692D2E1EB0A0383E2.txt 16 0 1232
+/wp-content/uploads/2021/05/2b295b61-386b-4c0b-9ad3-c85f9cec0558-1.mp4 4 0 8334483
+/.well-known/pki-validation/7DE55FACCDD5723CD330AC6031868D86.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 26
+macosx10 6 6
+Unknown 566 540
+androidjellybean 18 0
+android 45 4
+android10 64 7
+win8 1 1
+macosx12 10 10
+macosx15 28 17
+winlong 7 7
+androidlollipop 2 2
+androidfroyo 22 0
+macosx9 3 3
+linuxubuntu 46 46
+win7 42 41
+macosx11 1 1
+win8.1 9 9
+androidnougat 23 4
+ios_iphone 31 3
+macosx13 20 16
+macosx14 17 8
+win10 144 71
+linux 153 115
+winxp 20 19
+macosx6 1 1
+androidpie 26 4
+macosx 21 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 107
+chrome71.0.3578.98 1 1
+chrome79.0.3945.74 6 3
+wap 10 1
+chrome83.0.4103.24 3 3
+firefox73.0 2 1
+firefox11.0 1 0
+firefox80.0 1 1
+chrome88.0.4324.182 1 0
+firefox57.0 1 1
+opera8.00 1 1
+chrome83.0.4103.97 61 61
+opera34.0.2036.42 3 3
+chrome80.0.3987.116 1 1
+opera10.00 3 0
+chrome90.0.4430.72 4 3
+chrome86.0.4240.183 1 1
+chrome81.0.4044.129 1 1
+firefox82.0 2 1
+Unknown 555 538
+chrome47.0.2526.106 1 1
+chrome35.0.1916.47 3 3
+chrome83.0.4103.34 1 1
+chrome64.0.3282.186 1 1
+chrome80.0.3987.87 3 3
+firefox77.0 2 2
+firefox40.0 1 1
+chrome84.0.4147.125 1 0
+chrome90.0.4430.85 2 2
+chrome79.0.3945.130 15 1
+chrome66.0.3359.139 2 2
+opera53.0.2907.57 2 2
+chrome32.0.1700.99 4 0
+chrome75.0.593.103 1 1
+chrome80.0.3987.163 1 0
+firefox17.0 1 1
+chrome88.0.4324.192 1 1
+safari5.1 1 1
+chrome34.0.1847.116 7 7
+chrome63.0.3239.84 3 3
+chrome85.0.4183.121 16 15
+firefox59.0 2 2
+chrome87.0.4280.88 6 6
+opera10.54 5 4
+chrome92.0.4515.131 1 1
+android 22 0
+chrome94.0.4606.81 21 2
+firefox84.0 4 2
+firefox93.0 1 1
+chrome84.0.4147.105 3 1
+netscape5.0 1 1
+firefox85.0 2 1
+chrome56.0.2973.65 1 1
+chrome80.0.3987.122 1 0
+chrome88.0.4324.150 1 1
+firefox52.0 2 2
+chrome90.0.4430.210 21 2
+firefox72.0 1 1
+chrome94.0.4606.85 43 5
+chrome85.0.4183.83 1 1
+chrome33.0.1750.136 14 0
+chrome39.0.2171.95 3 3
+chrome72.0.3626.109 4 4
+chrome61.0.3163.79 3 3
+msie6.0 18 18
+firefox83.0 1 1
+chrome73.0.3683.90 2 2
+chrome87.0.4280.66 1 1
+opera11.50 5 2
+chrome50.0.2661.75 3 3
+safari 31 3
+edge18 4 4
+chrome66.0.3359.117 26 21
+chrome31.0.1623.0 3 3
+firefox75.0 1 0
+chrome92.0.4515.159 3 3
+chrome54.0.2878.86 1 1
+opera11.00 5 3
+firefox81.0 5 3
+chrome38.0.2125.111 1 1
+chrome94.0.4606.71 89 13
+chrome72.0.3626.121 1 1
+chrome63.0.3239.26 4 4
+chrome60.0.3112.107 2 2
+chrome67.0.3396.62 2 2
+chrome93.0.4577.63 42 4
+chrome77.0.3865.120 8 8
+firefox62.0 45 45
+chrome86.0.4240.198 1 1
+chrome46.0.2490.13 1 1
+chrome62.0.3202.94 1 1
+chrome67.0.3381.1 2 2
+msie11.0 2 2
+chrome30.0.1599.66 41 41
+chrome45.0.2454.101 1 1
+chrome47.0.2526.80 1 1
+chrome91.0.4472.114 6 6
+firefox78.0 3 2
+opera11.11 5 4
+chrome86.0.4240.75 4 3
+firefox60.0 2 2
+chrome80.0.3987.99 26 4
+chrome68.0.3432.3 2 2
+chrome89.0.4389.128 4 3
+chrome67.0.3396.79 6 6
+chrome93.0.4577.62 21 2
+opera10.10 3 2
+firefox89.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+User-Agent\ 20211001074245
+WordPress/4.9.18;_http://injul.com.do 20211031234450
+Sectigo_DCV 20211019222240
+Mozilla/5.0 20211029083702
+python-requests/2.26.0 20211019144335
+python-requests/2.18.1 20211015233658
+COMODO_DCV 20211019222237
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211020013522
+Wappalyzer 20211015141126
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+Sectigo_DCV 20211019222240
+User-Agent\ 20211001074245
+WordPress/4.9.18;_http://injul.com.do 20211031234450
+python-requests/2.26.0 20211019144335
+python-requests/2.18.1 20211015233658
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20211020013522
+COMODO_DCV 20211019222237
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 318 418
+From1 5 5
+From2 11 11
+From3 0 0
+From4 614 892
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 10 10
+www_bing_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+400 2 129
+403 53 37047
+406 2 1382
+405 4 100
+404 1056 7438724
+301 99 6509
+302 16 3575
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 182
+/2019/dup-installer/main.installer.php 1 -
+/2020/installer.php 1 -
+/v2/ 1 -
+/old/installer.php 1 -
+/demo/ 1 -
+/sitemap.xml 2 -
+/oldsite/ 1 -
+/old/ 2 -
+/wordpress/installer.php 1 -
+/v1/ 1 -
+/WP/installer-backup.php 1 -
+/installer-backup.php 1 -
+/back/installer-backup.php 1 -
+/wordpress/hai.php 1 injul.com.do
+/2/ 1 -
+/_profiler/phpinfo 1 -
+/wp-content/uploads/2012/09/toga3.jpg 6 http://aspectosdelderechoengeneral.blogspot.com/
+/Backup/installer.php 1 -
+/backup/dup-installer/main.installer.php 1 -
+/ 21 -
+/ffAA531.php 1 injul.com.do
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 1 -
+/wp-content/plugins/iva-business-hours-pro/assets/css/iva-bh-front.css 1 injul.com.do
+/blog/installer-backup.php 1 -
+/tag/pujols-seipio/ 1 -
+/OLD/installer-backup.php 1 -
+/wp-content/plugins/aakismet/i.php 1 injul.com.do
+/.cache.php 1 -
+/blog/installer.php 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 2 -
+/new/installer-backup.php 1 -
+/wp-content/plugins/affs/assets/js/fs-enhanced-select.js 1 injul.com.do
+/2019/ 1 -
+/2012/09/ 1 -
+/old-wp/ 1 -
+/old-site/ 1 -
+/WP/installer.php 1 -
+/wp-json/oembed/1.0/%5C/%5C/injul.com.do%5C/embed%5C/%5C%22 1 http://injul.com.do
+/2021/installer-backup.php 1 -
+/bk/ 1 -
+/transparencia/ 4 http://injul.com.do/
+/shop/dup-installer/main.installer.php 2 -
+/cibersecuestro/ 4 -
+/.env 2 -
+/blog/dup-installer/main.installer.php 1 -
+/ker.php 1 injul.com.do
+/phpinfo.php 1 -
+/carta-al-jefe-de-la-policia-nacional/ 4 -
+/wp1/ 1 -
+/wp/wp-login.php 1 -
+/2020/installer-backup.php 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 10 -
+/staff-member/mike-roland/feed/ 1 -
+/web/ 1 -
+/2020/dup-installer/main.installer.php 1 -
+/site/ 1 -
+/back/installer.php 1 -
+/2011/03/19 2 -
+/wordpress/wp-login.php 1 -
+/wp-activates.php 1 http://simplesite.com
+/installer.php 1 -
+/wordpress/dup-installer/main.installer.php 1 -
+/wp-includes/Requests/Exception/Transport/cube.php 1 injul.com.do
+/wp-content/plugins/cachee-fast-wp/fastCache.php 1 injul.com.do
+/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 1 -
+/novedades/ 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/ 3 http://injul.com.do/
+/phpinfo 1 -
+/radio.php 1 injul.com.do
+/config.js 1 -
+/backup/ 2 -
+/OLD/installer.php 1 -
+/sites/all/libraries/elfinder/connectors/php/connector.php 1 -
+/shop/installer.php 2 -
+/tag/seguridad/ 1 -
+/author-sitemap.xml 1 -
+/wp-content/plugins/e-signature/assets/css/audit-trail-pdf.css 1 injul.com.do
+/humans.txt 6 -
+/blog/wp-login.php 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 5 -
+/old/dup-installer/main.installer.php 1 -
+/back/dup-installer/main.installer.php 1 -
+/dev/ 1 -
+/quieres-sopa/ 1 -
+/demo/dup-installer/main.installer.php 1 -
+/old/installer-backup.php 1 -
+/files/ 5 binance.com
+/WP/dup-installer/main.installer.php 1 -
+/main/ 1 -
+/shop/installer-backup.php 2 -
+/wp-content/plugins/press/wp-class.php 1 injul.com.do
+/2018/ 1 -
+/wp/installer.php 1 -
+/wp-content/uploads/2012/01/democracia_formal.jpg 727 http://eastigela.astileku.eus/
+/OLD/dup-installer/main.installer.php 1 -
+/wp-includes/js/wp-sys.php 1 injul.com.do
+/wp-includes/wp-class.php 1 -
+/sample-page/ 1 -
+/backup/installer-backup.php 1 -
+/bak/ 1 -
+/Backup/dup-installer/main.installer.php 1 -
+/2019/installer-backup.php 1 -
+/wp-content/plugins/1-flash-gallery/images.php 1 -
+/upl.php 4 injul.com.do
+/chase/update/chase/ 4 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 2 -
+/2017/09/05/hello-world/ 1 -
+/felicidades-campeon/ 1 http://injul.com.do/felicidades-campeon/
+/demo/installer-backup.php 1 -
+/wordpress/ 2 -
+/sites/default/files/ 5 binance.com
+/wp-admin/upload_index.php 1 injul.com.do
+/como-la-cronica-de-una-muerte-anunciada/ 1 -
+/back/ 1 -
+/new/dup-installer/main.installer.php 1 -
+/wordpress/installer-backup.php 1 -
+/old-index.php 3 injul.com.do
+/wp-admin/test/test/file/2013gdocs 8 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 2 -
+/.aws/credentials 1 -
+/wp/installer-backup.php 1 -
+/wp-content/plugins/cooked-pro/modules/dropzone/dropzone.min.css 1 injul.com.do
+/admin/controller/extension/extension/ 5 binance.com
+/Blog/dup-installer/main.installer.php 1 -
+/install/ 1 -
+/wp2/ 1 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 1 injul.com.do
+/test/ 1 -
+/2021/installer.php 1 -
+/2012/02/06/ 1 -
+/dup-installer/main.installer.php 1 -
+/tag/democracia/ 3 -
+/config/aws.yml 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 4 -
+/New/installer.php 1 -
+/10/ 1 -
+/temp/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 4 -
+http://injul.com.do/hello-world/ 1 http://injul.com.do/
+/wp-content/plugins/brizy/readme.txt 1 -
+/2020/ 1 -
+/wp-content/plugins/cachee-fast-wp/payment.php 1 injul.com.do
+/.well-known/ 5 binance.com
+/New/dup-installer/main.installer.php 1 -
+/demo/installer.php 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 5 -
+/anecdota-don-juan-de-los-palotes/ 2 -
+/cms/ 1 -
+/aws.yml 1 -
+/wp-content/plugins/dzs-zoomsounds/savepng.php 1 injul.com.do
+/ext/https/ya.ru/ 1 -
+/hello-world/ 11 http://injul.com.do/
+/wp-admin/css/ 5 binance.com
+/New/installer-backup.php 1 -
+/2021/dup-installer/main.installer.php 1 -
+/Blog/installer.php 1 -
+/hai.php 1 injul.com.do
+/new-site/ 1 -
+/.env.bak 1 -
+/wp/ 2 -
+/wp-json/oembed/1.0/%5C/%5C/injul.com.do%5C/nosotros%5C/embed%5C/%5C%22 1 http://injul.com.do
+/info.php 1 -
+/new/installer.php 1 -
+/uploads/ 5 binance.com
+/blog/xmlrpc.php 1 -
+/Blog/installer-backup.php 1 -
+/new/ 2 -
+/backup/installer.php 1 -
+/blog/ 2 -
+/2019/installer.php 1 -
+/que-es-feminicidio-o-femicidio/ 1 -
+/wp-class.php 3 -
+/wp-content/uploads/2012/10/juri1.jpg 1 -
+/wp/dup-installer/main.installer.php 1 -
+/tmp/ 1 -
+/images/ 6 binance.com
+/ads.txt 8 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/ 2 -
+/staff-member/emily-niche/feed/ 1 -
+/.ftpconfig 1 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 3 -
+/Backup/installer-backup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 228
+50.31.174.162 529 543 11645 20211031234450
+34.235.171.51 44 77 267264 20211029075054
+62.210.215.115 41 41 506920 20211031144608
+5.188.211.72 16 16 549782 20211007005157
+172.105.148.33 13 13 43781 20211004061515
+64.32.79.117 9 44 1617852 20211009142007
+51.83.190.248 8 8 234096 20211004025528
+5.20.33.123 7 7 52108 20211011031708
+178.62.74.6 7 7 58066 20211003071706
+190.166.7.212 4 24 502451 20211015192931
+81.21.199.142 4 4 952 20211026102717
+185.130.184.198 4 4 16062 20211026130913
+171.22.76.56 4 5 33906 20211031144020
+190.166.7.181 4 26 743650 20211009095132
+58.137.113.155 4 4 14888 20211015233702
+101.87.44.121 4 4 17384 20211016014211
+34.132.108.121 3 3 22332 20211017182724
+186.6.252.31 3 31 1373392 20211011155636
+213.226.101.3 3 3 56570 20211001185937
+216.107.129.117 3 4 26462 20211025162621
+91.191.151.22 3 3 714 20211026043644
+216.107.129.122 3 3 22420 20211029004518
+159.203.45.210 3 3 9970 20211020072110
+199.249.230.75 3 3 143793 20211016180244
+31.130.63.167 2 2 476 20211025223543
+185.255.134.18 1 1 20 20211029205324
+172.83.43.138 1 2 11574 20211008180640
+159.203.29.38 1 1 28497 20211009052653
+34.220.252.230 1 1 7444 20211030112200
+54.244.100.43 1 1 7444 20211009111445
+54.201.9.241 1 1 7444 20211014112302
+54.190.143.75 1 1 7444 20211023113554
+52.13.30.119 1 1 7444 20211005110918
+188.166.221.10 1 1 238 20211025175413
+5.189.138.128 1 1 238 20211026091406
+93.158.92.234 1 1 7444 20211024145339
+167.99.118.196 1 1 0 20211028232508
+54.212.202.162 1 1 7444 20211011113416
+188.166.105.198 1 1 238 20211026040439
+54.202.42.145 1 1 7444 20211011113456
+88.235.57.122 1 1 7444 20211025204138
+47.242.238.58 1 1 238 20211026044712
+35.86.151.218 1 1 7444 20211014112237
+212.78.2.60 1 1 238 20211025135933
+45.129.18.80 1 1 0 20211030082743
+35.84.211.34 1 1 7444 20211016114138
+184.75.211.142 1 1 7532 20211004054335
+136.143.177.61 2 2 14976 20211023025941
+154.49.206.92 0 14 301767 
+101.133.153.105 1 1 238 20211025085352
+34.209.18.85 1 1 7444 20211018110911
+23.88.63.113 1 1 7444 20211027073938
+190.111.160.39 1 1 7444 20211001074240
+34.220.123.41 1 1 7444 20211001120902
+50.3.197.7 2 2 8692 20211008160723
+190.94.56.107 1 11 325361 20211003111015
+62.171.130.21 1 1 238 20211025135101
+104.153.249.69 2 21 487584 20211003111021
+171.96.119.21 1 1 7444 20211019020009
+198.136.61.4 1 1 238 20211025201605
+45.176.99.43 1 10 162223 20211003111013
+54.242.57.221 1 1 238 20211026005013
+66.29.129.231 1 1 238 20211026034424
+34.214.121.208 1 1 7444 20211002110935
+34.215.83.193 1 1 28497 20211023065217
+3.95.28.98 1 1 28497 20211023063645
+18.142.111.129 1 1 238 20211026063536
+46.161.14.84 1 1 2647 20211018211433
+52.13.117.210 1 1 7444 20211006111715
+187.111.160.10 1 1 7444 20211004224337
+34.77.162.2 1 1 28497 20211020013522
+13.233.86.38 1 1 238 20211026112829
+203.143.85.76 1 1 238 20211025145958
+35.160.106.250 1 1 7444 20211004112024
+212.102.33.246 1 1 7532 20211025154448
+62.94.196.19 1 1 7444 20211018052303
+52.35.120.235 1 1 7444 20211029114047
+35.162.130.158 1 1 7444 20211005110734
+84.17.42.25 1 1 28497 20211031120940
+146.70.51.154 2 21 667493 20211012135857
+143.110.220.55 1 1 238 20211025174644
+23.19.176.43 1 1 7532 20211001074249
+194.58.119.107 1 1 238 20211025203239
+64.246.161.190 1 1 7444 20211029164256
+34.222.227.139 1 1 7444 20211007115731
+34.221.27.11 1 1 7444 20211007115748
+34.213.231.28 1 1 7444 20211019115735
+62.171.142.36 1 1 28497 20211021094847
+54.184.117.134 1 1 7444 20211018111549
+125.124.179.18 1 1 7444 20211027091514
+178.62.63.103 1 1 20 20211024231856
+34.220.195.91 1 1 7444 20211012113656
+138.199.7.153 2 2 56464 20211028053518
+54.185.157.132 1 1 7444 20211016114205
+192.210.176.230 2 3 19018 20211023005301
+185.27.99.123 1 1 7444 20211007151123
+45.129.18.43 1 1 0 20211012105608
+147.182.242.84 1 1 7532 20211013191441
+107.173.165.214 1 1 238 20211025212247
+54.201.69.130 1 1 7444 20211010113130
+23.148.145.23 1 1 20 20211030134240
+54.186.227.72 1 1 7444 20211001120828
+35.166.184.177 1 1 7444 20211026111735
+181.196.55.37 2 21 781433 20211021154705
+104.236.217.60 1 1 0 20211019065721
+54.69.83.130 1 1 7444 20211025113030
+1.192.245.203 1 1 0 20211006191159
+212.102.33.181 1 1 7532 20211024143710
+176.34.167.78 1 1 7444 20211027071228
+34.241.240.137 1 1 7444 20211028041401
+34.208.208.14 1 1 7444 20211017112231
+91.219.212.198 2 2 14976 20211001150850
+34.222.18.36 1 1 7444 20211009112106
+54.229.100.10 2 2 14976 20211028100518
+45.76.42.71 1 1 7444 20211005150531
+208.111.0.58 2 2 9970 20211025062853
+52.13.39.229 1 1 7444 20211023112828
+203.75.190.21 2 2 8692 20211022205725
+54.81.246.16 1 1 28497 20211008052422
+172.93.108.34 1 1 238 20211025222655
+178.128.39.143 1 1 6752 20211005160049
+34.216.231.83 1 1 7444 20211028115621
+200.68.181.75 1 17 320373 20211024124940
+199.247.29.84 1 1 6752 20211003023220
+162.55.90.52 1 1 238 20211026015228
+45.129.18.123 1 1 0 20211027234033
+131.0.246.113 2 2 14976 20211020062743
+201.229.162.236 0 2 118191 
+35.86.108.175 1 1 7444 20211021111849
+198.54.114.55 1 1 238 20211025143816
+162.217.248.69 0 4 91140 
+172.94.12.17 1 1 7444 20211009010142
+222.74.202.234 2 2 8692 20211022041737
+18.237.204.198 1 1 7444 20211005110847
+193.176.84.127 1 1 7444 20211016181907
+103.122.67.31 1 1 1248 20211004224515
+5.188.211.10 1 1 39406 20211003052553
+103.50.76.37 1 1 238 20211026052958
+216.145.11.94 1 1 7444 20211010013105
+34.220.117.88 1 1 7444 20211030112128
+34.221.72.236 1 1 7444 20211009110945
+66.249.93.240 0 1 119231 
+185.112.150.138 1 1 238 20211026023022
+52.35.173.177 1 1 7444 20211006111741
+34.220.188.132 1 1 7444 20211008115402
+143.244.139.111 1 1 238 20211025124347
+18.237.49.2 1 1 7444 20211025113007
+185.150.191.223 1 1 238 20211025154805
+54.84.28.125 1 1 28497 20211008051519
+162.214.224.138 1 1 238 20211025232138
+54.213.207.51 1 1 7444 20211023113454
+138.68.63.63 1 1 2503 20211004014223
+151.106.55.242 1 1 238 20211026114529
+34.214.92.207 1 1 7444 20211004111550
+81.215.255.68 1 1 1192 20211014085215
+54.185.143.13 2 2 14888 20211023114039
+109.232.240.226 2 2 476 20211026044150
+34.221.176.16 2 2 14888 20211025182548
+37.56.20.203 1 1 461 20211016130639
+51.89.230.56 1 1 7444 20211007021206
+65.108.43.218 1 1 7444 20211025044511
+34.241.113.251 1 1 7444 20211027072124
+34.216.234.36 1 1 7444 20211020112932
+34.215.210.46 1 1 7444 20211029114032
+35.85.219.178 1 1 7444 20211019115713
+34.77.162.28 1 1 28497 20211005235441
+173.244.209.89 2 3 19018 20211022192857
+36.89.251.105 1 1 238 20211010015740
+93.158.91.243 1 1 7444 20211023163758
+113.31.114.242 1 1 7444 20211031173654
+52.32.158.170 1 1 7444 20211003112430
+54.212.122.145 1 1 7444 20211027113155
+20.106.158.61 1 1 7444 20211025094718
+100.21.218.158 1 1 7444 20211027124351
+20.62.96.225 1 1 1192 20211029083702
+80.80.104.7 2 2 14976 20211016191019
+54.245.7.224 1 1 7444 20211003112411
+18.237.168.213 1 1 7444 20211009110902
+91.193.4.20 1 1 27967 20211005210601
+42.200.247.89 1 1 238 20211026045226
+193.176.84.81 1 1 7444 20211017151045
+54.221.27.173 1 1 7444 20211020082623
+132.148.154.149 1 1 0 20211009005716
+34.217.210.218 1 1 7444 20211024113949
+218.56.69.8 1 1 7444 20211006234315
+34.216.17.126 1 1 7444 20211020112918
+194.163.170.84 1 1 238 20211025112400
+104.200.77.156 0 22 305922 
+35.167.46.28 1 1 7444 20211026111703
+35.210.133.25 1 10 217109 20211015141125
+23.27.146.60 0 14 301767 
+93.158.92.137 1 1 7444 20211002075700
+45.92.228.43 1 1 7444 20211025185959
+173.208.12.246 1 1 7864 20211001074245
+144.202.103.47 1 1 6781 20211005185532
+74.208.28.226 1 1 7444 20211019144335
+192.99.148.133 1 1 238 20211025115719
+201.168.67.4 2 21 667493 20211024124945
+76.72.172.164 1 1 28497 20211003145402
+130.255.166.223 1 1 7444 20211030053858
+54.190.10.166 1 1 7444 20211018110604
+54.191.234.13 1 1 7444 20211027113354
+54.186.116.3 1 1 7444 20211028115639
+35.166.93.142 1 1 7444 20211018111856
+91.199.212.132 0 3 231 
+34.219.249.68 1 1 7444 20211023113628
+49.156.41.74 1 1 7444 20211022101434
+124.122.28.111 2 2 14976 20211003125308
+35.86.130.91 1 1 7444 20211008115438
+185.88.177.220 1 1 238 20211025174343
+152.166.158.46 2 24 480133 20211013131033
+137.184.129.216 1 1 238 20211025133423
+93.158.92.136 1 1 7444 20211014122029
+122.15.156.179 1 1 7444 20211031024237
+107.182.234.160 2 21 667493 20211012135853
+143.198.159.29 1 1 8774 20211005191853
+1.186.40.2 1 1 7444 20211005062753
+104.254.92.219 1 1 7532 20211011000157
+141.98.9.3 2 2 2384 20211022114834
+161.35.91.76 1 1 7864 20211005204019
+45.129.18.232 1 1 0 20211016130556
+34.219.139.207 1 1 7444 20211017112156
+35.165.160.38 1 1 7444 20211010113102
+34.220.137.10 1 1 7444 20211002111046
+93.170.123.14 1 1 0 20211001054552
+45.199.148.2 2 2 8692 20211026055641
+54.69.245.89 1 1 7444 20211012113742
+212.102.33.35 1 1 7532 20211020114643
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20211001 34 34 153300 22
+20211002 24 24 65922 16
+20211003 38 76 1181323 25
+20211004 45 45 340632 20
+20211005 37 37 174969 27
+20211006 27 49 358373 19
+20211007 37 37 587322 15
+20211008 24 25 106878 18
+20211009 39 96 2441989 21
+20211010 18 18 22850 12
+20211011 30 58 1432954 17
+20211012 23 65 1449184 15
+20211013 20 42 516733 13
+20211014 23 23 32556 13
+20211015 17 48 859785 11
+20211016 34 34 219896 23
+20211017 22 22 73764 18
+20211018 28 42 370854 20
+20211019 20 37 31372 14
+20211020 32 32 98137 17
+20211021 15 34 817594 11
+20211022 29 30 61467 18
+20211023 25 26 143336 19
+20211024 24 59 1025036 19
+20211025 61 77 545460 48
+20211026 45 45 58042 25
+20211027 25 25 52448 17
+20211028 28 28 108984 17
+20211029 72 105 313628 16
+20211030 28 28 37202 17
+20211031 24 25 92021 16
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 10
+30s-2mn 3
+2mn-5mn 2
+30mn-1h 76
+0s-30s 425
+1h+ 44
+15mn-30mn 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 42
+/wp-cron.php 529 10580 306 306
+/ 166 1498368 149 125
+/xmlrpc.php 43 10306 41 41
+/contactenos/ 33 350731 9 19
+/feed/atom/ 32 461120 32 32
+/wp-json/oembed/1.0/embed 16 18111 0 1
+/wp-login.php 15 20982 8 11
+/perfiles/ 13 125007 6 3
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 11 848760 1 7
+/servicios/ 10 108822 2 3
+/nosotros/ 8 104428 2 3
+/category/noticias/ 7 122680 1 2
+/feed/ 5 71790 3 4
+/2021/07/12/a-la-altura-de-las-circunstancias-segunda-parte/ 5 129274 0 1
+/wp-load.php 4 20 4 4
+/author/admin/ 4 65687 0 2
+/2021/07/04/a-la-altura-de-las-circunstancias-magistrada-mirian-german/ 4 113059 0 2
+/2021/06/02/el-golpe-contra-abinader/ 4 129274 2 1
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 3 1401 3 3
+/2021/06/02/3-3-millones-de-dominicanos-se-han-aplicado-al-menos-una-dosis-de-vacuna-contra-el-covid-19/ 3 57813 1 0
+/comments/feed/ 3 1277 0 0
+/carta-al-jefe-de-la-policia-nacional/feed/ 3 1325 3 3
+/contactenos/feed/ 3 1305 0 0
+/2021/06/27/es-seguro-mi-apartamento-la-pregunta-en-medio-del-dolor-por-el-derrumbe-de-miami/ 2 52644 0 0
+/2021/06/01/esclarecer-el-origen-del-coronavirus/ 2 51216 0 0
+/category/noticias/feed/ 1 14370 0 0
+/wp-json/contact-form-7/v1/contact-forms/4/feedback 1 106 0 1
+/wp-json/wp/v2/posts 1 54546 1 0
+/wp-json/ 1 5251 0 0
+/wp-comments-post.php 1 2884 0 0
+/2021/07/12/a-la-altura-de-las-circunstancias-segunda-parte/feed/ 1 479 0 0
+/2021/06/01/el-digesset-exigente/ 1 10642 0 0
+/2021/07/04/a-la-altura-de-las-circunstancias-magistrada-mirian-german/feed/ 1 498 0 0
+/wp-content/ 2 40 2 2
+http://injul.com.do/ 1 7444 1 0
+http://injul.com.do/wp-login.php 1 1248 0 1
+/wp-json/wp/v2/users 1 256 0 0
+/2021/06/04/tal-como-se-cuenta-se-cree-el-cuento/ 2 52913 0 1
+/2021/06/02/asesinan-oficial-de-la-policia-nacional/ 1 9533 0 0
+/staff-member/nigel-baker/ 1 8062 1 0
+/2021/06/02/nets-con-durant-harden-e-irving-ganan-a-celtics-en-playoffs-de-nba/ 1 10049 0 0
+/wp-includes/wlwmanifest.xml 2 461 1 1
+END_SIDER

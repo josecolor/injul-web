@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id OLQtO1FbxV3jqjoA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 08 Nov 2019 07:10:57 -0500
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 08 Nov 2019 07:10:58 -0500
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iT36P-00G9nH-Up
+	for injuldom@single-priva8.privatednsorg.com; Fri, 08 Nov 2019 07:10:57 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573215057-eximdsn-1768950602
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iT36P-00G9nH-Up@single-priva8.privatednsorg.com>
+Date: Fri, 08 Nov 2019 07:10:57 -0500
+
+--1573215057-eximdsn-1768950602
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1573215057-eximdsn-1768950602
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1573215057-eximdsn-1768950602
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iT36P-00G9n8-TO
+	for info@injul.com.do; Fri, 08 Nov 2019 07:10:57 -0500
+To: info@injul.com.do
+Subject: www.injul.com.do "How to save money fast | how to save up money fast | how to save a lot of money fast"
+X-PHP-Script: injul.com.do/index.php for 108.59.0.38
+Date: Fri, 8 Nov 2019 12:10:57 +0000
+From: MarloGab <info@injul.com.do>
+Reply-To: marfavasilievna@ro.ru
+Message-ID: <07c7d5d05f24961d60f90e77f1995d55@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: MarloGab <marfavasilievna@ro.ru>
+Subject: How to save money fast | how to save up money fast | how to save a lot of money fast
+
+Message Body:
+Making paystub online can save your time and money.  Set card controls and spending limits, view transaction details as they post to your account,  and gasoline service stations throughout eleven states in the South, Midwest, and Southwest.  Quick Confirm automates the process of employment verifications and salary  
+<a href=http://howtosavemoneyfast.cf/beloit-daily-news-illinois-news-excerpts-from-recent-editorials-how-to-save-up>how to save money fast</a>
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1573215057-eximdsn-1768950602--

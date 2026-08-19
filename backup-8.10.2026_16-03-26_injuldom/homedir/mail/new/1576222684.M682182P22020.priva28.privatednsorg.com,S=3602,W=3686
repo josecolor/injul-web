@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: injuldom@priva28.privatednsorg.com
+Received: from priva28.privatednsorg.com
+	by priva28.privatednsorg.com with LMTP
+	id 8KC/J9w/810EVgAAft/lqw
+	(envelope-from <>)
+	for <injuldom@priva28.privatednsorg.com>; Fri, 13 Dec 2019 02:38:04 -0500
+Return-path: <>
+Envelope-to: injuldom@priva28.privatednsorg.com
+Delivery-date: Fri, 13 Dec 2019 02:38:04 -0500
+Received: from mailnull by priva28.privatednsorg.com with local (Exim 4.92)
+	id 1iffWW-000ApK-Ji
+	for injuldom@priva28.privatednsorg.com; Fri, 13 Dec 2019 02:38:04 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@priva28.privatednsorg.com>
+To: injuldom@priva28.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1576222684-eximdsn-764335485
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iffWW-000ApK-Ji@priva28.privatednsorg.com>
+Date: Fri, 13 Dec 2019 02:38:04 -0500
+
+--1576222684-eximdsn-764335485
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1576222684-eximdsn-764335485
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; priva28.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1576222684-eximdsn-764335485
+Content-type: message/rfc822
+
+Return-path: <injuldom@priva28.privatednsorg.com>
+Received: from injuldom by priva28.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@priva28.privatednsorg.com>)
+	id 1iffWR-000AkK-TU
+	for info@injul.com.do; Fri, 13 Dec 2019 02:37:59 -0500
+To: info@injul.com.do
+Subject: www.injul.com.do "Causes for nausea in the morning not pregnant | causes of nausea and vomiting in the morning | extreme nausea in the morning"
+X-PHP-Script: injul.com.do/index.php for 5.153.178.101
+X-PHP-Originating-Script: 1966:class-phpmailer.php
+Date: Fri, 13 Dec 2019 07:37:59 +0000
+From: BardacSIT <info@injul.com.do>
+Reply-To: ugass83@rambler.ua
+Message-ID: <d40813c7aae944616845e64b38108b36@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-cPanel-MailScanner-Information: Please contact the ISP for more information
+X-cPanel-MailScanner-ID: 1iffWR-000AkK-TU
+X-cPanel-MailScanner: Found to be clean
+X-cPanel-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=4.159, required 5, RAZOR2_CF_RANGE_51_100 2.43,
+	RAZOR2_CHECK 1.73)
+X-cPanel-MailScanner-SpamScore: ssss
+X-cPanel-MailScanner-From: injuldom@priva28.privatednsorg.com
+X-Spam-Status: No
+
+From: BardacSIT <ugass83@rambler.ua>
+Subject: Causes for nausea in the morning not pregnant | causes of nausea and vomiting in the morning | extreme nausea in the morning
+
+Message Body:
+Nausea can be described as an uncomfortable feeling usually in the upper stomach, characterised by an urge to vomit.  Similar to pregnancy causing morning sickness, the menopause is a time of your  Looking after your digestive system is often the first way to avoid or improve your symptoms of nausea.  Andrea, UK.  
+<a href=http://nauseainthemorning.ml/how-to-know-which-supplements-feeling-nausea-in-the-morning-you-need-youngermemd>feeling nausea in the morning</a>
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1576222684-eximdsn-764335485--

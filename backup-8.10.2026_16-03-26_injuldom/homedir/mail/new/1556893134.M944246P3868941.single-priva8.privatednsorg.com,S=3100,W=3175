@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id 4JHYN85NzFwNCTsA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 03 May 2019 10:18:54 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 03 May 2019 10:18:54 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1hMZ1a-00GUZn-Sx
+	for injuldom@single-priva8.privatednsorg.com; Fri, 03 May 2019 10:18:54 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1556893134-eximdsn-1775242859
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hMZ1a-00GUZn-Sx@single-priva8.privatednsorg.com>
+Date: Fri, 03 May 2019 10:18:54 -0400
+
+--1556893134-eximdsn-1775242859
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1556893134-eximdsn-1775242859
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1556893134-eximdsn-1775242859
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1hMZ1a-00GUZe-RG
+	for info@injul.com.do; Fri, 03 May 2019 10:18:54 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "Illegal weapons from Russia. Black Market - Simple and inexpensive!"
+X-PHP-Script: injul.com.do/index.php for 151.106.8.101
+Date: Fri, 3 May 2019 14:18:54 +0000
+From: DavidSep <info@injul.com.do>
+Reply-To: gunrussia@scryptmail.com
+Message-ID: <9a51ced98fb5b6b458efb9226d741f3f@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: DavidSep <gunrussia@scryptmail.com>
+Subject: Illegal weapons from Russia. Black Market - Simple and inexpensive!
+
+Message Body:
+25 charging traumatic pistols shooting automatic fire! Modified Makarov pistols with a silencer! Combat Glock 17 original or with a silencer! And many other types of firearms without a license, without documents, without problems! 
+Detailed video reviews of our products you can see on our website. 
+http://Gunrussia.pw 
+If the site is unavailable or blocked, email us at - Gunrussia@secmail.pro   or  Gunrussia@elude.in 
+And we will send you the address of the backup site!
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1556893134-eximdsn-1775242859--

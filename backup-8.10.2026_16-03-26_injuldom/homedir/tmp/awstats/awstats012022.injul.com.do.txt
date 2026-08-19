@@ -1,0 +1,985 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202201 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2688                
+POS_VISITOR 21756               
+POS_DAY 31940               
+POS_DOMAIN 3529                
+POS_LOGIN 4203                
+POS_ROBOT 4358                
+POS_WORMS 5330                
+POS_EMAILSENDER 5461                
+POS_EMAILRECEIVER 5604                
+POS_SESSION 32779               
+POS_SIDER 32991               
+POS_FILETYPES 5739                
+POS_DOWNLOADS 6047                
+POS_OS 7335                
+POS_BROWSER 7682                
+POS_SCREENSIZE 9361                
+POS_UNKNOWNREFERER 9435                
+POS_UNKNOWNREFERERBROWSER 10076               
+POS_ORIGIN 10685               
+POS_SEREFERRALS 10826               
+POS_PAGEREFS 11013               
+POS_SEARCHWORDS 11189               
+POS_KEYWORDS 11341               
+POS_MISC 2352                
+POS_ERRORS 11400               
+POS_CLUSTER 4059                
+POS_SIDER_404 11540               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220201000410 51 10709 15050419358636
+FirstTime 20220101021544
+LastTime 20220131202339
+LastUpdate 20220201071748 51 0 50 0 0
+TotalVisits 646                 
+TotalUnique 254                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 268                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 53 53 184711 51 74 842095
+1 33 51 372849 39 52 522712
+2 151 162 384041 32 52 406786
+3 39 69 891752 41 64 967501
+4 41 41 225557 39 61 602611
+5 130 141 552293 126 145 1082963
+6 107 108 212854 38 60 623909
+7 25 25 52509 37 73 907444
+8 107 148 1698379 37 49 362333
+9 31 31 108380 63 82 1112816
+10 50 73 903557 46 86 994481
+11 28 28 166194 44 55 1264236
+12 99 113 585652 37 54 508708
+13 40 62 697901 43 74 977722
+14 45 104 1664592 31 46 303169
+15 58 220 4461258 83 131 1120007
+16 52 154 2497453 82 109 713750
+17 47 47 77334 65 96 833553
+18 39 39 53734 75 98 709602
+19 53 128 15496826 39 69 888366
+20 46 84 1066581 38 67 853131
+21 38 129 3014207 73 96 752357
+22 32 83 568031 42 55 474870
+23 42 72 868491 54 94 1019121
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 34
+us 1095 1597 20243227
+fr 63 63 769859
+do 23 229 5889518
+kr 22 22 77354
+ca 21 73 1802711
+in 21 21 130497
+ru 17 17 106741
+de 16 16 27334
+vn 11 11 62572
+gb 11 13 80179
+it 10 10 180001
+nl 7 7 61027
+cn 7 23 419587
+th 6 6 44928
+ar 6 6 11894
+sc 6 6 26079
+se 6 6 38412
+au 5 5 10702
+ua 5 5 85437
+gr 4 4 57470
+br 3 4 714
+eu 3 3 28443
+dz 2 2 476
+ma 2 2 35243
+jp 2 2 1430
+by 1 1 415
+tz 1 1 238
+sk 1 1 415
+pt 1 1 238
+md 1 1 27967
+sa 1 1 7444
+tr 2 2 653
+bg 2 2 653
+ir 2 2 476
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+Googlebot/ 375 4054362 20220130182055 26
+bot[\s_+:,\.\;\/\\-] 211 1513989 20220131205753 28
+AhrefsBot/ 116 943637 20220131201555 32
+DotBot/ 102 1233368 20220131214936 55
+SemrushBot/ 58 250640 20220131162756 31
+bingbot/ 50 2367458 20220129233534 15
+YisouSpider 41 786877 20220117135606 3
+robot 33 228288 20220128201824 7
+yak 23 252274 20220131025102 4
+no_user_agent 23 290409 20220131130741 0
+archive\.org_bot 23 990810 20220131165723 6
+BLEXBot/ 15 33518 20220109160330 1
+Googlebot\-Image/ 14 333787 20220128061615 0
+unknown 9 619 20220129154500 9
+Applebot/ 6 164305 20220123012548 2
+crawl 5 57997 20220127130607 0
+Feedfetcher\-Google 4 57441 20220124174532 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 27672 20220127045225 0
+bingpreview 3 233360 20220103212345 0
+curl 2 42900 20220127035157 0
+php 1 183 20220111222910 0
+java 1 7444 20220112192723 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 279 3968554 0 0
+woff2 31 2391960 0 0
+woff 1 98024 0 0
+svg 1 1400 0 0
+Unknown 10 11220 0 0
+jpeg 6 426420 0 0
+jpg 23 1157002 0 0
+eot 1 165742 0 0
+html 294 3297754 0 0
+png 66 2542786 0 0
+php 1049 230497 0 0
+js 369 9361660 0 0
+txt 35 2513 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 17
+/.well-known/pki-validation/5D09FB5342D268CD8EDF56EA63BD31EC.txt 14 0 1078
+/.well-known/pki-validation/54F5091731624FE7DA50C9A87A7741CC.txt 7 0 539
+/.well-known/pki-validation/9CE36DDF591B35C426E0E960E5662EF7.txt 1 0 64
+/.well-known/pki-validation/E29550B9A4F411319FA5E68A29FF6264.txt 1 0 64
+/.well-known/pki-validation/0041DDAAB579C645498A72402842A748.txt 1 0 64
+/.well-known/pki-validation/FA33B440B41BE032C0A628B6EB414F9B.txt 1 0 64
+/.well-known/pki-validation/CB15B3F6DD7C0099CA7783861724C18D.txt 1 0 64
+/.well-known/pki-validation/3D5BC3E2D1B1A9E924528F32DF979E8D.txt 1 0 64
+/.well-known/pki-validation/3907ED4C361344503E9848094A7B41B2.txt 1 0 64
+/.well-known/pki-validation/D2C28BCB2B0BD8B6A4041B7D1C5E206F.txt 1 0 64
+/.well-known/pki-validation/3CC6E7E63966E14D084511B53122D5B6.txt 1 0 64
+/.well-known/pki-validation/1CF37B59142608D54D096D97F8F38D21.txt 1 0 64
+/.well-known/pki-validation/723DAC067647E1FC596A1F2F1B2C63EC.txt 1 0 64
+/.well-known/pki-validation/E1C4AD03907511262BAB4E2FC2C644C2.txt 1 0 64
+/.well-known/pki-validation/445D25B8AAAE51FE0CC78E98566C98FE.txt 1 0 64
+/.well-known/pki-validation/859D2B6823D7FA669C9D9898C1D161A4.txt 1 0 64
+/wp-content/uploads/2021/05/2b295b61-386b-4c0b-9ad3-c85f9cec0558-1.mp4 0 6 6574802
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 20
+ios_iphone 39 9
+macosx13 5 5
+macosx10 3 3
+android10 45 4
+macosx9 12 12
+linuxubuntu 122 121
+androidpie 1 0
+linux 89 89
+win8.1 12 12
+ios_ipad 21 2
+androidnougat 22 3
+androidlollipop 2 2
+win8 3 3
+macosx8 1 1
+macosx15 23 4
+win7 76 20
+macosx 2 2
+Unknown 586 535
+unix 1 1
+win10 1106 558
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 75
+chrome53.0.2834.76 1 1
+chrome96.0.4664.93 1 1
+chrome83.0.4103.116 21 2
+chrome96.0.4664.45 21 2
+firefox68.0 1 1
+chrome84.0.4147.105 3 3
+chrome63.0.3239.84 1 1
+firefox73.0.1 1 1
+chrome30.0.1599.66 58 58
+chrome66.0.3359.117 7 6
+chrome87.0.4280.88 6 6
+firefox87.0 2 2
+chrome63.0.3239.132 1 1
+firefox62.0 118 118
+netscape5.0 19 3
+firefox61.0 1 1
+chrome97.0.4692.99 36 5
+firefox70 1 1
+chrome72.0.3626.109 7 7
+chrome84.0.4147.125 4 4
+chrome55.0.2883.87 2 2
+chrome90.0.4430.72 8 8
+chrome60.0.3112.113 5 5
+safari15.2 21 2
+chrome67.0.3396.79 2 2
+chrome78.0.3904.108 425 425
+chrome83.0.4103.14 1 1
+chrome92.0.4515.159 1 1
+chrome66.0.3359.181 2 2
+firefox60.0.2 1 1
+chrome65.0.3325.181 7 7
+chrome79.0.3945.130 84 0
+chrome67.0.3396.87 1 1
+safari14.1.2 1 1
+chrome77.0.3865.120 1 1
+chrome26.0.1410.65 1 1
+chrome61.0.3163.128 4 4
+chrome78.0.3161.66 1 0
+chrome50.0.2661.75 2 2
+chrome83.0.4103.97 15 15
+chrome93.0.4577.82 1 1
+opera53.0.2907.99 2 2
+chrome89.0.4389.82 1 1
+chrome68.0.3397.0 1 1
+firefox58.0 2 2
+chrome90.0.4430.85 2 2
+firefox60.0 1 1
+firefox72.0 1 0
+chrome66.0.3359.158 2 2
+chrome81.0.4044.129 1 1
+chrome83.0.4103.61 56 0
+chrome97.0.4692.71 147 20
+firefox59.0 3 3
+chrome74.0.3729.169 5 5
+Unknown 568 533
+firefox84.0 1 1
+firefox52.9 2 2
+chrome85.0.4183.121 35 35
+chrome91.0.4472.114 8 8
+chrome97.0.4692.98 21 2
+chrome35.0.1916.47 10 10
+chrome39.0.2171.95 2 2
+chrome91.0.4472.88 24 2
+chrome94.0.4606.81 1 1
+chrome65.0.3325.146 2 2
+android 1 0
+chrome90.0.4430.93 6 6
+chrome89.0.4389.90 1 1
+chrome60.0.3112.107 1 1
+msie11.0 22 3
+chrome92.0.4515.131 1 1
+chrome71.0.3578.98 1 1
+chrome73.0.3683.90 2 2
+safari 38 8
+chrome76.0.3809.71 304 19
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+python-requests/2.27.0 20220110010108
+Mozilla/5.0 20220124234633
+WordPress/4.9.19;_http://injul.com.do 20220131201554
+WordPress/4.9.18;_http://injul.com.do 20220106160741
+wp_is_mobile 20220126082655
+python-requests/2.26.0 20220102035735
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220122002451
+python-requests/2.27.1 20220123031231
+python-requests/2.23.0 20220121175411
+Sectigo_DCV 20220104224220
+COMODO_DCV 20220104224212
+Go_http_package 20220115095843
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 11
+python-requests/2.27.1 20220123031231
+python-requests/2.23.0 20220121175411
+Sectigo_DCV 20220104224220
+COMODO_DCV 20220104224212
+Go_http_package 20220115095843
+Expanse_indexes_the_network_perimeters_of_our_customers._If_you_have_any_questions_or_concerns,_please_reach_out_to:_scaninfo@expanseinc.com 20220122002451
+python-requests/2.27.0 20220110010108
+WordPress/4.9.19;_http://injul.com.do 20220131201554
+WordPress/4.9.18;_http://injul.com.do 20220106160741
+python-requests/2.26.0 20220102035735
+wp_is_mobile 20220126082655
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 731 776
+From1 6 6
+From2 16 27
+From3 2 2
+From4 631 1360
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_do 1 1
+www_google_com 15 26
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://50.31.174.167:80 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+405 2 62
+403 55 38445
+302 13 4238
+404 433 4902408
+301 197 27752
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 220
+/NEW/dup-installer/main.installer.php 1 www.google.com
+/old-index.php 1 injul.com.do
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 4 -
+/.well-known/ 2 binance.com
+/.well-known/pki-validation/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/wp-content/plugins/superstorefinder-wp/css/ssf-wp-admin.css 2 -
+/main/ 1 -
+/backup/dup-installer/ 1 www.google.com
+/WordPress 1 www.google.com
+/chase/update/chase/ 5 -
+/wp-content/uploads/wppa/thumbs/75.jpg 1 https://google.com
+/wp-content/plugins/super-interactive-maps/css/sim-wp-admin.css 2 -
+/store/dup-installer/ 1 www.google.com
+/FORUM 1 www.google.com
+/2018/dup-installer/main.installer.php 1 www.google.com
+/wp-content/plugins/advanced-import/readme.txt 2 -
+/up/dup-installer/main.installer.php 1 www.google.com
+/que-es-estado-social-y-democratico-de-derecho-2/ 8 -
+/2010/dup-installer/main.installer.php 1 www.google.com
+/wp-content/themes/world_of_business_bue028/images/PostTagIcon.png 1 https://google.com
+/v2/ 1 -
+/wp/dup-installer/ 1 www.google.com
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 1 -
+/wp-content/uploads/wppa/thumbs/64.jpg 2 https://google.com
+/wp-content/uploads/wppa/thumbs/74.jpg 1 https://google.com
+/wp-content/plugins/ait-csv-import-export/changelog.txt 2 -
+/home/dup-installer/main.installer.php 1 www.google.com
+/forum 1 www.google.com
+/Blog/dup-installer/ 1 www.google.com
+/wordpress/dup-installer/ 1 www.google.com
+/2012/dup-installer/main.installer.php 1 www.google.com
+/wp-content/uploads/2012/10/juri1.jpg 1 https://google.com
+/2020/dup-installer/ 1 www.google.com
+/wp-content/plugins/e-signature/page-template/default/style.css 2 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 13 -
+/images/ 2 binance.com
+/old/dup-installer/ 1 www.google.com
+/hello-world/ 5 http://injul.com.do/
+/2019/dup-installer/main.installer.php 1 www.google.com
+/WORDPRESS 1 www.google.com
+/wp-content/plugins/capability-manager-enhanced/readme.txt 3 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 5 http://injul.com.do/
+/wordpress/ 1 -
+/WP/dup-installer/ 1 www.google.com
+/blog/dup-installer/main.installer.php 1 www.google.com
+/ALFA_DATA/alfacgiapi/perl.alfa 2 www.google.com
+/adm.php 1 -
+/new/dup-installer/main.installer.php 1 www.google.com
+/temp/ 1 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 9 http://injul.com.do/el-incremento-de-la-delincuencia-y-el-crimen-organizado/
+/2018/ 1 -
+/wp-content/uploads/wppa/thumbs/76.jpg 1 https://google.com
+/wp-content/uploads/2012/01/democracia_formal.jpg 3 -
+/DEMO/dup-installer/ 1 www.google.com
+/.well-known/acme-challenge/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/la-designacion-de-jueces-en-las-alta-cortes/ 2 http://injul.com.do
+/shop 1 www.google.com
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/ 1 http://injul.com.do/
+/labistamechi/dropbox/dropbox/dropbox/dropbox 1 -
+/wp-content/uploads/wppa/thumbs/69.jpg 2 https://google.com
+/adminer.php 1 -
+/test/ 1 -
+/wp-content/plugins/image-hover-effects-ultimate/readme.txt 2 -
+/2019/ 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 3 -
+/Backup/dup-installer/main.installer.php 1 www.google.com
+/que-es-feminicidio-o-femicidio/ 2 http://injul.com.do/que-es-feminicidio-o-femicidio/
+/STORE 1 www.google.com
+/wp1/ 1 -
+/2016/dup-installer/main.installer.php 1 www.google.com
+/BLOG/dup-installer/main.installer.php 1 www.google.com
+/demo/dup-installer/ 1 www.google.com
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 13 -
+/el-espectaculo/ 1 http://injul.com.do/
+/2015/dup-installer/ 1 www.google.com
+/wp-content/plugins/woocommerce-upload-files/js/wcuf-admin-menu.js 2 -
+/web/ 1 -
+/blog/dup-installer/ 1 www.google.com
+/wp-content/plugins/capability-manager-enhanced/includes/features/features-block-script.js 2 http://www.injul.com.do/wp-content/plugins/capability-manager-enhanced/includes/features/features-block-script.js
+/backup/ 1 -
+/wp-content/plugins/woocommerce-jetpack/readme.txt 2 -
+/2012/dup-installer/ 1 www.google.com
+http://injul.com.do/que-es-estado-social-y-democratico-de-derecho-2/ 1 http://injul.com.do/
+/New/dup-installer/ 1 www.google.com
+/2014/dup-installer/ 1 www.google.com
+/uploads/ 2 binance.com
+/Adminer.php 1 -
+/wp-content/plugins/themegrill-demo-importer/readme.txt 2 -
+/bak/ 1 -
+/ 27 -
+/WORDPRESS/dup-installer/main.installer.php 1 www.google.com
+/new/dup-installer/ 1 www.google.com
+/files/ 2 binance.com
+/store/dup-installer/main.installer.php 1 www.google.com
+/2009/dup-installer/main.installer.php 1 www.google.com
+/admin/controller/extension/extension/ 2 binance.com
+/sql.php 1 -
+/2021/dup-installer/ 1 www.google.com
+/wp-content/plugins/superlogoshowcase-wp/css/sls-wp-admin.css 2 -
+/BACKUP/dup-installer/main.installer.php 1 www.google.com
+/wp-content/plugins/wp-pinterest-automatic/changelog 2 -
+/wp/dup-installer/main.installer.php 1 www.google.com
+/wp-content/plugins/wp-user-extra-fields/js/wpuef-configurator.js 2 -
+/Backup/dup-installer/ 1 www.google.com
+/wp-content/plugins/mstore-api/readme.txt 2 -
+/puesta-en-circulacion-de-la-novela-la-busqueda/ 2 -
+/SHOP/dup-installer/main.installer.php 1 www.google.com
+/.well-known/ALFA_DATA/alfacgiapi/perl.alfa 1 www.google.com
+/home/dup-installer/ 1 www.google.com
+/wp-content/themes/world_of_business_bue028/images/PostDateIcon.png 1 https://google.com
+/wordpress/dup-installer/main.installer.php 1 www.google.com
+/site/dup-installer/ 1 www.google.com
+/2014/dup-installer/main.installer.php 1 www.google.com
+/SHOP/dup-installer/ 1 www.google.com
+/2009/dup-installer/ 1 www.google.com
+/wp-content/uploads/wppa/thumbs/72.jpg 1 https://google.com
+/injul 2 www.google.com
+/engl/pages.php 2 -
+/recordando-a-garzon/ 1 -
+/cms/ 1 -
+/.well-known/acme-challenge/alfacgiapi/perl.alfa 1 www.google.com
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 20 -
+/STORE/dup-installer/ 1 www.google.com
+/wp-content/uploads/wppa/thumbs/77.jpg 1 https://google.com
+/new-site/ 1 -
+/backup/dup-installer/main.installer.php 1 www.google.com
+/2018/dup-installer/ 1 www.google.com
+/wp-content/uploads/wppa/thumbs/68.jpg 1 https://google.com
+/wp-content/plugins/iwp-client/readme.txt 2 -
+/wp-admin/css/ 2 binance.com
+/wp-content/plugins/dzs-zoomsounds/admin/admin.css 2 -
+/anecdota-don-juan-de-los-palotes/ 2 -
+/test/dup-installer/main.installer.php 1 www.google.com
+/2020/dup-installer/main.installer.php 1 www.google.com
+/sites/default/files/ 2 binance.com
+/.well-known/pki-validation/alfacgiapi/perl.alfa 1 www.google.com
+/install/ 1 -
+/2020/ 1 -
+/forum/dup-installer/main.installer.php 1 www.google.com
+/dup-installer/ 1 www.google.com
+/wp-content/plugins/emails-verification-for-woocommerce/readme.txt 2 -
+/WORDPRESS/dup-installer/ 1 www.google.com
+/BACKUP/dup-installer/ 1 www.google.com
+/cibersecuestro/ 5 -
+/2015/dup-installer/main.installer.php 1 www.google.com
+/site/dup-installer/main.installer.php 1 www.google.com
+/2010/dup-installer/ 1 www.google.com
+/wp-content/plugins/shortcode-addons/readme.txt 2 -
+/new/ 1 -
+/wp-content/plugins/angwp/__%20UPDATES.txt 2 -
+/Demo/dup-installer/main.installer.php 1 www.google.com
+/wp-content/plugins/ulisting/readme.txt 2 -
+/dup-installer/main.installer.php 1 www.google.com
+/wordpress 1 www.google.com
+/shop/dup-installer/main.installer.php 1 www.google.com
+/wp-content/uploads/wppa/thumbs/67.jpg 1 https://google.com
+/wp/ 1 -
+/DEMO/dup-installer/main.installer.php 1 www.google.com
+/up/dup-installer/ 1 www.google.com
+/wp-content/plugins/capabilities-pro/readme.txt 2 -
+/2016/dup-installer/ 1 www.google.com
+/BLOG/dup-installer/ 1 www.google.com
+/NEW/dup-installer/ 1 www.google.com
+/wp-content/functions.php 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 10 -
+/.env 9 -
+/wp-content/plugins/wp-automatic/changelog 2 -
+/wp-content/uploads/wppa/thumbs/71.jpg 1 https://google.com
+/labistamechi/dropbox/dropbox/dropbox/dropbox/ 6 -
+/old/dup-installer/main.installer.php 1 www.google.com
+/WordPress/dup-installer/ 1 www.google.com
+/wp-content/uploads/2012/09/toga3.jpg 15 http://aspectosdelderechoengeneral.blogspot.com/
+/wp-admin/test/test/file/2013gdocs 15 -
+/wp-content/plugins/vc-tabs/readme.txt 2 -
+/store 1 www.google.com
+/old-site/ 1 -
+/ley-de-reforma-del-congreso-de-2011-enmienda-de-la-constitucion-de-espana/ 1 -
+/old-wp/ 1 -
+/humans.txt 5 -
+/New/dup-installer/main.installer.php 1 www.google.com
+/FORUM/dup-installer/ 1 www.google.com
+/site/ 1 -
+/Demo/dup-installer/ 1 www.google.com
+/Blog/dup-installer/main.installer.php 1 www.google.com
+/WP/dup-installer/main.installer.php 1 www.google.com
+/WP 1 www.google.com
+/2017/dup-installer/ 1 www.google.com
+/shop/dup-installer/ 1 www.google.com
+/v1/ 1 -
+/2013/dup-installer/ 1 www.google.com
+/wp2/ 1 -
+/wp-content/uploads/wppa/thumbs/65.jpg 1 https://google.com
+/articulo-publicado-en-el-periodico-hoy-periodista-y-policia-sobre-la-novela-la-busqueda/ 1 -
+/alfacgiapi/perl.alfa 2 www.google.com
+/dev/ 1 -
+/old/ 1 -
+/bk/ 1 -
+/STORE/dup-installer/main.installer.php 1 www.google.com
+/demo/ 1 -
+/SHOP 1 www.google.com
+/ads.txt 5 -
+/transparencia/ 2 http://injul.com.do/
+/tmp/ 1 -
+/blog/ 1 -
+/wp-content/uploads/wppa/thumbs/66.jpg 2 https://google.com
+/2013/dup-installer/main.installer.php 1 www.google.com
+/demo/dup-installer/main.installer.php 1 www.google.com
+/WordPress/dup-installer/main.installer.php 1 www.google.com
+/wp-content/plugins/wp-time-capsule/readme.txt 2 -
+/2017/dup-installer/main.installer.php 1 www.google.com
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 1 http://injul.com.do/
+/wp-content/plugins/wp-automatic/css/wp-automatic.css 2 -
+/sitemap.xml 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 3 -
+/.well-known/alfacgiapi/perl.alfa 1 www.google.com
+/forum/dup-installer/ 1 www.google.com
+/2019/dup-installer/ 1 www.google.com
+/test/dup-installer/ 1 www.google.com
+/FORUM/dup-installer/main.installer.php 1 www.google.com
+/wp 1 www.google.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 268
+50.31.174.162 521 554 12600 20220131201554
+34.106.44.29 62 62 53830 20220103025704
+35.189.58.211 62 62 53830 20220104054323
+34.145.90.175 62 62 53830 20220113022902
+34.125.91.78 62 62 53830 20220104083736
+34.176.188.195 62 62 53830 20220101125542
+35.232.18.213 62 62 53830 20220107061912
+62.210.215.115 58 58 751951 20220130172704
+34.125.39.210 33 33 41853 20220124053928
+34.176.11.128 18 18 35658 20220118005908
+65.154.226.165 14 224 5777380 20220125035456
+141.164.96.144 13 13 43782 20220131062423
+222.104.221.156 13 13 43782 20220113191139
+148.74.202.231 9 57 8022234 20220122192921
+112.162.138.171 9 9 33572 20220123030409
+204.237.89.153 8 49 1513201 20220118083445
+192.99.18.122 6 17 259020 20220113022137
+139.162.198.154 5 5 32822 20220126082658
+181.37.55.182 5 36 1326574 20220126215301
+185.119.81.107 5 5 38642 20220113083933
+45.130.83.105 4 4 112398 20220114110820
+139.59.153.133 4 4 10464 20220111122715
+190.92.152.62 4 4 11418 20220114124547
+154.6.22.157 4 4 112398 20220129042232
+61.90.31.168 4 4 29952 20220119040119
+65.154.226.100 0 28 767276 
+93.113.111.193 1 1 1192 20220114165316
+65.154.226.109 1 16 412670 20220118153058
+52.114.128.147 1 1 7444 20220117181239
+167.172.56.36 1 1 238 20220113134328
+136.144.41.9 1 1 28497 20220114231008
+92.118.160.9 1 1 28497 20220102153220
+93.158.91.204 1 1 7444 20220116153539
+185.137.168.149 1 1 238 20220108122917
+34.214.248.80 1 1 7444 20220125201003
+3.137.91.163 1 1 1572 20220119030719
+91.206.200.137 1 1 238 20220115232552
+34.220.222.64 1 1 7444 20220125200626
+137.184.37.185 1 1 8774 20220103051247
+184.168.96.149 1 1 238 20220108143439
+159.65.219.142 1 1 238 20220108072620
+87.107.144.54 1 1 238 20220117184905
+178.62.77.224 2 2 476 20220113153025
+38.133.120.138 0 14 301767 
+184.168.103.68 1 1 238 20220117173705
+20.121.31.36 1 1 7444 20220123031231
+212.102.33.86 1 1 7532 20220131004113
+34.222.252.211 1 1 7444 20220127003845
+195.34.83.112 1 1 238 20220117195628
+200.88.128.29 2 21 487585 20220123202556
+160.251.28.21 1 1 1192 20220114172532
+109.239.58.107 1 1 7444 20220126081711
+185.106.130.251 1 1 238 20220117212956
+103.50.76.37 1 1 238 20220117182327
+35.88.194.91 1 1 28497 20220124052623
+186.234.80.209 1 1 238 20220117233403
+92.118.160.1 1 1 28497 20220115095843
+8.210.158.38 1 1 238 20220113162847
+65.21.206.44 1 1 7444 20220119010759
+195.246.120.52 1 1 1192 20220123045456
+208.68.36.134 1 1 238 20220113145159
+205.169.39.21 1 16 412670 20220118215828
+162.144.78.149 3 3 10226 20220109013924
+150.95.24.78 1 1 238 20220118034253
+205.169.39.156 0 7 191819 
+103.129.178.69 1 1 238 20220118095549
+173.212.224.116 1 1 28497 20220125130800
+107.173.165.214 1 1 238 20220108173343
+52.47.142.212 1 1 0 20220105103328
+45.129.18.128 1 1 0 20220129105716
+142.93.170.99 1 1 238 20220118033410
+5.63.10.206 1 1 238 20220108181820
+51.158.116.45 1 1 6752 20220115105307
+8.131.62.110 1 1 238 20220108060245
+52.147.207.96 1 1 28497 20220125130750
+45.138.30.191 2 2 8693 20220125081412
+93.190.111.173 1 1 7444 20220131202339
+93.158.91.205 1 1 7444 20220129154503
+54.211.141.246 1 1 28497 20220108045036
+205.169.39.81 0 7 191819 
+195.133.18.60 1 1 28497 20220113105448
+167.172.62.216 1 1 6752 20220103034610
+35.221.13.69 1 1 1192 20220127074629
+72.167.42.45 2 2 476 20220113174844
+92.204.221.9 1 1 238 20220113170309
+185.217.0.224 1 1 7444 20220112123216
+84.17.48.216 1 1 28497 20220102231302
+185.141.192.17 1 1 1192 20220124163929
+54.244.202.71 1 1 7444 20220126100839
+138.199.7.132 1 1 27967 20220111152558
+92.204.221.12 2 2 476 20220108150205
+113.177.127.188 3 3 22332 20220124221438
+185.3.235.221 1 1 238 20220111032449
+109.74.157.127 1 1 415 20220119045449
+38.242.30.25 0 14 301767 
+35.164.233.97 1 1 7444 20220131105843
+34.77.162.26 1 1 28497 20220122002451
+134.209.145.228 3 3 10226 20220117165238
+107.161.177.10 1 1 238 20220118104451
+54.149.204.250 1 1 7444 20220128100703
+159.48.55.100 1 1 7444 20220126014308
+51.83.190.248 1 1 28497 20220102025531
+111.93.56.221 1 1 238 20220111062032
+190.94.74.9 2 21 487585 20220120140018
+178.128.209.138 1 1 238 20220113192355
+109.234.161.233 3 3 10226 20220107161205
+93.158.91.193 1 1 7444 20220123011052
+39.105.56.236 1 1 238 20220118014628
+186.6.82.74 2 21 487585 20220120140015
+139.59.33.202 1 1 238 20220108175131
+185.181.60.189 1 1 7444 20220110092547
+143.110.231.89 1 1 7444 20220119150059
+212.162.150.120 1 1 7444 20220115141900
+144.126.134.44 1 1 238 20220118031151
+167.172.62.245 1 1 7444 20220103001341
+151.80.67.229 1 1 0 20220127052203
+107.172.100.248 1 1 7444 20220121175411
+192.71.23.211 1 1 7444 20220110055609
+45.129.18.214 1 1 0 20220101171914
+168.119.59.22 1 1 7444 20220125132100
+34.89.30.119 2 2 29050 20220129054423
+47.52.218.55 1 1 7444 20220111222900
+54.70.152.252 1 1 28497 20220122125729
+184.168.102.151 1 1 238 20220118005102
+45.129.18.115 1 1 0 20220111112428
+47.106.231.210 1 1 238 20220108172453
+93.158.91.207 1 1 7444 20220107033640
+54.201.246.25 1 1 28497 20220108051133
+217.182.28.21 1 1 28497 20220124094951
+190.80.246.192 2 24 605989 20220128104412
+104.171.145.20 0 18 303131 
+203.171.21.225 1 1 238 20220117183350
+195.154.179.86 1 1 7444 20220115144025
+91.148.168.2 1 1 238 20220117174146
+184.168.102.31 1 1 238 20220118004503
+62.28.184.124 1 1 238 20220111021630
+92.243.15.140 1 1 238 20220113180301
+51.158.100.91 1 1 0 20220115100824
+159.65.56.30 1 1 238 20220118043710
+173.201.181.53 1 1 238 20220108124709
+54.188.222.41 1 1 7444 20220131105729
+51.68.11.231 1 1 415 20220119045449
+50.62.137.47 2 2 476 20220117180428
+34.217.56.151 1 1 7444 20220128101048
+47.223.62.49 2 2 14888 20220106223249
+179.53.236.10 2 21 487585 20220129154957
+198.54.120.93 1 1 238 20220111200813
+173.249.35.204 1 1 238 20220107224716
+184.168.116.167 1 1 238 20220118094042
+91.199.212.132 0 2 154 
+167.172.62.209 1 1 0 20220103015322
+46.166.182.115 1 1 27967 20220128074844
+42.112.89.114 1 1 7444 20220106121646
+45.129.18.178 1 1 0 20220107180912
+185.169.252.19 2 2 14888 20220113184338
+34.209.135.16 1 1 7444 20220130105051
+45.129.18.112 1 1 0 20220113191638
+184.168.113.203 1 1 238 20220108025523
+35.212.72.131 1 1 7444 20220105163303
+77.71.114.10 1 1 415 20220122132035
+148.103.197.132 2 21 487585 20220126200607
+63.32.108.241 1 1 7444 20220104191609
+81.70.151.13 1 1 238 20220111133012
+5.189.170.189 1 1 238 20220111031609
+205.169.39.233 0 7 191819 
+185.3.235.251 1 1 238 20220108123808
+194.44.247.218 1 1 28497 20220118141112
+198.71.224.86 1 1 238 20220111140203
+143.198.52.40 1 1 238 20220107231649
+20.113.91.235 2 2 56994 20220128005137
+196.196.68.202 2 2 8693 20220124053751
+178.172.227.159 1 1 415 20220119045455
+148.0.215.49 2 21 487585 20220119152623
+208.109.26.136 1 1 238 20220118010618
+31.7.35.97 1 1 415 20220122132038
+54.218.61.26 1 1 7444 20220131103127
+132.148.196.75 1 1 238 20220118004707
+159.223.114.185 1 1 7864 20220103062234
+178.128.12.25 1 1 238 20220113125418
+216.107.129.106 3 4 26462 20220108133535
+64.246.165.50 1 1 7444 20220118194850
+37.228.136.74 2 2 1430 20220114123027
+205.169.39.79 0 7 191819 
+101.37.28.132 1 1 238 20220113140301
+205.169.39.15 1 16 412670 20220123214028
+41.93.82.7 1 1 238 20220118000053
+162.55.43.51 3 3 10226 20220111003540
+20.94.203.21 0 1 48798 
+27.19.192.221 1 1 98024 20220124234633
+62.171.130.70 1 1 238 20220108122034
+178.175.130.245 1 1 27967 20220105142932
+45.229.33.98 1 1 6782 20220111090657
+34.86.35.27 1 1 28497 20220104223111
+184.72.64.224 1 1 28497 20220124050327
+205.169.39.35 1 16 412670 20220118154428
+18.236.209.56 1 1 7444 20220131103813
+148.103.35.104 2 21 487585 20220129190138
+18.236.82.242 1 1 7444 20220129102601
+52.38.142.210 1 1 28497 20220122125750
+185.3.235.206 1 1 1192 20220114142904
+45.129.18.250 1 1 0 20220120154158
+162.241.201.102 1 1 238 20220111033404
+167.99.12.47 1 1 238 20220108144346
+80.246.1.193 2 2 476 20220108155515
+185.141.107.10 1 1 238 20220117201922
+177.55.124.21 2 2 476 20220113182745
+206.189.12.85 1 1 6781 20220103023622
+198.240.125.220 0 27 309290 
+209.126.80.250 1 1 238 20220118032113
+161.35.232.216 1 1 6752 20220103061643
+54.187.125.47 1 1 7444 20220128101030
+35.88.231.215 1 1 7444 20220126100752
+103.3.246.217 3 3 10226 20220126145954
+27.19.192.222 1 17 320373 20220124234617
+143.110.157.74 1 1 238 20220117172420
+144.91.106.14 1 1 7444 20220109212138
+45.120.49.173 2 2 8692 20220104203653
+104.160.43.196 1 1 238 20220118001421
+198.46.141.138 1 1 238 20220111153612
+80.251.219.111 1 1 238 20220117234200
+84.17.52.66 1 1 1249 20220131202346
+184.168.117.94 1 1 238 20220111185438
+34.222.60.131 1 1 28497 20220122124701
+107.180.121.4 1 1 238 20220117171152
+191.180.31.169 0 1 0 
+45.227.162.53 1 1 28461 20220120081440
+37.19.217.202 2 2 56464 20220122223508
+184.168.113.249 1 1 238 20220108080211
+165.232.190.246 1 1 238 20220113165413
+84.201.143.131 1 1 238 20220111172053
+47.92.73.121 1 1 238 20220113191037
+45.129.18.207 1 1 0 20220110164209
+171.96.75.29 2 2 14976 20220128001901
+45.129.18.236 1 1 0 20220102180146
+194.163.147.193 1 1 238 20220118022741
+196.245.251.170 4 4 17386 20220118042029
+190.80.245.73 0 1 56275 
+176.53.65.237 1 1 238 20220118073020
+84.17.58.16 2 2 56994 20220111161453
+45.129.18.111 1 1 0 20220118154543
+95.111.250.205 1 1 238 20220118075516
+15.235.9.75 1 1 27967 20220105232259
+15.206.235.52 1 1 7444 20220126074523
+65.155.30.101 1 16 412670 20220118150237
+81.88.52.134 1 1 238 20220111174142
+167.114.173.211 1 1 7444 20220118063808
+162.252.172.201 0 11 196321 
+152.166.116.180 2 21 487585 20220120150512
+104.199.146.31 2 2 476 20220113131358
+91.203.111.125 1 1 238 20220108032206
+84.17.48.155 2 2 56994 20220110101039
+201.220.156.254 2 2 476 20220117185838
+116.62.155.4 1 1 238 20220117170730
+35.206.247.151 1 1 7444 20220105163516
+47.242.50.8 1 1 238 20220111150454
+171.228.55.21 1 1 7444 20220109020445
+84.17.52.64 1 1 28497 20220102105235
+35.200.90.127 1 1 238 20220116040117
+54.244.37.169 1 1 7444 20220129101953
+206.253.164.198 2 2 8693 20220121224619
+45.129.18.181 1 1 0 20220102180143
+93.104.213.124 1 1 238 20220118062206
+144.76.105.66 1 1 7444 20220102035735
+13.64.93.136 1 1 28497 20220122124701
+54.187.75.250 1 1 7444 20220130105130
+148.251.87.157 1 1 7444 20220110010108
+209.133.212.77 1 1 7444 20220103092850
+14.186.20.144 2 2 14888 20220118050942
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220101 76 76 68480 11
+20220102 29 30 238907 23
+20220103 91 123 453349 25
+20220104 144 165 182919 18
+20220105 16 16 85880 13
+20220106 18 18 29841 14
+20220107 87 87 72336 17
+20220108 51 52 117467 35
+20220109 27 54 334844 14
+20220110 22 23 142834 15
+20220111 54 65 379449 36
+20220112 19 47 783733 12
+20220113 125 125 216363 34
+20220114 34 34 176661 20
+20220115 28 28 93985 20
+20220116 31 42 327574 24
+20220117 50 50 137620 34
+20220118 93 330 7078903 48
+20220119 22 41 520506 15
+20220120 26 90 1712126 16
+20220121 17 17 30807 14
+20220122 31 87 15106266 19
+20220123 39 103 1797501 20
+20220124 58 89 990430 20
+20220125 27 57 913719 22
+20220126 41 112 2485564 24
+20220127 22 36 325173 14
+20220128 24 46 728538 17
+20220129 37 75 1153800 22
+20220130 14 14 29518 12
+20220131 33 33 90043 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 12
+2mn-5mn 4
+15mn-30mn 23
+30mn-1h 56
+5mn-15mn 10
+0s-30s 501
+1h+ 40
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 30
+/wp-cron.php 520 10220 318 317
+/xmlrpc.php 504 192062 96 104
+/ 134 1750240 123 97
+/feed/atom/ 50 720500 49 50
+/contactenos/ 31 450745 6 12
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 31 2391960 9 18
+/wp-login.php 22 26945 17 15
+/perfiles/ 16 108511 12 3
+/wp-json/oembed/1.0/embed 10 11220 0 3
+/wp-json/wp/v2/users/ 9 4977 0 1
+/author/admin/ 8 70224 0 2
+/servicios/ 8 54016 3 4
+//wp-json/wp/v2/users/ 7 1792 0 6
+/comments/feed/ 6 2556 0 0
+/contactenos/feed/ 5 2176 0 0
+/category/noticias/ 4 35102 1 2
+/carta-al-jefe-de-la-policia-nacional/feed/ 3 1326 2 2
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 3 1403 3 2
+/wp-json/ 2 10502 0 1
+/nosotros/ 2 15728 1 1
+/feed/ 2 28722 2 2
+/wp-load.php 1 0 1 1
+/wp-admin/upgrade.php 1 21 0 1
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff 1 98024 1 1
+/2021/06/04/tal-como-se-cuenta-se-cree-el-cuento/ 1 11317 0 0
+/2021/06/01/el-digesset-exigente/ 1 10624 0 0
+/2021/06/02/3-3-millones-de-dominicanos-se-han-aplicado-al-menos-una-dosis-de-vacuna-contra-el-covid-19/ 1 9849 1 0
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.eot 1 165742 0 0
+http://injul.com.do/ 1 7444 1 0
+http://injul.com.do/wp-login.php 1 1249 0 1
+END_SIDER

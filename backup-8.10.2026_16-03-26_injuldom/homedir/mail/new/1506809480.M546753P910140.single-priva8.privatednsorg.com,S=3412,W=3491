@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id kH+JIIgW0Fk84w0A6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Sat, 30 Sep 2017 18:11:20 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Sat, 30 Sep 2017 18:11:20 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dyPyi-003r7x-Fd
+	for injuldom@single-priva8.privatednsorg.com; Sat, 30 Sep 2017 18:11:20 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1506809480-eximdsn-574950532
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dyPyi-003r7x-Fd@single-priva8.privatednsorg.com>
+Date: Sat, 30 Sep 2017 18:11:20 -0400
+
+--1506809480-eximdsn-574950532
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1506809480-eximdsn-574950532
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1506809480-eximdsn-574950532
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dyPyi-003r7p-Dr
+	for info@injul.com.do; Sat, 30 Sep 2017 18:11:20 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 5.157.1.229
+Date: Sat, 30 Sep 2017 22:11:20 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <793bf3d96561b692ed81e4ed29789ac6@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: Nike Giants 13 Odell Beckham Jr White Mens Stitched NFL Limited Jersey (IP: 5.157.1.229, 5.157.1.229)
+Correo electrónico: kellee_dacre@gmx.net
+URL: http://vuongquocvuive.com/cheap-nfl-jerseys-supplyford-poised-to-surpass-hyundai-in-china-capacity-with-new-plant/
+Comentario: 
+Nike Giants 13 Odell Beckham Jr White Mens Stitched NFL Limited Jersey.Italy Hockey Jersey 
+authentic china online,Custom personalized team set 
+hockey jerseys from us.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=166#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=166#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=166#wpbody-content
+Actualmente hay 165 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1506809480-eximdsn-574950532--

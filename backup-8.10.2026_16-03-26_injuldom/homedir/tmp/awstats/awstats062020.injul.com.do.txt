@@ -1,0 +1,1303 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202006 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2687                
+POS_VISITOR 26632               
+POS_DAY 34911               
+POS_DOMAIN 3522                
+POS_LOGIN 4206                
+POS_ROBOT 4361                
+POS_WORMS 5284                
+POS_EMAILSENDER 5415                
+POS_EMAILRECEIVER 5558                
+POS_SESSION 35707               
+POS_SIDER 35917               
+POS_FILETYPES 5693                
+POS_DOWNLOADS 5922                
+POS_OS 5970                
+POS_BROWSER 6366                
+POS_SCREENSIZE 10585               
+POS_UNKNOWNREFERER 10659               
+POS_UNKNOWNREFERERBROWSER 11324               
+POS_ORIGIN 11725               
+POS_SEREFERRALS 11865               
+POS_PAGEREFS 12072               
+POS_SEARCHWORDS 12248               
+POS_KEYWORDS 12400               
+POS_MISC 2351                
+POS_ERRORS 12459               
+POS_CLUSTER 4062                
+POS_SIDER_404 12630               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200701001153 47 9906 17662908016221
+FirstTime 20200601011628
+LastTime 20200630234833
+LastUpdate 20200701084032 47 0 46 0 0
+TotalVisits 611                 
+TotalUnique 209                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 215                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 32 32 111749 60 65 575366
+1 50 50 149689 315 325 2176591
+2 32 32 77602 67 102 833761
+3 38 39 162402 94 101 633102
+4 48 48 186402 219 231 1195139
+5 34 34 133729 94 147 1574939
+6 50 50 246172 54 67 920850
+7 37 38 119566 55 80 1165438
+8 35 57 840856 84 100 832142
+9 806 806 6835321 107 115 1221106
+10 39 39 105630 57 72 686915
+11 36 83 777596 69 79 792975
+12 47 70 753089 69 75 600091
+13 39 71 444504 65 72 506052
+14 31 55 431311 54 78 684310
+15 36 36 104165 136 151 1137374
+16 33 33 46347 91 97 1122018
+17 51 89 1262643 55 88 1151334
+18 43 43 170927 92 112 1134295
+19 37 69 507773 81 93 710223
+20 34 34 67826 70 88 995153
+21 34 34 110994 45 56 775221
+22 52 52 115925 61 74 532304
+23 37 37 43692 67 74 660334
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 35
+ro 793 793 6974088
+us 697 791 1997854
+gb 45 45 270020
+fr 40 40 203539
+ru 28 75 1167525
+nl 12 12 120476
+ca 11 11 86745
+it 8 8 95546
+de 8 8 76942
+ua 8 8 61951
+do 8 68 1959018
+in 7 7 51938
+cl 6 6 25950
+th 6 6 25950
+cz 4 4 15274
+se 4 4 29608
+au 3 3 3576
+pl 3 3 12579
+gr 2 2 8594
+pt 2 2 56501
+cn 2 2 56828
+vn 2 2 2384
+ma 1 1 28414
+mx 1 19 379741
+kh 1 1 0
+al 1 1 7390
+eu 1 1 7395
+id 1 1 7402
+no 1 1 7402
+il 1 1 7526
+jp 0 1 25652
+me 1 1 1192
+br 1 1 1248
+np 1 1 1248
+is 1 1 28414
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+AhrefsBot/ 141 862859 20200630162246 26
+Googlebot/ 139 1475538 20200630141328 27
+bot[\s_+:,\.\;\/\\-] 112 1564525 20200630182515 28
+bingbot/ 71 1105743 20200630224822 23
+DotBot/ 45 590941 20200630071423 8
+YandexBot/ 39 99717 20200630110153 25
+bingpreview 32 731896 20200613095650 0
+robot 30 153952 20200624033014 2
+link 13 58040 20200630140821 3
+crawl 13 100473 20200627085827 1
+unknown 9 613 20200630080449 9
+MegaIndex\.ru/ 9 63820 20200615144337 1
+(firefox/)([0-9]\.|[0-1][0]\.) 6 91160 20200622095539 0
+no_user_agent 5 113656 20200626010512 0
+php 4 732 20200628194539 0
+Feedfetcher\-Google 4 15714 20200629120856 0
+facebookexternalhit/ 2 7402 20200601080447 0
+PhantomJS 1 11468 20200613095454 0
+Google[\x20]Web[\x20]Preview 1 7402 20200613095602 0
+YandexImages/ 1 10119 20200609075759 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+woff2 3 231480 0 0
+php 621 109202 0 0
+Unknown 4 2430 0 0
+png 68 261073 0 0
+css 67 934165 0 0
+js 76 1845411 0 0
+xml 3 2551 0 0
+html 1080 9545494 0 0
+jpg 9 874104 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+ios_ipad 56 56
+macosx10 66 66
+macosx11 4 4
+psp 1 1
+macosx8 15 15
+macosx7 13 13
+macosx 12 12
+ios_iphone 90 30
+winphone 1 1
+linuxandroid 222 105
+winvista 1 1
+win8 40 39
+win8.1 129 111
+macosx6 14 14
+win7 267 267
+linuxubuntu 1 1
+win10 153 129
+winlong 9 9
+linux 137 137
+Unknown 597 597
+win2003 3 3
+macosx9 40 40
+winxp 47 47
+unix 13 13
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 200
+chrome41.0.2272.104 3 3
+opera31.0.1889.174 6 6
+chrome99.0 1 1
+safari5.1.3 2 2
+opera54.0.2952.64 3 3
+firefox38.0.5 1 1
+chrome50.0.2661.75 1 1
+chrome56.0.2896.3 2 2
+opera53.0.2907.68 2 2
+safari7.0.6 1 1
+chrome67.0.3396.99 3 3
+firefox42.0 4 4
+firefox33.0 5 5
+chrome61.0.3163.100 2 2
+firefox47.0 1 1
+msie9.0 6 6
+android 29 0
+chrome26.0.1410.65 1 1
+chrome74.0.3729.131 2 2
+chrome40.0.2214.93 1 1
+chrome39.0.2171.95 8 8
+safari13.1 68 8
+chrome31.0.1650.63 3 3
+safari7.0.3 3 3
+firefox40.0.2 3 3
+chrome44.0.2403.156 1 1
+firefox64.0 3 3
+chrome33.0.1750.146 1 1
+chrome41.0.2272.118 1 1
+chrome45.0.2454.84 40 40
+chrome34.0.1847.76 12 12
+opera53.0.2907.99 1 1
+chrome46.0.2490.80 2 2
+chrome31.0.1650.59 1 1
+chrome29.0.1547.76 2 2
+safari7.1.3 1 1
+chrome37.0.2062.120 1 1
+chrome37.0.2062.94 5 5
+chrome41.0.2272.89 1 1
+chrome30.0.1599.103 3 3
+chrome42.0.2311.135 6 6
+chrome66.0.3359.117 59 36
+chrome67.0.3396.62 1 1
+safari8.0 28 28
+chrome38.0.2125.111 5 5
+safari7.0.1 1 1
+chrome65.0.3325.52 1 1
+chrome73.0.3683.90 6 6
+chrome36.0.1985.143 1 1
+firefox62.0 58 58
+chrome16.0.912.63 1 1
+chrome37.0.2062.103 1 1
+firefox76.0 2 2
+chrome39.0.2171.93 16 16
+chrome35.0.1916.153 5 5
+firefox31.0 6 6
+chrome42.0.2311.152 9 9
+chrome43.0.2357.132 8 8
+chrome33.0.1750.117 2 2
+firefox67.0 1 1
+firefox45.0 2 2
+chrome79.0.3945.79 18 18
+chrome40.0.2214.91 1 1
+chrome45.0.2454.86 2 2
+safari8.0.2 2 2
+chrome33.0.1750.154 4 4
+opera55.0.2994.44 1 1
+chrome54.0.2878.86 1 1
+firefox77.0 2 2
+chrome67.0.3396.79 4 4
+chrome30.0.1599.101 3 3
+chrome47.0.2503.0 4 4
+firefox30.0 2 2
+chrome32.0.1700.76 2 2
+chrome81.0.4044.122 1 1
+chrome44.0.2403.133 6 6
+chrome65.0.3325.146 1 1
+chrome40.0.2214.45 1 1
+opera55.0.2955.0 2 2
+chrome36.0.1985.125 2 2
+safari8.0.7 1 1
+chrome43.0.2357.124 5 5
+chrome39.0.2171.71 1 1
+chrome34.0.1847.131 2 2
+opera53.0.2907.57 1 1
+chrome33.0.1750.152 1 1
+chrome83.0.4103.106 21 3
+mozilla 70 70
+chrome63.0.3239.26 4 4
+chrome44.0.2403.130 13 13
+chrome40.0.2214.115 2 2
+firefox72.0 1 1
+chrome42.0.2311.90 7 7
+chrome67.0.3396.87 2 2
+chrome43.0.2357.134 6 6
+chrome38.0.2125.122 6 6
+chrome60.0.3112.107 1 1
+chrome35.0.1916.47 1 1
+firefox35.0 8 8
+safari8.0.6 1 1
+firefox57.0 4 4
+chrome83.0.4103.97 5 5
+chrome63.0.3239.132 8 8
+chrome53.0.2785.143 1 1
+chrome32.0.1700.107 1 1
+safari7.1 3 3
+msie10.0 16 15
+chrome64.0.3282.167 1 1
+msie11.0 83 82
+firefox41.0 4 4
+netscape 1 1
+chrome67.0.3396.10 5 5
+chrome65.0.3325.181 2 2
+chrome44.0.2403.107 3 3
+iphone 1 1
+firefox34.0 6 6
+firefox39.0 11 11
+safari8.0.3 1 1
+Unknown 567 567
+chrome66.0.3359.181 5 5
+chrome43.0.2357.81 2 2
+chrome30.0.1599.114 1 1
+chrome36.0.1985.67 3 3
+chrome67.0.3396.0 4 4
+firefox28.0 4 4
+firefox52.0 3 3
+chrome40.0.2214.111 1 1
+safari8.0.8 2 2
+chrome39.0.2171.99 3 3
+chrome33.0.1750.136 88 0
+chrome44.0.2403.155 16 16
+safari9.0 4 4
+chrome30.0.0.0 3 3
+chrome44.0.2403.157 29 29
+safari5.1 3 3
+chrome42.0.2311.111 2 2
+opera41.9.4315.9043 4 4
+chrome44.0.2403.90 1 1
+chrome34.0.1847.137 1 1
+chrome40.0.2214.94 2 2
+chrome37.0.2062.124 1 1
+firefox56.0 2 2
+chrome76.0.3809.132 1 1
+chrome67.0.3396.40 1 1
+firefox24.0 2 2
+msie8.0 16 16
+opera43.0.2442.991 1 1
+msie7.0 19 19
+chrome66.0.3359.139 3 3
+safari7.0 7 7
+chrome72.0.3626.109 4 4
+firefox29.0 1 1
+chrome44.0.2403.89 6 6
+chrome32.0.1667.0 2 2
+safari6.0 5 5
+chrome41.0.2228.0 1 1
+firefox38.0 17 17
+opera54.0.2952.51 1 1
+firefox31.9 2 2
+opera62.0.3331.99 11 11
+firefox40.0 24 24
+chrome38.0.2125.104 2 2
+chrome72.0.3626.121 2 2
+firefox37.0 5 5
+chrome41.0.2225.0 1 1
+chrome74.0.3729.169 2 2
+chrome64.0.3282.186 2 2
+chrome55.0.2883.87 5 5
+safari4.0.2 3 3
+netscape5.0 2 2
+chrome39.0.2171.65 1 1
+chrome41.0.2272.101 6 6
+edge12 2 2
+chrome45.0.2454.85 40 40
+chrome43.0.2357.65 3 3
+firefox32.0 5 5
+safari7.0.4 3 3
+chrome35.0.1916.114 3 3
+chrome58.0.3029.110 1 1
+firefox59.0 7 7
+chrome46.0.2490.13 6 6
+chrome43.0.2357.130 6 6
+safari5.1.7 3 3
+firefox36.0 2 2
+safari 32 32
+chrome44.0.2403.125 12 12
+chrome44.0.2403.128 5 5
+firefox27.0 2 2
+safari6.0.5 3 3
+chrome49.0.2623.112 2 2
+chrome38.0.2125.102 12 12
+chrome34.0.1847.114 1 1
+firefox58.0 3 3
+chrome42.0.2311.153 6 6
+chrome78.0.3904.108 2 2
+chrome68.0.3440.7 2 2
+chrome30.0.1599.66 26 26
+chrome42.0.0.9895 2 2
+chrome75.0.3770.100 7 7
+chrome46.0.2490.22 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla/5.0_AppleWebKit/999.0_(KHTML,_like_Gecko)_Chrome/99.0_Safari/999.0 20200613095214
+python-requests/2.21.0 20200624004007
+WordPress/4.9.15;_http://injul.com.do 20200630234833
+Mozilla 20200616061650
+Mozilla/5.0_(compatible) 20200630220623
+User-Agent\ 20200611023112
+python-requests/2.23.0 20200620052908
+Mozilla/4.0_(compatible;_snom300-SIP_7.3.26_1.1.3-s) 20200625012231
+python-requests/2.22.0 20200613232505
+Mozilla/5.0_zgrab/0.x 20200630022658
+WordPress/4.9.14;_http://injul.com.do 20200610231710
+python-requests/2.24.0 20200630031439
+Go-http-client/1.1 20200627101321
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 8
+python-requests/2.23.0 20200620052908
+python-requests/2.22.0 20200613232505
+python-requests/2.24.0 20200630031439
+Go-http-client/1.1 20200627101321
+User-Agent\ 20200611023112
+python-requests/2.21.0 20200624004007
+WordPress/4.9.14;_http://injul.com.do 20200610231710
+WordPress/4.9.15;_http://injul.com.do 20200630234833
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1047 1049
+From1 2 2
+From2 6 6
+From3 1 1
+From4 655 873
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com 2 2
+www_google_com_do 3 3
+www_google_com_mx 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.facebook.net 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+404 1214 15259040
+400 1 21
+302 32 620
+500 2 0
+405 2 102
+301 183 1780
+403 413 288274
+401 2 1426
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 485
+/wp-content/themes/sketch/wp-ajax24.php 1 -
+/generate_config.php 1 -
+/wp-content/plugins/custom-registration-form-builder-with-submission-manager/readme.txt 1 -
+/gemeinschaft/prov/snom/settings.php 1 -
+/bk/ 2 -
+/wp-content/plugins/imega-teleport/readme.txt 1 -
+/pv/snom745.htm 1 -
+/tftp/snom320.htm 1 -
+/Cisco/SPA508G/508System.xml 2 -
+/cache/blackhat.php 1 -
+/sipSPIP330.cfg 3 -
+/c0nfig.php 1 -
+/tftpboot/snom710.htm 1 -
+/provision.php 1 -
+/000000000000.xml 4 -
+/pv/snom760.htm 1 -
+/snom/snom710.htm 1 -
+/000000000000-registration.cfg 4 -
+/provisioning_snom.php 1 -
+/p.php 1 -
+/snom/snom760.htm 1 -
+/provisioning/snom300.htm 1 -
+/redirect.php 1 -
+/wp-content/uploader.php 1 -
+/pv/snom720.htm 1 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 8 -
+/temp/ 2 -
+/tftpboot/snom765.htm 1 -
+/tag/jose-polanco-gomez/ 1 -
+/provisioning/snom720.htm 1 -
+/que-es-feminicidio-o-femicidio/ 2 http://injul.com.do/
+/get.php 1 -
+/aastra/aastra.cfg 3 -
+/2017/ 1 -
+/snom_prov.php 1 -
+/snomMP.htm 1 -
+/tftp/snom305.htm 1 -
+/Cisco/SPA509G/509System.xml 2 -
+/la-designacion-de-jueces-en-las-alta-cortes 1 -
+/0004f2000000.cfg 3 -
+/seturl.php 1 -
+/cisco_SPA51/512System.xml 2 -
+/wp-content/plugins/elementor-pro/changelog.txt 1 -
+/Aastra-6863i/aastra.cfg 2 -
+/+/ 2 -
+/tag/johan-liriano/ 2 -
+/settings.php 1 -
+/2015/02/08/new-tax-laws-to-bo-aware-of-in-2015/ 2 -
+/tftp/snom820.htm 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 58 -
+/Cisco301G/301System.xml 2 -
+/category/home-edition 1 -
+/Aastra-6753i/aastra.cfg 2 -
+/configs/snom/snom360.htm 1 -
+/snom375.htm 1 -
+/snomD765.php 1 -
+/Aastra_6755i_aastra.cfg 2 -
+/SNOM/snom710.htm 1 -
+/tag/polanco-gomez/ 1 -
+/tftp/snom745.htm 1 -
+/configs/snom-config.php 1 -
+/2015/02/ 2 -
+/provisioning.php 1 -
+/concrete/css/images/chosen-sprite.png 2 -
+/humans.txt 4 -
+/locaphone/prov/snom/settings.php 1 -
+/snom/snom725.htm 1 -
+/prov/snom/snom-setting.php 1 -
+/snom870/snom870.htm 1 -
+/olux.php 2 -
+/provisioning/snom712.htm 1 -
+/snom/config.php 1 -
+/cms/ 2 -
+/wp-content/plugins/drag-and-drop-multiple-file-upload-contact-form-7/assets/js/dnd-upload-cf7.js 1 -
+/2015/02/08/dress-for-success-tips-for-legal-aids/ 2 -
+/old-wp/ 2 -
+/sys.cfg 3 -
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 61 -
+/services/ 2 -
+/tftpboot/snomMP.htm 1 -
+/cisco-SPA504G/504System.xml 2 -
+/snom870.php 1 -
+/sipSSIP5000.cfg 3 -
+/provisioning/provisioning/snom/configuration/710/general.xml 1 -
+/fcheck.php 1 -
+/tftp/snom315.htm 1 -
+/tag/dominicanas/ 1 -
+/site/ 2 -
+/old/wp-login.php 1 -
+/2015/02/08/so-youre-thinking-about-going-to-law-school/ 2 -
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/ 7 -
+/admin/.env 1 -
+/snom370.php 1 -
+/tftpboot/snom375.htm 1 -
+/Aastra_6865I_aastra.cfg 2 -
+/feliz-navidad-y-prospero-2015/ 1 -
+/Aastra-6735i/aastra.cfg 2 -
+/provisioning/snom710.htm 1 -
+/cisco509/509System.xml 2 -
+/SNOM-360/snom360.htm 1 -
+/pv/snom820.htm 1 -
+/snom/snom870.htm 1 -
+/getConfig.php 1 -
+/snom715/snom715.htm 1 -
+/reconomy/snom715-vpn.php 1 -
+/backup/ 2 -
+/provisioning/snom/snomconfig.html 1 -
+/felicidades-campeon/ 1 http://injul.com.do/felicidades-campeon/
+/shell.php 1 -
+/boot.bin 2 -
+/provisioning/snomMP.htm 1 -
+/demo/ 2 -
+/sipSPIP560.cfg 3 -
+/2011/03/19 1 -
+/Aastra_6863i/aastra.cfg 2 -
+/pv/snom315.htm 1 -
+/cisco_SPA512/512System.xml 2 -
+/concrete/themes/concrete/main.css 2 -
+/transparencia/ 1 http://injul.com.do/
+/SNOM-315/snom315.htm 1 -
+/license.php 1 -
+/snom375/snom375.htm 1 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 3 http://injul.com.do/
+/wp-content/plugins/1-flash-gallery/images.php 1 -
+/rPS/snom-rPS.php 1 -
+/tftpboot/snom305.htm 1 -
+/snom/snom300.htm 1 -
+/Aastra-6865i/aastra.cfg 2 -
+/sip-domain.cfg 3 -
+/wp-content/plugins/wc-frontend-manager/readme.txt 1 -
+/Aastra_6735I_aastra.cfg 2 -
+/Aastra-6755i/aastra.cfg 2 -
+/sip.cfg 3 -
+/contactos/ 6 -
+/Cisco-SPA-122/122System.xml 1 -
+/000000000034.cfg 2 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 60 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 6 http://injul.com.do/
+/snom/config/settings.php 1 -
+/tag/democracia/ 1 -
+/wp/wp-login.php 1 -
+/snomP1/snomPA1.htm 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 6 -
+/SNOM-320/snom320.htm 1 -
+/provisioning/snom345.htm 1 -
+/rPS/snom/rps.php 1 -
+/wp-content/uploads/wppa/74.jpg 1 -
+/snom/snom712.htm 1 -
+/000000000053.cfg 2 -
+/b374k.php 1 -
+/pv/snomMP.htm 1 -
+/tftp/snom715.htm 1 -
+/getcfg.php 1 -
+/tftpboot/snom720.htm 1 -
+/snomxml.php 1 -
+/v2/ 2 -
+/000000000000-directory.xml 4 -
+/site.cfg 1 -
+/Cisco2102/2102System.xml 2 -
+/otro/ 2 -
+/Cisco501/501System.xml 2 -
+/2017/09/05/hello-world/ 3 -
+/boot.cfg 2 -
+/2012/09/ 1 -
+/tftp/snom765.htm 1 -
+/cisco508/508.xml 2 -
+/wp-report.php 1 injul.com.do
+/pv/snom710.htm 1 -
+/snom725/snom725.htm 1 -
+/snom/general.xml 1 -
+/0000000000000.cfg 2 -
+/wp-content/uploads/2012/09/toga3.jpg 7 http://aspectosdelderechoengeneral.blogspot.com/2015/05/la-toga-y-el-birrete-en-el-poder.html
+/snom712.htm 1 -
+/snom305/snom305.htm 1 -
+/phone0004f23d4c96.cfg 1 -
+/snom320/snom320.htm 1 -
+/Spa504G/504System.xml 2 -
+/AastrsTemplate/aastra_phone.cfg 2 -
+/pv/snomPA1.htm 1 -
+/old/ 5 -
+/features.cfg 2 -
+/InCreate-FullPackage.zip 3 -
+/snom/redir.tmp.php 1 -
+/wp-includes/output.php 1 -
+/m9.php 1 -
+/snomPA1.htm 1 -
+/tftpboot/snom315.htm 1 -
+/sito/ 2 -
+/provisioning/snom820.htm 1 -
+/snom765/snom765.htm 1 -
+/general.php 1 -
+/autoprovision/snom/snom821/snom821.xml 1 -
+/snom/snomPA1.htm 1 -
+/Aastra_6753I_aastra.cfg 2 -
+/ap/snom/snom300.xml 1 -
+/devices/group1/snom3xx.php 1 -
+/wp-content/plugins/complete-gallery-manager/frames/upload-images.php 1 http://www.google.com/
+/snom/snom300.php 1 -
+/snom870.htm 1 -
+/assets/global/plugins/plupload/examples/upload.php 1 http://www.google.com/
+/pv/snom300.htm 1 -
+/tftp/snom345.htm 1 -
+/tftp/snom720.htm 1 -
+/snom/snomMP.htm 1 -
+/wp-content/plugins/dzs-videogallery/admin/dzsuploader/upload.css 1 http://www.google.com/
+/SNOM-345/snom345.htm 1 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/trackback/ 1 http://injul.com.do/seguridad-ante-la-ocurrencia-de-un-terremoto/
+/tftpboot/snom745.htm 1 -
+/backup/wp-login.php 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/ 1 http://injul.com.do/
+/wp-content/themes/sketch/404.php 1 -
+/ajax-index.php 1 -
+/Cisco504G/504System.xml 2 -
+/new/ 5 -
+/0004f2123456.cfg 3 -
+/000000000000-directory~.xml 3 -
+/puesta-en-circulacion-de-la-novela-la-busqueda/ 2 -
+/snom712/snom712.htm 1 -
+/provisioning/snom375.htm 1 -
+/boot/PAP2T.cfg 2 -
+/wp-admin/test/test 1 http://www.injul.com.do/wp-admin/test/test
+/tftp/snom375.htm 1 -
+/bootstrap/000000000000.cfg 2 -
+/ipPhones/snom/3XX/bootStrap.xml.php 1 -
+/web/ 2 -
+/Beach.jpg 2 -
+/wordpress/wp-login.php 1 -
+/snom760.htm 1 -
+/wp-content/uploads/ 2 -
+/SNOM-715/snom715.htm 1 -
+/snom/snom320.htm 1 -
+/sip-master.cfg 3 -
+/sipSPIP335.cfg 3 -
+/cloud/cloud.php 1 -
+/provisioning/snom745.htm 1 -
+/SPA514G/514System.xml 2 -
+/aastra/000000000000.cfg 2 -
+/cisco122/122.xml 2 -
+/2015/02/08/protect-your-image-copyrights-online/ 1 -
+/old-site/ 2 -
+/00000000000.cfg 2 -
+/configs/full/M300-becall.php 1 -
+/tftp/snom710.htm 1 -
+/000000000000.cfg 7 -
+/pv/snom765.htm 1 -
+/sip.ver 3 -
+/SNOM-725/snom725.htm 1 -
+/tftp/snom760.htm 1 -
+/Aastra_6739i/aastra.cfg 2 -
+/wp-content/plugins/easyrotator-for-wordpress/cache.php 1 -
+/snom345/snom345.htm 1 -
+/pv/snom725.htm 1 -
+/Cisco3102/$MA_SPA3102.xml 2 -
+/bootStrap.xml.php 1 -
+/sipSSIP7000.cfg 3 -
+/snomprov.php 1 -
+/tftpboot/snom870.htm 1 -
+/BT_HT286_HT486-config.txt 2 -
+/app/provision/000000000000.cfg 2 -
+/000000000035.cfg 2 -
+/SNOM-720/snom720.htm 1 -
+/snom/prov-additional.php 1 -
+/snom/snom305.htm 1 -
+/m700.php 1 -
+/snom715.php 1 -
+/Aastra_6737i_aastra.cfg 2 -
+/snomD715.php 1 -
+/aastra/firmware/000000000000.cfg 2 -
+/SNOM-375/snom375.htm 1 -
+/wp-content/plugins/Premium_Gallery_Manager/uploadify/uploadify.css 1 http://www.google.com/
+/recordando-a-garzon/ 6 http://injul.com.do/
+/provisioning/snom715.htm 1 -
+/snom300/snom300.htm 1 -
+/tftpboot/snom820.htm 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/up3.php 1 -
+/cisco508/508System.xml 2 -
+/snom754/snom745.htm 1 -
+/000000000025.cfg 2 -
+/wp-content/plugins/hello/hello.php 1 -
+/wp/ 5 -
+/snom/snom820.htm 1 -
+/sipSPIP670.cfg 3 -
+/provisioning/snom765.htm 1 -
+/SNOM-710/snom710.htm 1 -
+/2015/02/08/know-your-rights-in-the-air/ 2 -
+/snom345.htm 1 -
+/Aastra_6867i/aastra.cfg 2 -
+/snom720.htm 1 -
+/SNOM-PA1/snomPA1.htm 1 -
+/provisioning/snom725.htm 1 -
+/snom/snom745.htm 1 -
+/spa122/122.xml 2 -
+/cibersecuestro/ 2 -
+/snom305.htm 1 -
+/000000000028.cfg 2 -
+/snom760/snom760.htm 1 -
+/Cisco122/122System.xml 2 -
+/wordpress/ 5 -
+/tftp/snom725.htm 1 -
+/Aastra-6739i/aastra.cfg 2 -
+/main.php 1 -
+/sip_318.cfg 1 -
+/provisioning/snom870.htm 1 -
+/tmp/ 2 -
+/cisco502/502System.xml 2 -
+/snom710.htm 1 -
+/pv/snom870.htm 1 -
+/Aastra_6755/aastra.cfg 2 -
+/Cisco514/514System.xml 2 -
+/tftpboot/snom300.htm 1 -
+/snom/prov-m9.php 1 -
+/category/info/ 2 -
+/Cisco/112/112System.xml 2 -
+/snom300.php 1 -
+/prov.php 1 -
+/wp1/ 2 -
+/wp-admin/test/test/file/2013gdocs 115 -
+/snom/snom315.htm 1 -
+/snom720/snom720.htm 1 -
+/2015/02/08/why-you-should-care-what-uber-does-via-time-magazine/ 1 -
+/prov/sefi.php 1 -
+/snom360.php 1 -
+/wp-content/gavandas.php 1 injul.com.do
+/V2/setting.php 1 -
+/chase/update/chase/personal_info.htm 58 -
+/configs/snom/snom300.htm 1 -
+/SNOM-745/snom745.htm 1 -
+/Aastra-6867i/aastra.cfg 2 -
+/contactos 1 -
+/snom320.php 1 -
+/snomMP/snomMP.htm 1 -
+/tftpboot/snom725.htm 1 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 8 -
+/injul-te-cura-en-salud/ 1 -
+/snom765.php 1 -
+/final-redes-sociales-ley-sopa/ 1 -
+/tftp/snom870.htm 1 -
+/bitrix/admin/search.php 1 -
+/config.php 1 -
+/snom/snomM9.php 1 -
+/provisioning.cfg 2 -
+/SNOM-712/snom712.htm 1 -
+/aastra/phone000000000000.cfg 2 -
+/ads.txt 4 -
+/phone.cfg 3 -
+/polycom/000000000000.cfg 1 -
+/concrete/images/avatar_none.png 1 -
+/cisco_SPA512G/512System.xml 2 -
+/Cisco122/$MA_SPA122.xml 2 -
+/alfa.php 1 -
+/Aastra-6757i/aastra.cfg 2 -
+/wp-content/plugins/miniorange-2-factor-authentication/readme.txt 1 -
+/snom.php 1 -
+/2017/09/05/6/ 1 -
+/snom315.htm 1 -
+/provisioning/snom760.htm 1 -
+/blog/ 5 -
+/2017/09/ 1 -
+/snom/redir.php 1 -
+/snom/300/configuration.php 1 -
+/pv/snom712.htm 1 -
+/2019/ 2 -
+/snomD725.php 1 -
+/tftp/snom300.htm 1 -
+/configure/snom/snom320.htm 1 -
+/administrator/ 1 -
+/la-dignidad-de-la-toga/ 2 -
+/000000000000-Config.xml 2 -
+/wp2/ 2 -
+/Aastra-6737i/aastra.cfg 2 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 1 http://injul.com.do/la-designacion-de-jueces-en-las-alta-cortes/
+/cisco525/525.xml 1 -
+/assets/plugins/plupload/examples/upload.php 1 http://www.google.com/
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-ii/ 1 -
+/snom-config.php 1 -
+/wp-configs 1 -
+/provisioning/snomPA1.htm 1 -
+/2020/ 2 -
+/SNOM-MP/snomMP.htm 1 -
+/novedades/ 1 -
+/dialogo-entre-las-altas-cortes/ 1 http://injul.com.do/
+/snom710/snom710.htm 1 -
+/net-cloud/provision_snom.php 1 -
+/ap/snom/basic.xml 1 -
+/v1/ 2 -
+/dev/ 2 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 53 -
+/autoprovision/snom/snom370/snom370.xml 1 -
+/sipSPIP331.cfg 3 -
+/snom715.htm 1 -
+/Cisco512/512System.xml 2 -
+/tftp/snom712.htm 1 -
+/ps/snom_provision.php 1 -
+/Aastra-6869i/aastra.cfg 2 -
+/p/snom/dev/snom370.htm 1 -
+/snom305.php 1 -
+/tag/pablo-pujols-seipio/ 1 -
+/snom/snom715.htm 1 -
+/test/ 5 -
+/sps/snom/phone.xml 1 -
+/boot/yealink_phonebook.xml 2 -
+/snom/snom765.htm 1 -
+/sip_domain.cfg 3 -
+/pv/snom715.htm 1 -
+/tftpboot/snom320.htm 1 -
+/ReadMe.txt 3 -
+/chase/update/chase/ 5 -
+/wp-content/themes/onetone/readme.txt 1 -
+/tftpboot/snomPA1.htm 1 -
+/yealink/y000000000000.cfg 1 -
+/pv/snom345.htm 1 -
+/snom710.php 1 -
+/spa514G.cfg 2 -
+/cisco_SPA509G/509System.xml 2 -
+/config-v4.php 1 -
+/SNOM-300/snom300.htm 1 -
+/phone1.cfg 3 -
+/wp1/wp-login.php 2 -
+/Polycomsip-base.cfg 2 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 31 -
+/wp-dbs.php 2 -
+/2019/wp-login.php 1 -
+/tftpboot/snom760.htm 1 -
+/wp-content/plugins/bbpress/templates/default/js/editor.min.js 1 injul.com.do
+/Aastra_6731I_aastra.cfg 2 -
+/LICENSE.TXT 2 -
+/configs/mredirect.php 1 -
+/carta-al-jefe-de-la-policia-nacional/ 2 http://injul.com.do/
+/provisioning/snomxml.php 1 -
+/cisco112/112System.xml 2 -
+/tftp/snomPA1.htm 1 -
+/2020/wp-login.php 1 -
+/snom/settings.xml 1 -
+/quieres-sopa/ 1 -
+/tftpboot/snom715.htm 1 -
+/como-la-cronica-de-una-muerte-anunciada/ 2 http://injul.com.do/
+/snom300.htm 1 -
+/pv/snom305.htm 1 -
+/Aastra_6757i_aastra.cfg 2 -
+/pv/snom320.htm 1 -
+/snom725.htm 1 -
+/js/admin.js 1 -
+/aastra.cfg 3 -
+/Cisco/122.xml 2 -
+/snom/snom345.htm 1 -
+/000000000000-user.cfg 2 -
+/SNOM-765/snom765.htm 1 -
+/wp-content/plugins/acf-options-importexport/readme.txt 1 -
+/cisco509/509.xml 2 -
+/snom820.htm 1 -
+/snom/snom720.htm 1 -
+/hpbx/handset_getconfig.php 1 -
+/tftpboot/snom345.htm 1 -
+/tftp/snomMP.htm 1 -
+/bak/ 2 -
+/snom745.htm 1 -
+/provisioning/snom_like/firmware/snom_provisioning.php 1 -
+/snom2/settings.php 1 -
+/snom315/snom315.htm 1 -
+/configs/full/M300-cloud.php 1 -
+/snom765.htm 1 -
+/tftpboot/snom712.htm 1 -
+/error_log.php 1 -
+/snom820/snom820.htm 1 -
+/snom320.htm 1 -
+/Aastra55i/aastra.cfg 2 -
+/SNOM-760/snom760.htm 1 -
+/504System.xml 2 -
+/mrabi/snom/m9/configuration.php 1 -
+/SNOM-305/snom305.htm 1 -
+/ 36 -
+/snom/snom300/snom300.xml 1 -
+/images/ 2 -
+/pv/snom375.htm 1 -
+/Aastra_6869i/aastra.cfg 2 -
+/Aastra_480i/aastra.cfg 2 -
+/provisioning/snom305.htm 1 -
+/wp-includes/ 1 -
+/autoprovision_staging/snom/snom300/snom300.xml 1 -
+/provisioning/snom315.htm 1 -
+/autoprovision/snom/snom300/snom300.xml 1 -
+/wso.php 1 -
+/provisioning/snom320.htm 1 -
+/snom/snom375.htm 1 -
+/main/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 215
+109.102.111.32 778 778 6758204 20200613095739
+50.31.174.162 537 537 10641 20200630234833
+62.210.215.115 26 26 84617 20200629100421
+207.174.130.114 26 26 101340 20200630220623
+66.246.224.12 18 18 133236 20200630090556
+141.101.143.15 15 38 658312 20200623121555
+51.77.52.160 11 11 81422 20200628045628
+89.136.31.222 10 10 74468 20200610045538
+167.172.213.162 6 6 33035 20200614031833
+37.187.78.50 5 5 37010 20200628194538
+171.4.241.181 4 4 17300 20200615202706
+51.89.201.9 4 4 28798 20200624085444
+191.96.250.159 4 4 17300 20200625184848
+34.70.109.186 4 4 28798 20200618030933
+217.182.207.92 4 4 17300 20200611225914
+188.143.169.29 4 4 99078 20200624191746
+181.36.217.90 4 26 801300 20200602083350
+5.182.210.228 3 3 2622 20200605162157
+34.233.47.162 3 3 22206 20200609073009
+176.110.134.2 3 3 85242 20200604120752
+64.227.79.119 3 3 31962 20200601063920
+171.4.239.61 2 2 8650 20200627025833
+45.41.136.144 2 2 56501 20200630000420
+91.121.79.16 2 2 42214 20200621043151
+159.203.41.1 2 2 7845 20200604183429
+45.61.111.18 0 32 312653 
+62.210.83.78 1 1 7402 20200623071558
+45.9.122.206 1 1 7402 20200612032527
+3.21.158.132 1 1 7402 20200608171032
+52.243.58.251 1 1 28414 20200602112908
+37.120.211.108 1 1 28414 20200612063725
+107.172.56.210 2 2 14928 20200614174257
+192.3.241.9 1 1 7402 20200616054728
+107.189.11.80 1 1 0 20200623000531
+212.102.33.47 1 1 7526 20200625132752
+74.92.201.65 1 1 7402 20200630124129
+139.59.43.196 1 1 1192 20200614051641
+64.137.65.51 2 2 8650 20200624135456
+198.12.156.214 1 1 1192 20200625233929
+159.203.24.155 1 1 0 20200623223011
+178.16.58.83 1 1 7402 20200627171640
+213.149.103.132 1 1 1192 20200615113628
+212.129.52.65 1 1 1248 20200629084609
+95.217.238.175 1 1 7402 20200606061928
+167.71.175.204 1 1 1192 20200628010516
+183.136.225.46 1 1 28414 20200601145520
+188.166.222.27 1 1 1192 20200625175719
+185.165.116.22 2 2 7842 20200614025304
+103.82.235.3 2 2 14804 20200627125807
+174.138.30.233 2 2 7842 20200628132634
+199.249.230.157 1 1 7402 20200624004007
+5.196.204.173 1 1 1192 20200627010134
+62.210.82.198 2 2 14804 20200612213125
+198.12.125.113 1 1 7402 20200615223146
+51.105.54.212 1 1 7402 20200630031439
+156.146.36.115 1 1 7526 20200621072608
+119.23.211.54 1 1 28414 20200618022024
+91.208.99.2 1 1 1192 20200608015106
+80.82.68.173 1 1 7402 20200627054557
+198.23.187.68 2 2 14928 20200610231711
+83.143.86.62 1 1 7402 20200630022658
+47.254.35.11 1 1 9434 20200606013259
+52.226.22.194 1 1 1192 20200610053039
+80.82.68.69 1 1 28414 20200626154926
+129.204.89.159 1 1 1192 20200611004846
+103.13.242.215 1 1 7402 20200602045638
+119.15.95.198 1 1 0 20200617201545
+112.78.3.201 1 1 1192 20200616082127
+167.172.184.1 2 2 7842 20200609153933
+208.80.194.29 1 1 0 20200615015608
+209.242.220.11 1 1 7402 20200615194541
+208.113.162.87 1 1 1192 20200626224235
+104.251.219.234 0 32 312653 
+2.58.46.204 1 1 7526 20200607141937
+209.242.220.220 1 1 7402 20200615185633
+173.211.46.164 1 1 7864 20200611023112
+104.238.116.152 1 1 1192 20200629060648
+45.10.239.97 2 2 8650 20200623180022
+80.239.140.67 1 1 7395 20200605033108
+208.97.177.90 2 2 2384 20200622224045
+51.158.153.222 1 1 7402 20200615194453
+37.120.135.168 2 2 56501 20200610131149
+87.236.20.239 1 1 1192 20200605050806
+96.8.119.76 2 2 14928 20200604115911
+185.220.101.138 1 1 0 20200621000515
+84.17.46.249 1 1 7526 20200621024719
+18.203.153.112 2 2 14044 20200608225107
+135.181.31.40 1 1 7402 20200623051923
+47.254.47.223 2 2 14278 20200606013235
+80.82.68.201 2 2 14797 20200618075928
+34.238.170.116 1 1 28414 20200612054103
+54.200.94.241 1 1 28414 20200612053427
+52.188.70.113 1 1 7402 20200616160137
+185.173.109.28 0 24 307209 
+40.113.124.250 1 1 1192 20200624171956
+159.69.249.231 1 1 7402 20200626074017
+171.22.255.104 2 2 8650 20200612051903
+178.128.68.121 1 1 1192 20200626164859
+212.102.33.46 1 1 7526 20200615180940
+45.76.226.251 1 1 238 20200601020131
+142.112.145.68 1 1 7526 20200624074011
+148.72.207.250 2 2 7842 20200623180245
+162.250.7.19 1 1 7402 20200606144036
+37.120.135.163 2 2 56501 20200615141201
+45.77.100.93 1 1 7402 20200613212552
+159.89.99.68 1 1 1192 20200611031856
+162.243.167.137 2 2 7402 20200616061651
+138.197.148.140 1 1 0 20200623223010
+31.171.152.140 1 1 7390 20200618010539
+173.208.129.58 0 1 0 
+213.167.139.228 1 1 28414 20200629210258
+192.71.36.158 1 1 7402 20200613060526
+78.46.90.120 1 1 29854 20200615211022
+62.210.111.97 2 2 15052 20200629102934
+54.196.12.172 1 1 28414 20200629063246
+119.10.180.44 1 1 7402 20200629122803
+45.72.61.147 1 1 7402 20200628000621
+66.150.70.218 2 2 14928 20200620004624
+159.89.183.168 1 1 1192 20200626225749
+167.99.123.34 1 1 1192 20200615210810
+165.22.107.13 1 1 238 20200601121941
+191.101.91.45 2 2 8650 20200607131626
+46.101.81.132 1 1 1192 20200622231430
+51.79.82.137 1 1 1192 20200608134521
+69.4.94.142 1 1 7402 20200601160934
+89.187.178.233 2 2 7637 20200618152845
+151.80.47.41 1 1 28414 20200627070436
+181.36.217.173 2 21 667466 20200602172244
+107.175.158.115 2 2 14928 20200607122506
+51.158.153.223 1 1 8567 20200615194455
+46.248.186.150 1 1 3929 20200615021004
+109.232.231.75 1 1 7402 20200622115349
+138.128.8.118 2 2 8650 20200623114741
+46.101.61.207 1 1 1192 20200608065858
+44.234.34.34 1 1 7402 20200625152541
+193.106.30.99 1 1 0 20200624202037
+45.122.223.198 1 1 1192 20200627004600
+189.80.149.90 1 1 1248 20200629122838
+199.244.88.132 1 1 7402 20200615054841
+139.59.215.241 1 1 1192 20200609221156
+89.76.209.157 2 2 8650 20200623164038
+192.71.38.71 1 1 7402 20200620112203
+82.118.22.4 1 1 28414 20200603182334
+188.170.233.98 2 2 8650 20200629075921
+52.249.178.155 2 2 14804 20200620052908
+192.71.3.26 2 2 14804 20200627101321
+82.102.21.158 2 2 56501 20200616185000
+51.68.228.131 1 1 1248 20200606144038
+206.189.155.76 1 1 1192 20200608105002
+198.55.110.142 1 1 7402 20200609104513
+47.88.51.0 1 1 7864 20200606013201
+47.254.22.192 1 1 7402 20200606013129
+128.199.158.156 1 1 7402 20200618094416
+139.59.78.248 1 1 1192 20200626234430
+38.129.103.82 0 29 310696 
+116.202.16.58 1 1 7402 20200606121759
+66.154.112.148 1 1 7402 20200612014839
+46.101.150.9 1 1 1192 20200614062009
+47.89.251.140 1 1 6642 20200606013332
+192.109.110.218 2 2 8650 20200607105757
+150.107.205.22 1 1 1248 20200607200744
+64.246.165.150 1 1 7402 20200611014357
+68.183.184.7 1 1 1192 20200622222834
+5.58.52.231 1 1 0 20200603174506
+51.83.216.204 1 1 28414 20200601012653
+177.244.31.58 1 19 379741 20200622114118
+134.122.81.136 2 2 30917 20200628193938
+190.167.141.94 2 21 490252 20200605175635
+80.240.31.63 1 1 7402 20200612164706
+34.223.41.233 1 1 7402 20200621111535
+107.180.71.116 1 1 1192 20200615033547
+173.244.36.79 1 1 1248 20200630124130
+165.22.242.131 2 2 1430 20200611021302
+95.217.201.38 1 1 7402 20200608175558
+180.18.185.171 0 1 25652 
+95.216.78.144 1 1 7402 20200603122151
+178.213.188.67 1 1 7402 20200601190732
+13.82.22.25 2 2 14804 20200607200638
+13.91.103.115 1 1 7402 20200629193528
+138.128.10.31 2 2 8650 20200623033303
+51.38.177.209 1 1 7402 20200602130152
+92.244.96.102 1 1 3929 20200625224332
+104.37.175.239 1 1 7402 20200625012231
+34.233.170.90 1 1 7402 20200612170729
+104.238.125.133 1 1 1192 20200605101010
+51.15.180.70 2 2 7845 20200622171509
+167.99.204.251 1 1 1192 20200624150842
+192.241.80.161 2 2 8650 20200602033713
+148.72.158.226 2 2 42250 20200624062825
+104.154.84.59 1 1 7402 20200610172123
+34.217.30.139 1 1 28414 20200629063728
+192.99.34.142 2 2 30917 20200608221851
+107.161.84.83 1 1 7402 20200615182542
+157.245.240.102 1 1 1192 20200614234146
+52.188.122.72 2 2 14804 20200609183511
+103.134.94.86 2 2 14928 20200626000659
+34.94.225.127 1 1 238 20200601015856
+165.227.4.95 1 1 1192 20200609224427
+78.46.85.253 1 1 28414 20200614212732
+51.91.14.55 1 1 1192 20200627134447
+85.203.44.82 2 2 56501 20200613105953
+167.172.130.241 1 1 1192 20200627052627
+103.99.251.34 1 1 7402 20200615151048
+46.101.130.213 1 1 1192 20200627221047
+151.80.61.164 2 2 8650 20200604134910
+18.234.16.132 1 1 7402 20200613144143
+163.172.19.244 1 1 1192 20200627164900
+89.187.178.172 2 2 7637 20200611183140
+51.158.153.225 1 1 3929 20200615194457
+45.227.255.224 1 1 28414 20200626154014
+167.172.174.199 1 1 7402 20200626181819
+193.70.2.138 1 1 28378 20200615090457
+45.80.214.53 2 2 8650 20200623195343
+136.244.87.45 1 1 7402 20200622004945
+84.17.46.202 1 1 7526 20200616165531
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20200601 34 63 477685 23
+20200602 32 73 1535798 20
+20200603 30 30 98617 23
+20200604 24 24 96923 17
+20200605 26 45 525591 17
+20200606 31 31 107208 24
+20200607 31 31 71362 18
+20200608 31 56 416907 24
+20200609 30 30 52731 20
+20200610 34 34 167739 17
+20200611 35 35 66616 21
+20200612 29 29 192539 24
+20200613 808 808 6856045 20
+20200614 31 63 417193 19
+20200615 45 45 210586 31
+20200616 35 35 114394 23
+20200617 24 24 22980 16
+20200618 33 33 88298 20
+20200619 17 17 4249 11
+20200620 22 22 38294 15
+20200621 27 28 66036 17
+20200622 33 51 429360 22
+20200623 53 76 724628 23
+20200624 42 42 184280 23
+20200625 30 30 56530 21
+20200626 32 64 411803 22
+20200627 33 33 74224 25
+20200628 31 31 73908 17
+20200629 22 22 127933 20
+20200630 26 26 95453 18
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 24
+0s-30s 458
+30s-2mn 4
+5mn-15mn 9
+1h+ 41
+30mn-1h 74
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 28
+/wp-cron.php 536 10620 314 313
+/ 501 4377755 176 139
+/2018/06/12/las-lecciones-aprendidas-del-caso-cambridge-analytica/ 256 2937840 0 0
+/wp-login.php 77 95813 54 65
+/author/admin/ 71 472150 0 4
+/contactenos/ 59 546839 12 21
+/category/noticias/ 36 239112 1 3
+/nosotros/ 36 283104 2 3
+/feed/ 36 141412 26 31
+/servicios/ 35 236320 0 1
+/perfiles/ 20 188680 2 1
+/feed/atom/ 15 58005 11 6
+/xmlrpc.php 6 1500 3 5
+/carta-al-jefe-de-la-policia-nacional/feed/ 3 1324 3 3
+/wp-includes/wlwmanifest.xml 3 2551 0 1
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 3 231480 0 2
+// 2 13306 0 2
+/wp-json/oembed/1.0/embed 2 2208 0 0
+/2018/ 2 13184 0 2
+/wp-json/contact-form-7/v1/contact-forms/4/feedback 2 222 0 2
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 2 932 2 2
+/wp-admin/ 2 0 2 1
+/wp-admin/upgrade.php 1 21 0 1
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 1 0 1 1
+/staff-member/johanna-lemon/ 1 29854 1 1
+/wp-json/ 1 5251 0 0
+/comments/feed/ 1 426 0 0
+http://injul.com.do/wp-login.php 1 1248 1 1
+END_SIDER

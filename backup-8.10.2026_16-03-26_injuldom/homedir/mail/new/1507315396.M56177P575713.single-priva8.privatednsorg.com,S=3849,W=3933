@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id aBELA8TO11nhyAgA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 06 Oct 2017 14:43:16 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 06 Oct 2017 14:43:16 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1e0Xad-002b5k-Vw
+	for injuldom@single-priva8.privatednsorg.com; Fri, 06 Oct 2017 14:43:16 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1507315395-eximdsn-1952797263
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1e0Xad-002b5k-Vw@single-priva8.privatednsorg.com>
+Date: Fri, 06 Oct 2017 14:43:15 -0400
+
+--1507315395-eximdsn-1952797263
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1507315395-eximdsn-1952797263
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1507315395-eximdsn-1952797263
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1e0Xad-002b5b-UV
+	for info@injul.com.do; Fri, 06 Oct 2017 14:43:15 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 151.237.177.181
+Date: Fri, 6 Oct 2017 18:43:15 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <4a5dfabd1b7c56a32c515b564056aa2a@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: reloj quartz movement (IP: 151.237.177.181, flt7.filterserver.biz)
+Correo electrónico: elliottmceacharn@gmx.de
+URL: http://moralesarchibold.com/?option=com_k2&amp;view=itemlist&amp;task=user&amp;id=295745
+Comentario: 
+Su logo fue el primero que se registró en la historia para un fabricante de relojes.
+y Rolex Industrie Decidimos equiparas las 6 tiendas más populares de la página web que te dan la posibilidad de adquirir tu 
+reloj: Reloj demarca, Onlysilver, Relojes outlet, Todo relojes, Outlet 
+Joyería y Relojes online.  and Rolex Industrie SA es una empresa suiza de 
+relojes de pulsera y accesorios, creada tras la fusión en 2004, de Montres Rolex , 
+Para fomentar y mantener ese entorno de intercambio útil y libre de creencias, hemos establecido un conjunto de 
+reglas fáciles que tienen como objetivo garantizar el desarrollo conveniente de esos 
+debates.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=196#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=196#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=196#wpbody-content
+Actualmente hay 195 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1507315395-eximdsn-1952797263--

@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: injuldom@priva28.privatednsorg.com
+Received: from priva28.privatednsorg.com
+	by priva28.privatednsorg.com with LMTP
+	id OFXEIUPJ9F1QFgIAft/lqw
+	(envelope-from <>)
+	for <injuldom@priva28.privatednsorg.com>; Sat, 14 Dec 2019 06:36:35 -0500
+Return-path: <>
+Envelope-to: injuldom@priva28.privatednsorg.com
+Delivery-date: Sat, 14 Dec 2019 06:36:35 -0500
+Received: from mailnull by priva28.privatednsorg.com with local (Exim 4.92)
+	id 1ig5it-000aC9-Gf
+	for injuldom@priva28.privatednsorg.com; Sat, 14 Dec 2019 06:36:35 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@priva28.privatednsorg.com>
+To: injuldom@priva28.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1576323395-eximdsn-1300874279
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ig5it-000aC9-Gf@priva28.privatednsorg.com>
+Date: Sat, 14 Dec 2019 06:36:35 -0500
+
+--1576323395-eximdsn-1300874279
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1576323395-eximdsn-1300874279
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; priva28.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1576323395-eximdsn-1300874279
+Content-type: message/rfc822
+
+Return-path: <injuldom@priva28.privatednsorg.com>
+Received: from injuldom by priva28.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@priva28.privatednsorg.com>)
+	id 1ig5in-000a9e-Oz
+	for info@injul.com.do; Sat, 14 Dec 2019 06:36:29 -0500
+To: info@injul.com.do
+Subject: =?UTF-8?B?d3d3LmluanVsLmNvbS5kbyAi0JrQsNGA0YLQsCDQrdC90YHQui4g0J3Qvg==?=  =?UTF-8?B?0LLRi9C1INGE0LDQutGC0Ysg0Lgg0LTQtdGC0LDQu9C4INC+INC60LDRgNGC?=  =?UTF-8?B?0LUgd29ybGQgb2YgdGFua3Mi?=
+X-PHP-Script: injul.com.do/index.php for 5.153.178.43
+X-PHP-Originating-Script: 1966:class-phpmailer.php
+Date: Sat, 14 Dec 2019 11:36:29 +0000
+From: BorovBeen <info@injul.com.do>
+Reply-To: bardachok84@rambler.ru
+Message-ID: <3539b29491af20b8a47e109e555e4011@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-cPanel-MailScanner-Information: Please contact the ISP for more information
+X-cPanel-MailScanner-ID: 1ig5in-000a9e-Oz
+X-cPanel-MailScanner: Found to be clean
+X-cPanel-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=2.753, required 5, FREEMAIL_FORGED_REPLYTO 2.50,
+	FREEMAIL_REPLYTO_END_DIGIT 0.25)
+X-cPanel-MailScanner-SpamScore: ss
+X-cPanel-MailScanner-From: injuldom@priva28.privatednsorg.com
+X-Spam-Status: No
+
+From: BorovBeen <bardachok84@rambler.ru>
+Subject: Карта Энск. Новые факты и детали о карте world of tanks
+
+Message Body:
+Я говорю «ДА»  - <a href=https://www.youtube.com/watch?v=29iyJxIu83g&t>город энск</a>
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1576323395-eximdsn-1300874279--

@@ -1,0 +1,5 @@
+# BEGIN BANA-NOEXEC-UPLOADS
+<FilesMatch "\.(php|php3|php4|php5|php7|php8|phtml|pht|phar|phps|cgi|pl|py)$">
+Require all denied
+</FilesMatch>
+# END BANA-NOEXEC-UPLOADS

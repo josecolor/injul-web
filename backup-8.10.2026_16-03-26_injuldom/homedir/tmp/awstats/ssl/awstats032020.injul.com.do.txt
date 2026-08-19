@@ -1,0 +1,325 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202003 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/ssl/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2691                
+POS_VISITOR 7297                
+POS_DAY 8157                
+POS_DOMAIN 3309                
+POS_LOGIN 3600                
+POS_ROBOT 3755                
+POS_WORMS 4152                
+POS_EMAILSENDER 4283                
+POS_EMAILRECEIVER 4426                
+POS_SESSION 8697                
+POS_SIDER 8876                
+POS_FILETYPES 4561                
+POS_DOWNLOADS 4675                
+POS_OS 4745                
+POS_BROWSER 4894                
+POS_SCREENSIZE 5236                
+POS_UNKNOWNREFERER 5310                
+POS_UNKNOWNREFERERBROWSER 5570                
+POS_ORIGIN 5740                
+POS_SEREFERRALS 5874                
+POS_PAGEREFS 6018                
+POS_SEARCHWORDS 6198                
+POS_KEYWORDS 6350                
+POS_MISC 2355                
+POS_ERRORS 6409                
+POS_CLUSTER 3456                
+POS_SIDER_404 6541                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20200401010728 15 2674 14931945716812
+FirstTime 20200302010203
+LastTime 20200331191653
+LastUpdate 20200401083323 15 0 14 0 0
+TotalVisits 67                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 21                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 20 6 8 43805
+1 1 1 20 1 3 6239
+2 2 2 7428 3 5 6818
+3 5 5 22264 9 9 109430
+4 8 8 19631 6 8 15449
+5 8 8 160 15 19 16562
+6 1 1 20 1 2 104
+7 8 8 14936 10 12 23152
+8 2 2 7428 4 5 66004
+9 1 1 20 3 5 6259
+10 1 1 20 1 2 37530
+11 3 3 7448 4 11 62226
+12 4 4 80 1 7 7822
+13 0 0 0 0 1 69
+14 4 5 19410 4 4 28514
+15 1 1 7408 3 4 239
+16 4 4 31021 4 5 29927
+17 1 1 20 7 12 21502
+18 2 2 40 1 3 6239
+19 8 8 96285 6 9 9046
+20 2 2 40 3 4 81035
+21 2 2 40 3 5 42109
+22 2 2 7428 3 6 7670
+23 1 1 20 3 6 15721
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 61 62 104084
+ru 4 4 29632
+cn 2 2 19511
+gb 2 2 49571
+fr 2 2 30981
+ca 1 1 7408
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+unknown 37 2553 20200331191651 37
+AhrefsBot/ 18 92548 20200331174239 6
+no_user_agent 15 0 20200330051607 0
+bot[\s_+:,\.\;\/\\-] 13 433023 20200331004641 0
+Googlebot/ 7 483 20200331173707 7
+[\s_+:,\.\;\/\\-]bot 3 22224 20200320175753 0
+java 2 14816 20200323072925 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 20 230356 0 0
+txt 1 7292 0 0
+php 52 3539 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/license.txt 1 0 7292
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+win7 1 1
+linuxandroid 1 1
+macosx 1 1
+winvista 1 1
+Unknown 57 57
+win10 9 9
+linux 3 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+chrome41.0.2228.0 1 1
+firefox62.0 1 0
+chrome71.0.3578.98 4 4
+chrome70.0.3538.102 1 1
+firefox71.0 1 1
+chrome76.0.3809.132 1 1
+chrome75.0.3770.142 1 1
+chrome46.0.2490.80 2 2
+chrome72.0.3626.119 1 1
+chrome41.0.2225.0 1 1
+chrome76.0.3809.87 1 1
+chrome78.0.3904.108 1 1
+Unknown 54 54
+mozilla 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20200304195750
+WordPress/4.9.13;_https://injul.com.do 20200331191653
+Go-http-client/1.1 20200330032115
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20200330032115
+WordPress/4.9.13;_https://injul.com.do 20200331191653
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 19 20
+From1 0 0
+From2 0 0
+From3 1 1
+From4 52 52
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://webmail.injul.com.do 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 5 3490
+404 12 73212
+401 13 472
+308 6 510
+301 24 140
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/wp-content/plugins/gourl-bitcoin-payment-gateway-paid-downloads-membership/images/coins/litecoin.png 1 -
+/.well-known/assetlinks.json 7 -
+/wp-content/plugins/gourl-bitcoin-payment-gateway-paid-downloads-membership/images/coins/paid.png 1 -
+/wordpress/license.txt 1 -
+/wp-content/plugins/gourl-bitcoin-payment-gateway-paid-downloads-membership/images/coins/bitcoin.png 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/Template/TestCaseMethod.tpl.dist 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 21
+50.31.174.162 51 51 1020 20200331191653
+46.105.99.163 2 2 30981 20200316161559
+77.74.177.114 2 2 14816 20200330074457
+170.130.15.198 1 1 7408 20200309191441
+51.158.102.212 1 1 12098 20200331140824
+77.74.177.113 1 1 7408 20200329115441
+159.203.12.19 1 1 0 20200325143423
+134.122.57.74 1 1 7408 20200327035709
+35.160.77.144 1 1 7408 20200330032115
+93.159.230.28 1 1 7408 20200329154232
+167.172.227.96 1 1 37473 20200304194728
+58.242.194.173 1 1 7408 20200324073849
+13.58.168.155 1 1 7408 20200304032040
+44.234.20.1 1 1 7408 20200328023150
+47.74.8.74 1 1 7408 20200326225551
+35.160.128.113 1 1 7408 20200312045638
+138.197.155.4 1 1 0 20200325143423
+157.245.216.190 1 1 37461 20200304195750
+111.7.100.22 1 1 12103 20200321040656
+64.225.58.122 1 1 13863 20200304190902
+167.99.12.53 0 1 7292 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20200302 2 2 40 2
+20200304 6 6 96245 5
+20200305 2 2 40 2
+20200307 1 1 20 1
+20200308 1 1 20 1
+20200309 1 1 7408 1
+20200311 2 3 7332 2
+20200312 4 4 7468 3
+20200313 1 1 20 1
+20200314 2 2 40 2
+20200316 6 6 31061 4
+20200318 3 3 60 3
+20200319 4 4 80 4
+20200320 2 2 40 2
+20200321 1 1 12103 1
+20200322 1 1 20 1
+20200323 1 1 20 1
+20200324 2 2 7428 2
+20200325 4 4 40 4
+20200326 6 6 14896 6
+20200327 4 4 7468 4
+20200328 3 3 7448 3
+20200329 3 3 14836 3
+20200330 5 5 14876 5
+20200331 5 5 12178 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+30mn-1h 3
+15mn-30mn 1
+30s-2mn 1
+0s-30s 62
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/wp-cron.php 51 1020 47 47
+/ 20 230356 19 20
+/wp-login.php 1 2519 1 0
+END_SIDER

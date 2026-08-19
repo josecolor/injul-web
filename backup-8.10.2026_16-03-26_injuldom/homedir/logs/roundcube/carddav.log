@@ -1,0 +1,7 @@
+[12-Apr-2026 11:41:07 -0400]: <65d499fc> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 
+[12-Apr-2026 13:52:38 -0400]: <c0aaef9b> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 
+[04-Aug-2026 10:15:06 -0400]: <f96b794d> [5 ERR] Cannot update name of addressbook 1: cURL error 52: Empty reply from server (see https://curl.se/libcurl/c/libcurl-errors.html) for https://127.0.0.1:2080/addressbooks/contacto@injul.com.do/addressbook/ 
+[04-Aug-2026 10:15:07 -0400]: <f96b794d> [5 ERR] Rediscovery of account 1 failed: Could not determine the addressbook home 
+[04-Aug-2026 10:15:13 -0400]: <f96b794d> [5 ERR] Failed to sync addressbook: cURL error 52: Empty reply from server (see https://curl.se/libcurl/c/libcurl-errors.html) for https://127.0.0.1:2080/addressbooks/contacto@injul.com.do/addressbook/ 

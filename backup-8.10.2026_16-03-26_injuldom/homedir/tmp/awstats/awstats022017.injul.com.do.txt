@@ -1,0 +1,385 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201702 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2664                
+POS_VISITOR 12243               
+POS_DAY 12315               
+POS_DOMAIN 3357                
+POS_LOGIN 3568                
+POS_ROBOT 3723                
+POS_WORMS 3855                
+POS_EMAILSENDER 3986                
+POS_EMAILRECEIVER 4129                
+POS_SESSION 12371               
+POS_SIDER 12508               
+POS_FILETYPES 4264                
+POS_DOWNLOADS 4328                
+POS_OS 4376                
+POS_BROWSER 4441                
+POS_SCREENSIZE 4491                
+POS_UNKNOWNREFERER 4565                
+POS_UNKNOWNREFERERBROWSER 4652                
+POS_ORIGIN 4734                
+POS_SEREFERRALS 4864                
+POS_PAGEREFS 5008                
+POS_SEARCHWORDS 5156                
+POS_KEYWORDS 5308                
+POS_MISC 2328                
+POS_ERRORS 5367                
+POS_CLUSTER 3424                
+POS_SIDER_404 5460                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170301000716 108 23893 9939003487942
+FirstTime 0
+LastTime 0
+LastUpdate 20170301073510 108 0 107 0 0
+TotalVisits 0                   
+TotalUnique 0                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 0                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 181 193 221564
+1 0 0 0 185 191 218120
+2 0 0 0 232 236 270928
+3 0 0 0 277 293 336364
+4 0 0 0 208 215 246820
+5 0 0 0 193 205 235340
+6 0 0 0 216 232 262892
+7 0 0 0 262 273 313404
+8 0 0 0 184 196 225008
+9 0 0 0 152 170 192864
+10 0 0 0 201 220 252560
+11 0 0 0 237 253 289296
+12 0 0 0 221 233 267484
+13 0 0 0 138 148 168756
+14 0 0 0 205 219 251412
+15 0 0 0 202 212 243376
+16 0 0 0 186 194 220416
+17 0 0 0 213 217 247968
+18 0 0 0 195 203 231896
+19 0 0 0 216 223 256004
+20 0 0 0 182 196 225008
+21 0 0 0 179 189 215824
+22 0 0 0 260 274 311108
+23 0 0 0 304 314 360472
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 0
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 5295 6064884
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 167
+/xmlrpc.php 3 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 40 -
+/wp-content/uploads/wppa/152.jpg 6 -
+http://injul.com.do/ 1 http://injul.com.do
+//wp-login.php 2 -
+/wp-content/uploads/2012/02/EleccionesRD2012-Los-Anuncios-de-Los-Pre-Candidatos-Dominicanos.jpg 1 -
+/como-la-cronica-de-una-muerte-anunciada/ 58 http://injul.com.do/
+/perfiles/ 10 -
+/wp-login.php 18 -
+/// 1 -
+/transparencia/ 40 http://injul.com.do/
+/wp-content/uploads/wppa/thumbs/63.jpg 1 -
+/blog/ 5 http://injul.com.do/blog/
+/tag/terremoto/ 2 -
+/cibersecuestro/ 26 http://injul.com.do/
+/wp-content/uploads/wppa/thumbs/64.jpg 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 24 -
+/category/home-edition/ 1 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 597 http://injul.com.do/
+/otro/ 1 -
+/8.php.suspected 1 -
+/carta-al-jefe-de-la-policia-nacional/ 31 http://injul.com.do/
+/quieres-sopa/ 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 136 http://injul.com.do/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 14 -
+/2012/02/ 4 http://injul.com.do
+/robots.txt 190 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-ii/ 5 -
+/2.php 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 14 -
+/2013/10/21/ 2 -
+/el-culpable-favorito/ 14 -
+/contactos/ 13 -
+/tag/militar/ 1 -
+/2011/12/ 1 -
+/stats.php 1 -
+/tag/pujols-seipio/ 2 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 37 http://injul.com.do/
+/dialogo-entre-las-altas-cortes/ 5 -
+/injul-te-cura-en-salud/ 1 -
+/navidad-fiesta-de-la-familia-y-de-la-vida/ 1 -
+/uso-del-monosilabo-de-o-del/ 8 -
+/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 8 -
+/imagenes-de-la-puesta-en-circulacion-de-la-busqueda/ 3 http://injul.com.do/
+/5.php.suspected 1 -
+/respuestas/ 2 http://injul.com.do/
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 1 -
+/feed/ 3 -
+/el-espectaculo/ 190 http://injul.com.do/
+/wp-content/uploads/wppa/156.jpg 6 -
+/principio-de-igualdad-en-la-republica-dominicana-en-su-nueva-constitucion/ 2 -
+/wp-content/uploads/2012/01/democracia_formal-294x300.jpg 1 -
+/recordando-a-garzon/ 58 http://injul.com.do/
+/wp-content/uploads/2012/01/democracia_formal.jpg 38 http://eastigela.astileku.eus/course/view.php
+/final-redes-sociales-ley-sopa/ 9 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/blog/ 2 http://injul.com.do/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/blog/
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/ 15 -
+/quienes-somos/ 6 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 14 http://injul.com.do/
+/anecdota-don-juan-de-los-palotes/ 31 http://injul.com.do/
+/que-es-estado-social-y-democratico-de-derecho-2/ 318 http://injul.com.do/
+/,.php 1 -
+/medidas-para-evitar-el-spam-en-el-correo-electronico-o-email/ 14 -
+/tag/congela/ 1 -
+/ley-de-reforma-del-congreso-de-2011-enmienda-de-la-constitucion-de-espana/ 2 -
+/injul-te-cura-en-salud 1 -
+/7.php.suspected 1 -
+/4.php 1 -
+/blog/robots.txt 3 -
+/atencion-mujeres/ 1 -
+/wp-content/plugins/wp-photo-album-plus/images/clock.png 1 -
+/9.php 1 -
+/wp-content/uploads/wppa/70.jpg 1 -
+/que-debe-hacer-la-policia-para-ser-bien-valorada/ 12 -
+/tag/pablo-pujols-seipio/ 14 -
+/servicios 1 -
+/nos/ 12 -
+/tag/violencia/ 1 -
+/balance%C2%A0en-la-designacion-de-las-altas-cortes-felices-poco-felices-y-tristes/ 1 -
+/contactos 1 -
+/8.php 1 -
+/2011/03/19 1 -
+/wp-content/uploads/2012/10/juri1.jpg 1 -
+/6.php 1 -
+/page/11/ 2 -
+/ 2236 http://injul.com.do
+/bubu.php 1 -
+/tag/corte 1 -
+/servicios/ 8 -
+/license.txt 1 -
+/tag/spam 1 -
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/ 61 http://injul.com.do/
+/nos 1 -
+/chase/update/chase/personal_info.htm 13 -
+/page/5/ 4 -
+/cpanel.php 1 -
+/hello-world/ 188 http://injul.com.do/
+/3.php 1 -
+/con-conferencias-los-curas-pedofilos-no-se-curan/ 1 -
+/tag/cronica-de-una-muerte-anunciada/ 1 -
+/6.php.suspected 1 -
+/wp-admin/test/test/file/2013gdocs/ 56 -
+/2014/11/ 13 -
+/tag/estado 1 -
+/no-politizar-la-reforma-del-codigo-procesal-penal/ 5 -
+/la-huelga-como-estrategia-de-marketing 1 -
+/que-es-est 4 http://injul.com.do/
+/oc-shib/status.php 1 -
+/2013/11/19/ 1 -
+/tag/palotes/ 1 -
+/o-nos-montamos-o-nos-atropella/ 141 -
+/policiacidio-o-policidio/ 1 -
+/wp-content/uploads/2012/09/toga3.jpg 11 http://aspectosdelderechoengeneral.blogspot.com/2015/05/la-toga-y-el-birrete-en-el-poder.html
+/la-designacion-de-jueces-en-las-alta-cortes/ 12 -
+/wp-content/uploads/wppa/66.jpg 1 -
+/tag/fructuoso-heredia/ 1 -
+/nextcloud/status.php 1 -
+/la-clonacion-2-0-o-como-protegerte-del-robo-de-identidad-en-internet/ 5 -
+/5.php 1 -
+/la-dignidad-de-la-toga/ 8 -
+/pcodvi.php 1 -
+http://injul.com.do/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 1 http://injul.com.do/
+/principio-de-igualdad-y-la-nueva-cons 1 -
+/status.php 1 -
+/novedades/ 16 -
+/tag/juan-manuel-fructuoso/ 1 -
+/tag/congreso/ 1 -
+/no-nos-pertenecen/ 5 http://injul.com.do/
+/wp-content/uploads/wppa/thumbs/75.jpg 1 -
+/tag/democracia/ 2 -
+/3.php.suspected 1 -
+/tag/patrullaje-militar/ 2 -
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/ 2 -
+/la-funcion-reductora-del-derecho-penal-ante-un-estado-de-derecho-amenazado-o-la-logica-del-carnicero-responsable/ 2 -
+/category/home-edition/page/12/ 1 -
+/wp/ 3 -
+/wordpress/ 3 -
+/index.php/wp-json/wp/v2/posts/ 6 -
+/2012/08/ 1 -
+/9.php.suspected 1 -
+/tag/cambio/ 13 -
+/chase/update/chase/ 27 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 17 -
+/feed/atom/ 26 -
+/felicidades-campeon/ 97 http://injul.com.do/
+/category/home-edition/page/5/ 1 -
+/IPES/ 1 -
+/tag/ante/ 1 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/ 15 http://injul.com.do/
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 14 -
+/censura-ordenes-procurador-ante-violencia-genero/ 1 -
+/wp-content/uploads/wppa/thumbs/74.jpg 1 -
+/feliz-navidad-y-prospero-2015/ 1 -
+/que-es-feminicidio-o-femicidio/ 54 http://injul.com.do/
+/novedades 1 -
+/labistamechi/ 1 -
+/tag/seguridad/ 1 -
+/oc/status.php 1 -
+/..php 1 -
+/2.php.suspected 1 -
+/wp-includes/images/xit.gif 1 -
+/7.php 1 -
+/4.php.suspected 1 -
+/wp-admin/test/test/file/2013gdocs 63 -
+/conferencia-difusion-de-las-investigaciones-juridicas-2/ 10 -
+/owncloud/status.php 1 -
+/page/2/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 0
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 0
+END_SIDER

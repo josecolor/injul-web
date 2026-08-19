@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id 8A4YOUpJzll9KQAA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 29 Sep 2017 09:23:22 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 29 Sep 2017 09:23:22 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dxvGE-0003yy-Te
+	for injuldom@single-priva8.privatednsorg.com; Fri, 29 Sep 2017 09:23:22 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1506691402-eximdsn-145989444
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dxvGE-0003yy-Te@single-priva8.privatednsorg.com>
+Date: Fri, 29 Sep 2017 09:23:22 -0400
+
+--1506691402-eximdsn-145989444
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1506691402-eximdsn-145989444
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1506691402-eximdsn-145989444
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dxvGE-0003yo-Rq
+	for info@injul.com.do; Fri, 29 Sep 2017 09:23:22 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 188.68.252.145
+Date: Fri, 29 Sep 2017 13:23:22 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <c933f285a61c29a97f77cb042d5cdcfc@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: free cinema movies (IP: 188.68.252.145, n8252h145.sprintdatacenter.net)
+Correo electrónico: sue.teakle@gmail.com
+URL: http://programmermeetdesigner.com/user/profile/part32a
+Comentario: 
+Hi there are using Wordpress for your blog platform? I'm new to the blog world but 
+I'm trying to get started and set up my own. Do you need any coding 
+knowledge to make your own blog? Any help would be greatly appreciated!
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=154#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=154#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=154#wpbody-content
+Actualmente hay 153 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1506691402-eximdsn-145989444--

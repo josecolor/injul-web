@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id SPRuLJBVR1t/XQ8A6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Thu, 12 Jul 2018 09:20:16 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Thu, 12 Jul 2018 09:20:16 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1fdbW4-004KJW-Ma
+	for injuldom@single-priva8.privatednsorg.com; Thu, 12 Jul 2018 09:20:16 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1531401616-eximdsn-796437742
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1fdbW4-004KJW-Ma@single-priva8.privatednsorg.com>
+Date: Thu, 12 Jul 2018 09:20:16 -0400
+
+--1531401616-eximdsn-796437742
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1531401616-eximdsn-796437742
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1531401616-eximdsn-796437742
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1fdbW4-004KJO-Ko
+	for info@injul.com.do; Thu, 12 Jul 2018 09:20:16 -0400
+To: info@injul.com.do
+Subject: [www.injul.com.do] Tu sitio se ha actualizado a WordPress 4.9.7
+X-PHP-Script: injul.com.do/wp-cron.php for 65.60.22.66
+Date: Thu, 12 Jul 2018 13:20:16 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <5fccfa1982d4f2c19c591802ed3e9bb2@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+¡Hola! Tu sitio http://injul.com.do se ha actualizado automáticamente a WordPress 4.9.7.
+
+No es necesaria ninguna acción adicional por tu parte. Para más información sobre la versión 4.9.7 revisa la pantalla Acerca de WordPress:
+http://injul.com.do/wp-admin/about.php
+
+Si tienes algún problema o necesitas ayuda, los voluntarios en los foros de soporte WordPress.org pueden ayudarte.
+https://es.wordpress.org/support/
+
+También tienes algunos plugins o temas con actualizaciones disponibles. Actualizalos ahora:
+http://injul.com.do/wp-admin/
+
+El equipo de WordPress
+
+
+--1531401616-eximdsn-796437742--

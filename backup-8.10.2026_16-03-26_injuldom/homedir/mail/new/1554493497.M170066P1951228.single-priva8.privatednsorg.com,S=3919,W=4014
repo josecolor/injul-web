@@ -1,0 +1,95 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id WGSjCTmwp1z8xR0A6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 05 Apr 2019 15:44:57 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 05 Apr 2019 15:44:57 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1hCUll-008IXW-3v
+	for injuldom@single-priva8.privatednsorg.com; Fri, 05 Apr 2019 15:44:57 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1554493497-eximdsn-1733853752
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hCUll-008IXW-3v@single-priva8.privatednsorg.com>
+Date: Fri, 05 Apr 2019 15:44:57 -0400
+
+--1554493497-eximdsn-1733853752
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1554493497-eximdsn-1733853752
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1554493497-eximdsn-1733853752
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1hCUll-008IXL-2A
+	for info@injul.com.do; Fri, 05 Apr 2019 15:44:57 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "We offer you the opportunity to advertise your products and services."
+X-PHP-Script: injul.com.do/index.php for 217.64.113.216
+Date: Fri, 5 Apr 2019 19:44:57 +0000
+From: JamesNED <info@injul.com.do>
+Reply-To: jamesjub@gmail.com
+Message-ID: <2d6d80bfde0de27c09f5a69522d0fd7e@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+From: JamesNED <jamesjub@gmail.com>
+Subject: We offer you the opportunity to advertise your products and services.
+
+Message Body:
+We offer you the opportunity to advertise your products and services. 
+Hi! Here is  an amazing offer for you. I can help you with sending  your commercial offers or messages through feedback forms. The advantage of this method is that the messages sent through the feedback forms are included in the white list. This method increases the chance that your message will be read. Mailing is made in the same way you received this message. 
+ 
+Sending via Feedback Forms to any domain zones of the world. (more than 1000 domain zones.). 
+ 
+The cost of sending 1 million messages is $ 49 instead of $ 99. 
+All us sites that have a feedback form. (10 million messages sent) - $349 instead of $649 
+Domain zone .com - (12 million messages sent) - $399 instead of $699 
+All domain zones in Europe- (8 million messages sent) - $ 299 instead of $599 
+All sites in the world (25 million messages sent) - $499 instead of $999 
+ 
+Discounts are valid until. 
+Feedback and warranty! 
+Delivery report! 
+ 
+In the process of sending messages, we do not violate the rules of GDRP. 
+This message is created automatically use our contacts for communication. 
+ 
+Contact us. 
+Telegram - @FeedbackFormEU 
+Skype – FeedbackForm2019 
+Email - feedbackform@make-success.com 
+ 
+Thanks for reading.
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1554493497-eximdsn-1733853752--

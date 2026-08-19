@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id kGy6B8sd4V1vrg8A6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 29 Nov 2019 08:31:55 -0500
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 29 Nov 2019 08:31:55 -0500
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iagNH-004JPI-2u
+	for injuldom@single-priva8.privatednsorg.com; Fri, 29 Nov 2019 08:31:55 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1575034315-eximdsn-395321787
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iagNH-004JPI-2u@single-priva8.privatednsorg.com>
+Date: Fri, 29 Nov 2019 08:31:55 -0500
+
+--1575034315-eximdsn-395321787
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1575034315-eximdsn-395321787
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1575034315-eximdsn-395321787
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iagNH-004JP8-1R
+	for info@injul.com.do; Fri, 29 Nov 2019 08:31:55 -0500
+To: info@injul.com.do
+Subject: www.injul.com.do "Here is  offering  http://bit.ly/33vnmCA"
+X-PHP-Script: injul.com.do/index.php for 37.120.142.166
+Date: Fri, 29 Nov 2019 13:31:55 +0000
+From: ThomasAnderson <info@injul.com.do>
+Reply-To: anthonyNouri@gmail.com
+Message-ID: <267dc6f6387b8b743a701abdff868562@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: ThomasAnderson <anthonyNouri@gmail.com>
+Subject: Here is  offering  http://bit.ly/33vnmCA
+
+Message Body:
+Hello 
+I invite you to my team, I work with the administrators of the company directly. 
+- GUARANTEED high interest on Deposit rates 
+- instant automatic payments 
+- multi-level affiliate program 
+If you want to be a successful person write: 
+Telegram: @Tom_proinvest 
+Skype: live:.cid.18b402177db5105c             Thomas Anderson 
+ 
+http://bit.ly/2OnHlhW
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1575034315-eximdsn-395321787--

@@ -1,0 +1,1027 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 201801 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2692                
+POS_VISITOR 19419               
+POS_DAY 30562               
+POS_DOMAIN 3535                
+POS_LOGIN 4373                
+POS_ROBOT 4528                
+POS_WORMS 5635                
+POS_EMAILSENDER 5766                
+POS_EMAILRECEIVER 5909                
+POS_SESSION 31412               
+POS_SIDER 31622               
+POS_FILETYPES 6044                
+POS_DOWNLOADS 6373                
+POS_OS 6421                
+POS_BROWSER 6838                
+POS_SCREENSIZE 8371                
+POS_UNKNOWNREFERER 8445                
+POS_UNKNOWNREFERERBROWSER 8837                
+POS_ORIGIN 9301                
+POS_SEREFERRALS 9440                
+POS_PAGEREFS 9645                
+POS_SEARCHWORDS 9793                
+POS_KEYWORDS 9956                
+POS_MISC 2355                
+POS_ERRORS 10028               
+POS_CLUSTER 4229                
+POS_SIDER_404 10187               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180201000640 170 46808 14567106670076
+FirstTime 20180101001203
+LastTime 20180131225442
+LastUpdate 20180201071809 170 0 169 0 0
+TotalVisits 611                 
+TotalUnique 281                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 286                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 18 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 33 33 214095 61 79 625437
+1 19 19 119816 46 53 436225
+2 27 45 539696 46 56 504434
+3 34 50 714262 71 77 576474
+4 31 31 186933 49 65 371834
+5 36 36 204443 60 71 513572
+6 29 29 146487 49 55 328634
+7 28 47 1052457 52 63 418776
+8 73 239 2954639 101 141 844306
+9 66 129 2237171 72 88 686627
+10 88 294 6262207 57 90 640267
+11 63 153 1855725 55 76 509639
+12 34 117 1462488 46 64 521661
+13 32 68 1110877 69 80 734410
+14 28 28 233348 61 83 651809
+15 68 234 4463752 120 145 1991285
+16 50 133 1527249 66 113 981637
+17 60 193 3293330 78 99 655154
+18 41 149 2221662 53 69 548641
+19 59 139 1657968 57 71 463461
+20 56 74 622121 61 68 470866
+21 39 39 175940 56 76 626460
+22 64 144 1572343 46 62 439989
+23 41 41 162156 56 83 701337
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 45
+us 610 1558 17861249
+fr 106 106 826537
+cn 48 48 360815
+hu 47 47 236449
+pl 31 114 3014351
+do 30 142 4466221
+ru 28 28 233177
+ua 20 20 175176
+de 19 19 235340
+ca 18 106 3172640
+sc 17 33 627495
+br 16 16 85125
+in 14 14 107209
+es 10 10 251492
+gb 9 9 88325
+mu 7 7 38283
+it 6 6 30991
+vg 6 6 51354
+ge 5 5 13075
+se 5 5 48234
+vn 5 5 28376
+id 4 4 16403
+au 4 4 45950
+zz 3 3 17118
+uy 3 31 729858
+iq 2 2 9908
+jo 1 1 2615
+kr 1 1 0
+pk 1 1 8559
+nl 2 2 17118
+al 1 1 2615
+pt 1 1 2615
+mk 2 2 9908
+eg 1 1 2615
+jp 1 91 2038158
+il 1 1 8559
+ch 1 1 2615
+bg 3 3 19732
+np 1 1 8558
+eu 1 1 8559
+th 2 2 9909
+ir 2 2 36975
+by 1 1 2615
+ee 2 2 9908
+sg 1 1 28381
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 26
+googlebot 192 1925637 20180114210220 21
+bot[\s_+:,\.\;\/\\-] 124 876297 20180127073046 43
+Googlebot/ 79 700160 20180130175629 18
+YandexBot/ 60 116844 20180131185230 35
+php 34 12976 20180131225443 0
+bingbot/ 26 602137 20180131002609 7
+spider 18 195550 20180113095841 0
+Uptimebot/ 14 8559 20180130113717 0
+AhrefsBot/ 14 53255 20180131124916 7
+robot 13 20887 20180114174827 10
+spbot/ 7 51792 20180128131325 1
+(firefox/)([0-9]\.|[0-1][0]\.) 6 37183 20180130162543 3
+Baiduspider/ 6 51353 20180129120116 0
+unknown 6 420 20180130044345 6
+YandexImages/ 5 1959 20180130053005 0
+YisouSpider 4 34235 20180131024838 0
+SurveyBot/ 2 8626 20180124004446 1
+crawler4j 2 8629 20180117191306 1
+[\s_+:,\.\;\/\\-]bot 2 0 20180105093815 0
+Googlebot\-Image/ 1 8559 20180125040425 0
+Apache\-HttpClient/ 1 8559 20180123064621 0
+netcraft 1 28417 20180104191743 0
+googlebot\-image 1 0 20180105064321 0
+Wget/ 1 28417 20180129231422 0
+no_user_agent 1 28417 20180126095938 0
+crawl 1 769 20180130062144 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+svg 49 2396857 0 0
+eot 60 4268016 0 0
+ttf 48 2280768 0 0
+js 277 8401210 0 0
+css 240 4761012 0 0
+html 457 4885508 0 0
+xml 1 480 0 0
+php 410 309914 0 0
+woff2 20 1543200 0 0
+woff 55 2105288 0 0
+jpg 28 2239950 0 0
+png 747 1733118 0 0
+gif 24 50196 0 0
+cur 48 15648 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 26
+linuxubuntu 9 9
+ios_iphone 34 8
+win2000 1 1
+java 9 9
+winme 1 1
+Unknown 247 224
+macosx10 6 6
+bsdfreebsd 1 1
+winnt 284 121
+winxp 731 143
+macosx 153 73
+win95 1 1
+ios_ipad 1 1
+linuxandroid 176 30
+winunknown 10 10
+macosx12 34 34
+win2003 1 1
+winlong 2 2
+win8 152 152
+linux 48 48
+blackberry 1 1
+win8.1 23 23
+win10 365 95
+macosx6 1 1
+macosx11 5 5
+win7 168 99
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 78
+chrome64.0.3282.123 23 4
+chrome32.0.1700.99 98 18
+firefox32.0 1 1
+chrome59.0.3071.104 14 14
+opera45.0.2552.898 8 8
+firefox53.0 11 11
+opera8.86 1 1
+safari9.1.2 2 2
+chrome63.0.3239.132 68 20
+chrome58.0.3029.110 143 63
+chrome63.0.3239.111 54 7
+safari10.0.3 6 6
+msie10.0 1 1
+msie7.0 1 1
+firefox16.0 2 2
+chrome52.0.2743.116 100 12
+chrome51.0.2704.103 20 4
+konqueror5.7 1 1
+chrome36.0.869.0 1 1
+chrome45.0.2454.101 1 1
+chrome63.0.3239.84 4 4
+chrome59.0.3071.86 10 10
+firefox54.0 44 44
+chrome62.0.3202.94 2 2
+firefox35.0 4 4
+chrome56.0.2924.87 10 10
+chrome61.0.3163.100 13 13
+edge16 1 1
+firefox45.0 6 6
+firefox52.0 17 17
+android 4 4
+opera9.67 1 1
+firefox40.1 5 5
+chrome59.0.3071.115 55 55
+opera46.0.2597.32 3 3
+seamonkey 2 2
+edge14 2 2
+msie6.0 1 1
+opera8.48 1 1
+chrome41.0.2226.0 6 6
+chrome2.9 1 1
+chrome42.0.2311.152 1 1
+chrome59.0.3071.109 15 15
+msie8.0 696 108
+chrome56.0.2924.76 30 3
+chrome54.0.2840.71 20 20
+chrome34.0.1847.137 1 1
+msie6.1 18 18
+firefox29.0 26 26
+safari10.1.1 7 7
+ibrowse 4 4
+chrome51.0.2704.79 2 2
+chrome57.0.2987.133 98 18
+chrome34.0.1847.116 2 2
+firefox26.0 2 2
+chrome36.0.882.0 1 1
+chrome38.0.829.0 1 1
+chrome51.0.2704.106 4 4
+chrome53.0.2785.143 1 1
+Unknown 262 239
+firefox36.0 98 18
+msie9.0 104 21
+safari10.1 2 2
+firefox57.0 1 1
+opera46.0.2597.39 7 7
+wget 1 1
+chrome41.0.2228.0 98 18
+chrome39.0.2171.95 3 3
+safari10.0 33 7
+firefox27.0 1 1
+edge15 1 1
+msie11.0 28 28
+firefox34.0 1 1
+iphone 1 1
+chrome60.0.3112.90 2 2
+icecat 2 2
+opera12.17 141 141
+safari5.0.1 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 8
+WordPress 20180110010607
+WordPress/4.8.4;_http://injul.com.do 20180116221709
+MetaURI_API/2.0__metauri.com 20180127073202
+WordPress/4.8.5;_http://injul.com.do 20180131215937
+Seamonkey/13.2_(Nokia_5.6;_en_US;) 20180101085002
+wp-android 20180114112004
+Go-http-client/1.1 20180116095934
+Poster 20180111124825
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+WordPress 20180110010607
+Java/1.8.0_121 20180115003112
+Apache-HttpClient/4.5.2_(Java/1.8.0_121) 20180104093854
+WordPress/4.8.4;_http://injul.com.do 20180116221709
+Windows_Live_Writer 20180116004141
+MetaURI_API/2.0__metauri.com 20180127073202
+WordPress/4.8.5;_http://injul.com.do 20180131215937
+Go-http-client/1.1 20180116095934
+Poster 20180111124825
+wp-windowsphone 20180113040533
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 171 194
+From1 3 3
+From2 7 7
+From3 0 0
+From4 918 2260
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+virgilio 2 2
+google 1 1
+google_com 1 1
+www_google_com_do 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+injul+do 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+injul 2
+do 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+301 124 0
+403 66 75174
+401 26 30004
+500 1 1152
+405 1 60
+404 927 10326908
+302 143 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 223
+/FCKEditorV2/_whatsnew.html 1 -
+/tag/cronica-de-una-muerte-anunciada/ 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/upload.php 2 -
+/wp-content/plugins/reflex-gallery/admin/scripts/FileUploader/php.php 1 -
+/common/ 1 -
+/no-nos-pertenecen/ 8 -
+/scripts/ajax/ 1 -
+/fck/_whatsnew.html 1 -
+/imagenes-de-la-puesta-en-circulacion-de-la-busqueda/ 3 http://injul.com.do/
+/wp-content/plugins/showbiz/temp/update_extract/MYZUB.php 1 -
+/chase/update/chase/personal_info.htm 18 -
+/uploads/ 1 -
+/tag/lic-juan-fructuoso/ 1 -
+/tag/seguridad/ 1 -
+/conferencia-difusion-de-las-investigaciones-juridicas-2/ 1 -
+/labistamechi/dropbox/dropbox 1 -
+/webmaster/ 1 -
+/services/ 3 -
+/wp-content/themes/Total/owl.video.play.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/wp-content/plugins/1-flash-gallery/images.php 2 -
+/2014/11/ 1 -
+/con-conferencias-los-curas-pedofilos-no-se-curan/ 1 -
+/tag/navidad-en-familia/ 1 -
+/admin888/ 1 -
+/sysadm/ 1 -
+/inc/editor/ 1 -
+/chase/update/chase/ 6 -
+/wp-content/plugins/dzs-portfolio/upload.php 2 -
+/2011/03/19 1 -
+/fckeditor/_whatsnew.html 1 -
+/editor/dialog/fck_about.html 1 -
+/fck2/_whatsnew.html 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 18 -
+/11/ 1 -
+/checkadmin/ 1 -
+/CFIDE/scripts/ajax/ 1 -
+/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/moderator/ 1 -
+/wp-content/themes/social_icons/twitter_16.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/8/ 1 -
+/contactos/ 3 -
+/wp-content/plugins/dzs-videogallery/upload.php 2 -
+/tag/alfonso-torres/ 1 -
+/2012/01/ 1 -
+/webadmin/ 1 -
+/que-es-feminicidio-o-femicidio/ 20 http://injul.com.do/
+/wp-admin/test/test/file/2013gdocs 41 -
+/fckedit/editor/dialog/fck_about.html 1 -
+/wp-content/themes/Total/assets/images/bullets-black.png 12 http://injul.com.do/wp-content/themes/Total/assets/css/wpex-visual-composer-extend.css
+/admin_manage/ 1 -
+/tag/thunderbird/ 1 -
+/como-la-cronica-de-una-muerte-anunciada/ 7 http://injul.com.do/
+/wp-content/uploads/2012/03/BALTAZAR-GARZON.pdf 1 -
+/category/home-edition/page/6/ 1 -
+/chase/ 2 -
+/processlogin/ 1 -
+/2014/11/12/ 1 -
+/FCKeditor/_whatsnew.html 1 -
+/category/home-edition/page/8/ 1 -
+/tag/jefe-de-la-policia-nacional/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 21 -
+/2012/09/ 2 -
+/control/ 1 -
+/wp-content/uploads/wysija/themes/ok/ok.php 2 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 59 http://injul.com.do/
+/tag/juan-manuel-fructuoso/ 2 -
+/wp-content/plugins/dzs-portfolio/admin/upload.php 1 -
+/carta-al-jefe-de-la-policia-nacional/ 34 http://injul.com.do/
+/staff-member/emily-niche/feed/ 1 -
+/tag/violencia/ 1 -
+/system/ 1 -
+/Fck/_whatsnew.html 1 -
+/novedades 2 -
+/tag/policidio/ 1 -
+/newsadmin/ 1 -
+/_whatsnew.html 1 -
+/fckeditor/editor/dialog/fck_about.html 1 -
+/wp-content/plugins/all-in-one-video-pack 1 -
+/tag/juan-fructuoso/ 1 -
+/tag/pablo-pujols-seipio/ 3 -
+/IPES/ 2 -
+/administrator/ 1 -
+/wp-content/uploads/2012/09/toga2.jpg 1 -
+/la-dignidad-de-la-toga/ 1 -
+/final-redes-sociales-ley-sopa/ 1 -
+/jvc/ 1 -
+/Admin/ 1 -
+/viajando-a-la-habana-cuba/ 1 -
+/5/ 1 -
+/wp-json/oembed/1.0/embed 1 -
+/wp-admin/test/test/file/2013gdocs/ 6 -
+/tag/candido/ 1 -
+/fck2/editor/dialog/fck_about.html 1 -
+/wp-content/uploads/2011/10/navidad3.jpg 3 -
+/includes/editor/ 1 -
+/inc/ 1 -
+/js/ 1 -
+http://injul.com.do/wp-content/plugins/formcraft/file-upload/server/content/upload.php 1 -
+/wp-content/plugins/gallery-slider/launch.php 1 -
+/tag/fructuoso-heredia/ 1 -
+/el-culpable-favorito/ 3 http://injul.com.do/
+/novedades/ 4 -
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/ 1 -
+/fck/editor/dialog/fck_about.html 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-ii/ 1 -
+/FCKEditorV2/editor/dialog/fck_about.html 1 -
+/tag/pablo-pujols-seipio 1 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 10 http://injul.com.do/
+/~injuldom/ 1 http://184.154.249.82:2086/cpsess6575009184/scripts4/listaccts
+/anecdota-don-juan-de-los-palotes/ 4 http://injul.com.do/
+/wp-content/plugins/cherry-plugin/admin/import-export/DzXFv.php 1 -
+/injul-te-cura-en-salud/ 2 -
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/ 10 -
+/labistamechi/ 2 -
+/phpinfo.php 2 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 13 http://injul.com.do/
+http://injul.com.do/wp-content/plugins/dzs-portfolio/upload.php 1 -
+/modules/fieldvmegamenu/ajax/upload.php 1 -
+/tag/democracia/ 2 -
+/transparencia/ 11 -
+/tag/carta-del-lic-juan-fructuoso/ 2 -
+/wp-content/uploads/catalog_enquiry/x29Ec.php 1 -
+/components/com_sexycontactform/fileupload/index.php 1 -
+/javascripts/ 1 -
+/wp-content/themes/social_icons/reddit_16.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/register.php 2 -
+/487/ 1 -
+/inquiry/sample/order/ 1 -
+/atencion-mujeres/ 1 -
+/la-dignidad-de-la-toga 1 -
+/que-debe-hacer-la-policia-para-ser-bien-valorada/ 1 -
+/manage/ 1 -
+/fckedit/_whatsnew.html 1 -
+/wp-content/themes/social_icons/digg_16.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/hello-world/ 44 http://injul.com.do/
+/admin_manage_access/ 1 -
+/tag/manuel-castro-castillo/ 1 -
+/12/ 2 -
+/felicidades-campeon/ 23 http://injul.com.do/
+/la-clonacion-2-0-o-como-protegerte-del-robo-de-identidad-en-internet/ 1 -
+/quieres-sopa/ 1 -
+/tag/jose-polanco-gomez/ 2 -
+/policiacidio-o-policidio/ 1 -
+/wp-content/plugins/google-maps-by-daniel-martyn/version.php 1 -
+/FCKeditor/editor/dialog/fck_about.html 1 -
+/2012/01/30/ 1 -
+/js/ajax/ 1 -
+/wp-content/themes/social_icons/delicious_16.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/ckeditor/editor/dialog/fck_about.html 1 -
+/wp-content/uploads/2012/01/democracia_formal.jpg 1 http://eastigela.astileku.eus/course/view.php
+/admin_area/ 1 -
+/cibersecuestro/ 9 http://injul.com.do/
+/includes/ 1 -
+/Editor/ 1 -
+/lib/ 1 -
+/wp-content/uploads/2012/09/toga3.jpg 5 -
+/la-funcion-reductora-del-derecho-penal-ante-un-estado-de-derecho-amenazado-o-la-logica-del-carnicero-responsable/ 2 -
+/ckeditor/_whatsnew.html 1 -
+/wp-content/plugins/gallery-plugin/upload/php.php 1 -
+/fileadmin/ 1 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/ 4 http://injul.com.do/
+/recordando-a-garzon/ 5 http://injul.com.do/
+/assets/global/plugins/jquery-file-upload/server/php/ 1 http://injul.com.do/assets/global/plugins/jquery-file-upload/server/php/
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 22 -
+/2/ 1 -
+/category/home-edition/page/5/ 1 -
+/tag/platon/ 1 -
+/wp-content/plugins/cherry-plugin/admin/import-export/b3Ad6.php 1 -
+/2012/02/ 2 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 3 -
+/o-nos-montamos-o-nos-atropella/ 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/ 38 http://injul.com.do/
+/2013/11/ 1 -
+/el-espectaculo/ 8 -
+/tag/terremoto/ 1 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 4 -
+/js/lib/ 1 -
+/wp-content/plugins/dzs-videogallery/admin/upload.php 1 -
+/adm/ 1 -
+/tag/pujols-seipio/ 3 -
+/tag/polanco-gomez/ 2 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 3 http://injul.com.do/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/que-es-estado-social-y-democratico-de-derecho-2 1 -
+/contactos 2 -
+/wp-content/plugins/simple-dropbox-upload-form/dragup/ 2 -
+/Fck/editor/dialog/fck_about.html 1 -
+/wp-content/themes/social_icons/facebook_16.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/chase/update/ 1 -
+/sample-page/ 2 -
+/modules/mod_artuploader/upload.php 1 http://injul.com.do/modules/mod_artuploader/upload.php
+/sysadmin/ 1 -
+/2012/02/06/ 1 -
+/wp-content/themes/headway-163/style.css 1 http://injul.com.do/wp-content/themes/headway-163/style.css
+/javascripts/ajax/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 23 -
+/FCK/editor/dialog/fck_about.html 1 -
+/components/com_adsmanager/js/noconflict.js 1 -
+/otro/ 2 -
+/html/js/ 1 -
+/2017/09/05/hello-world/ 2 -
+/scripts/ 1 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 35 http://injul.com.do/
+/tag/alfonso-torres-ulloa/ 1 -
+/wp-content/jssor-slider/jssor-uploads/toVYP.php 1 -
+/ley-de-reforma-del-congreso-de-2011-enmienda-de-la-constitucion-de-espana/ 1 -
+/wp-content/plugins/simple-ads-manager/sam-ajax-admin.php 1 -
+/up.php 1 -
+/labistamechi/dropbox/dropbox/dropbox/dropbox/ 1 -
+/wp-content/themes/social_icons/google_plus_16.png 12 http://injul.com.do/wp-content/themes/Total/style.css
+/FCK/_whatsnew.html 1 -
+/2011/12/08/ 1 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 9 -
+/category/home-edition/ 1 -
+/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 1 -
+/manager/ 1 -
+/feliz-navidad-y-prospero-2015/ 2 -
+/ 75 -
+/HTMLEditor/ 1 -
+/dialogo-entre-las-altas-cortes/ 8 -
+/AdminWeb/ 1 -
+/la-huelga-como-estrategia-de-marketing/ 1 -
+/wp-content/plugins/google-maps-by-daniel-martyn/inuse.php 1 -
+/2013/10/21/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 286
+65.60.22.74 202 202 21 20180131215937
+62.210.189.101 56 56 464839 20180131123610
+62.210.111.44 28 28 239641 20180131094329
+178.21.50.82 24 24 118896 20180108041417
+37.72.175.67 19 102 2907147 20180114155949
+198.143.2.119 18 98 1357061 20180104102020
+209.95.48.212 18 98 1357061 20180116194606
+23.94.36.112 18 98 1357061 20180121171316
+65.181.122.15 18 101 1359330 20180102162035
+104.128.228.179 18 98 1357061 20180127225618
+199.195.250.148 18 101 1359330 20180131115029
+162.211.66.32 18 101 1359330 20180118125823
+205.185.117.201 18 101 1359330 20180107082432
+45.79.176.87 18 98 1357061 20180110185420
+198.46.251.49 18 101 1359330 20180125085722
+172.245.132.220 18 101 1359330 20180112150910
+178.21.50.234 14 14 69363 20180129094522
+192.99.67.12 12 100 3116782 20180116103545
+86.244.158.50 11 11 58098 20180113134536
+13.56.229.65 11 11 94141 20180122210022
+35.202.205.190 11 34 778853 20180116095933
+190.166.177.189 10 36 1010919 20180109110735
+103.217.244.23 10 10 49545 20180124141446
+123.207.95.146 9 9 77028 20180131033838
+195.22.124.123 9 9 77022 20180113063703
+107.172.46.75 2 2 9909 20180124041439
+213.136.85.29 1 1 28417 20180106151546
+196.245.236.141 1 1 8558 20180106161935
+190.167.253.177 7 33 986037 20180116172901
+118.71.173.113 2 2 9908 20180102071634
+217.160.63.32 2 2 28832 20180111124825
+180.3.160.141 0 18 405920 
+222.223.204.46 1 1 2615 20180116002701
+110.77.236.161 2 2 9909 20180130235954
+189.63.46.8 1 1 8558 20180112111739
+112.54.96.69 1 1 8558 20180116043541
+170.130.58.194 2 2 9908 20180111204916
+172.245.229.184 1 1 8558 20180112130459
+46.191.192.136 1 1 2615 20180103212547
+107.173.57.67 6 6 29724 20180111003134
+107.161.85.75 2 2 9908 20180112170619
+109.201.133.30 1 1 8559 20180123230638
+23.229.34.15 2 2 9908 20180106032813
+78.39.101.251 1 1 8558 20180113162806
+184.22.125.136 2 2 9909 20180119180837
+178.21.49.198 8 8 39632 20180112022809
+172.98.165.174 1 1 0 20180101084939
+89.110.53.175 1 1 2615 20180105084341
+111.20.46.109 1 1 1 20180101085007
+138.128.46.68 2 2 9908 20180101050711
+189.60.2.1 1 1 1350 20180112111814
+212.21.66.6 1 1 0 20180121233038
+155.254.17.24 2 2 9909 20180129141937
+219.148.155.85 1 1 2615 20180122104536
+91.122.49.127 1 1 2615 20180107005018
+155.94.179.150 2 2 9909 20180129075555
+103.27.223.133 1 1 8558 20180111082448
+190.122.103.85 3 25 813020 20180125095802
+78.25.98.114 1 1 1 20180129034422
+185.221.162.62 1 1 8558 20180101021908
+62.189.162.55 1 1 28417 20180109190406
+66.248.220.208 2 2 9909 20180130053853
+107.161.92.199 2 2 9909 20180124173327
+184.22.126.231 2 2 9909 20180117185300
+174.0.165.235 1 1 8558 20180116161655
+51.15.49.7 1 1 8559 20180119031947
+154.16.92.206 4 4 19816 20180110185826
+107.180.121.13 2 2 28832 20180108225013
+80.77.168.134 2 2 8558 20180115064127
+23.108.254.131 2 2 9908 20180113174045
+192.3.236.249 2 2 9908 20180105164755
+36.255.135.128 1 1 8558 20180108062921
+107.174.224.185 2 2 9908 20180107205918
+83.143.242.126 1 1 8559 20180118053719
+59.172.151.101 6 6 51348 20180103072013
+130.0.28.163 1 1 2615 20180101075543
+23.82.29.78 1 1 8558 20180107193822
+104.168.84.161 2 2 9909 20180130172602
+62.28.83.97 1 1 2615 20180122135711
+192.166.219.38 2 2 28832 20180114112004
+116.255.221.106 1 1 2615 20180126194623
+107.175.155.106 1 1 8558 20180112152729
+192.3.220.227 1 1 1350 20180113213929
+115.29.147.131 2 2 28832 20180113040533
+201.72.43.195 1 1 1 20180121232945
+189.60.22.1 2 2 9909 20180130044550
+51.15.40.233 1 1 0 20180121233101
+148.251.71.56 1 1 8558 20180110084541
+185.109.163.100 2 2 9908 20180113214040
+45.61.163.12 6 6 29727 20180122173026
+220.104.113.234 0 18 405920 
+188.129.172.85 1 1 2615 20180102222523
+23.105.183.46 2 2 9908 20180105151733
+172.93.136.96 1 1 1350 20180110084545
+134.19.230.225 1 1 2615 20180107154420
+27.111.42.145 2 2 5230 20180122132422
+196.196.50.114 2 2 9908 20180105080050
+186.120.159.127 4 23 823565 20180127072154
+79.66.158.201 5 5 42790 20180115180608
+54.226.173.11 1 1 34965 20180125131408
+89.39.107.205 2 2 17118 20180125224244
+198.52.181.204 1 1 8559 20180130070539
+91.210.47.55 1 1 1350 20180119042358
+101.0.112.230 2 2 28832 20180109163126
+23.231.110.23 2 2 9909 20180124014804
+45.61.163.231 2 2 17118 20180125170205
+37.115.33.85 1 1 2615 20180107095904
+79.203.47.146 1 1 0 20180107122938
+23.83.90.49 1 1 8559 20180120203625
+198.143.137.61 2 2 28832 20180106132838
+49.70.64.188 1 1 0 20180121232952
+37.115.204.220 5 5 35586 20180131112313
+153.225.17.18 0 18 405920 
+199.180.115.142 2 2 9909 20180120233514
+172.245.113.219 2 2 2700 20180115180613
+185.101.238.21 2 2 9908 20180104103355
+207.244.157.139 1 1 8550 20180103065720
+223.242.247.95 2 2 9908 20180106214641
+212.227.24.44 2 2 28832 20180111223549
+120.35.38.172 1 1 28417 20180120185157
+23.105.126.83 2 2 9908 20180109225754
+182.253.33.84 1 1 8558 20180105175638
+91.134.25.93 2 2 17117 20180119204053
+115.112.176.58 4 4 57664 20180110102512
+184.22.126.133 1 1 8559 20180121053435
+69.164.206.42 1 1 8558 20180109233453
+68.6.152.12 1 1 8558 20180107002348
+180.240.230.25 1 1 28381 20180106101002
+89.39.107.197 3 3 25677 20180125081241
+184.168.200.210 2 2 28832 20180108032040
+91.241.171.54 4 4 34236 20180125140244
+45.77.63.97 2 2 9908 20180105165239
+69.195.124.58 2 2 28832 20180110190325
+23.229.40.234 1 1 8558 20180107192750
+90.103.89.12 1 1 0 20180101085000
+154.16.218.102 1 1 8558 20180103132219
+138.201.19.163 2 2 28417 20180127073202
+179.218.164.140 1 1 8558 20180114161804
+91.214.168.24 1 1 2615 20180101001203
+86.236.238.149 4 4 19816 20180105151550
+134.19.230.186 1 1 2615 20180102192303
+62.86.97.201 1 1 2615 20180107055305
+199.180.115.187 2 2 9908 20180108143129
+37.115.190.204 2 2 9908 20180109084904
+192.145.239.46 2 2 28832 20180109072456
+23.108.254.4 2 2 9908 20180108063859
+46.29.252.55 2 2 9909 20180118112727
+185.234.216.27 3 3 25677 20180131225442
+185.214.46.14 1 1 2615 20180105160945
+23.229.55.169 2 2 9909 20180122025426
+95.250.83.167 3 3 18468 20180130191208
+192.3.158.114 2 2 9908 20180109062130
+196.245.218.8 2 2 9909 20180131121743
+107.172.128.118 1 1 1350 20180103075322
+13.114.91.103 1 1 8558 20180112220124
+182.182.108.251 1 1 8559 20180125032425
+196.196.50.84 2 2 9908 20180113050121
+77.95.204.178 1 1 2615 20180102190031
+37.59.4.151 2 2 17117 20180128145327
+195.154.220.30 1 1 8559 20180121192103
+198.46.150.16 2 2 9909 20180117173555
+151.237.176.229 1 1 28417 20180104054436
+101.81.79.142 3 3 13792 20180124035151
+195.191.104.85 1 1 8558 20180102143928
+62.210.80.77 1 1 8559 20180125084305
+86.57.223.19 1 1 2615 20180104105145
+185.96.70.195 1 1 2615 20180118111703
+145.255.22.106 1 1 28417 20180101222031
+95.110.186.48 2 2 9908 20180106234537
+91.206.200.203 2 2 28832 20180116004141
+107.158.219.143 1 1 1350 20180116202813
+196.196.90.65 4 4 19818 20180126213215
+217.160.62.104 2 2 28832 20180110010607
+115.151.251.156 1 1 0 20180109131222
+118.98.217.41 1 1 2615 20180102191714
+167.60.86.126 3 31 729858 20180116190033
+23.83.87.37 1 1 1350 20180115131751
+5.157.37.237 2 2 9908 20180102220703
+217.160.62.16 2 2 28832 20180108122734
+155.94.134.147 1 1 8558 20180102011839
+217.196.198.67 2 2 9908 20180109095947
+198.20.182.24 2 2 9909 20180124033946
+191.191.134.120 1 1 8559 20180118211309
+190.166.162.73 4 23 822771 20180115105738
+23.19.248.122 2 2 9908 20180113001749
+64.74.215.1 2 20 516954 20180109174333
+67.222.108.228 2 2 28832 20180112080915
+172.245.113.190 1 1 1350 20180110153942
+185.121.137.250 2 2 9908 20180103011034
+104.202.122.171 1 1 8558 20180113213854
+216.74.107.30 1 1 8559 20180131182929
+43.249.128.227 1 1 8559 20180120132532
+84.242.176.114 1 1 2615 20180116115112
+34.250.146.227 6 6 51721 20180105094040
+82.223.242.58 8 8 222660 20180115003112
+14.202.250.89 1 1 8559 20180127160948
+184.174.118.31 1 1 8558 20180109022828
+148.72.232.164 2 2 28832 20180107184625
+37.152.88.22 2 2 28832 20180107094308
+153.219.193.123 0 18 405920 
+172.245.113.118 2 2 9909 20180128143529
+173.254.247.37 2 2 17230 20180112065239
+163.172.207.79 1 1 8559 20180128133103
+23.105.159.109 2 2 9909 20180126062336
+42.119.225.154 2 2 9909 20180121093608
+45.61.174.33 2 2 9909 20180131081844
+173.254.206.204 1 1 8558 20180105094614
+115.79.46.247 1 1 8559 20180119041823
+37.229.205.159 4 4 27024 20180102051531
+134.19.230.5 1 1 2615 20180102190255
+41.33.223.200 1 1 2615 20180118095224
+45.33.43.219 1 1 0 20180129034324
+167.114.101.29 2 2 28832 20180105105842
+23.229.48.94 1 1 8558 20180107144629
+23.105.56.91 4 4 19818 20180119202130
+192.3.235.89 1 1 8558 20180102040305
+127.0.0.1 1 1 0 20180121233004
+89.39.107.201 1 1 8559 20180122092809
+139.199.63.33 9 9 77028 20180129025059
+199.180.115.39 1 1 8559 20180126003349
+95.91.203.37 2 2 17230 20180118144139
+179.218.131.47 2 2 9908 20180112065356
+23.89.245.246 1 1 8558 20180108104750
+196.196.160.253 3 19 543718 20180105034534
+179.210.243.238 2 2 9908 20180116075829
+184.22.127.177 2 2 9909 20180119044214
+82.115.4.202 1 1 28417 20180102192151
+210.73.213.227 1 1 1 20180123231553
+192.161.162.67 2 2 9909 20180117005809
+23.83.90.152 1 1 8558 20180114185944
+179.218.146.164 1 1 8558 20180111203415
+170.130.58.98 4 4 19816 20180111231028
+58.247.77.162 1 1 2615 20180126211135
+60.28.128.178 1 1 8558 20180104093854
+91.200.12.67 1 1 28417 20180113154816
+185.225.107.205 1 1 8558 20180101034021
+46.29.255.167 2 2 9908 20180112222005
+23.19.248.97 2 2 9908 20180102000919
+23.105.159.132 2 2 9908 20180112021659
+91.121.144.97 2 2 9908 20180101083650
+23.229.48.215 2 2 17116 20180108163709
+23.105.56.168 6 6 29727 20180123233053
+196.196.92.164 1 1 8559 20180120233314
+186.33.120.92 2 2 9909 20180129194422
+107.172.150.171 4 4 19818 20180118211342
+207.244.119.208 2 2 9909 20180122051628
+146.185.144.64 1 1 8559 20180125112946
+221.214.208.226 2 2 9909 20180118203622
+23.236.187.155 1 1 8558 20180107113856
+196.245.218.74 1 1 8559 20180121104817
+27.34.49.111 1 1 8558 20180110035938
+154.16.28.202 2 2 9909 20180123034202
+107.172.231.103 2 2 9908 20180113042346
+175.150.121.130 1 1 0 20180123231530
+195.22.124.60 1 1 1350 20180105034503
+114.239.2.106 1 1 28417 20180101084941
+148.251.36.67 1 1 8558 20180101230937
+37.220.132.179 1 1 8558 20180110115139
+67.141.233.111 1 1 28381 20180101085002
+10.0.124.0 2 2 17118 20180119151815
+104.206.243.176 1 1 1350 20180116161658
+185.183.104.139 5 5 42790 20180102044924
+45.76.167.163 3 3 25674 20180105175813
+95.104.61.133 1 1 2615 20180102191505
+153.92.42.2 2 2 28832 20180115144232
+82.202.249.104 2 2 67818 20180101135641
+184.22.125.83 2 2 9909 20180123041656
+104.237.242.247 1 1 28417 20180108071034
+46.116.65.234 1 1 8559 20180119044034
+112.175.150.125 1 1 0 20180121232912
+23.105.56.179 4 4 19817 20180119195426
+23.82.28.230 1 1 8559 20180119141247
+186.206.245.148 2 2 9908 20180114161226
+185.34.20.82 1 1 0 20180101084954
+45.61.161.230 4 4 19818 20180121192140
+23.94.150.137 2 2 9908 20180111004607
+64.74.215.98 1 10 258477 20180109175345
+153.212.121.37 0 18 405920 
+165.231.105.15 1 1 8558 20180116202810
+104.237.130.93 1 1 28417 20180109193452
+184.174.119.110 1 1 8558 20180113133423
+34.203.194.130 1 1 28417 20180116111423
+113.123.116.145 1 1 0 20180121232922
+176.116.29.187 1 1 8559 20180125071349
+107.175.3.82 5 5 28377 20180125051219
+187.36.149.26 2 2 9908 20180105202624
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20180101 31 31 255102 27
+20180102 54 155 1960243 27
+20180103 18 18 82329 16
+20180104 38 118 1461957 14
+20180105 42 58 744347 24
+20180106 29 29 208142 18
+20180107 59 142 1613422 31
+20180108 26 26 188777 18
+20180109 42 95 2013037 23
+20180110 45 125 1537237 21
+20180111 37 55 676121 21
+20180112 67 150 1718508 31
+20180113 54 54 359021 34
+20180114 42 125 3048583 18
+20180115 25 44 942626 18
+20180116 81 326 7087840 28
+20180117 19 37 481142 14
+20180118 44 127 1474130 20
+20180119 37 37 207657 26
+20180120 11 11 72562 10
+20180121 40 120 1421025 20
+20180122 25 25 110094 19
+20180123 18 18 56755 14
+20180124 16 16 80455 9
+20180125 43 148 2328491 17
+20180126 18 36 476463 14
+20180127 36 135 2245979 13
+20180128 16 16 72522 13
+20180129 24 24 86482 16
+20180130 23 23 109458 18
+20180131 39 140 1870658 19
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 7
+2mn-5mn 4
+30mn-1h 22
+15mn-30mn 12
+0s-30s 552
+5mn-15mn 11
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 42
+/ 421 4453488 370 216
+/wp-cron.php 201 0 168 168
+/wp-login.php 169 260922 39 165
+/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.eot 24 144576 0 0
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.eot 24 3977808 0 0
+/xmlrpc.php 21 9106 0 20
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 20 1543200 0 0
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff 19 1862456 0 2
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf 12 1986576 0 12
+/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.woff 12 71088 0 0
+/wp-content/plugins/revslider/public/assets/css/openhand.cur 12 3912 0 0
+/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons.woff 12 81312 0 0
+/wp-content/plugins/js_composer/assets/fonts/vc_grid/vc_grid_v1.ttf 12 70176 0 0
+/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons.ttf 12 80400 11 0
+/wp-content/plugins/revslider/public/assets/css/closedhand.cur 12 3912 0 0
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff 12 90432 0 0
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf 12 143616 0 0
+/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot 12 145632 0 0
+/wp-content/themes/Total/assets/images/closedhand.cur 12 3912 0 0
+/wp-content/themes/Total/assets/images/openhand.cur 12 3912 0 0
+/contactenos/ 7 59035 0 3
+/wp-admin/admin-ajax.php 6 3 6 6
+/perfiles/ 6 63741 1 0
+/servicios/ 5 37330 1 1
+/nosotros/ 5 43404 0 0
+/2017/09/05/6/ 1 11210 1 0
+/wp-content/plugins/uploader/uploadify/uploadify.php 1 0 1 1
+/author/admin/ 1 39401 0 1
+/wp-content/plugins/page-google-maps/pr.php 1 0 1 1
+/wp-admin/upgrade.php 1 21 1 1
+/wp-json/ 1 61022 0 0
+/feed/ 2 44837 1 1
+/wp-includes/wlwmanifest.xml 1 480 0 0
+/modules/simpleslideshow/uploadimage.php 1 0 1 1
+/comments/feed/ 1 8205 0 1
+/wp-admin/post.php 2 0 2 2
+/wp-admin/load-styles.php 1 39861 0 0
+/category/novedades/ 5 34145 0 2
+/2015/02/08/what-to-do-about-your-traffic-ticket/ 2 29690 1 1
+/wp-admin/admin-post.php 3 0 3 3
+http://injul.com.do/wp-admin/admin-ajax.php 2 1 2 2
+/wp-content/plugins/google-maps-by-daniel-martyn/inuse.php 1 0 1 1
+END_SIDER

@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com (Dovecot) with LMTP id MZWPCkwawln8bAAA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Wed, 20 Sep 2017 03:35:40 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Wed, 20 Sep 2017 03:35:40 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1duZXo-00083s-4M
+	for injuldom@single-priva8.privatednsorg.com; Wed, 20 Sep 2017 03:35:40 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1505892940-eximdsn-1678636369
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1duZXo-00083s-4M@single-priva8.privatednsorg.com>
+Date: Wed, 20 Sep 2017 03:35:40 -0400
+
+--1505892940-eximdsn-1678636369
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1505892940-eximdsn-1678636369
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1505892940-eximdsn-1678636369
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1duZXo-00083k-2i
+	for info@injul.com.do; Wed, 20 Sep 2017 03:35:40 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 107.150.75.122
+Date: Wed, 20 Sep 2017 07:35:40 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <a6d9c7079e57c59c45afcb80ce210168@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: Josh Bachynski (IP: 107.150.75.122, 107.150.75.122)
+Correo electrónico: wiltonbergman@care2.com
+URL: http://www.buyviagraonlinenow.com/side-effects/bad-side-effects-viagra/
+Comentario: 
+Almost 10 % of male within the United States yearly will get affected by erectile dysfunction, or impotence.
+Impotence or Erectile dysfunction is often understood 
+as the shortcoming to have or keep an erection that's passable for sexual exercise.
+There was a lot of males consuming generic Cialis as a medical therapy for 
+his or her impotence. Generic Cialis is consumed orally and has rapidly turn into 
+probably the most prescribed medications. Urologists and non-urology specialists typically give this 
+medication to their patients for the remedy of erectile dysfunction. Generic Cialis 
+is the primary oral remedy that has been clinically examined and confirmed to advance the standard of 
+erections. Medical practitioners are of the sturdy view that Cialis ought to be used for the persistent inability 
+to achieve or maintain an erection.
+
+
+Tadalafil is the non-commerce title for Cialis and it's a fairly fashionable 
+oral therapy all around the world. This remedy 
+will increase inflow and retention of blood within the penis and it's within the class medication as sildenafil (commerce identify Cialis) and designed to enhance erectile operate.
+One very well-known specialty of Generic Cialis is that may 
+final as much as thirty six hours and may be consumed with out meals.
+
+
+
+Those patients who're affected by Cardiovascular illness like aortic stenosis, idiopathic hypertrophic subaortic 
+stenosis,and so on ought to positively take a docs recommendation earlier than consuming Generic 
+Cialis. A few of the quite common hostile results of Generic Cialis are Dyspepsia, Tachycardia, Myalgia, and so forth.
+
+
+
+Elderly individuals can anticipate to learn from Generic Cialis 
+as a lot as youthful males. However, there are a lot of different teams of males, that are much less more likely to be helped with Generic Cialis.
+One occasion is that if one is affected by diabetes mellitus.
+
+The probability of enhanced erections is barely round fifty p.c or higher, and the sexual intercourse success fee is 
+round forty to fifty %. However the effectivity of Generic Cialis on this 
+group, as with different teams, depends upon a number of 
+elements. Nonetheless, Generic Cialis is in the present day obtainable on hundreds 
+of internet sites on web and one should buy low cost Generic Cialis simply by ordering it on-line.
+
+
+
+Michael Hawkins has obtained a lot expertise 
+of curing totally different sorts of sexual disorder with Cialis On-line.
+One could order Cialis on-line on the internet.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=85#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=85#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=85#wpbody-content
+Actualmente hay 84 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1505892940-eximdsn-1678636369--

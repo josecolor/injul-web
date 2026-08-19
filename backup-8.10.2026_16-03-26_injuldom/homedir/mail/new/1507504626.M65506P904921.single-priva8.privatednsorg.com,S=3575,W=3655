@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id 6KGkA/Kx2lnZzg0A6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Sun, 08 Oct 2017 19:17:06 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Sun, 08 Oct 2017 19:17:06 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1e1Kok-0048qR-0E
+	for injuldom@single-priva8.privatednsorg.com; Sun, 08 Oct 2017 19:17:06 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1507504626-eximdsn-1957984850
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1e1Kok-0048qR-0E@single-priva8.privatednsorg.com>
+Date: Sun, 08 Oct 2017 19:17:06 -0400
+
+--1507504626-eximdsn-1957984850
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1507504626-eximdsn-1957984850
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1507504626-eximdsn-1957984850
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1e1Koj-0048qI-Ur
+	for info@injul.com.do; Sun, 08 Oct 2017 19:17:05 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 198.46.193.135
+Date: Sun, 8 Oct 2017 23:17:05 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <d10a472605cecf220daad3e9a2f559dd@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: backlinks para mini site (IP: 198.46.193.135, 198-46-193-135-host.colocrossing.com)
+Correo electrónico: laurenjosephson@gmail.com
+URL: https://www.fiverr.com/backlinks_seo10/skyrocket-your-rank-with-best-seo-e4a654f4-dbb4-4344-a5f4-7167a3dc704f?funnel=7e261bdc-23b4-4eb8-94f8-60c35fed4faa
+Comentario: 
+Costs there can be as minimal as $500 for 
+your automobile in a excellent situation. Once you do that take a spray bottle filled with 4 cups of warm water and a tablespoon of detergent 
+and spray the stain. It is available in two versions of petrol and diesel and has been a 
+very reasonable price.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=207#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=207#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=207#wpbody-content
+Actualmente hay 206 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1507504626-eximdsn-1957984850--

@@ -1,0 +1,543 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202106 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/ssl/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2013                
+POS_TIME 2691                
+POS_VISITOR 12385               
+POS_DAY 16571               
+POS_DOMAIN 3429                
+POS_LOGIN 3774                
+POS_ROBOT 3929                
+POS_WORMS 4338                
+POS_EMAILSENDER 4469                
+POS_EMAILRECEIVER 4612                
+POS_SESSION 17310               
+POS_SIDER 17517               
+POS_FILETYPES 4747                
+POS_DOWNLOADS 5084                
+POS_OS 5132                
+POS_BROWSER 5356                
+POS_SCREENSIZE 5948                
+POS_UNKNOWNREFERER 6022                
+POS_UNKNOWNREFERERBROWSER 6793                
+POS_ORIGIN 7474                
+POS_SEREFERRALS 7612                
+POS_PAGEREFS 7790                
+POS_SEARCHWORDS 7966                
+POS_KEYWORDS 8118                
+POS_MISC 2355                
+POS_ERRORS 8177                
+POS_CLUSTER 3630                
+POS_SIDER_404 8323                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210701063014 28 5777 10885310502162
+FirstTime 20210601000426
+LastTime 20210630191839
+LastUpdate 20210701082659 28 0 27 0 0
+TotalVisits 224                 
+TotalUnique 107                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 108                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 28 719045 9 11 38582
+1 3 3 28585 5 8 34032
+2 6 6 40675 8 12 42761
+3 6 6 36054 4 8 56695
+4 4 4 28605 6 10 30176
+5 4 4 36034 7 8 21276
+6 3 3 24560 5 7 36035
+7 7 7 36094 12 13 59745
+8 13 13 182118 24 27 48708
+9 9 9 40960 12 17 42396
+10 5 5 28585 4 5 15422
+11 73 73 446009 0 22 73212
+12 113 151 2048095 20 24 34893
+13 21 21 100782 11 12 27914
+14 14 14 62128 14 37 448008
+15 7 7 28665 9 34 1670588
+16 1 1 20 7 12 44318
+17 16 16 94829 23 46 1693070
+18 5 6 41272 4 7 6308
+19 86 256 3395233 19 37 147552
+20 44 64 597977 16 136 763977
+21 21 22 74952 18 25 53757
+22 76 288 4271261 34 50 167946
+23 5 5 28625 4 7 35792
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+do 293 754 10906139
+us 220 220 1043511
+ca 12 12 118326
+de 8 8 22347
+gr 6 6 190356
+cn 5 5 37245
+ru 3 3 22347
+au 3 3 22347
+in 1 1 28545
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+AhrefsBot/ 113 700778 20210630170133 25
+bingpreview 51 3633015 20210629144300 0
+bot[\s_+:,\.\;\/\\-] 43 10347 20210629153010 42
+no_user_agent 42 28545 20210630175640 0
+bingbot/ 11 22899 20210629144258 8
+Dalvik/ 4 29796 20210621072534 0
+Python\-urllib/ 2 51304 20210618030220 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 15
+ttf 1 6700 0 0
+woff 1 18720 0 0
+php 400 4354267 0 0
+html 131 1538567 0 0
+Unknown 1 12295 0 0
+jpg 73 1249527 0 0
+css 112 896799 0 0
+svg 9 6835 0 0
+jpeg 62 1054257 0 0
+aspx 8 98453 0 0
+gif 11 88459 0 0
+woff2 6 457696 0 0
+png 33 616239 0 0
+env 3 36824 0 0
+js 161 1955525 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+win8.1 1 1
+macosx11 4 4
+winxp 1 1
+ios_iphone 108 23
+Unknown 158 158
+win7 2 2
+linux 64 64
+linuxandroid 1 0
+macosx10 1 1
+macosx 25 6
+winvista 1 1
+win10 646 290
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 25
+chrome91.0.4472.114 183 48
+chrome41.0.2226.0 1 1
+firefox68.0 1 1
+safari8.0 1 1
+firefox67.0 1 1
+Unknown 154 154
+chrome87.0.4280.141 2 1
+firefox28.0 1 1
+mozilla 4 4
+chrome41.0.2227.0 1 1
+chrome41.0.2228.0 1 1
+chrome84.0.4147.125 17 17
+chrome74.0.3729.131 1 1
+chrome91.0.4472.77 143 68
+chrome91.0.4472.0 1 1
+chrome90.0.4430.212 310 148
+chrome88.0.4324.146 5 5
+chrome47.0.2526.106 4 4
+safari14.0.3 108 23
+chrome89.0.4389.114 3 2
+chrome83.0.4103.97 53 53
+chrome81.0.4044.129 9 9
+chrome90.0.4430.93 6 4
+chrome41.0.2224.3 1 1
+chrome41.0.2225.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210630051832
+WordPress/4.9.18;_https://injul.com.do 20210630170135
+WordPress/4.9.18;_http://injul.com.do 20210627195921
+Go_http_package 20210606174549
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210628004221
+python-requests/2.25.1 20210624081457
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210603145947
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20210630051832
+Go_http_package 20210606174549
+WordPress/4.9.18;_http://injul.com.do 20210627195921
+WordPress/4.9.18;_https://injul.com.do 20210630170135
+python-requests/2.25.1 20210624081457
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210628004221
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 139 151
+From1 0 0
+From2 4 5
+From3 1 1
+From4 407 855
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 3 4
+duckduckgo 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://50.31.174.167:80 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+401 43 1615
+302 40 800
+301 21 2908
+404 178 1108360
+403 4 2796
+308 1 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 70
+/wp-content/plugins/thrive-headline-optimizer/readme.txt 2 -
+/wp-content/plugins/elementor-pro/changelog.txt 2 -
+/wp-content/plugins/wpdiscuz/changelog.txt 2 -
+/wp-content/plugins/thrive-apprentice/readme.txt 2 -
+/wp-content/plugins/thrive-comments/readme.txt 2 -
+/wp-content/plugins/thrive-visual-editor/readme.txt 2 -
+/wp-content/plugins/thrive-apprentice/changelog.txt 2 -
+/wp-content/plugins/e-signature/readme.txt 2 -
+/wp-content/plugins/wp-user-avatar/assets/css/frontend.css 8 -
+/wp-content/plugins/ct-ultimate-gdpr/changelog.txt 2 -
+/admin.php 3 www.google.com
+/wp-content/plugins/thrive-dashboard/changelog.txt 2 -
+/wp-content/plugins/404-to-301/assets/js/admin.min.js 4 -
+/wp-content/plugins/fancy-product-designer/assets/css/fancy-product.css 4 http://www.google.com.hk
+/wp-content/plugins/quadmenu/changelog.txt 2 -
+/wp-content/plugins/quiz-master-next/changelog.txt 2 -
+/wp-content/plugins/quadmenu/readme.txt 2 -
+/wp-content/plugins/elementor-pro/readme.txt 2 -
+/wp-content/plugins/wp-content-copy-protector/readme.txt 2 -
+/wp-content/plugins/visitors-traffic-real-time-statistics/readme.txt 2 -
+/wp-content/plugins/fancy-product-designer/readme.txt 2 -
+/wp-content/plugins/simple-301-redirects/readme.txt 2 -
+/wp-content/plugins/thrive-ultimatum/readme.txt 2 -
+/wp-content/plugins/thrive-quiz-builder/changelog.txt 2 -
+/wp-content/plugins/thrive-quiz-builder/readme.txt 2 -
+/wp-content/plugins/kaswara/changelog.txt 2 -
+/wp-content/plugins/thrive-leads/readme.txt 2 -
+/wp-content/plugins/thrive-comments/changelog.txt 2 -
+/wp-content/plugins/fancy-product-designer/changelog.txt 2 -
+/.env 3 -
+/wp-content/plugins/thrive-dashboard/readme.txt 2 -
+/wp-content/plugins/ct-ultimate-gdpr/readme.txt 2 -
+/wp-content/plugins/responsive-menu/changelog.txt 2 -
+/wp-content/plugins/thrive-visual-editor/changelog.txt 2 -
+/wp-content/plugins/official-facebook-pixel/readme.txt 2 -
+/ 1 https://injul.com.do/wp-admin/post-new.php
+/wp-content/plugins/official-facebook-pixel/changelog.txt 2 -
+/wp-content/plugins/visitors-traffic-real-time-statistics/changelog.txt 2 -
+/wp-content/plugins/theplus_elementor_addon/readme.txt 4 -
+/wp-content/plugins/log-http-requests/includes/include.php 4 -
+/cybersource/sopwm/loadSignedFields/ 1 -
+/2018/06/12/las-lecciones-aprendidas-del-caso-cambridge-analytica/ 2 -
+/wp-content/plugins/wp-user-avatar/js/wp-user-avatar.js 8 -
+/wp-content/plugins/e-signature/changelog.txt 2 -
+/wp-content/plugins/wpdiscuz/readme.txt 2 -
+/wp-content/plugins/simple-301-redirects/changelog.txt 2 -
+/wp-includes/lfx.php 1 www.google.com
+/wp-content/plugins/kiwi/changelog.txt 4 -
+/wp-content/plugins/kaswara/readme.txt 2 -
+/wp-content/plugins/quiz-master-next/readme.txt 2 -
+/wp-content/plugins/theplus_elementor_addon/changelog.txt 4 -
+/wp-content/plugins/wp-user-avatar/assets/js/frontend.js 8 -
+/wp-content/plugins/log-http-requests/assets/js/admin.js 4 -
+/wp-content/plugins/thrive-ovation/readme.txt 2 -
+/perfiles/w-padmin 1 -
+/wp-content/plugins/fancy-product-designer/inc/custom-image-handler.php 9 www.google.com
+/wp-content/plugins/listingpro/changelog.txt 2 -
+/wp-content/plugins/easy-wp-smtp/changelog.txt 2 -
+/wp-content/plugins/listingpro/readme.txt 2 -
+/wp-content/plugins/responsive-menu/readme.txt 2 -
+/wp-content/plugins/easy-wp-smtp/readme.txt 2 -
+/perfiles/wp-admin 1 -
+/wp-content/plugins/thrive-leads/changelog.txt 2 -
+/wp-content/plugins/thrive-ab-page-testing/readme.txt 2 -
+/wp-content/plugins/thrive-ovation/changelog.txt 2 -
+/wp-content/plugins/kiwi/readme.txt 4 -
+/wp-content/plugins/thrive-ultimatum/changelog.txt 2 -
+/wp-content/plugins/wp-content-copy-protector/changelog.txt 2 -
+/wp-content/plugins/thrive-ab-page-testing/changelog.txt 2 -
+/wp-content/plugins/thrive-headline-optimizer/changelog.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 108
+50.31.174.162 129 129 2580 20210630170135
+186.6.52.202 115 153 2088214 20210604130347
+148.103.204.244 107 297 3887841 20210627200007
+152.166.136.68 33 157 2537688 20210605223124
+190.166.151.29 23 108 1535855 20210601224205
+13.90.119.164 8 8 98453 20210624081457
+142.93.98.160 8 8 88530 20210602060212
+181.37.211.70 6 7 44936 20210626215937
+138.246.253.24 5 5 0 20210618132241
+113.31.114.242 4 4 29796 20210621210854
+146.0.43.40 3 3 22347 20210629110252
+148.0.162.20 3 22 661875 20210622003842
+195.208.25.161 3 3 22347 20210629110251
+142.93.224.5 3 3 22347 20210630191838
+139.59.176.221 3 3 22347 20210630191839
+18.237.30.16 2 2 14898 20210607121519
+190.94.74.68 2 3 38661 20210605221945
+190.94.74.6 2 3 38661 20210605221945
+34.222.1.208 2 2 14898 20210605112143
+190.94.74.7 2 3 38665 20210605222921
+92.118.160.41 2 2 57090 20210628004221
+92.118.160.13 1 1 38088 20210605022522
+34.96.130.29 1 1 28545 20210622000525
+142.93.33.203 1 1 7449 20210619220316
+35.178.146.11 1 1 7449 20210608081012
+34.213.136.59 1 1 7449 20210622110946
+34.217.210.89 1 1 7449 20210607123132
+34.217.11.62 1 1 7449 20210623111331
+34.217.214.177 1 1 7449 20210616114523
+35.203.153.45 1 1 0 20210616133055
+54.213.165.228 1 1 7449 20210611111940
+54.191.67.18 1 1 7449 20210618112341
+34.86.35.6 1 1 28545 20210612094323
+34.214.181.79 1 1 7449 20210618112415
+34.208.2.9 1 1 7449 20210610115536
+35.230.62.252 1 1 0 20210622140215
+34.220.13.199 1 1 7449 20210621111242
+34.219.244.35 1 1 7449 20210606111517
+54.69.224.88 1 1 7449 20210619114337
+52.88.63.78 1 1 7449 20210630114516
+34.221.122.6 1 1 7449 20210628112833
+54.213.105.187 1 1 7449 20210606111428
+35.164.42.167 1 1 7449 20210621112724
+18.236.94.166 1 1 7449 20210620112510
+35.167.104.229 1 1 7449 20210613113107
+92.118.160.9 1 1 28545 20210607110349
+54.214.184.204 1 1 7449 20210615113604
+34.77.162.3 1 1 38088 20210602081405
+34.223.6.141 1 1 7449 20210602113616
+34.216.2.14 1 1 7449 20210622110355
+68.183.151.179 1 1 38088 20210601081627
+54.218.81.254 1 1 7449 20210609111005
+18.237.150.65 1 1 7449 20210604112623
+167.71.184.64 1 1 38088 20210603141739
+13.78.147.177 1 1 7449 20210604033940
+107.150.63.174 1 1 2507 20210612024020
+35.185.245.49 1 1 0 20210622140220
+35.245.118.218 1 1 7449 20210627075032
+92.118.160.57 1 1 28545 20210614074604
+18.237.142.110 1 1 7449 20210603112047
+54.186.147.71 1 1 7449 20210622110741
+34.222.89.51 1 1 7449 20210607111940
+52.13.124.242 1 1 7449 20210608113733
+209.50.59.247 1 1 7449 20210618201040
+52.13.117.63 1 1 7449 20210629112113
+34.219.40.41 1 1 7449 20210615113640
+54.188.187.149 1 1 7449 20210630114233
+18.184.101.156 1 1 0 20210604090237
+159.65.32.128 1 1 12295 20210602095005
+64.227.71.167 1 1 7449 20210619220316
+34.86.35.13 1 1 28545 20210615155527
+34.77.162.15 1 1 28545 20210608012617
+206.189.140.93 1 1 7449 20210603212917
+66.42.83.174 1 1 7449 20210618201039
+54.190.0.238 1 1 7449 20210606111428
+52.33.255.181 1 1 7449 20210614113704
+54.202.206.157 1 1 7449 20210602113630
+34.212.115.233 1 1 7449 20210603113151
+54.191.249.20 1 1 7449 20210603112004
+52.42.15.87 1 1 7449 20210609110943
+35.162.172.220 1 1 7449 20210603113213
+34.96.130.7 1 1 38088 20210603205900
+54.213.213.112 1 1 7449 20210607121307
+54.203.3.145 1 1 7449 20210602112357
+45.134.26.96 1 1 28545 20210625105955
+18.236.200.242 1 1 7449 20210610113213
+34.220.106.76 1 1 7449 20210621111603
+52.36.31.206 1 1 7449 20210606111501
+34.77.162.25 1 1 28545 20210618042817
+161.35.135.153 1 1 23860 20210603145947
+179.52.188.124 0 1 33743 
+34.86.35.19 1 1 38088 20210608223952
+34.77.162.24 1 1 28545 20210630051832
+34.222.1.65 1 1 7449 20210623111455
+161.35.135.246 1 1 38076 20210603135158
+34.83.145.207 1 1 0 20210622140150
+92.118.160.45 1 1 38088 20210606174549
+52.12.73.43 1 1 7449 20210628111815
+54.188.217.140 1 1 7449 20210622110331
+18.236.114.183 1 1 7449 20210605111351
+34.86.35.23 1 1 28545 20210626035323
+34.219.214.14 1 1 7449 20210629112127
+34.222.115.30 1 1 7449 20210620112722
+114.243.122.213 1 1 7449 20210619211604
+52.40.64.53 1 1 7449 20210627110457
+54.191.141.249 1 1 7449 20210626112453
+35.197.115.144 1 1 0 20210616133055
+34.86.35.26 1 1 28545 20210603235948
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20210601 105 265 3935435 11
+20210602 46 75 1033877 12
+20210603 13 13 203962 13
+20210604 96 105 1189092 9
+20210605 46 173 2706741 9
+20210606 10 10 67984 10
+20210607 9 9 65850 8
+20210608 14 14 81731 9
+20210609 4 4 14938 4
+20210610 4 4 14938 4
+20210611 4 4 7489 4
+20210612 5 5 31112 5
+20210613 5 5 7529 5
+20210614 5 5 36054 5
+20210615 5 5 43483 5
+20210616 10 10 7589 8
+20210617 1 1 0 1
+20210618 10 10 65850 10
+20210619 11 11 29936 10
+20210620 7 7 43523 7
+20210621 7 7 37285 6
+20210622 16 35 720316 13
+20210623 5 5 14958 5
+20210624 12 12 98533 5
+20210625 6 6 28645 6
+20210626 14 15 81050 7
+20210627 49 164 1598108 9
+20210628 10 11 77326 10
+20210629 10 10 59632 6
+20210630 12 12 88197 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+0s-30s 201
+2mn-5mn 2
+5mn-15mn 7
+15mn-30mn 5
+30s-2mn 1
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 21
+/wp-admin/admin-ajax.php 166 131772 0 7
+/wp-cron.php 129 2580 106 106
+/ 124 1419819 103 104
+/wp-admin/post.php 24 1645817 0 0
+/wp-login.php 18 24879 10 2
+/wp-admin/load-scripts.php 16 1082961 0 0
+/wp-admin/load-styles.php 15 581889 0 3
+/wp-admin/edit.php 14 414841 0 0
+/wp-admin/post-new.php 10 459182 0 0
+/wp-admin/async-upload.php 8 10346 0 0
+/wp-admin/ 7 118748 1 0
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 5 385800 1 0
+/.env 3 36824 1 0
+/providers/htmleditorproviders/telerik/telerik.web.ui.dialoghandler.aspx 2 24617 0 0
+/app_master/telerik.web.ui.dialoghandler.aspx 2 24609 0 1
+/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx 2 24628 1 0
+/Install/InstallWizard.aspx 2 24599 0 0
+/wp-includes/js/tinymce/skins/lightgray/fonts/tinymce.woff 1 18720 0 0
+/vendor/phpunit/phpunit/LICENSE 1 12295 1 1
+/wp-content/plugins/js_composer/assets/fonts/vc_icons/fonts/VC-Icons.ttf 1 6700 0 0
+/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/fonts/fontawesome-webfont.woff2 1 71896 0 0
+END_SIDER

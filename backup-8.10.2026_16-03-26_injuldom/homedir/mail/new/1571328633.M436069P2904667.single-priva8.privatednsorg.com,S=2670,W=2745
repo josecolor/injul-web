@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id EGhuGXmSqF1bUiwA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Thu, 17 Oct 2019 12:10:33 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Thu, 17 Oct 2019 12:10:33 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iL8MD-00CMEU-CW
+	for injuldom@single-priva8.privatednsorg.com; Thu, 17 Oct 2019 12:10:33 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1571328633-eximdsn-1622263630
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iL8MD-00CMEU-CW@single-priva8.privatednsorg.com>
+Date: Thu, 17 Oct 2019 12:10:33 -0400
+
+--1571328633-eximdsn-1622263630
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1571328633-eximdsn-1622263630
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1571328633-eximdsn-1622263630
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iL8MD-00CMEK-B3
+	for info@injul.com.do; Thu, 17 Oct 2019 12:10:33 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "Here is  offers http://bit.ly/33F6x8I"
+X-PHP-Script: injul.com.do/index.php for 5.253.204.14
+Date: Thu, 17 Oct 2019 16:10:33 +0000
+From: "http://bit.ly/2BgbgBw" <info@injul.com.do>
+Reply-To: rainer.gottas@evang.at
+Message-ID: <9ac79c652b4246854c31c75e1ba7056b@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: http://bit.ly/2BgbgBw <rainer.gottas@evang.at>
+Subject: Here is  offers http://bit.ly/33F6x8I
+
+Message Body:
+Hi an importantoffers 
+ Are you in?  
+http://bit.ly/32lARoA
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1571328633-eximdsn-1622263630--

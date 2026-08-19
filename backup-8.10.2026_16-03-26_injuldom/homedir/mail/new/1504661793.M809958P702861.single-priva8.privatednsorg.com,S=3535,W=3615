@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com (Dovecot) with LMTP id 6VI1MCFRr1mNuQoA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Tue, 05 Sep 2017 21:36:33 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Tue, 05 Sep 2017 21:36:33 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dpPGb-002yJg-Og
+	for injuldom@single-priva8.privatednsorg.com; Tue, 05 Sep 2017 21:36:33 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1504661793-eximdsn-1134210589
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dpPGb-002yJg-Og@single-priva8.privatednsorg.com>
+Date: Tue, 05 Sep 2017 21:36:33 -0400
+
+--1504661793-eximdsn-1134210589
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1504661793-eximdsn-1134210589
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1504661793-eximdsn-1134210589
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dpPGb-002yJV-N8
+	for info@injul.com.do; Tue, 05 Sep 2017 21:36:33 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_"Hello_world!?=  =?UTF-8?Q?"?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 119.81.3.100
+Date: Wed, 6 Sep 2017 01:36:33 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <b3e58c81648a84f8f26564b51c8704ce@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "Hello world!" está esperando tu aprobación
+http://injul.com.do/2017/09/05/hello-world/
+
+Autor: อาหารเสริมลดน้ำหนัก (IP: 119.81.3.100, 64.03.5177.ip4.static.sl-reverse.com)
+Correo electrónico: leandra_james@gmail.com
+URL: http://mootin.com/user.php?login=BeStVAslxDP43&amp;view=history
+Comentario: 
+Oh my goodness! Impressive article dude! Many thanks,
+However I am going through problems with your RSS. I don't know the reason why I am unable to join it.
+Is there anybody else having the same RSS problems? Anyone who knows the solution can you kindly respond?
+Thanks!!
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=4#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=4#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=4#wpbody-content
+Actualmente hay 3 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1504661793-eximdsn-1134210589--

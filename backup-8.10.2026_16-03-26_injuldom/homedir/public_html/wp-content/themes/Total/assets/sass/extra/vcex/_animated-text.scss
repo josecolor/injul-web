@@ -1,0 +1,13 @@
+/*------------------------------------------------------------------
+[Animated Text]
+-------------------------------------------------------------------*/
+.vcex-typed-text-wrap {
+    min-height: 1em;
+    line-height: 1em;
+    font-size: pem( 18 );
+    font-weight: $headings__font-weight;
+    color: $headings__color;
+}
+.vcex-typed-text-css {
+    display: inline; // Prevent bouncing
+}

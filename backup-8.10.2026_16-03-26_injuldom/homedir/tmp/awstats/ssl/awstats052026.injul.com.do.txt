@@ -1,0 +1,3405 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202605 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/ssl/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2084                
+POS_TIME 2766                
+POS_VISITOR 58901               
+POS_DAY 84920               
+POS_DOMAIN 3645                
+POS_LOGIN 4635                
+POS_ROBOT 4790                
+POS_WORMS 5639                
+POS_EMAILSENDER 5770                
+POS_EMAILRECEIVER 5913                
+POS_SESSION 85750               
+POS_FILESIZE 86301               
+POS_REQUESTTIME 86450               
+POS_SIDER 85954               
+POS_FILETYPES 6048                
+POS_DOWNLOADS 6239                
+POS_OS 6287                
+POS_BROWSER 6694                
+POS_SCREENSIZE 9139                
+POS_UNKNOWNREFERER 9213                
+POS_UNKNOWNREFERERBROWSER 10220               
+POS_ORIGIN 10597               
+POS_SEREFERRALS 10739               
+POS_PAGEREFS 10988               
+POS_SEARCHWORDS 11335               
+POS_KEYWORDS 11514               
+POS_MISC 2429                
+POS_ERRORS 11600               
+POS_CLUSTER 4491                
+POS_SIDER_404 11786               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260601003617 164 32763 4060216739590
+FirstTime 20260501024255
+LastTime 20260531234836
+LastUpdate 20260601082544 164 0 163 0 0
+TotalVisits 1043                
+TotalUnique 656                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 671                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 14 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 49 54 892822 243 278 741066
+1 55 55 512038 448 478 111618
+2 86 91 884433 165 190 238995
+3 48 53 558552 372 407 523070
+4 18 25 571498 271 297 1231891
+5 30 30 360582 369 401 266221
+6 29 29 441717 255 310 218604
+7 34 34 396928 351 387 596845
+8 62 66 1015263 414 514 337006
+9 23 24 348836 511 538 847667
+10 54 54 631101 325 407 4318380
+11 32 35 609158 78 127 630617
+12 84 84 903225 132 161 130614
+13 96 99 1341905 504 546 516131
+14 24 27 581113 138 171 434361
+15 65 70 1273772 473 524 301936
+16 166 170 2270911 257 292 586148
+17 15 15 206935 308 343 701756
+18 83 86 1063290 140 174 239838
+19 98 101 1287466 252 288 421199
+20 111 118 1757909 149 190 264331
+21 76 76 767604 426 460 746289
+22 112 113 1143626 628 1555 1702750
+23 36 36 372667 281 324 989943
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 55
+us 613 650 8488738
+in 84 87 1149064
+ca 82 82 1739974
+de 79 80 1009904
+gb 79 79 923970
+ro 59 59 491358
+jp 53 53 498997
+ru 48 48 521567
+bg 41 41 395006
+vn 28 28 267736
+ua 27 27 284590
+ir 27 29 521398
+es 26 26 257477
+pl 24 24 224288
+lk 23 23 219926
+fr 22 22 210364
+nl 20 22 215473
+tr 16 16 152992
+au 12 12 115926
+be 12 12 121861
+se 12 12 121257
+cn 9 12 383686
+id 9 9 76496
+hk 7 7 66934
+ee 6 6 46972
+ga 1 1 9562
+ma 1 1 9562
+mx 1 1 10153
+ch 1 1 9562
+cr 1 1 9562
+it 3 3 28686
+sg 4 4 38248
+br 2 2 19124
+rs 3 3 28686
+mn 2 2 19124
+co 1 1 9562
+bd 2 2 19124
+kr 3 3 29277
+kz 3 3 28686
+no 6 10 537897
+zz 1 1 9562
+iq 1 2 38105
+by 1 1 10153
+il 1 1 9562
+mk 3 3 28686
+pt 6 6 57372
+ie 3 3 28686
+do 3 9 553844
+pk 5 5 47810
+cl 4 4 39430
+si 1 1 9562
+gr 2 2 19124
+hu 1 1 9562
+dk 1 1 9562
+sc 1 1 9562
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+GPTBot/ 107 3259588 20260520104110 0
+bot[\s_+:,\.\;\/\\-] 60 95796 20260529014757 48
+bingbot/ 43 837282 20260531050117 1
+Googlebot\-Image/ 39 1719267 20260530222231 0
+robot 35 858 20260521033000 35
+Googlebot/ 17 161364 20260531080337 0
+PetalBot 16 824589 20260531190529 0
+unknown 13 338 20260529111031 13
+crawl 12 365402 20260525022248 0
+survey 7 260270 20260511195844 0
+Applebot/ 6 283902 20260528164830 0
+link 5 35043 20260527083244 0
+feed 5 21810 20260530055837 0
+[\s_+:,\.\;\/\\-]bot 5 45078 20260529150359 0
+yak 5 35043 20260512075437 0
+facebookexternalhit/ 2 19715 20260526201644 0
+scrapy 2 25056 20260526070839 0
+checker 1 10153 20260518085701 0
+YisouSpider 1 10153 20260512151005 0
+java 1 0 20260522194616 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 7 13591 0 0
+jpeg 1 115134 0 0
+css 6 101151 0 0
+jpg 26 2938908 0 0
+png 17 1179681 0 0
+html 1479 15802232 0 0
+js 9 42654 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 24
+winme 2 2
+android10 5 5
+macosx11 2 2
+macosx13 1 1
+ios_iphone 11 8
+android13 2 1
+androidlollipop 1 1
+macosx15 148 127
+android 4 3
+linuxubuntu 6 6
+win10 1159 1139
+android12 2 2
+macosx14 1 1
+win7 3 3
+androidoreo 2 2
+linux 85 79
+androidmarshmallow 1 1
+androidcupcake 1 1
+win11 2 2
+macosx9 2 2
+Unknown 98 91
+androidpie 1 1
+macos12 1 1
+macosx 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 130
+firefox59.0 3 3
+firefox56.0 2 2
+chrome42.0.2311.90 2 2
+firefox79.0 1 1
+firefox76.0 1 1
+chrome135.0.0.0 16 4
+safari9.0 1 1
+chrome118.0.0.0 1 1
+chrome147.0.0.0 23 20
+chrome126.0.0.0 14 14
+msie9.0 1 1
+chrome60.0.3112.113 5 5
+firefox64.0 1 1
+safari17.3 2 2
+chrome138.0.7204.23 8 2
+chrome142.0.0.0 12 12
+chrome130.0.0.0 16 13
+chrome107.0.0.0 3 0
+Unknown 51 51
+safari5.0.4 1 1
+chrome48.0.2132.1020 1 1
+safari7.1.2 1 1
+safari18.3 1 1
+chrome143.0.0.0 17 17
+chrome124.0 1 1
+chrome104.0.0.0 1 0
+chrome100.0.4896.75 4 1
+firefox117.0 1 1
+firefox62.0 1 1
+android 1 1
+chrome58.0.1487.1199 1 1
+firefox86.0 2 2
+chrome144.0.0.0 5 1
+safari12.0.2 1 1
+firefox65.0 1 1
+safari26.0.1 10 10
+chrome133.0.0.0 914 914
+firefox125.0 2 2
+chrome78.0.3904.108 1 1
+firefox60.0 1 1
+chrome34.0.1847.137 1 1
+chrome134.0.0.0 5 5
+firefox149.0 10 10
+firefox114.0 6 6
+firefox48.0 1 1
+firefox92.0 1 1
+firefox103.0 1 1
+chrome45.0.5063.1253 1 1
+firefox115 1 1
+firefox78.0 1 1
+firefox58.0 1 1
+firefox119.0 3 3
+chrome145.0.0.0 10 10
+chrome131.0.0.0 53 53
+safari15.4 1 1
+chrome137.0.0.0 1 1
+safari26.2 3 3
+chrome119.0.0.0 2 2
+safari17.4 2 2
+chrome116.0.0.0 3 3
+safari17.6 1 1
+firefox93.0 2 2
+chrome140.0.0.0 1 1
+chrome105.0.0.0 4 4
+firefox94.0 1 1
+safari18.3.1 1 1
+firefox77.0 2 2
+firefox71.0 1 1
+chrome147.0.7727.116 4 1
+chrome117.0.5938.132 3 3
+firefox51.0 1 1
+firefox44.0 1 1
+msie7.0 1 1
+firefox121.0 2 2
+firefox118.0 2 2
+firefox84.0 2 2
+firefox120.0 1 1
+chrome146.0.0.0 33 33
+chrome121.0.0.0 4 4
+chrome122.0.0.0 12 5
+chrome110.0.0.0 2 2
+chrome95.0.4638.69 1 1
+firefox52.0 1 1
+chrome135.0.6422.113 1 1
+chrome106.0.0.0 3 3
+firefox72.0 1 1
+safari17.1 1 1
+safari17.0 3 3
+chrome123.0.0.0 3 3
+firefox73.0 1 1
+safari26.3 11 11
+firefox82.0 1 1
+chrome58.0.3029.110 2 2
+chrome124.0.0.0 16 16
+chrome83.0.4103.61 1 1
+firefox148.0 8 8
+firefox47.0 1 1
+firefox54.0 1 1
+firefox74.0 1 1
+firefox96.0 1 1
+safari16.6 2 2
+chrome90.0.4430.85 4 4
+real 1 1
+chrome77.0.3865.120 1 1
+chrome99.0.4844.51 1 1
+safari26.4 4 1
+safari17.2 2 2
+chrome114.0.0.0 3 3
+chrome47.0.2526.106 1 1
+firefox142.0 5 5
+chrome54.0.9489.1454 1 1
+chrome125.0.0.0 3 3
+safari 1 1
+chrome148.0.0.0 16 13
+firefox55.0 2 2
+opera89.0.4447.51 4 4
+firefox100.0 1 1
+chrome136.0.0.0 2 2
+firefox75.0 1 1
+netscape5.0 39 36
+chrome120.0.0.0 12 12
+mozilla 39 36
+chrome112.0.0.0 2 1
+safari26.3.1 6 6
+opera8.47. 1 1
+opera81.2.4292.78581 3 2
+firefox50.0 2 2
+safari13.1 1 1
+firefox150.0 6 6
+firefox70.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+monitor-telegram-clone-realtime/1.0 20260524200918
+okhttp/5.3.0 20260519141900
+Turnitin_(https://bit.ly/2UvnfoQ) 20260505212553
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20260524025859
+Mozilla/5.0 20260531232014
+Mozilla/5.0_(compatible;_Dataprovider.com) 20260515132706
+Mozilla/5.0_(compatible;_SeamlessAI-TLDFingerprinter/1.0) 20260516150300
+Mozilla/5.0_(compatible;_Perplexity-User/1.0;__https://perplexity.ai/perplexity-user) 20260507230101
+RootEvidence/1.0 20260509012137
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GoogleOther)_Chrome/147.0.7727.116_Safari/537.36 20260502041338
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20260531153908
+quic-go-HTTP/3 20260517065613
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260531064826
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+RootEvidence/1.0 20260509012137
+quic-go-HTTP/3 20260517065613
+okhttp/5.3.0 20260519141900
+Turnitin_(https://bit.ly/2UvnfoQ) 20260505212553
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260531064826
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1377 1401
+From1 4 4
+From2 15 17
+From3 24 30
+From4 66 93
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+www_google_com 12 12
+www_google_com_hk 2 2
+search_yahoo_com 1 1
+www_google_com_do 0 1
+yahoo_catchall 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+http://cpanel.injul.com.do 9 9
+http://webmail.injul.com.do 8 8
+https://t.co 3 3
+https://wordpress.org 2 2
+https://www.facebook.com 1 1
+http://cpanel.injul.com.do:80 1 1
+https://mail.injul.com.do 0 6
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+injul.com.do 1
+wordpress 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+wordpress 1
+injul.com.do 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+500 9 3108
+429 19 0
+400 4 24804
+206 7 3500
+301 1 795
+403 151 55877
+401 2451 150976
+308 3 284
+404 6261 8770900
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 2174
+/.env.tar 1 -
+/com.do.sql.gz 1 -
+/htaccess.php 1 -
+/.ssh/config 1 -
+/feed/rss/ 21 -
+/injul.com.do.zst 1 -
+/wp-content/plugins/post-smtp/readme.txt 1 -
+/sites.tar.gz 1 -
+/server.tgz 1 -
+/index/function.php 8 -
+/db_backup.bz2 1 -
+/archives.tar 1 -
+/admin-panel/.env 2 -
+/ca4.php 1 -
+/public/.env 5 -
+/amxloxxr.php 1 -
+/.docker.tar.bz2 1 -
+/gg.php 1 -
+/backend.sql 1 -
+/wp-content/plugins/sneeit-framework/readme.txt 1 -
+/a4.php 1 -
+/wp-content/plugins/wishlist-member-x/lang/translating.txt 1 -
+/nuxt/.env 2 -
+/category/noticias/ 18 -
+/files.php 5 -
+/profile.php 1 -
+/dist.zip 1 -
+/.env.ci 2 -
+/joomla.gz 1 -
+/export.sql 1 -
+/uploads.zip 1 -
+/admin/phpinfo.php 1 -
+/wp-content.tar.gz 1 -
+/.ssh/id_rsa 3 -
+/export.sql.bz2 1 -
+/test.sql.gz 1 -
+/tmp/.env 2 -
+/export.zip 1 -
+/server.7z 1 -
+/public_html/.env 2 -
+/wordpress.sql.bz2 1 -
+/site_backup.sql 1 -
+/exports.sql 1 -
+/api/client_secret.json 2 -
+/dev.tar.bz2 1 -
+/wp-json/oembed/1.0/embed 28 -
+/data.bz2 1 -
+/frontend.tar.xz 1 -
+/uploads.bz2 1 -
+///wp-login.php 1 -
+/shout.php 1 -
+/backups.sql.gz 1 -
+/backend.gz 1 -
+/htdocs.bz2 1 -
+/wp-content/plugins/burst-statistics/readme.txt 3 -
+/public.gz 1 -
+/vue/.env 2 -
+/build.tgz 1 -
+/wp-json/ultimate-member/v1/users 21 -
+/db.sql 1 -
+/wp-content/themes/index.php 4 -
+/var.sql 1 -
+/aaa.php 6 -
+/wp-content/wp-content/themes/truelysell/style.css 1 -
+/exports.gz 1 -
+/xb.php 1 -
+/control-panel/.env 2 -
+/lsd.php 1 -
+/db_backup.tar.gz 1 -
+/nest/.env 2 -
+/yii/.env 2 -
+/drupal.tar.bz2 1 -
+/joomla/.env 2 -
+/drupal.tar 1 -
+/0x.php 4 -
+/666.php 5 -
+/releases.tar 1 -
+/client.tgz 1 -
+/db_dump.zst 1 -
+/2023/05/31/trujillo-el-dominicano-mas-trascendente-de-todos-los-tiempos/feed/ 3 -
+/wp-admin/js/index.php 7 -
+/wp-content/upgrade/index.php 5 -
+/css/colors/blue/index.php 1 -
+/frontend/.env 2 -
+/.gitignore 1 -
+/old/wp-admin/install.php 1 -
+/mysqldump.sql.gz 1 -
+/dist.gz 1 -
+/buildkite/.env 2 -
+/src.tar.gz 1 -
+/stage.7z 1 -
+/laravel.tar.xz 1 -
+/htdocs.tar.gz 1 -
+/local/.env 2 -
+/app.tar 1 -
+/bless11.php 1 -
+/goods.php 11 -
+/config/secrets.json 1 -
+/wp-content/txets.php 2 www.google.com
+/.env.dist 2 -
+/bless5.php 1 -
+/erp/.env 2 -
+/public_html.tar.xz 1 -
+/db.tar.gz 1 -
+/.env.save 7 -
+/site_backup.tar.gz 1 -
+/2x.php 1 -
+/wsa.php 2 -
+/fwe.php 1 -
+/storage.tgz 1 -
+/config.gz 1 -
+/client.7z 1 -
+/term.php 5 -
+/.git/config 10 -
+/.env.local.copy 4 -
+/click.php 1 -
+/com.tar 1 -
+/asus.php 2 -
+/full_backup.gz 1 -
+/api/v1/config 3 -
+/db_dump.tar.xz 1 -
+/sitemap-index.xml 1 -
+/service_account.json 1 -
+/key.json 4 -
+/.env.stage 2 -
+/api/v1/me 1 -
+/dev.bz2 1 -
+/htdocs/phpinfo.php 1 -
+/nox.php 1 -
+/laravel.zst 1 -
+/old.tar.xz 1 -
+/.env.staging 5 -
+/wp-includes/images 4 -
+/readme.html 22 -
+/beta/phpinfo.php 1 -
+/test.rar 1 -
+/config/service-account.json 2 -
+/test.zst 1 -
+/file32.php 1 -
+/env.js 3 -
+/perfiles/ 19 -
+/www.sql.bz2 1 -
+/sa-key.json 2 -
+/sitemap.xml.gz 3 -
+/dist/.vite/manifest.json 3 -
+/backup_db.sql.gz 1 -
+/config/.env 2 -
+/.git/FETCH_HEAD 3 -
+/internal/.env 2 -
+/ping-pong.php 1 -
+/we.php 1 -
+/assets/.env 2 -
+/dev.zst 1 -
+/diag-php.php 1 -
+/next/.env 2 -
+/django.sql.bz2 1 -
+/django.zip 1 -
+/api.sql 1 -
+/build-manifest.json 3 -
+/wp-content/plugins/index.php 5 -
+/django.sql 1 -
+/frontend.7z 1 -
+/injul.com.do.gz 1 -
+/uploads.sql.bz2 1 -
+/private.tgz 1 -
+/production.tar.bz2 1 -
+/fm.php 1 -
+/api/graphql 24 -
+/pg_dump.tgz 1 -
+/staff-member/tara-johnson/ 6 https://injul.com.do/staff-member/tara-johnson/
+/archive.rar 1 -
+/api/swagger.json 1 -
+/api/v3/.env 2 -
+/web.sql 1 -
+/site_backup.bz2 1 -
+/wp-includes/Requests/library/index.php 1 -
+/rails.7z 1 -
+/.dockercfg 1 -
+/dev.tgz 1 -
+/gcp/.env 2 -
+/.ssh/id_dsa 3 -
+/flower.php 2 -
+/d.php 1 -
+/source.tgz 1 -
+/Exception-class.php 2 -
+/sitemap.xml 35 -
+/fone1.php 4 -
+/swagger/v1/swagger.json 1 -
+/4/ 12 -
+/setup-config.php 2 -
+/test5.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 4 -
+/wp-content/index.php 5 -
+/pre-prod.tar.bz2 1 -
+/frontend.sql.gz 1 -
+/api/health 3 -
+/backup_full.sql.bz2 1 -
+/api/v1/env 3 -
+/github/.env 2 -
+/site.rar 1 -
+/site.zst 1 -
+/dev/.env 2 -
+/source.7z 1 -
+/application.rar 1 -
+/site_backup.zst 1 -
+/staging.rar 1 -
+/staff-member/nigel-baker/ 4 -
+/.vite/manifest.json 3 -
+/archives.rar 1 -
+/.aws.7z 1 -
+/.sitemap.xml 1 -
+/credentials.json 12 -
+/plugins.php 1 -
+/app.zip 1 -
+/configs.tar.xz 1 -
+/wp-config.php 2 -
+/lang/es.php 1 -
+/sadcut1.php 5 -
+/frontend.zst 1 -
+/exports.sql.gz 1 -
+/symfony.zst 1 -
+/dump.sql 1 -
+/a7.php 6 -
+/appsettings.json 2 -
+/manifest.webmanifest 3 -
+/plugins/Cache/footer.php 1 -
+/notify/.env 2 -
+/ee.php 2 -
+/staff-member/lisa-freeman/ 9 https://injul.com.do/staff-member/tara-johnson/
+/.env1 2 -
+/wp-json/wc/v3/customers 21 -
+/release.rar 1 -
+/author-sitemap.xml 23 -
+/injul.com.do.tgz 1 -
+/.env.json 2 -
+/admin/controller/extension/extension/ 4 binance.com
+/.tmb/cloud.php 4 -
+/lib.php 4 -
+/old.tar.gz 1 -
+/backups.gz 1 -
+/site.sql.gz 1 -
+/category/noticias/feed/ 1 -
+/backend.sql.gz 1 -
+/build.zip 1 -
+/.env.tgz 1 -
+/.env.orig 4 -
+/configs.zst 1 -
+/firebase-adminsdk.json 5 -
+/backup_full.rar 1 -
+/build.sql.bz2 1 -
+/dist.tar.gz 1 -
+/staff-member/ashley-bennett/ 3 -
+/.well-known/oauth-authorization-server 1 -
+/com.zip 1 -
+/.env.live 2 -
+/manifest.json 3 -
+/website_backup.sql.gz 1 -
+/symfony.tar.xz 1 -
+/.env.development.local 1 https://www.google.com/search
+/postmark/.env 2 -
+/data.tar.xz 1 -
+/application.sql.bz2 1 -
+/backups.sql 1 -
+/_environment 1 -
+/full_backup.tar.bz2 1 -
+/src.tar.xz 1 -
+/wp-content.tgz 1 -
+/backup.sql.bz2 1 -
+/backup.zip 1 -
+/drupal.zst 1 -
+/files.tar.gz 1 -
+/doors-test-article 2 -
+/.next/build-manifest.json 3 -
+/backup.sql 2 -
+/website_backup.gz 1 -
+/production.sql 1 -
+/flask.7z 1 -
+/releases.rar 1 -
+/db.rar 1 -
+/website_backup.sql 1 -
+/data.sql.bz2 1 -
+/node_modules.tar 1 -
+/api.sql.gz 1 -
+/release.tgz 1 -
+/lock360.php 3 -
+/data.zip 1 -
+/injul.com.do.tar 1 -
+/wp-includes.tar.xz 1 -
+/exports.tar.gz 1 -
+/dx.php 4 -
+/settings.json 3 -
+/client.tar.xz 1 -
+/waq.php 1 -
+/htdocs.zst 1 -
+/wp-json/wp/v2/users 142 -
+/wp-json/lp/v1/users 22 -
+/2023/06/19/asociacion-de-fiscales-advierte-que-no-aceptara-atropellos-de-la-policia-a-los-fiscales/ 22 -
+/gcp_key.json 1 -
+/mar.php 3 -
+/lab/.env 2 -
+/openapi.json 3 -
+/assets/manifest.json 3 -
+/sitemap_news.xml 1 -
+/test.tar.bz2 1 -
+/ar.php 2 -
+/wordpress.tar.gz 1 -
+/django.sql.gz 1 -
+/backend.tar.gz 1 -
+/wp-content.sql.bz2 1 -
+/web.sql.gz 1 -
+/wp-config.php~ 3 -
+/wordpress/wp-admin/install.php 1 -
+/node_modules.tgz 1 -
+/con7ext.php 1 -
+/wordpress.bz2 1 -
+/wp-content/themes/hideo/network.php 2 -
+/2021/06/02/nets-con-durant-harden-e-irving-ganan-a-celtics-en-playoffs-de-nba/ 5 -
+/full_backup.rar 1 -
+/wp-content/plugins/woocommerce-wholesale-lead-capture/css/WWLCCustomFieldsControl.css 1 -
+/config/app/.env 2 -
+/wp-admin/about.php 1 -
+/bootstrap/.env 2 -
+/vendor/.env 2 -
+/database.tar 1 -
+/backups.tar 1 -
+/pre-prod.tar.xz 1 -
+/db_backup.sql.bz2 1 -
+/2021/07/04/a-la-altura-de-las-circunstancias-magistrada-mirian-german/feed/ 1 -
+/link.php 1 -
+/juuuu.php 1 -
+/dist.bz2 1 -
+/wp-content/plugins/flex-qr-code-generator/readme.txt 1 -
+/backup_full.tar.bz2 1 -
+/settings.py 3 -
+/mysqldump.tar.bz2 1 -
+/site/.env 2 -
+/wp-content/languages/index.php 1 -
+/pg_dump.rar 1 -
+/shell.php 2 -
+/wp-includes/assets/index.php 1 -
+/g.php 3 -
+/archive.tgz 1 -
+/.env.backup2 2 -
+/wtz.php 1 -
+/server.tar.xz 1 -
+/files.tar.xz 1 -
+/3/ 2 -
+/src.zip 1 -
+/sites.bz2 1 -
+/aw.php 1 -
+/uploads.tar.bz2 1 -
+/.aws.tar 1 -
+/backup_db.zip 1 -
+/queue/.env 2 -
+/wp-links-opml 2 -
+/.docker.zip 1 -
+/s1.php 1 -
+/com.tar.xz 1 -
+/randkeyword.PhP7 6 -
+/pi.php 1 -
+/current.tar.xz 1 -
+/uploads/autoload_classmap.php 1 -
+/data.gz 1 -
+/api/v2/.env 2 -
+/old.tar 1 -
+/private.rar 1 -
+/index.php/feed/atom 4 -
+/portal/.env 2 -
+/sts.php 2 -
+/application.tar.bz2 1 -
+/full_backup.sql.bz2 1 -
+/phpversion.php 1 -
+/.docker.bz2 1 -
+/sf.php 4 -
+/@fs/etc/passwd 2 -
+/ss.php 3 -
+/wp-json/peepso/v1/members 23 -
+/mysqldump.zip 1 -
+/ac.php 1 -
+/ioxi-o.php 11 -
+/exports.7z 1 -
+/.dj/index.php 4 -
+/staging.tgz 1 -
+/tool.php 5 -
+/wp-content.tar 1 -
+/2/ 2 -
+/smtp/phpinfo.php 1 -
+/sitemap/sitemap-index.xml 1 -
+/backup.sql.gz 2 -
+/.env.local.bak 4 -
+/.git-credentials 1 -
+/page/5/ 1 -
+/wp-includes/style-engine/about.php 1 -
+/sites.sql.gz 1 -
+/core/phpinfo.php 1 -
+/node_modules.gz 1 -
+/backup_db.tar.bz2 1 -
+/runtime-config.js 3 -
+/mongodb/.env 2 -
+/app.tar.xz 1 -
+/wp-json/wp/v2/types 1 -
+/backend.7z 1 -
+/current.zst 1 -
+/export.sql.gz 1 -
+/config.env 3 -
+/.well-known/traffic-advice 6 -
+/lawyers/ 5 -
+/wp-json/wp/v2/comments 24 -
+/test/.env 2 -
+/404.php 9 -
+/backups.7z 1 -
+/bthil.php 1 -
+/production.sql.gz 1 -
+/.env.production.save 4 -
+/wp-content/themes/twentystd/ 1 -
+/xv.php 1 -
+/files.sql.gz 1 -
+/site_backup.tar 1 -
+/images/m.php 1 -
+/wp-content/plugins/wedesigntech-ultimate-booking-addon/changelog.txt 1 -
+/w.php 6 -
+/images/images/cache.php 2 -
+/storage.rar 1 -
+/database.rar 1 -
+/preprod.zst 1 -
+/mh.php 1 -
+/wp-content/themes/workreap/style.css 1 -
+/2023/05/22/el-limite-del-ad-quem/ 16 -
+/com.do.sql 1 -
+/dev.7z 1 -
+/db.sql.bz2 1 -
+/project/.env 2 -
+/build.tar.bz2 1 -
+/com.do.sql.bz2 1 -
+/motu.php 1 -
+/0.php 2 -
+/com.do.zip 1 -
+/2023/05/31/trujillo-el-dominicano-mas-trascendente-de-todos-los-tiempos/ 9 -
+/pre-prod.7z 1 -
+/admin.7z 1 -
+/wp-content/radio.php 1 -
+/config.rar 1 -
+/1aa.php 1 -
+/de.php 1 -
+/wsd.php 1 -
+/app.php 1 -
+/var.sql.gz 1 -
+/2021/06/02/3-3-millones-de-dominicanos-se-han-aplicado-al-menos-una-dosis-de-vacuna-contra-el-covid-19/feed/ 2 -
+/preprod.tar.xz 1 -
+/wp-admin/maint/about.php 1 -
+/.aws.tgz 1 -
+/drupal.tar.gz 1 -
+/backup_full.gz 1 -
+/wp-admin/setup-config.php 1 -
+/sites.tar.xz 1 -
+/email/.env 2 -
+/_health 1 -
+/_next/build-manifest.json 3 -
+/files.bz2 1 -
+/pre-prod.sql.gz 1 -
+/2023/05/30/hay-6200-presos-con-enfermedades-graves-en-los-recintos-de-todo-el-pais/ 2 -
+/wp-signin.php 6 -
+/www.rar 1 -
+/wp-includes/wlwmanifest.xml 5 -
+/frontend.tar.bz2 1 -
+/environment.php 1 -
+/exapi/.env 2 -
+/firebase.json 2 -
+/wp-content/plugins/payment-gateway-pix-for-woocommerce/README.txt 1 -
+/acp.php 1 -
+/wp-content/plugins/wpclean/wpclean.php 1 -
+/drupal.bz2 1 -
+/src.tar 1 -
+/wp-json/ldlms/v2/users 20 -
+/dev.gz 1 -
+/postgres/.env 2 -
+/panel/.env 2 -
+/crm/.env 2 -
+/.env 22 -
+/unzipper.php 1 -
+/site_backup.sql.gz 1 -
+/prod.sql 1 -
+/backend.tar 1 -
+/opt/.env 2 -
+/.docker.sql.bz2 1 -
+/app.tar.gz 1 -
+/wp-content/plugins/s2member/readme.txt 1 -
+/site_backup.tgz 1 -
+/tx1.php 1 -
+/wp-content/plugins/king-addons/readme.txt 1 -
+/php-info.php 1 -
+/stats.json 3 -
+/htdocs.tar.bz2 1 -
+/production/.env 2 -
+/wp-admin/css/ 4 binance.com
+/wp-content/plugins/fusion-builder/readme.txt 3 -
+/old.zip 1 -
+/wordpress1/wp-admin/install.php 1 -
+/public.rar 1 -
+/333.php 1 -
+/shared/.env 2 -
+/config/credentials.json 2 -
+/site.tar.bz2 1 -
+/scripts/.env 2 -
+/uploads/.env 2 -
+/pre-prod.zst 1 -
+/htdocs.tar 1 -
+/exports.tar 1 -
+/.env.bak 10 -
+/wp-content/themes/alone/style.css 1 -
+/info 2 -
+/dist.sql.bz2 1 -
+/wp-admin/user.php 2 -
+/com.tar.gz 1 -
+/source.tar.xz 1 -
+/backups.tar.gz 1 -
+/wp-config-sample.php 4 -
+/wp-json/wp/v3/ 2 -
+/dist.tar.xz 1 -
+/joomla.rar 1 -
+/api/settings 3 -
+/core.php 1 -
+/akcc.php 1 -
+/.env.backup1 2 -
+/application.gz 1 -
+/node_modules.zst 1 -
+/phprelease.php 1 -
+/txets.php 1 www.google.com
+/wp-config.php.save 2 -
+/.env.7z 1 -
+/public/plugins/ckeditor/images/spacer.gif 1 https://injul.com.do/public/plugins/ckeditor/images/spacer.gif
+/newsletter/.env 2 -
+/wp-content/themes/about.php 6 -
+/development/.env 2 -
+/author/admin/page/3/ 6 -
+/smtp.php 1 -
+/t.php 2 -
+/production.rar 1 -
+/.ssh/known_hosts 1 -
+/sky.php 1 -
+/preview/phpinfo.php 1 -
+/site_backup.7z 1 -
+/2.php 2 -
+/Marvins.php 1 -
+/data.tar.gz 1 -
+/k.php 4 -
+/wp/wp-admin/install.php 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/htdocs.7z 1 -
+/web.tgz 1 -
+/wp-png.php 1 -
+/test/wp-admin/install.php 1 -
+/.env.local.swp 4 -
+/node_modules.rar 1 -
+/db_dump.sql 1 -
+/file61.php 4 -
+/wp-json/mepr/v1/members 24 -
+/2021/07/04/a-la-altura-de-las-circunstancias-magistrada-mirian-german/ 11 -
+/ahax.php 5 -
+/2023/06/13/familias-que-fabrican-delincuentes/ 26 -
+/var/www/.env 2 -
+/laravel.gz 1 -
+/ff1.php 2 -
+/api/.env 13 -
+/preprod.tar 1 -
+/public/plugins/Ueditor/dialogs/attachment/images/alignicon.gif 1 https://injul.com.do/public/plugins/Ueditor/dialogs/attachment/images/alignicon.gif
+/wpns.php 1 -
+/webindex.php 1 -
+/.aws.zip 1 -
+/wp-content/plugins/WordPressCore/include.php 4 -
+/backup.gz 1 -
+/private.bz2 1 -
+/staging/.env 2 -
+/frontend.tgz 1 -
+/.docker/config.json 3 -
+/tmp/phpinfo.php 1 -
+/website_backup.7z 1 -
+/prod.rar 1 -
+/pg_dump.bz2 1 -
+/prod.zst 1 -
+/admin.tar.xz 1 -
+/client.tar.gz 1 -
+/phpinfo.php.save 1 -
+/web/.env 2 -
+/wp-mail.php 5 -
+/full_backup.tar.xz 1 -
+/x.php 8 -
+/src.rar 1 -
+/bc.php 1 -
+/.pypirc 3 -
+/tiny.php 1 -
+/cache/.env 2 -
+/api/info 1 -
+/website_backup.bz2 1 -
+/f35.php 4 -
+/api.tgz 1 -
+/htdocs.tgz 1 -
+/pp.php 2 -
+/public_html.gz 1 -
+/pg_dump.zip 1 -
+/web.zst 1 -
+/wp-json/um/v1/users 21 -
+/db_dump.gz 1 -
+/tag/politica/ 5 -
+/pre-prod.sql 1 -
+/2021/06/02/el-golpe-contra-abinader/feed/ 1 -
+/site_backup.zip 1 -
+/laravel.sql 1 -
+/api/v2/settings 3 -
+/config.js 3 -
+/env.php 1 -
+/laravel5/.env 2 -
+/current.tar.gz 1 -
+/backup/.env 2 -
+/.docker.rar 1 -
+/.env.yaml 2 -
+/v1/.env 2 -
+/wp-includes.rar 1 -
+/var.tar.bz2 1 -
+/wp-info.php 1 -
+/dev.sql 1 -
+/wp-config.php.bak 1 -
+/api.zst 1 -
+/wp-content/themes/wp-classic/inc/ 1 -
+/sites.7z 1 -
+/item.php 3 -
+/gcloud-service-key.json 1 -
+/robots.txt 459 -
+/server.bz2 1 -
+/private.zip 1 -
+/.env.local.save 4 -
+/8.php 2 -
+/2023/05/25/denuncian-robo-de-vehiculo-en-el-residencial-monumental/ 5 -
+/css/index.php 1 -
+/pip.conf 1 -
+/application.yml 3 -
+/application.properties 4 -
+/@fs/.env.development 1 https://news.ycombinator.com/
+/data.tar 1 -
+/wp-json/ 48 -
+/mysqldump.tar.xz 1 -
+/current.7z 1 -
+/backend.zst 1 -
+/server.tar.gz 1 -
+/.env.sample 2 -
+/garcoy.php 1 -
+/app.sql.bz2 1 -
+/php8.php 8 -
+/a1.php 2 -
+/wp-admin/network/wp-conflg.php 1 -
+/exports.zst 1 -
+/symfony.sql.gz 1 -
+/wp-json/youzer/v1/members 21 -
+/wp-content/debug.log 1 -
+/2021/06/27/es-seguro-mi-apartamento-la-pregunta-en-medio-del-dolor-por-el-derrumbe-de-miami 2 https://injul.com.do/2023/06/03/corto-investigativo-ii
+/.aws.gz 1 -
+/pre-prod.zip 1 -
+/www.tar 1 -
+/as.php 10 -
+/2023/06/05/las-pandillas-se-expanden-y-siembran-terror-en-las-comunidades/ 35 -
+/server-status.php 2 -
+/wp-themes.php 2 -
+/production.tar.gz 1 -
+/backend.tar.xz 1 -
+/build.tar 1 -
+/options.php 1 -
+/about.php 10 -
+/wp-content/admin.php 8 -
+/themes/twentytwentytwo/index.php 1 -
+/.env.bz2 1 -
+/phpinfo.php 2 -
+/staging/wp-admin/install.php 1 -
+/website_backup.sql.bz2 1 -
+/configs.sql.gz 1 -
+/storage.sql.bz2 1 -
+/cache.php 4 -
+/test/phpinfo.php 1 -
+/backup_db.tar.xz 1 -
+/prod.sql.gz 1 -
+/wp-content/plugins/order-delivery-date/readme.txt 1 -
+/stage.tar.gz 1 -
+/dump.tar.bz2 1 -
+/client.bz2 1 -
+/staff-member/sarah-peet/feed/ 1 -
+/com.sql.bz2 1 -
+/var.bz2 1 -
+/release/.env 2 -
+/randkeyword.php 1 -
+/wp-content/plugins/fusion-builder/assets/css/media/button-md.min.css 1 -
+/wp-includes.sql.bz2 1 -
+/.well-known/index.php 1 -
+/exports.tar.xz 1 -
+/django.gz 1 -
+/live/.env 2 -
+/web.tar.bz2 1 -
+/staging.tar.bz2 1 -
+/cms/.env 2 -
+/archives.sql.bz2 1 -
+/old.rar 1 -
+/wp-content.sql 1 -
+/core/.env 2 -
+/radio.php 5 -
+/gifclass.php 1 -
+/wp-the.php 1 -
+/mysqldump.tar 1 -
+/elasticsearch/.env 2 -
+/production.tgz 1 -
+/configs.gz 1 -
+/db.zst 1 -
+/symfony.sql 1 -
+/api/env 3 -
+/inputs.php 11 -
+/source.bz2 1 -
+/xxx.php 5 -
+/.env.local 16 -
+/magento/.env 2 -
+/var.zst 1 -
+/backups.tar.xz 1 -
+/staff-member/tara-johnson/feed/ 3 -
+/servicios/ 9 -
+/2023/05/24/sectores-populares-a-merced-de-la-delincuencia/ 4 -
+/a2.php 1 -
+/smtp/.env 2 -
+/com.do.rar 1 -
+/node_modules.sql 1 -
+/api.tar.bz2 1 -
+/graphql/.env 2 -
+/rails.tar.gz 1 -
+/configs.sql 1 -
+/wp-content/themes/seotheme/mar.php 4 -
+/mah.php 1 -
+/wp-includes/Text/Diff/Engine.php 4 -
+/database.tar.gz 1 -
+/symfony.gz 1 -
+/uploads.tgz 1 -
+/config.sql.bz2 1 -
+/dist.7z 1 -
+/private.sql.bz2 1 -
+/config.zip 1 -
+/phpinfo.php~ 1 -
+/releases.bz2 1 -
+/an.php 2 -
+/config.sql 1 -
+/124.php 1 -
+/asd67.php 1 -
+/simple.php 5 -
+/data.tgz 1 -
+/archive.tar.bz2 1 -
+/class9.php 1 -
+/site/phpinfo.php 1 -
+/backup_db.tar 1 -
+/public_html.tar.bz2 1 -
+/.env.sql.bz2 1 -
+/backups.zst 1 -
+/var.tgz 1 -
+/drupal.tar.xz 1 -
+/class20.php 2 -
+/pg_dump.sql.bz2 1 -
+/.ssh/authorized_keys 1 -
+/qa/phpinfo.php 1 -
+/preprod.7z 1 -
+/.env.tar.xz 1 -
+/man.php 1 -
+/db_backup.rar 1 -
+/dev/phpinfo.php 1 -
+/modules/mod_footer/tmpl/index.php 4 -
+/old/wp-admin/setup-config.php 1 -
+/foreign_chars.php 1 -
+/releases.sql.bz2 1 -
+/2clas.php 1 -
+/flask.tar.gz 1 -
+/files.7z 1 -
+/zdd.php 1 -
+/hosting/phpinfo.php 1 -
+/node_modules.tar.xz 1 -
+/wp-content/themes/litho/style.css 1 -
+/staff-member/johanna-lemon/feed/ 1 -
+/sitemap_index.xml.gz 1 -
+/galex.php 1 -
+/wp-admin/options.php 1 -
+/feed/atom/ 18 -
+/pre-prod.gz 1 -
+/web.bz2 1 -
+/.git/refs/heads/main 3 -
+/public.zip 1 -
+/.yarnrc 1 -
+/db_dump.sql.gz 1 -
+/public.sql.bz2 1 -
+/supyffqkrnyxagxcjucnCdefault.php 4 -
+/api.bz2 1 -
+/readme.php 1 -
+/admin.sql.gz 1 -
+/8/ 8 -
+/atx.php 1 -
+/__/api/projects/_/config 1 -
+/wp-json/wp/v2/graphql 27 -
+/install.php 1 -
+/file.php 10 -
+/cd/.env 2 -
+/wp-admin/maint/maint.php 1 -
+/.env.preprod 2 -
+/mysqldump.7z 1 -
+/storage.bz2 1 -
+/public.sql 1 -
+/preprod.tar.gz 1 -
+/joomla.sql 1 -
+/export.gz 1 -
+/archives.bz2 1 -
+/wp-content/plugins/uni-woo-custom-product-options-premium/readme.txt 1 -
+/zwso.php 1 -
+/backup_db.7z 1 -
+/.env.production.old 4 -
+/xmlrpc.php 90 -
+/rabbitmq/.env 2 -
+/client_secrets.json 2 -
+/.env.prod 2 -
+/release.tar.bz2 1 -
+/terraform.tfstate 1 -
+/staff-member/johanna-lemon/ 3 -
+/www.zip 1 -
+/admin.bz2 1 -
+/wp-admin/wp-conflg.php 1 -
+/joomla.zip 1 -
+/storage.zip 1 -
+/joomla.sql.bz2 1 -
+/test.php 2 -
+/cron/.env 2 -
+/wp-content/themes/admin.php 7 -
+/wp-content.tar.bz2 1 -
+/zk.php 1 -
+/m.php 1 -
+/v2/.env 2 -
+/stage/.env 2 -
+/qa/.env 2 -
+/current.tar 1 -
+/wp-conflg.php 1 -
+/db_backup.sql 1 -
+/@fs/.env 1 -
+/bulk/.env 2 -
+/2021/06/02/asesinan-oficial-de-la-policia-nacional/ 5 https://injul.com.do/2021/07/04/a-la-altura-de-las-circunstancias-magistrada-mirian-german/
+/laravel.sql.gz 1 -
+/source.tar.gz 1 -
+/.aws.tar.gz 1 -
+/wp-sitemap-users-1.xml 24 -
+/.env.yml 3 -
+/api/me 1 -
+/pre-prod.tgz 1 -
+/stage.sql.gz 1 -
+/server.zst 1 -
+/checkinfo.php 1 -
+/api/account 3 -
+/feed/ 35 -
+/cloud-key.json 1 -
+/rails.tar.xz 1 -
+/dump.rar 1 -
+/dump.zst 1 -
+/.env.gz 1 -
+/_rNd9xZ7kL3 3 https://www.google.com/search
+/travis/.env 2 -
+/mysqldump.gz 1 -
+/db_dump.tar.gz 1 -
+/codeigniter/.env 2 -
+/config/secrets.yml 3 -
+/production.tar 1 -
+/current.gz 1 -
+/12.php 2 -
+/.well-known/jwks.json 3 -
+/build.zst 1 -
+/2021/07/12/a-la-altura-de-las-circunstancias-segunda-parte/feed/ 1 -
+/build.sql 1 -
+/export.rar 1 -
+/file6.php 2 -
+/wp-json/wc/v3/ 1 -
+/preprod.sql.gz 1 -
+/public_html.sql.bz2 1 -
+/rip.php 2 -
+/.aws.bz2 1 -
+/.ssh/id_ecdsa 1 -
+/ton.php 1 -
+/content.php 6 -
+/storage/.env 2 -
+/user-panel/.env 2 -
+/getir.php 1 -
+/admin/.env 5 -
+/wp-admin/includes/index.php 1 -
+/wp-admin/css/colors/midnight/about.php 1 -
+/api.7z 1 -
+/backup_db.gz 1 -
+/release.sql.bz2 1 -
+/staff-member/sarah-peet/ 13 https://injul.com.do/staff-member/kayla-brown/
+/alfa.php 9 -
+/wp-admin/admin-ajax.php 3 https://injul.com.do/wp-admin/
+/config/database.yml 1 -
+/son1.php 1 -
+/stage.bz2 1 -
+/wp-includes/PHPMailer/ 2 -
+/web.7z 1 -
+/2021/06/01/el-digesset-exigente/ 3 -
+/current.sql 1 -
+/jenkins/.env 2 -
+/staff-member/karen-miller/ 14 -
+/asset-manifest.json 3 -
+/laravel.tar.gz 1 -
+/injul.com.do.tar.xz 1 -
+/notifications/.env 2 -
+/temp/.env 2 -
+/config.sql.gz 1 -
+/wp-admin/ 21 https://www.google.com/search
+/frontend.sql 1 -
+/staging.sql.bz2 1 -
+/.env.zip 1 -
+/old.sql.bz2 1 -
+/mysqldump.tgz 1 -
+/.well-known/openid-configuration 1 -
+/deploy/.env 2 -
+/wp-includes/images/wp-login.php 1 -
+/debug.php 1 -
+/public.sql.gz 1 -
+/symfony.tar 1 -
+/.env.remote 2 -
+/wp-blog-header.php 2 -
+/admin.php 10 -
+/db.tar.xz 1 -
+/client.zst 1 -
+/www.tar.xz 1 -
+/htdocs.tar.xz 1 -
+/2023/05/18/muerte-de-joshua-levanta-ola-de-gran-consternacion/ 3 -
+/dist/manifest.json 3 -
+/6/ 1 -
+/dist.tar 1 -
+/wp-content/themes/miraculous/style.css 1 -
+/cronlab/.env 2 -
+/laravel.7z 1 -
+/vite/.env 2 -
+/kbfr.php 2 -
+/in.php 2 -
+/production.sql.bz2 1 -
+/com.do.gz 1 -
+/web.gz 1 -
+/configs.tar 1 -
+/source.tar.bz2 1 -
+/private.tar.bz2 1 -
+/2021/07/12/a-la-altura-de-las-circunstancias-segunda-parte/ 4 -
+/public_html.rar 1 -
+/source.tar 1 -
+/injul.com.do.sql 1 -
+/archive.sql.bz2 1 -
+/dev/wp-admin/setup-config.php 1 -
+/cloud/.env 2 -
+/site.sql 1 -
+/db_dump.7z 1 -
+/uploads.rar 1 -
+/flask.tar.xz 1 -
+/frontend.zip 1 -
+/enhancecp 3 -
+/db.tgz 1 -
+/joomla.sql.gz 1 -
+/dump.sql.gz 1 -
+/v2/swagger.json 1 -
+/prod.tar.bz2 1 -
+/pg_dump.tar.bz2 1 -
+/backup_db.tgz 1 -
+/api.gz 1 -
+/service/.env 2 -
+/wp-includes.gz 1 -
+/.well-known/pki-validation 4 -
+/django.rar 1 -
+/release.bz2 1 -
+/client.tar 1 -
+/la.php 1 -
+/var.7z 1 -
+/beta/.env 2 -
+/application.tar.xz 1 -
+/wp-user.php 2 -
+/wp-content.rar 1 -
+/flask.bz2 1 -
+/core/init.php 1 -
+/al.php 2 -
+/client.tar.bz2 1 -
+/www.php 1 -
+/wp-content/themes/em4u/style.css 1 -
+/lv.php 1 -
+/photo.php 1 -
+/wp-includes/pomo 4 -
+/wordpress.rar 1 -
+/doc.php 7 -
+/favicon.png 2 -
+/app.rar 1 -
+/cpanel/phpinfo.php 1 -
+/wp-mt.php 1 -
+/archives.tar.gz 1 -
+/firebase-credentials.json 2 -
+/tag/derecho/ 7 -
+/symfony.tar.gz 1 -
+/gifclass4.php 1 -
+/fs.php 1 -
+/.env2 2 -
+/403.php 2 -
+/@fs/.env.test 1 https://www.reddit.com/
+/qing.php 1 -
+/wp-content/uploads/ 2 -
+/secrets.yml 3 -
+/autoload_classmap.php 5 -
+/shopify/.env 2 -
+/admin.tar.gz 1 -
+/wp-json/wp/v2/media 25 -
+/source.zst 1 -
+/test.sql 1 -
+/staff-member/emily-niche/ 8 -
+/build.rar 1 -
+/2021/06/02/3-3-millones-de-dominicanos-se-han-aplicado-al-menos-una-dosis-de-vacuna-contra-el-covid-19/ 5 -
+/serverless.yml 1 -
+/.env.tar.gz 1 -
+/release.zip 1 -
+/storage.tar.bz2 1 -
+/build.gz 1 -
+/flask.sql.gz 1 -
+/database.sql.bz2 1 -
+/v1/swagger.json 1 -
+/dist.tgz 1 -
+/configs.tar.gz 1 -
+/com.rar 1 -
+/env.json 3 -
+/xx.php 7 -
+/data.7z 1 -
+/dev.sql.gz 1 -
+/we2.php 1 -
+/sharedjs/jstz.min.js.map 3 -
+/default.php 1 -
+/server.tar 1 -
+/tools/.env 2 -
+/archive.bz2 1 -
+/wp-includes/PHPMailer 4 -
+/db_dump.tar 1 -
+/ses/.env 2 -
+/function/function.php 6 -
+/html/.env 2 -
+/stage.tar.xz 1 -
+/application/.env 2 -
+/preprod.sql 1 -
+/server.tar.bz2 1 -
+/wp-login.php 657 -
+/.well-known/log.php 1 -
+/mysqldump.zst 1 -
+/releases.tar.gz 1 -
+/rails.sql.gz 1 -
+/sitemap-news.xml.gz 1 -
+/wordpress.sql 1 -
+/database.bz2 1 -
+/var.gz 1 -
+/configs.7z 1 -
+/secrets.yaml 1 -
+/defaults.php 2 -
+/11.php 1 -
+/src.sql.bz2 1 -
+/wp-theme.php 1 -
+/backup_full.tar.xz 1 -
+/mysql/.env 2 -
+/staging.zip 1 -
+/frontend.gz 1 -
+/.env.vercel 1 https://www.google.com/search
+/staff-member/mike-roland/feed/ 3 -
+/xff.php 1 -
+/class-t.api.php 5 -
+/my1.php 2 -
+/wp-content/plugins/ecab-taxi-booking-manager/readme.txt 1 -
+/staff-member/kayla-brown/feed/ 1 -
+/.docker.tgz 1 -
+/www.tar.gz 1 -
+/preprod.gz 1 -
+/drupal.7z 1 -
+/prod/.env 2 -
+/laravel.tar 1 -
+/backup_db.zst 1 -
+/worksec.php 2 -
+/staging.bz2 1 -
+/author/admin/page/2/ 2 -
+/firebase-service-account.json 5 -
+/current.sql.gz 1 -
+/wp-includes.tar.bz2 1 -
+/rails.bz2 1 -
+/100.php 7 -
+/backup.rar 1 -
+/.aws.tar.xz 1 -
+/wp-content/plugins/branda-white-labeling/readme.txt 1 -
+/private/.env 2 -
+/.env.copy 4 -
+/injul.com.do.rar 1 -
+/mailjet/.env 2 -
+/wp-content/uploads/index.php 7 -
+/archive.zip 1 -
+/drupal.tgz 1 -
+/wp-content.sql.gz 1 -
+/staging/wp-admin/setup-config.php 1 -
+/symfony.7z 1 -
+/db.zip 1 -
+/wp-admin/phpinfo.php 1 -
+/.aws.sql.bz2 1 -
+/wp-content/plugins/fox-lms/README.txt 1 -
+/blog-verify 9 -
+/wp-content/plugins/modular-connector/readme.txt 1 -
+/public/plugins/Ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif 1 https://injul.com.do/public/plugins/Ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif
+/archive.tar.gz 1 -
+/wp-content/plugins/academy/readme.txt 1 -
+/_nuxt/manifest.json 3 -
+/releases.7z 1 -
+/sites.rar 1 -
+/archives.zst 1 -
+/uat/phpinfo.php 1 -
+/wp-plain.php 1 www.google.com
+/private.sql.gz 1 -
+/data.tar.bz2 1 -
+/atomlib.php 6 -
+/.env.old 9 -
+/public_html.sql 1 -
+/.well-known/ 6 binance.com
+/.env~ 6 -
+/api-docs.json 1 -
+/storage.sql 1 -
+/V5.php 2 -
+/current/.env 2 -
+/dist.sql.gz 1 -
+/staff-member/kayla-brown/ 2 -
+/node_modules.sql.gz 1 -
+/wp-admin/maint/admin.php 1 -
+/wp-content/upgrade/about.php 1 -
+/pg_dump.sql.gz 1 -
+/backup.tar 1 -
+/prod-wp-config.php 1 -
+/wp-content/themes/noo-jobmonster/style.css 1 -
+/mysqldump.sql.bz2 1 -
+/a5.php 1 -
+/test.zip 1 -
+/campaign/.env 2 -
+/backup.tar.bz2 1 -
+/injul.com.do.sql.bz2 1 -
+/graphql 28 -
+/license.php 2 -
+/2023/06/03/corto-investigativo-ii/ 34 -
+/sites.gz 1 -
+/transactional/.env 2 -
+/admin.tgz 1 -
+/wp-content/plugins/cimy-user-extra-fields/readme.txt 1 -
+/backup_db.sql.bz2 1 -
+/.env.production.copy 4 -
+/server.rar 1 -
+/storage.gz 1 -
+/phpinfo.php.bak 1 -
+/release.7z 1 -
+/build/manifest.json 3 -
+/wp-content/plugins/datalogics/README.txt 1 -
+/releases.sql.gz 1 -
+/166.php 1 -
+/injul.com.do.zip 1 -
+/site.tar.gz 1 -
+/2021/06/02/el-golpe-contra-abinader/ 3 -
+/.kube/config 2 -
+/wp-content/plugins/wp-marketing-automations/readme.txt 1 -
+/staging.tar.gz 1 -
+/wp-includes/html-api/ 2 -
+/sitemap_index.xml 27 -
+/svelte/.env 2 -
+/service-account.json 9 -
+/bolt.php 5 -
+/headerg.php 1 -
+/kafka/.env 2 -
+/wp-content/themes/bootstrap-ultimate/docs/thanks.php 1 -
+/cakephp/.env 2 -
+/wp-includes/interactivity-api/index.php 5 -
+/export.zst 1 -
+/fv.php 1 -
+/api/staging/.env 2 -
+/contactenos/feed/ 7 -
+/wp-good.php 2 -
+/zews.php 1 -
+/dump.tar 1 -
+/old.sql 1 -
+/en/.env 2 -
+/wp-includes/rest-api 1 -
+/database.tar.bz2 1 -
+/releases.zst 1 -
+/_phpinfo.php 1 -
+/stage.tar.bz2 1 -
+/archives.7z 1 -
+/adminfuns.php 10 -
+/configs.zip 1 -
+/wordpress.sql.gz 1 -
+/site_backup.tar.xz 1 -
+/release.tar.gz 1 -
+/db_backup.zip 1 -
+/1a.php 1 -
+/public_html.tar.gz 1 -
+/files.sql 1 -
+/files.zst 1 -
+/staging.7z 1 -
+/exports.tgz 1 -
+/test.gz 1 -
+/laravel.sql.bz2 1 -
+/new.php 3 -
+/19.php 1 -
+/backend.tgz 1 -
+/public_html/phpinfo.php 1 -
+/production.bz2 1 -
+/symfony.bz2 1 -
+/mms.php 1 -
+/wp-content/plugins/waveplayer/readme.txt 1 -
+/api.tar.gz 1 -
+/archives.sql.gz 1 -
+/new4.php 1 -
+/7logs.php 4 -
+/archive.7z 1 -
+/django.tar 1 -
+/client.rar 1 -
+/api/v2/me 1 -
+/installerUI.php 1 -
+/ansible/.env 2 -
+/django.tar.bz2 1 -
+/api/v2/config 3 -
+/wp-admin/user/about.php 1 -
+/db_backup.tar.bz2 1 -
+/symfony.zip 1 -
+/db.gz 1 -
+/version 1 -
+/preprod.tar.bz2 1 -
+/wp-json/buddyboss/v1/members 21 -
+/configs.bz2 1 -
+/k8s/.env 2 -
+/wp-config.php.swp 1 -
+/staff-member/evan-dae/ 3 -
+/frontend.rar 1 -
+/docs/phpinfo.php 1 -
+/13.php 1 -
+/__/firebase/init.json 3 -
+/dist.zst 1 -
+/full_backup.zip 1 -
+/x50.php 1 -
+/dist.rar 1 -
+/zend/.env 2 -
+/var.tar.xz 1 -
+/db_dump.sql.bz2 1 -
+/web.tar.gz 1 -
+/alpha.php 1 -
+/dev.rar 1 -
+/joomla.tar.xz 1 -
+/app/ 3 -
+/current.tar.bz2 1 -
+/wp-includes.tgz 1 -
+/com.do.bz2 1 -
+/wp-mn.php 1 -
+/google-credentials.json 5 -
+/2021/06/02/nets-con-durant-harden-e-irving-ganan-a-celtics-en-playoffs-de-nba 1 https://injul.com.do/2021/06/02/nets-con-durant-harden-e-irving-ganan-a-celtics-en-playoffs-de-nba
+/com.sql.gz 1 -
+/wp-includes.sql.gz 1 -
+/site.gz 1 -
+/redis/.env 2 -
+/wp-content/plugins/wp-google-map-plugin/assets/css/modal.css 1 -
+/past.php 2 -
+/.env_copy 2 -
+/node/.env 2 -
+/wp-content/about.php 5 -
+/production.7z 1 -
+/source.rar 1 -
+/public_html.bz2 1 -
+/release.tar 1 -
+/up4.php 1 -
+/php-opcode.php 1 -
+/uploads.tar.xz 1 -
+/wp-class.php 1 -
+/wp-includes/fonts 1 -
+/wp-kz.php 1 -
+/admin/config/search/xmlsitemap 1 -
+/admin.php/wp-includes/certificates/about.php 5 -
+/2021/06/04/tal-como-se-cuenta-se-cree-el-cuento/ 6 -
+/wp-content/plugins/wc-designer-pro/changelog.txt 1 -
+/rails.tar.bz2 1 -
+/control.php 4 -
+/gitlab/.env 2 -
+/ggb.php 1 -
+/wp-content/themes/freeio/style.css 1 -
+/production.zst 1 -
+/src.sql 1 -
+/staff-member/cameron-law/ 19 -
+/backups.tgz 1 -
+/wp-gr.php 1 -
+/htdocs.sql.gz 1 -
+/public_html.zst 1 -
+/releases.tar.xz 1 -
+/wp-admin/css/wp-conflg.php 1 -
+/django.zst 1 -
+/www.7z 1 -
+/app.sql.gz 1 -
+/wp-system.php 1 -
+/bin/.env 2 -
+/z.ph 1 -
+/sites.sql 1 -
+/uploads.zst 1 -
+/wp-includes.7z 1 -
+/sites.zst 1 -
+/wp-includes/block-patterns/index.php 1 -
+/swagger.json 3 -
+/old/phpinfo.php 1 -
+/psnlink/.env 2 -
+/kube/config 1 -
+/.env.production.backup 4 -
+/application_default_credentials.json 4 -
+/public.tar.xz 1 -
+/app-config.json 3 -
+/api/openapi.json 3 -
+/demo/wp-admin/install.php 1 -
+/rh.php 2 -
+/pg_dump.sql 1 -
+/elp.php 7 -
+/sparkpost/.env 2 -
+/wp-includes.tar 1 -
+/config.tar.xz 1 -
+/index.php 7 -
+/laravel.zip 1 -
+/frontend.tar 1 -
+/var.tar.gz 1 -
+/web.tar.xz 1 -
+/releases/.env 2 -
+/prod.7z 1 -
+/cong.php 2 -
+/backup/wp-admin/install.php 1 -
+/wp-json/bbp-api/v1/users 23 -
+/vv.php 2 -
+/abcd.php 10 -
+/ms-edit.php 6 -
+/api.tar.xz 1 -
+/pop.php 1 -
+/archive.tar 1 -
+/db_dump.bz2 1 -
+/drupal.sql 1 -
+/backup.zst 1 -
+/configs.sql.bz2 1 -
+/drupal.sql.bz2 1 -
+/storage.sql.gz 1 -
+/drupal.zip 1 -
+/private.sql 1 -
+/dump.tgz 1 -
+/wp-admin/install.php 1 -
+/site.zip 1 -
+/ws78.php 1 -
+/angular/.env 2 -
+/files.gz 1 -
+/phpinfo/info.php 1 -
+/db_dump.zip 1 -
+/2021/06/02/el-golpe-contra-abinader 2 https://injul.com.do/author/admin/page/3
+/admin.zip 1 -
+/.env.docker 2 -
+/xaz.php 1 -
+/pg_dump.gz 1 -
+/admin.sql.bz2 1 -
+/en 2 -
+/.env.uat 2 -
+/archives.tar.xz 1 -
+/uploads/ 4 binance.com
+/com.do.tar.gz 1 -
+/test.tar.gz 1 -
+/staff-member/jack-moyer/ 2 -
+/wp-includes/.cache_key 3 -
+/private.gz 1 -
+/wp-file.php 1 -
+/health 3 -
+/mandrill/.env 2 -
+/symfony.sql.bz2 1 -
+/injul.com.do.7z 1 -
+/.env.sql 1 -
+/export.tar.bz2 1 -
+/www.gz 1 -
+/laravel.bz2 1 -
+/export.tar 1 -
+/staging.tar 1 -
+/files.rar 1 -
+/sx.php 1 -
+/tag/justicia/ 5 -
+/403.shtml 1 https://cpanel.injul.com.do/.git/HEAD
+/bgymj.php 5 -
+/flask.tar.bz2 1 -
+/com.sql 1 -
+/alfanew.PHP7 4 -
+/export.bz2 1 -
+/laravel/.env 2 -
+/gcp-sa.json 2 -
+/pg_dump.tar 1 -
+/node_modules.7z 1 -
+/assets/images/accesson.php 1 -
+/production.zip 1 -
+/api/config 3 -
+/data.sql.gz 1 -
+/wp-includes/SimplePie/wp-login.php 1 -
+/p.php 8 -
+/wp-json/wp/v2/posts 30 -
+/.netrc 2 -
+/dist.tar.bz2 1 -
+/backup_db.bz2 1 -
+/archive.sql 1 -
+/logs/.env 2 -
+/staging.gz 1 -
+/mailgun/.env 2 -
+/wp-includes.tar.gz 1 -
+/storage.tar.gz 1 -
+/wp-content/plugins/core-plugin/include.php 5 -
+/preprod.bz2 1 -
+/pinfo.php 1 -
+/www.tar.bz2 1 -
+/configs.tar.bz2 1 -
+/keyfile.json 4 -
+/author/admin/feed/ 1 -
+/private.tar 1 -
+/sa-private-key.json 2 -
+/mysqldump.tar.gz 1 -
+/ave.php 1 -
+/wp-content/plugins/admin.php 6 -
+/site.tar.xz 1 -
+/config/application.properties 3 -
+/rails.tgz 1 -
+/9/ 1 -
+/src.sql.gz 1 -
+/website_backup.tar.gz 1 -
+/backup_db.tar.gz 1 -
+/bal.php 1 -
+/preprod.zip 1 -
+/b.php 2 -
+/.well-known/acme-challenge/index.php 5 -
+/app.sql 1 -
+/site.sql.bz2 1 -
+/wp-admin/js/wp-conflg.php 1 -
+/mysqldump.bz2 1 -
+/up.php 2 -
+/htdocs.sql 1 -
+/website_backup.tar 1 -
+/stage.sql.bz2 1 -
+/test.bz2 1 -
+/releases.tar.bz2 1 -
+/wp-content/plugins/wp-google-map-gold/Licensing/README_License.txt 1 -
+/uwu2.php 1 -
+/database.zst 1 -
+/symfony.tar.bz2 1 -
+/cgi-bin 4 -
+/stage.zip 1 -
+/staging.sql 1 -
+/archive.gz 1 -
+/wp-json/gravitysmtp/v1/tests/mock-data 3 -
+/htdocs.zip 1 -
+/files.tar 1 -
+/htdocs.sql.bz2 1 -
+/2021/06/01/esclarecer-el-origen-del-coronavirus/feed/ 1 -
+/prod.tar 1 -
+/2021/06/01/esclarecer-el-origen-del-coronavirus/ 6 -
+/flask.tgz 1 -
+/drupal.sql.gz 1 -
+/dev.sql.bz2 1 -
+/current.sql.bz2 1 -
+/casp1.php 1 -
+/wordpress.tar.bz2 1 -
+/resources/.env 2 -
+/wp-json/tutor/v1/students 23 -
+/staff-member/carol-smith/ 9 -
+/z60.php 1 -
+/mail/phpinfo.php 1 -
+/config/local.json 1 https://www.google.com/search
+/1index.php 1 -
+/var.tar 1 -
+/az.php 1 -
+/release.sql 1 -
+/api/v1/.env 2 -
+/database.sql.gz 1 -
+/wp-includes.sql 1 -
+/wp-content/uploads/admin.php 4 -
+/www.bz2 1 -
+/wp-content/themes/twentytwentytwo/index.php 1 -
+/leaf.php 1 -
+/sitemap-news.xml 1 -
+/.env.local.backup 4 -
+/data.rar 1 -
+/data.zst 1 -
+/one.php 1 -
+/pre-prod.rar 1 -
+/wp-includes/js/codemirror/index.php 1 -
+/md5.php 1 -
+/wordpress.zip 1 -
+/wp-includes/Text/index.php 4 -
+/db_backup.sql.gz 1 -
+/export.tar.gz 1 -
+/terraform.tfvars 1 -
+/api.zip 1 -
+/web.zip 1 -
+/source.gz 1 -
+/backups.rar 1 -
+/archives.tar.bz2 1 -
+/com.do.tar.bz2 1 -
+/database.7z 1 -
+/wp-content/plugins/WooCommerce-Multi-Locations-Inventory-Management/readme.txt 1 -
+/preview/.env 2 -
+/storage.7z 1 -
+/root.php 2 -
+/security.php 1 -
+/byp.php 1 -
+/com.do.tar 1 -
+/release.gz 1 -
+/backup.tar.gz 1 -
+/wk/index.php 6 -
+/config.tgz 1 -
+/release.sql.gz 1 -
+/wp-content.tar.xz 1 -
+/backend.rar 1 -
+/.yarnrc.yml 1 -
+/flask.zip 1 -
+/firebase-key.json 2 -
+/www/.env 2 -
+/test1.php 1 -
+/flask.sql.bz2 1 -
+/.config/gcloud/application_default_credentials.json 2 -
+/dist/.env 2 -
+/laravel.tar.bz2 1 -
+/ioxi-o1.php 1 -
+/build.7z 1 -
+/classwithtostring.php 11 -
+/google-service-account.json 5 -
+/v3/.env 2 -
+/old/ 1 -
+/info.php 11 -
+/config.7z 1 -
+/x56.php 1 -
+/category/noticias/page/3/ 3 -
+/.ssh/id_ed25519 3 -
+/client.gz 1 -
+/public_html.tar 1 -
+/www.tgz 1 -
+/django.bz2 1 -
+/admin.tar.bz2 1 -
+/.git/logs/HEAD 3 -
+/exports.rar 1 -
+/wordpress/.env 2 -
+/installer.php 1 -
+/buy.php 7 -
+/init.php 1 -
+/symfony/.env 2 -
+/kubernetes/.env 2 -
+/bless.php 7 -
+/prestashop/.env 2 -
+/private.7z 1 -
+/wp-content/plugins/directorist-social-login/assets/public/css/main.css 1 -
+/CDX2.php 1 -
+/wp-conf.php 2 -
+/.env.txt 2 -
+/ws.php 4 -
+/apps/.env 2 -
+/preprod.sql.bz2 1 -
+/com.do.zst 1 -
+/pg_dump.7z 1 -
+/backup_full.zip 1 -
+/xmrlpc.php 1 -
+/2021/06/27/es-seguro-mi-apartamento-la-pregunta-en-medio-del-dolor-por-el-derrumbe-de-miami/ 5 -
+/client/.env 2 -
+/wp-content/plugins/ai-engine/readme.txt 1 -
+/.aws.sql 1 -
+/google-key.json 2 -
+/old.sql.gz 1 -
+/www.zst 1 -
+/database/.env 2 -
+/db_dump.tar.bz2 1 -
+/sites.tar 1 -
+/archive.sql.gz 1 -
+/production.gz 1 -
+/file9.php 1 -
+/mm.php 2 -
+/aa.php 8 -
+/.git/HEAD 6 -
+/var.zip 1 -
+/av.php 8 -
+/private.tar.gz 1 -
+/wp-json/webmention/1.0 23 -
+/storage.tar 1 -
+/dump.7z 1 -
+/wp-includes/customize/about.php 1 -
+/joomla.tgz 1 -
+/wp-json/learnpress/v1/users 23 -
+/joomla.7z 1 -
+/sa.json 2 -
+/.docker.tar.xz 1 -
+/.env.dev 4 -
+/wp-includes.bz2 1 -
+/wp-content/plugins/kalrav-ai-agent/readme.txt 1 -
+/_next/static/buildManifest.js 3 -
+/wp-content/plugins/wp-registration/readme.txt 1 -
+/pg_dump.tar.gz 1 -
+/database.tar.xz 1 -
+/public_html.sql.gz 1 -
+/terraform/.env 2 -
+/storage/logs/laravel.log 3 -
+/current.zip 1 -
+/node_modules.zip 1 -
+/sbin/.env 2 -
+/public_html.tgz 1 -
+/server.gz 1 -
+/installer-backup.php 1 -
+/prod.tgz 1 -
+/mail.php 1 -
+/pre-prod.tar 1 -
+/xltt.php 1 -
+/test.tar.xz 1 -
+/.well-known/security.txt 7 -
+/worker/.env 2 -
+/api.tar 1 -
+/injul.com.do.sql.gz 1 -
+/f5.php 1 -
+/application.zip 1 -
+/rails.sql.bz2 1 -
+/gcp-credentials.json 5 -
+/current.bz2 1 -
+/public.7z 1 -
+/staging.sql.gz 1 -
+/public_html.7z 1 -
+/wp-content/plugins/wpdirectorykit/README.txt 1 -
+/test.sql.bz2 1 -
+/node_modules.sql.bz2 1 -
+/backup.bz2 1 -
+/rails.zip 1 -
+/wp-content/plugins/fusion-builder/assets/css/side-header.min.css 1 -
+/public.tgz 1 -
+/author/admin/ 5 https://injul.com.do/2023/06/13/familias-que-fabrican-delincuentes/
+/django.tar.gz 1 -
+/.docker.zst 1 -
+/site.bz2 1 -
+/wp-includes.zst 1 -
+/cgi/version.cgi 4 -
+/ws80.php 1 -
+/comments/feed/ 17 -
+/web.tar 1 -
+/stage.tgz 1 -
+/ha.php 1 -
+/server/.env 2 -
+/drupal/.env 2 -
+/firebase-config.json 4 -
+/joomla.tar.bz2 1 -
+/api/user 1 -
+/.env.backup 10 -
+/.aws.sql.gz 1 -
+/application.sql.gz 1 -
+/kubeconfig 1 -
+/full_backup.tar.gz 1 -
+/application.tgz 1 -
+/store/.env 2 -
+/joomla.tar 1 -
+/uat/.env 2 -
+/db.tar 1 -
+/.vscode/sftp.json 1 -
+/source.sql.gz 1 -
+/backups.zip 1 -
+/file48.php 1 -
+/.git/refs/heads/master 3 -
+/rails.sql 1 -
+/backup_full.tar 1 -
+/phpinfo 1 -
+/rails.zst 1 -
+/category/uncategorized/feed/ 3 -
+/media.php 2 -
+/db.bz2 1 -
+/serviceAccountKey.json 9 -
+/.aws/config 1 -
+/src.zst 1 -
+/.well-known/admin.php 1 -
+/wp-includes/fonts/index.php 1 -
+/build.tar.xz 1 -
+/database.gz 1 -
+/web.rar 1 -
+/wp-admin/css/colors/blue/index.php 1 -
+/manager.php 3 -
+/uploads.sql.gz 1 -
+/xs.php 1 -
+/drupal.gz 1 -
+/api/v1/settings 3 -
+/backups.bz2 1 -
+/BypassBest.php 1 -
+/wp-content.bz2 1 -
+/ini.php 1 -
+/old.tar.bz2 1 -
+/gmo.php 1 -
+/wp-content/themes/service-finder/style.css 1 -
+/website_backup.zip 1 -
+/prod.gz 1 -
+/frontend.bz2 1 -
+/src/.env 2 -
+/site_backup.gz 1 -
+/public.tar 1 -
+/.env.production.swp 4 -
+/wp-admin/wp.php 1 -
+/public_html.zip 1 -
+/src.tgz 1 -
+/htdocs.rar 1 -
+/application.7z 1 -
+/sites.tar.bz2 1 -
+/99.php 1 -
+/public.tar.bz2 1 -
+/api.rar 1 -
+/var/www/html/.env 2 -
+/swrbqwcr.php 1 www.google.com
+/db_backup.gz 1 -
+/abc.php 8 -
+/.env.tar.bz2 1 -
+/wp-content/themes/energia/style.css 1 -
+/config.json 3 -
+/config.tar 1 -
+/oxshell.php 2 -
+/full_backup.sql 1 -
+/local_settings.py 1 -
+/preprod.rar 1 -
+/themes.php 5 -
+/storage.zst 1 -
+/config.tar.bz2 1 -
+/application.tar 1 -
+/wordpress.tar.xz 1 -
+/frontend.sql.bz2 1 -
+/wp-content/plugins/wishlist-member-x/readme.md 1 -
+/pre-prod.tar.gz 1 -
+/wp-config.php.old 1 -
+/backup_full.tgz 1 -
+/dump.bz2 1 -
+/administrator/phpinfo.php 1 -
+/k90.php 1 -
+/zo.php 1 -
+/amax.php 4 -
+/xxa.php 1 -
+/db_dump.tgz 1 -
+/wp-comments-post.php 2 -
+/backup_full.sql.gz 1 -
+/a.php 5 -
+/sallu.php 1 -
+/ultra.php 2 -
+/status 1 -
+/website_backup.zst 1 -
+/.npmrc 3 -
+/admin.tar 1 -
+/stage.gz 1 -
+/.aws.rar 1 -
+/fff.php 2 -
+/.aws.zst 1 -
+/website_backup.tar.xz 1 -
+/backup_full.7z 1 -
+/sql-test.php 1 -
+/exports.sql.bz2 1 -
+/nosotros/ 16 -
+/db_backup.tgz 1 -
+/mailer/.env 2 -
+/old.bz2 1 -
+/site.7z 1 -
+/dev.tar.xz 1 -
+/storage.tar.xz 1 -
+/load.php 3 -
+/injul.com.do.bz2 1 -
+/includes/phpinfo.php 1 -
+/2023/05/29/estudiante-acuchilla-a-su-profesora-y-amenaza-a-la-clase-con-pistola-juguete/ 14 -
+/supabase-config.json 1 -
+/flask.sql 1 -
+/secrets.json 12 -
+/backend.sql.bz2 1 -
+/flask.zst 1 -
+/node_modules.tar.gz 1 -
+/.docker.tar 1 -
+/export.tar.xz 1 -
+/db.sql.gz 1 -
+/laravel.tgz 1 -
+/222.php 9 -
+/sites/default/files/ 4 binance.com
+/stage.rar 1 -
+/injul.com.do.tar.bz2 1 -
+/prod.zip 1 -
+/ayk.php 1 -
+/dump.tar.xz 1 -
+/old.zst 1 -
+/2023/05/26/corto-investigativo/ 5 -
+/wp-content/plugins/wp-google-map-gold/Licensing/GPL.txt 1 -
+/app.7z 1 -
+/.env.development 6 -
+/er.php 1 -
+/www.sql.gz 1 -
+/pg_dump.zst 1 -
+/cgi-bin/ 2 -
+/contactenos/ 40 -
+/naik_dong.php 1 -
+/azure/.env 2 -
+/docker/.env 2 -
+/backups.sql.bz2 1 -
+/config.zst 1 -
+/wordpress.tar 1 -
+/api/dev/.env 2 -
+/sitemap-index.xml.gz 1 -
+/administrator/.env 2 -
+/database.zip 1 -
+/2023/06/05/las-pandillas-se-expanden-y-siembran-terror-en-las-comunidades/feed/ 3 -
+/.env.production.bak 5 -
+/dump.sql.bz2 1 -
+/prod.tar.gz 1 -
+/BDKR28WP.php 1 -
+/staging/phpinfo.php 1 -
+/wp-content/plugins/burst-statistics/assets/js/build/burst.js 1 -
+/wordpress/ 1 -
+/wp-admin/css/colors/ectoplasm/ 2 -
+/var.rar 1 -
+/category/noticias/page/2/ 2 -
+/backup.tar.xz 1 -
+/private.zst 1 -
+/releases.tgz 1 -
+/wp-json/buddypress/v1/members 22 -
+/sql.php 1 -
+/.env.production~ 4 -
+/wp.php 8 -
+/site_backup.tar.bz2 1 -
+/dashboard/.env 2 -
+/520.php 1 -
+/api/version 1 -
+/phpinfo.php.old 1 -
+/pg_dump.tar.xz 1 -
+/rails.rar 1 -
+/about/function.php 5 -
+/wp-config.php.backup 1 -
+/terraform.tfstate.backup 1 -
+/sitemap.txt 2 -
+/com.do.7z 1 -
+/.env.local~ 4 -
+/sender/.env 2 -
+/old.tgz 1 -
+/ight.php 1 -
+/.docker.tar.gz 1 -
+/test.7z 1 -
+/.env.example 5 -
+/com.7z 1 -
+/core/app/.env 2 -
+/old/.env 2 -
+/mail/.env 2 -
+/wp-content/plugins/cpi-wp-migration/readme.txt 1 -
+/edit.php 4 -
+/hplfuns.php 3 -
+/src.tar.bz2 1 -
+/react/.env 2 -
+/php.php 8 -
+/current.rar 1 -
+/com.do.tgz 1 -
+/data.sql 1 -
+/rails.gz 1 -
+/ccou.php 1 -
+/brevo/.env 2 -
+/private.tar.xz 1 -
+/server.sql.gz 1 -
+/joomla.zst 1 -
+/files.tar.bz2 1 -
+/db.7z 1 -
+/.env.production 15 -
+/@fs/.env.production 1 -
+/database.sql 1 -
+/.docker.7z 1 -
+/flask.rar 1 -
+/sendgrid/.env 2 -
+/api/whoami 1 -
+/@fs/.env.local 1 https://medium.com/
+/stage.sql 1 -
+/full_backup.bz2 1 -
+/server-info.php 1 -
+/exports.bz2 1 -
+/stage.zst 1 -
+/aws/.env 2 -
+/app.gz 1 -
+/wp-content/plugins/acf-extended/readme.txt 1 -
+/wp-content/plugins/profile-builder/readme.txt 1 -
+/5/ 1 -
+/service-account-key.json 3 -
+/gtc.php 1 -
+/static/manifest.json 3 -
+/wordpress.7z 1 -
+/circleci/.env 2 -
+/backend.bz2 1 -
+/lib/.env 2 -
+/uploads.gz 1 -
+/symfony.tgz 1 -
+/build.sql.gz 1 -
+/flask.gz 1 -
+/dev.tar.gz 1 -
+/archives.tgz 1 -
+/build.bz2 1 -
+/mailing/.env 2 -
+/wp-content.zst 1 -
+/vx.php 5 -
+/.env.local.old 4 -
+/wp-content/plugins/fancy-elementor-gallery-box/assets/js/fancy-elementor-flipbox.js 3 -
+/file2.php 1 -
+/chosen.php 8 -
+/api-docs 1 -
+/wp-content/themes/x/bypass.php 4 -
+/backend.zip 1 -
+/staff-member/lisa-freeman/feed/ 1 -
+/django.tar.xz 1 -
+/full_backup.zst 1 -
+/alfa-rex.php7 2 -
+/2023/06/13/familias-que-fabrican-delincuentes/feed/ 1 -
+/wp-content.7z 1 -
+/configs.tgz 1 -
+/src.bz2 1 -
+/2021/06/27/es-seguro-mi-apartamento-la-pregunta-en-medio-del-dolor-por-el-derrumbe-de-miami/feed/ 1 -
+/uploads.sql 1 -
+/sid3.php 3 -
+/wp-content/plugins/lastudio-element-kit/readme.txt 1 -
+/gcp-service-account.json 2 -
+/microservice/.env 2 -
+/client.sql.gz 1 -
+/wp-content/plugins/ht-contactform/readme.txt 1 -
+/com.gz 1 -
+/public.zst 1 -
+/db_backup.zst 1 -
+/backup/wp-admin/setup-config.php 1 -
+/exports.zip 1 -
+/flask.tar 1 -
+/wp-content/plugins/wp-event-solution/readme.txt 1 -
+/adminer.php 1 -
+/sftp-config.json 1 -
+/bb.php 1 -
+/backup_full.bz2 1 -
+/wp-includes/Requests/src/Response/about.php 2 -
+/ci/.env 2 -
+/www.sql 1 -
+/wp-includes/ID3/about.php 1 -
+/wp-admin/network/plugins.php 1 -
+/client_secret.json 2 -
+/file-manager/initialize 2 -
+/gcp-key.json 2 -
+/api/profile 1 -
+/.aws.tar.bz2 1 -
+/symfony.rar 1 -
+/ww1.php 1 -
+/file7.php 1 -
+/ova.php 2 -
+/shop/.env 2 -
+/src.7z 1 -
+/wp-admin/test/test/file/2013gdocs 45 -
+/wordpress.gz 1 -
+/admin.sql 1 -
+/tx79.php 1 -
+/wp-content/plugins/wishlist-member-x/versions.txt 1 -
+/moon.php 1 -
+/admin.zst 1 -
+/gateway/.env 2 -
+/Ov-Simple1.php 1 -
+/archives.gz 1 -
+/release.zst 1 -
+/com.tar.bz2 1 -
+/7.php 6 -
+/y.php 2 -
+/configs.rar 1 -
+/.aws/credentials 13 -
+/backend/.env 13 -
+/rss/ 18 -
+/server.sql.bz2 1 -
+/server.zip 1 -
+/export.7z 1 -
+/backup_full.zst 1 -
+/server.sql 1 -
+/bibil.php 1 -
+/wp-content/plugins/advanced-custom-post-type/changelog.md 1 -
+/webroot/index.php/_environment 1 -
+/build/.env 2 -
+/.env.zst 1 -
+/dump.gz 1 -
+/.env.rar 1 -
+/__env.js 3 -
+/php-7.php 1 -
+/site_backup.sql.bz2 1 -
+/release.tar.xz 1 -
+/app.tar.bz2 1 -
+/wp-content/plugins/podlove-podcasting-plugin-for-wordpress/readme.txt 1 -
+/database.yml 1 -
+/uploads.tar 1 -
+/aboute.php 1 -
+/pre-prod.bz2 1 -
+/export.tgz 1 -
+/.terraform/terraform.tfstate 1 -
+/saas/.env 2 -
+/2023/06/02/denuncian-la-suplantacion-en-twitter-del-embajador-espanol-en-republica-dominicana-para-difundir-que-felipe-gonzalez-ha-muerto/ 28 -
+/filemanager/dialog.php 1 -
+/.well-known/passkey-endpoints 2 -
+/class19.php 1 -
+/wordpress.tgz 1 -
+/.env.sql.gz 1 -
+/wp-content/plugins/user-verification/readme.md 1 -
+/healthz 1 -
+/wp-content/themes/seotheme/db.php 1 www.google.com
+/notes/ 1 -
+/sites.zip 1 -
+/backups.tar.bz2 1 -
+/sites.sql.bz2 1 -
+/archive.zst 1 -
+/prod.bz2 1 -
+/wp-admin/css/colors/ectoplasm 4 -
+/releases.gz 1 -
+/info.php.bak 1 -
+/com.bz2 1 -
+/var.sql.bz2 1 -
+/.env.local.orig 4 -
+/dev.tar 1 -
+/frontend.tar.gz 1 -
+/staging.tar.xz 1 -
+/pre-prod.sql.bz2 1 -
+/src.gz 1 -
+/application.bz2 1 -
+/test.tar 1 -
+/wrt.php 1 -
+/wp-json/wp/v2/pages 2 -
+/wp-content/plugins/login-customizer/readme.txt 1 -
+/wp-content/plugins/ninja-forms-uploads/readme.txt 2 -
+/wp/xmlrpc.php 1 -
+/client.zip 1 -
+/client.sql.bz2 1 -
+/db_backup.tar.xz 1 -
+/website_backup.rar 1 -
+/.docker.sql.gz 1 -
+/wp-content/plugins/user-registration-advanced-fields/readme.txt 1 https://injul.com.do/
+/rails.tar 1 -
+/wp-includes.zip 1 -
+/wp-json/wpuf/v1/users 22 -
+/lite.php 1 -
+/current.tgz 1 -
+/job/.env 2 -
+/client.sql 1 -
+/wp-admin/network/about.php 5 -
+/login/sharedjs/jstz.min.js 3 -
+/wp-config.bak 1 -
+/2023/05/31/trujillo-el-dominicano-mas-trascendente-de-todos-los-tiempos 2 -
+/_nuxt/builds/latest.json 3 -
+/staff-member/mike-roland/ 6 https://injul.com.do/staff-member/karen-miller/
+/dragonforce.php 1 -
+/archive.tar.xz 1 -
+/application.zst 1 -
+/site_backup.rar 1 -
+/site.tgz 1 -
+/wp-content.zip 1 -
+/dump.zip 1 -
+/wp-content/plugins/woocommerce/readme.txt 1 -
+/layout.php 1 -
+/staging.zst 1 -
+/files.tgz 1 -
+/sitemaps.xml 2 -
+/app.bz2 1 -
+/sites.tgz 1 -
+/.env.swp 6 -
+/public/phpinfo.php 1 -
+/uploads.7z 1 -
+/prod.tar.xz 1 -
+/admin/function.php 5 -
+/son.php 1 -
+/www/phpinfo.php 1 -
+/backup_full.sql 1 -
+/injul.com.do.tar.gz 1 -
+/source.sql 1 -
+/db_dump.rar 1 -
+/source.zip 1 -
+/source.sql.bz2 1 -
+/prod.sql.bz2 1 -
+/sitemap 1 -
+/dump.tar.gz 1 -
+/css.php 9 -
+/infrastructure/.env 2 -
+/node_modules.tar.bz2 1 -
+/7/ 6 -
+/old.7z 1 -
+/mysqldump.rar 1 -
+/sitemap_news.xml.gz 2 -
+/app.zst 1 -
+/com.tgz 1 -
+/joomla.tar.gz 1 -
+/preprod.tgz 1 -
+/site.tar 1 -
+/application.tar.gz 1 -
+/full_backup.sql.gz 1 -
+/node_modules.bz2 1 -
+/.docker.gz 1 -
+/full_backup.tgz 1 -
+/dist.sql 1 -
+/i.php 1 -
+/2021/06/01/el-digesset-exigente/feed/ 2 -
+/public.tar.gz 1 -
+/django.tgz 1 -
+/db_backup.tar 1 -
+/r.php 3 -
+/app/.env 14 -
+/admin.rar 1 -
+/index0.php 1 -
+/exports.tar.bz2 1 -
+/laravel.rar 1 -
+/class.php 2 -
+/backup_db.rar 1 -
+/full_backup.7z 1 -
+/build.tar.gz 1 -
+/.docker.sql 1 -
+/connection_test.php 1 -
+/backend.tar.bz2 1 -
+/files.sql.bz2 1 -
+/app.tgz 1 -
+/db.tar.bz2 1 -
+/wp-blog.php 7 -
+/releases.sql 1 -
+/files.zip 1 -
+/archives.zip 1 -
+/sitemaps/.env 2 -
+/old_phpinfo.php 1 -
+/wp-admin/maint/index.php 6 -
+/actions/.env 2 -
+/wp-cron.php 1 https://www.google.com/search
+/django.7z 1 -
+/stage.tar 1 -
+/website_backup.tar.bz2 1 -
+/staff-member/joseph-nickel/ 10 -
+/wp-content/themes/Avada/changelog.txt 2 -
+/com.zst 1 -
+/test.tgz 1 -
+/wp-content.gz 1 -
+/config.bz2 1 -
+/admin.gz 1 -
+/network.php 2 -
+/wp-content/plugins/WordPressCore/ 2 -
+/htdocs.gz 1 -
+/wp-content/themes/doccure/style.css 1 -
+/old.gz 1 -
+/wp-json/teknocore/v1/ 1 -
+/backup_full.tar.gz 1 -
+/backup.7z 1 -
+/public.bz2 1 -
+/xper1.php 1 -
+/04.php 1 -
+/wp-trackback.php 3 -
+/wp-includes/assets/ty.php 4 -
+/dev.zip 1 -
+/mysqldump.sql 1 -
+/config.tar.gz 1 -
+/wordpress.zst 1 -
+/10.php 1 -
+/1.php 7 -
+/wp-content/plugins/cidaas-pro-master/composer.json 2 -
+/wp-content/plugins/acf-frontend-form-element/readme.txt 1 -
+/wp-content/plugins/ninja-forms-uploads/assets/css/file-upload.css 1 -
+/backup.tgz 1 -
+/wp-includes/images/ 2 -
+/full_backup.tar 1 -
+/wp/.env 2 -
+/backups/.env 2 -
+/rest/.env 2 -
+/application.sql 1 -
+/drupal.rar 1 -
+/.wp-config.php.swp 1 -
+/web.sql.bz2 1 -
+/uploads.tar.gz 1 -
+/webpack-stats.json 3 -
+/.env.test 5 -
+/htdocs/.env 2 -
+/wp-content/plugins/wpvivid-backuprestore/readme.txt 1 -
+/backup_db.sql 1 -
+/.well-known 4 -
+/database.tgz 1 -
+/.env.production.orig 4 -
+/wp-content/plugins/burst-statistics/assets/css/shortcodes.css 1 -
+/staff-member/victoria-davis/ 3 -
+/app/credentials.json 2 -
+/archives.sql 1 -
+/.astro/manifest.json 3 -
+/com.do.tar.xz 1 -
+/website_backup.tgz 1 -
+/db_backup.7z 1 -
+/joomla.bz2 1 -
+/production.tar.xz 1 -
+/express/.env 2 -
+/files/ 4 binance.com
+/api.sql.bz2 1 -
+/data.php 4 -
+/_profiler/phpinfo 1 -
+/releases.zip 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 671
+78.142.18.172 35 35 334670 20260523085514
+222.165.190.235 20 20 191240 20260523180652
+92.205.109.21 19 19 181678 20260523130351
+160.250.186.220 16 16 152992 20260523085503
+188.241.62.83 15 15 143430 20260523180839
+159.89.91.236 15 15 152295 20260510235628
+37.18.242.1 14 14 142142 20260514120204
+136.144.209.118 14 14 142142 20260514070338
+163.172.31.86 14 14 133868 20260523180719
+208.109.188.137 14 14 133868 20260523180825
+72.167.150.128 14 14 133868 20260523180847
+91.227.37.60 14 14 133868 20260519120957
+103.153.183.69 11 11 111683 20260521213016
+216.194.162.80 11 11 105182 20260523180827
+121.200.217.28 10 10 95620 20260509223432
+107.172.195.185 10 10 80448 20260524211702
+107.172.195.212 10 10 80448 20260524200132
+38.95.35.74 10 10 95620 20260523180851
+85.111.31.200 10 10 95620 20260519200940
+92.249.63.60 10 10 95620 20260523180736
+141.98.11.117 10 10 95620 20260521161038
+107.189.7.156 9 9 75655 20260524211648
+154.28.229.191 9 9 70886 20260524200136
+188.245.151.109 9 9 86058 20260518034052
+103.143.207.18 8 8 76496 20260523025342
+198.235.24.158 1 1 35978 20260505053535
+5.9.94.107 5 5 47810 20260509163846
+64.22.104.200 1 1 9562 20260523085424
+61.111.250.85 1 1 10153 20260503134104
+57.128.189.50 1 1 9562 20260512161628
+52.232.35.131 4 4 38248 20260519200957
+208.84.100.192 1 1 10153 20260525035136
+205.210.31.248 1 1 35978 20260501080848
+185.56.171.135 1 1 9562 20260521184613
+43.225.189.99 7 7 51762 20260513032403
+94.76.169.101 1 1 9562 20260525005118
+172.69.192.156 1 1 10153 20260525130433
+199.45.154.130 1 1 10153 20260512030011
+192.99.100.166 3 3 28686 20260512161339
+15.253.19.74 3 3 23486 20260504135942
+59.47.237.86 1 1 9562 20260504112809
+158.106.132.127 4 4 38248 20260521233620
+148.224.25.56 1 1 10153 20260502152714
+173.212.252.15 1 1 9562 20260512161616
+116.118.48.239 1 1 9562 20260519200838
+91.233.0.139 1 1 4362 20260516041023
+27.50.77.95 1 1 9562 20260512161625
+3.137.123.231 1 1 9562 20260517194649
+106.51.105.124 1 1 9562 20260521184423
+51.210.158.81 1 1 9562 20260509133156
+34.101.101.253 1 1 9562 20260514204055
+111.109.37.114 2 2 19124 20260514203945
+194.127.110.36 0 1 115134 
+172.105.236.7 1 1 9562 20260519120858
+3.70.164.132 4 4 38248 20260518215650
+193.190.135.171 1 1 9562 20260519200759
+193.36.222.4 5 5 37410 20260509183640
+67.222.10.78 2 2 19124 20260517194555
+34.101.189.231 2 2 19124 20260509223600
+159.223.117.90 1 1 9562 20260523085532
+167.172.73.193 1 1 9562 20260517021350
+188.165.194.120 2 2 19124 20260519164109
+66.249.66.200 1 1 9562 20260502041338
+82.196.25.136 6 6 57372 20260523180845
+185.247.137.199 1 1 10153 20260514060309
+65.111.20.156 1 1 9562 20260528052125
+136.243.176.166 3 3 28686 20260519121017
+66.132.172.142 1 1 10153 20260517112939
+95.216.3.239 3 3 28686 20260522153534
+209.38.197.174 1 1 10153 20260505001813
+74.91.224.220 5 5 47810 20260519121000
+103.216.117.42 2 2 19124 20260509163514
+118.107.44.79 1 1 10153 20260517125233
+150.60.181.111 4 4 38248 20260521161059
+93.89.6.6 1 1 9562 20260519201100
+185.220.101.100 1 1 10153 20260526085207
+162.214.184.71 4 4 38248 20260519120758
+192.248.32.140 2 2 19124 20260518033902
+5.157.14.100 3 3 23486 20260507071959
+34.97.176.175 1 2 13374 20260522001130
+199.189.224.103 5 5 47810 20260509193510
+66.116.235.214 5 5 47810 20260519120758
+103.90.232.170 1 1 9562 20260514105408
+209.235.136.149 1 1 9562 20260517223257
+190.0.230.22 1 1 9562 20260514204217
+209.235.136.135 1 1 9562 20260523180823
+88.148.93.220 1 1 9562 20260525005121
+103.50.205.131 2 2 19124 20260517021118
+151.252.51.18 1 1 9562 20260512161349
+103.253.178.3 1 1 9562 20260509102856
+165.140.157.20 1 1 9562 20260512161348
+205.210.31.17 1 1 38078 20260526064933
+138.246.253.7 2 2 0 20260517065613
+87.106.67.224 3 3 28686 20260523180849
+88.148.93.204 1 1 9562 20260525005119
+91.142.222.105 2 2 19124 20260523025431
+44.242.53.252 6 6 57372 20260509223256
+91.233.0.153 1 1 9562 20260516015050
+59.90.128.5 1 1 9562 20260522011155
+44.244.61.163 1 1 10153 20260526214349
+35.94.203.239 1 1 35978 20260509034316
+66.102.135.126 2 2 19124 20260519201014
+51.15.238.45 2 2 19124 20260522153528
+35.153.139.8 2 5 289675 20260505193459
+138.201.23.123 1 1 9562 20260518034143
+3.210.145.74 1 1 9562 20260523085551
+5.157.14.214 3 3 23486 20260525014950
+207.154.255.246 1 1 10153 20260526021744
+194.61.31.157 1 1 9562 20260509193427
+107.155.87.193 2 2 19124 20260512161222
+50.87.144.11 1 1 9562 20260517194627
+54.89.237.101 1 1 35978 20260509164221
+50.6.231.19 2 2 19124 20260519002401
+192.175.111.246 1 1 9562 20260510062448
+198.235.24.33 1 1 35978 20260516195400
+68.183.174.109 1 1 10153 20260514235303
+69.6.214.103 1 1 9562 20260523025407
+91.227.114.42 1 1 9562 20260529104102
+159.89.229.13 2 2 19124 20260509163044
+196.199.10.28 1 1 9562 20260520164822
+195.85.19.203 1 1 9562 20260509103452
+185.25.151.216 1 1 9562 20260509133137
+162.241.243.118 2 2 19124 20260512161433
+209.74.88.30 1 1 9562 20260521160933
+208.84.100.215 3 3 37586 20260510174927
+43.239.92.149 1 1 9562 20260509163556
+52.196.208.40 2 2 25061 20260531232014
+109.199.127.9 3 3 28686 20260518034103
+62.232.51.140 1 1 9562 20260509193541
+103.142.24.75 1 1 9562 20260523025326
+54.214.169.137 2 2 19124 20260509223317
+103.28.36.220 2 2 19124 20260523085449
+155.254.42.227 1 1 4362 20260527104152
+52.184.99.50 2 2 0 20260519070725
+20.24.211.102 2 2 0 20260516091829
+145.239.194.219 2 2 19124 20260509133211
+176.95.46.127 1 1 9562 20260521184448
+66.132.195.113 1 1 10153 20260509105813
+103.82.21.169 1 1 9562 20260519002400
+149.56.150.31 2 5 279522 20260515132706
+199.45.155.80 1 1 12532 20260520062817
+91.233.0.35 1 1 4362 20260516053304
+162.241.203.32 1 1 9562 20260509163217
+132.226.209.208 1 1 9562 20260517194604
+171.25.193.77 1 1 10153 20260526074533
+50.6.224.46 7 7 66934 20260519120945
+205.210.31.59 1 1 38090 20260526161833
+49.13.246.178 1 1 9562 20260517021210
+51.222.29.135 1 1 9562 20260522011127
+5.223.61.234 2 2 19124 20260509223543
+51.77.82.63 1 1 35978 20260527041856
+51.38.81.255 1 1 9562 20260512161336
+205.210.31.202 1 1 38090 20260530210015
+91.224.199.123 1 1 9562 20260509103416
+206.189.231.17 1 1 12526 20260504020219
+93.159.230.85 1 1 10153 20260529015055
+34.200.168.173 1 1 9562 20260517021121
+103.56.163.133 1 1 9562 20260514204141
+208.84.100.110 3 3 37585 20260526041824
+164.90.151.112 1 1 10153 20260506073847
+68.183.22.192 1 1 9562 20260509193349
+123.30.233.12 4 4 38248 20260519120818
+185.247.137.179 2 2 25062 20260503230854
+198.235.24.171 1 1 35978 20260516101214
+38.224.237.162 2 3 47667 20260527082404
+103.255.134.61 3 3 28686 20260523025429
+157.20.215.193 3 3 28686 20260519120753
+203.190.40.252 5 5 38248 20260519121014
+208.84.101.20 3 3 37581 20260530104610
+41.158.149.98 1 1 9562 20260501150710
+3.21.166.209 1 1 9562 20260513045535
+102.223.19.24 2 2 19124 20260523180645
+164.90.178.220 1 1 9562 20260518215649
+142.248.80.72 2 2 20306 20260507131433
+91.227.122.219 2 2 19124 20260519201049
+93.158.91.24 1 1 10153 20260531234836
+46.20.146.46 5 5 47810 20260522153545
+205.210.31.45 1 1 38090 20260509082650
+43.153.19.59 2 2 19124 20260509223233
+162.214.206.32 1 1 9562 20260521161039
+199.45.155.103 1 1 10153 20260504125309
+79.137.78.218 1 1 9562 20260519120755
+162.158.123.140 1 1 9562 20260514203707
+199.45.155.90 1 1 10153 20260501170706
+94.76.169.226 1 1 9562 20260525005122
+37.187.93.147 4 4 38248 20260523085224
+167.94.146.58 1 1 12526 20260502072536
+69.4.93.183 3 3 23486 20260501114742
+152.53.44.20 5 5 47810 20260509223539
+23.229.2.166 3 3 23486 20260519113651
+52.140.115.251 1 1 12529 20260515221109
+35.209.61.175 1 5 59617 20260504024057
+205.169.39.46 1 1 10153 20260519200815
+162.240.12.204 4 4 38248 20260523025312
+172.93.54.168 2 2 19124 20260509193814
+216.194.174.116 1 1 9562 20260509193515
+149.56.150.245 1 1 35978 20260515132651
+93.157.102.240 1 1 9562 20260509103430
+70.224.198.136 3 3 23486 20260527051422
+139.59.10.112 1 1 10153 20260528052513
+163.227.92.57 1 1 9562 20260512161718
+172.105.190.145 2 2 19124 20260523085444
+78.46.47.235 1 1 9562 20260516115239
+198.235.24.173 1 1 35978 20260522131912
+23.94.246.187 1 1 9562 20260513182442
+202.61.254.44 1 1 9562 20260519200549
+157.90.145.51 2 2 19124 20260509103254
+34.155.93.159 1 1 10153 20260512223337
+176.65.139.232 2 2 71956 20260528151628
+95.111.216.240 6 6 57372 20260509223255
+95.216.28.151 2 2 19124 20260512161656
+104.244.79.50 2 2 19124 20260527041537
+84.247.129.9 4 4 38248 20260522011244
+103.133.214.160 1 1 9562 20260523180852
+64.188.91.103 1 1 9562 20260526035910
+80.77.146.194 3 3 28686 20260519120809
+66.132.195.110 1 1 10153 20260509001837
+198.235.24.8 2 2 74068 20260523094724
+103.72.97.232 1 1 9562 20260507124231
+185.200.240.65 2 2 19124 20260522011246
+162.240.58.186 2 2 19124 20260523025233
+173.236.211.239 1 1 9562 20260523085454
+198.235.24.141 2 2 74056 20260524124403
+205.210.31.207 1 1 35978 20260505042821
+69.49.112.67 1 1 9562 20260514204205
+66.132.224.228 1 1 10153 20260516142554
+103.168.67.107 4 4 40612 20260516125016
+148.113.187.231 2 2 20306 20260501072041
+69.4.92.236 3 3 23486 20260501152115
+147.185.132.162 1 1 38090 20260509031644
+103.15.132.213 1 1 9562 20260517194715
+20.207.201.147 1 1 12531 20260510063513
+178.79.173.199 2 2 19124 20260509223330
+32.198.109.78 2 5 289675 20260519141943
+159.89.193.35 3 3 28686 20260519120648
+176.65.139.235 1 1 35978 20260530162822
+92.205.188.156 5 5 47810 20260522011158
+162.212.156.111 2 2 19124 20260509223347
+104.244.79.40 1 1 9562 20260522011157
+159.89.127.25 1 1 10153 20260528062750
+141.255.199.106 1 1 9562 20260509163100
+194.164.107.5 1 1 10153 20260505095033
+199.47.82.20 5 5 35043 20260505212553
+94.23.67.41 1 1 9562 20260509193416
+131.72.236.221 2 2 19124 20260521160841
+66.132.186.180 1 1 10153 20260504081142
+163.223.13.54 1 1 9562 20260518215529
+91.233.0.165 2 2 19124 20260516053304
+46.224.234.158 7 7 66934 20260523180900
+106.8.137.54 1 1 9562 20260522070302
+91.98.176.88 1 1 9562 20260516023258
+57.132.163.249 5 5 47810 20260509223346
+5.133.192.167 1 1 10153 20260504184600
+157.90.251.56 3 3 28686 20260509163534
+3.139.242.79 3 3 30459 20260531054051
+88.151.33.24 5 7 57214 20260527033333
+172.71.148.120 1 1 5648 20260525130425
+192.99.3.136 1 1 9562 20260517021244
+193.180.223.247 1 1 12529 20260517020525
+165.22.116.110 1 1 9562 20260523085543
+62.210.185.4 1 1 9562 20260519120915
+88.198.203.64 1 1 9562 20260519200816
+18.188.141.93 1 1 9562 20260512052243
+87.106.33.73 4 4 38248 20260509223459
+162.240.102.228 6 6 57372 20260517021420
+153.123.7.211 1 1 9562 20260521160949
+168.119.170.38 1 1 9562 20260509133219
+23.111.143.234 1 1 9562 20260512161212
+198.177.123.157 2 2 19124 20260512161205
+98.89.242.229 1 1 9562 20260517194721
+198.235.24.16 1 1 35978 20260518111513
+172.96.161.16 1 1 9562 20260509133336
+54.213.161.240 0 1 200437 
+192.250.239.252 2 2 19124 20260523130300
+134.209.205.93 1 1 12528 20260518095421
+216.26.227.186 1 1 9562 20260528052122
+5.250.187.247 3 3 28686 20260523025441
+69.164.253.99 1 1 10153 20260528141020
+23.22.236.16 2 2 19124 20260509163616
+2.135.147.138 3 3 28686 20260517223447
+212.47.73.67 2 2 19124 20260519201031
+36.158.249.243 1 1 9562 20260504113827
+37.27.234.213 3 3 28686 20260517194536
+109.75.161.204 2 2 19124 20260521184446
+37.114.50.27 2 2 19124 20260525030512
+205.210.31.177 1 1 35978 20260527050202
+91.211.220.107 1 1 9562 20260509193601
+216.126.239.219 1 1 10153 20260520170757
+74.50.90.10 4 4 38248 20260519002353
+5.133.192.140 1 1 10153 20260513165731
+93.158.91.12 1 1 10153 20260522202501
+91.233.0.151 1 1 9562 20260516041022
+209.235.136.147 1 1 9562 20260523180706
+146.59.4.208 1 5 490087 20260507155939
+153.75.250.148 1 1 0 20260520145350
+54.188.239.75 1 1 10153 20260514221902
+95.216.117.13 6 6 57372 20260523085553
+185.205.244.119 2 2 19124 20260507124144
+54.177.242.192 3 3 23486 20260503160533
+162.240.52.198 7 7 66934 20260523085408
+16.147.191.180 1 1 35978 20260530081104
+192.104.34.34 1 1 9562 20260530141908
+162.241.152.21 8 8 76496 20260523180741
+138.59.146.149 1 1 9562 20260509103616
+15.204.182.106 1 1 10153 20260517010847
+198.235.24.186 1 1 38078 20260531064826
+152.53.111.131 2 2 19124 20260521184614
+103.148.150.234 1 1 35978 20260502081436
+5.75.134.69 2 2 19124 20260509163358
+94.76.142.163 1 1 9562 20260525005125
+162.240.171.12 1 1 9562 20260523180829
+195.178.110.155 2 2 25063 20260506093218
+123.30.233.13 8 8 76496 20260523085546
+104.207.57.144 1 1 9562 20260528052123
+69.49.112.64 1 1 9562 20260523130301
+164.68.122.3 1 1 10153 20260512095502
+74.91.223.229 5 5 47810 20260523025436
+135.136.19.91 1 1 10153 20260524200541
+54.229.63.33 1 1 12531 20260527182649
+159.65.57.197 3 3 28686 20260519201018
+192.175.111.250 1 1 9562 20260504011638
+212.72.171.127 8 8 76496 20260509163642
+5.78.131.91 2 2 19124 20260509103007
+74.50.84.240 1 1 9562 20260523085501
+142.93.171.165 1 1 9562 20260521161106
+195.178.110.186 2 2 25061 20260502022530
+107.189.10.248 1 1 10153 20260516174019
+107.189.31.52 1 1 10153 20260524221546
+43.134.189.190 2 2 20306 20260523214512
+134.199.214.88 1 1 12528 20260508054809
+35.226.7.126 1 1 9562 20260514204022
+46.22.135.218 1 1 9562 20260509163534
+5.255.118.168 1 1 10153 20260508084543
+2.56.29.220 1 1 9562 20260514204007
+104.234.180.182 5 5 55517 20260516064928
+167.71.246.78 1 1 35978 20260525193843
+20.46.116.229 2 2 0 20260522153650
+137.131.234.75 1 1 9562 20260507124113
+194.26.192.75 1 1 10153 20260524205031
+143.198.38.252 1 1 12533 20260522043734
+96.9.225.24 1 1 9562 20260512161617
+205.169.39.5 1 1 10153 20260520085607
+46.32.255.52 2 2 19124 20260519201045
+103.127.30.137 5 5 47810 20260523180818
+38.99.81.38 4 4 38248 20260517021418
+35.154.74.221 1 1 9562 20260523130224
+208.122.218.181 1 1 9562 20260517223203
+205.210.31.170 1 1 35978 20260510063840
+216.10.251.191 1 1 9562 20260521184604
+176.36.146.80 1 1 35978 20260528062410
+198.235.24.74 1 1 35978 20260509190739
+87.236.176.228 1 1 10153 20260524025859
+91.233.0.106 1 1 9562 20260513085318
+65.21.250.144 2 2 19124 20260509193426
+143.244.182.226 1 1 9562 20260517223253
+91.233.0.173 3 3 18286 20260517214444
+140.245.50.113 1 1 10153 20260513142150
+193.36.222.6 3 3 23486 20260509183641
+141.98.11.120 2 2 25051 20260511145608
+159.223.63.197 1 1 10153 20260525223223
+91.233.0.72 2 2 19124 20260516053302
+217.154.40.168 1 1 12529 20260527182650
+192.176.172.166 4 4 38248 20260523180718
+103.240.4.152 3 3 28686 20260518034224
+66.249.66.41 0 1 210565 
+45.236.128.46 1 1 9562 20260509223542
+198.235.24.55 1 1 38090 20260513154047
+95.216.210.177 8 8 76496 20260514204029
+13.233.230.223 1 1 9562 20260512161523
+198.251.71.113 4 4 38248 20260509223433
+188.245.66.85 1 1 35978 20260519123106
+23.94.133.71 1 1 10153 20260518131220
+104.207.36.153 1 1 9562 20260528052124
+51.161.216.95 1 1 9562 20260512161333
+91.233.0.20 1 1 4362 20260516015052
+216.226.76.10 1 1 10153 20260504222753
+168.119.26.89 4 4 38248 20260523180709
+140.213.217.149 1 1 9562 20260519002420
+209.170.91.200 1 4 279522 20260506200035
+167.71.136.93 1 1 9562 20260517021136
+46.32.229.28 2 2 19124 20260509223615
+195.201.231.69 2 2 19124 20260517223423
+88.19.122.150 1 1 10153 20260504145922
+121.131.26.52 2 2 19124 20260518034221
+82.10.191.142 1 1 9562 20260504173808
+205.210.31.33 1 1 38078 20260530100818
+199.45.154.141 1 1 10153 20260508202807
+188.241.62.65 1 1 9562 20260512161619
+91.134.89.60 1 1 9562 20260522011041
+193.36.222.9 5 5 37410 20260509210002
+50.6.192.190 1 1 9562 20260523085541
+65.109.70.151 1 1 9562 20260509103515
+4.225.39.110 1 1 9562 20260509163929
+103.28.36.122 2 2 19124 20260509193650
+190.80.239.145 0 3 269960 
+172.194.139.254 2 2 19124 20260523130259
+88.151.33.117 2 2 25059 20260501220506
+213.199.35.19 1 1 9562 20260509102854
+52.0.245.198 1 1 10153 20260529190616
+198.235.24.156 1 1 35978 20260506151505
+192.81.211.94 1 1 9562 20260514204140
+45.32.67.165 2 2 19124 20260518033848
+193.186.4.217 1 1 9562 20260509110932
+192.175.111.230 1 1 9562 20260516121936
+103.124.95.115 1 1 9562 20260517223049
+62.197.157.45 5 5 47810 20260510055908
+35.255.10.86 1 1 9562 20260526061045
+193.186.4.254 1 1 9562 20260531152744
+217.20.124.76 2 2 19124 20260509163210
+123.113.53.150 1 1 9562 20260504113639
+161.115.234.214 1 1 9562 20260522204111
+198.235.24.202 1 1 38090 20260527064328
+86.57.172.107 1 1 10153 20260524200918
+185.209.229.195 4 4 38248 20260509223458
+66.132.172.141 1 1 10153 20260531153908
+91.233.0.18 1 1 9562 20260518015419
+5.196.62.228 3 3 28686 20260509163422
+71.6.134.234 1 1 10153 20260503120154
+54.91.158.35 1 1 9562 20260517021434
+45.55.144.148 7 7 66934 20260521233632
+194.1.205.35 1 1 9562 20260519200547
+87.120.126.234 1 1 9562 20260522221047
+49.12.3.147 1 1 9562 20260530075020
+164.90.209.139 1 1 10153 20260522081042
+35.188.65.125 1 1 12528 20260501043720
+144.16.144.93 2 2 19124 20260523025339
+45.138.201.91 1 1 9562 20260517021147
+173.255.247.77 4 4 38248 20260509223328
+165.22.106.78 1 1 9562 20260509223258
+114.30.86.24 1 1 9562 20260514105307
+199.45.155.72 1 1 10153 20260501122344
+193.36.222.8 1 1 9562 20260509181322
+162.241.203.222 1 1 9562 20260509133221
+85.239.144.40 1 1 12526 20260516122343
+94.46.170.157 4 4 38248 20260512161734
+74.121.34.10 5 5 47810 20260509134034
+207.154.239.233 1 1 10153 20260519051123
+87.106.235.29 3 3 28686 20260509223455
+147.185.132.144 1 1 35978 20260506053753
+205.210.31.153 1 1 38090 20260524130819
+101.100.249.238 4 4 38248 20260522153549
+157.15.40.6 1 1 0 20260528012915
+85.215.183.117 1 1 9562 20260518215652
+50.6.7.129 2 2 19124 20260519120849
+139.59.10.31 3 3 28686 20260521184347
+93.159.230.28 1 1 10153 20260515014655
+183.207.45.98 0 3 297037 
+67.227.191.16 3 3 28686 20260516115213
+45.139.253.3 1 4 279522 20260516085130
+43.230.201.87 8 8 76496 20260522011237
+103.57.223.70 5 5 47810 20260523085613
+164.52.218.210 4 4 38248 20260512161330
+162.240.29.92 5 5 47810 20260521161054
+185.220.101.23 1 1 10153 20260526093908
+173.231.203.120 3 3 28686 20260518071238
+160.22.108.208 1 1 9562 20260509223454
+125.212.221.88 3 3 28686 20260519120940
+104.223.49.157 3 3 23486 20260531202011
+178.105.76.185 2 2 19124 20260509193803
+148.0.34.82 3 6 283884 20260508200711
+198.12.106.59 1 1 10153 20260508143325
+205.210.31.158 1 1 38090 20260525131350
+178.219.136.29 1 1 4362 20260530055816
+178.104.167.38 3 3 28686 20260521233634
+45.83.104.137 1 1 10153 20260524231031
+88.151.32.216 2 2 25063 20260504235758
+209.235.136.150 2 2 19124 20260523085239
+123.176.96.28 5 5 47810 20260509223556
+216.26.252.210 1 1 9562 20260528052127
+212.90.148.8 1 1 9562 20260509163935
+167.94.146.59 1 1 10153 20260524125417
+62.77.224.68 1 1 9562 20260518215316
+103.84.116.31 1 1 9562 20260518034156
+35.228.1.6 1 1 9562 20260518215443
+103.179.56.102 1 1 9562 20260509103037
+104.155.29.73 2 2 19124 20260523130228
+173.249.4.57 2 2 19124 20260522011238
+89.91.150.166 1 1 9562 20260505150618
+159.89.87.76 2 2 19124 20260521184500
+124.156.212.23 1 1 9562 20260523180738
+87.236.176.178 1 1 12529 20260503084321
+51.77.74.125 3 3 107934 20260522150552
+84.247.137.247 1 1 9562 20260509223212
+103.91.67.202 1 1 9562 20260519200553
+3.18.186.238 6 6 70423 20260526052022
+178.20.210.57 3 3 28686 20260528231944
+205.210.31.167 1 1 35978 20260503062345
+91.233.0.111 2 2 13924 20260518015418
+162.214.79.109 2 2 19124 20260523085351
+171.244.34.150 1 1 9562 20260522153516
+162.240.228.207 1 1 9562 20260522153511
+139.59.18.102 3 3 28686 20260509193829
+176.65.139.234 2 2 71956 20260513225542
+34.1.16.70 1 5 59627 20260513035140
+191.96.150.17 1 1 10153 20260530051159
+137.184.227.205 1 1 0 20260520153945
+167.86.113.243 1 1 9562 20260512161239
+176.65.139.238 1 1 35978 20260526152556
+167.71.71.165 1 1 9562 20260522011157
+146.70.192.174 5 5 47810 20260501173955
+165.140.156.83 1 1 9562 20260509223504
+207.241.173.116 5 5 50765 20260521163153
+5.78.200.140 1 1 10153 20260525091219
+185.169.4.152 2 2 25054 20260531160709
+209.50.170.149 1 1 12532 20260502033518
+89.234.67.101 2 2 19124 20260519201004
+69.49.112.73 1 1 9562 20260519002424
+79.107.57.252 1 1 9562 20260516155118
+23.95.96.140 1 1 10153 20260528181035
+208.109.189.74 1 1 9562 20260517021335
+38.196.46.155 0 1 33743 
+38.154.82.151 2 2 19124 20260501114450
+199.45.154.158 1 1 12529 20260509085019
+88.99.65.119 3 3 28686 20260519002409
+151.246.207.85 0 1 210565 
+158.220.89.125 1 1 9562 20260523025312
+62.171.128.69 2 2 19124 20260517223533
+192.42.116.49 1 1 10153 20260525001633
+129.121.76.191 3 3 28686 20260519120826
+194.233.87.198 1 1 9562 20260509193509
+97.107.132.90 2 2 25061 20260509001935
+66.132.224.226 1 1 10153 20260526022811
+5.255.126.112 2 2 20306 20260507230232
+209.38.204.226 1 1 9562 20260519121025
+91.233.0.17 1 1 9562 20260513085322
+103.37.60.241 1 1 9562 20260509223500
+198.235.24.142 1 1 35978 20260530143853
+194.164.107.6 1 1 10153 20260506135356
+66.132.172.198 1 1 10153 20260512073926
+213.238.182.77 1 1 9562 20260519200705
+91.233.0.13 1 1 9562 20260517214440
+77.36.125.250 1 1 9562 20260507023841
+45.117.169.86 1 1 9562 20260512161344
+34.1.29.156 1 5 59623 20260513041250
+162.120.186.122 1 1 9562 20260509110905
+45.76.149.200 2 2 19124 20260509133949
+195.178.110.48 2 2 25054 20260526083917
+65.254.93.202 1 1 9562 20260509223245
+165.232.68.169 1 1 9562 20260519201024
+13.200.118.32 1 1 9562 20260519201056
+103.72.78.75 1 1 9562 20260509163654
+54.202.115.135 0 1 50258 
+45.150.34.11 2 2 71956 20260528172759
+142.93.215.41 3 3 28686 20260523025410
+94.46.170.34 2 2 19124 20260509223348
+87.98.242.205 3 3 28686 20260522011219
+104.248.170.159 3 3 28686 20260509133817
+213.189.58.137 1 1 9562 20260509103321
+209.38.251.46 2 2 19124 20260509193429
+91.98.178.79 1 1 9562 20260520081724
+198.235.24.176 1 1 35978 20260510112051
+103.124.92.234 6 6 57372 20260523085559
+66.116.197.245 4 4 38248 20260512161534
+52.91.47.216 1 1 17306 20260510014652
+193.36.222.10 4 4 27848 20260509210001
+96.62.228.140 1 1 10153 20260522055257
+31.24.155.180 4 4 38248 20260523180819
+162.240.108.214 1 1 9562 20260512161234
+152.42.134.236 1 1 9562 20260512161229
+74.206.180.196 8 8 76496 20260523085354
+45.93.131.8 1 1 4362 20260527092804
+158.247.222.151 1 1 9562 20260509193402
+44.244.152.44 1 1 35978 20260522105941
+71.6.240.141 1 1 10153 20260509012137
+165.22.136.47 1 1 9562 20260509133720
+20.54.134.42 2 2 19124 20260517021331
+203.190.11.3 2 2 19124 20260523025307
+181.140.65.133 1 1 9562 20260503144922
+35.154.38.195 6 6 60918 20260526215139
+92.205.20.61 1 1 9562 20260518034017
+147.185.132.237 1 1 35978 20260509213507
+202.21.38.77 1 1 9562 20260517021225
+3.233.88.40 1 1 10153 20260508213758
+198.235.24.145 1 1 38090 20260519122755
+34.212.169.199 0 1 269200 
+13.62.136.70 3 3 28686 20260521161130
+51.75.85.213 1 1 35978 20260509161320
+160.187.68.132 2 2 19124 20260512161202
+98.89.94.37 6 6 57372 20260509223615
+199.45.155.65 1 1 10153 20260527060110
+66.249.66.40 0 1 33743 
+51.195.41.174 2 2 19124 20260512161536
+71.6.236.51 1 1 10153 20260509010146
+13.232.32.2 6 6 64356 20260518221449
+168.144.123.196 1 1 10153 20260520065412
+79.143.189.203 5 5 47810 20260509223321
+162.215.134.101 4 4 38248 20260519002458
+205.210.31.78 1 1 38078 20260529090336
+181.214.13.234 1 1 10153 20260523021643
+198.235.24.192 1 1 38090 20260520103938
+187.34.228.207 1 1 9562 20260502145255
+93.39.85.202 1 1 9562 20260509193350
+124.221.252.220 1 1 9562 20260512161313
+151.241.239.9 0 1 25652 
+38.154.94.210 3 3 23486 20260511062912
+103.78.97.230 2 2 19124 20260523180726
+103.124.95.33 1 1 9562 20260517223311
+66.249.66.78 0 1 25652 
+44.223.215.73 1 1 9562 20260521161118
+144.172.92.237 2 2 20306 20260513020734
+209.141.44.244 1 1 10153 20260515093746
+185.65.133.68 1 1 9562 20260524200103
+198.235.24.179 1 1 35978 20260513093340
+66.132.172.143 1 1 12528 20260516185819
+37.237.166.55 1 1 4362 20260530040103
+110.93.205.130 2 2 19124 20260509223541
+121.200.216.56 2 2 19124 20260514204100
+72.167.46.126 1 1 9562 20260509223348
+185.109.19.192 2 2 19124 20260509133413
+3.151.194.164 4 4 45363 20260528235726
+94.136.187.4 2 2 19124 20260521184524
+54.38.152.15 0 3 269960 
+87.236.176.193 1 1 10153 20260503095309
+49.13.171.11 1 1 9562 20260518034121
+74.91.222.44 1 1 9562 20260519200907
+74.208.59.91 1 1 9562 20260523025310
+104.168.28.15 2 2 20306 20260529083612
+205.210.31.135 1 1 38090 20260519071548
+192.161.58.131 1 1 9562 20260508175719
+64.226.120.21 1 1 9562 20260509103222
+162.120.186.250 1 1 9562 20260509110857
+45.148.10.204 1 1 10153 20260526063055
+54.164.227.227 1 1 35978 20260516150300
+216.194.166.232 5 5 47810 20260517194613
+45.55.225.182 1 1 10153 20260508072129
+185.176.9.68 2 2 19124 20260517223214
+51.222.71.146 1 1 9562 20260509223525
+13.52.235.234 3 3 23486 20260517111742
+183.136.136.55 1 1 9562 20260504115026
+213.188.70.183 0 1 33743 
+110.89.30.206 1 1 10153 20260518130951
+195.178.110.105 6 6 60918 20260522145223
+206.189.149.231 1 1 10153 20260525223717
+103.215.74.185 4 4 40612 20260520153741
+162.241.24.125 1 1 9562 20260530075052
+34.220.224.231 0 1 54046 
+94.247.172.129 1 1 10153 20260530052735
+167.86.98.130 1 1 9562 20260519200933
+193.36.222.2 3 3 28686 20260509145106
+50.189.92.221 2 2 19124 20260522153400
+34.64.189.45 1 1 9562 20260509133950
+91.233.0.75 2 2 19124 20260518015416
+50.116.54.178 1 1 10153 20260509010215
+87.236.176.85 1 1 12530 20260503024106
+103.167.151.157 1 1 9562 20260518034041
+143.110.186.107 1 1 9562 20260509133601
+91.233.0.74 1 1 4362 20260513085320
+51.89.19.199 1 1 35978 20260508171754
+69.49.112.66 1 1 9562 20260522011034
+34.193.251.180 1 1 10153 20260513075647
+138.197.139.3 1 1 9562 20260518034032
+209.235.136.148 2 2 19124 20260521184602
+51.222.116.95 1 1 9562 20260507124256
+209.235.136.136 2 2 19124 20260523085536
+3.133.180.32 1 1 9562 20260522011244
+50.6.229.148 1 1 9562 20260507124117
+109.234.166.247 1 1 9562 20260509102950
+103.218.122.61 2 2 19124 20260509223634
+162.240.229.143 1 1 9562 20260519200748
+43.165.0.31 1 1 10153 20260530111304
+50.6.207.27 4 4 38248 20260523180737
+198.235.24.103 1 1 38090 20260523132015
+66.132.172.213 1 1 10153 20260518223337
+162.214.207.1 1 1 9562 20260512161418
+208.84.100.167 3 3 37586 20260521130115
+152.32.209.93 1 1 9562 20260509223323
+185.100.157.201 1 1 35978 20260523211259
+159.69.136.106 1 1 5239 20260529040656
+63.141.245.242 1 1 9562 20260509163043
+83.212.59.108 1 1 9562 20260507124115
+209.235.136.146 1 1 9562 20260523180714
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20260501 23 26 507605 13
+20260502 8 11 385334 7
+20260503 16 16 194969 13
+20260504 18 22 228829 15
+20260505 15 21 754038 9
+20260506 7 10 396847 6
+20260507 26 30 726301 18
+20260508 12 15 402870 10
+20260509 293 296 3236221 219
+20260510 29 29 387136 9
+20260511 5 5 48537 2
+20260512 68 68 678996 52
+20260513 22 30 400258 16
+20260514 70 70 681655 33
+20260515 7 14 932429 6
+20260516 42 45 754487 30
+20260517 116 116 1120977 89
+20260518 74 74 766943 58
+20260519 127 130 1545255 95
+20260520 14 14 150970 11
+20260521 96 96 934535 59
+20260522 93 94 961492 61
+20260523 141 141 1431375 107
+20260524 48 48 464238 14
+20260525 20 20 243581 17
+20260526 25 25 374409 17
+20260527 21 25 344779 13
+20260528 17 17 241128 16
+20260529 6 8 327646 6
+20260530 16 16 289552 14
+20260531 11 13 279959 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+2mn-5mn 53
+0s-30s 889
+30mn-1h 2
+5mn-15mn 12
+30s-2mn 86
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/ 1418 15464570 1016 1013
+/noticias.html 38 162296 17 19
+/nosotros.html 9 60445 3 3
+/perfiles.html 6 24204 0 0
+/images/ 4 50105 3 3
+// 4 40612 1 1
+/wp-content/themes/index.php 3 0 3 0
+/wp-content/plugins/index.php 2 0 0 2
+/wp-content/index.php 1 0 0 1
+/webmail/phpinfo.php 1 13591 0 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+1K-2K 3
+5K+ 2096
+0-44 1192
+44-100 1503
+500-1K 5254
+2K-5K 838
+100-500 21
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

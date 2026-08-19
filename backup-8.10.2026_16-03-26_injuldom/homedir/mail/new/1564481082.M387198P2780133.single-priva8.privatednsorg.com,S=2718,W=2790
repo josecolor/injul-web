@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id sOCtFjoWQF3layoA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Tue, 30 Jul 2019 06:04:42 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Tue, 30 Jul 2019 06:04:42 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1hsOzq-00Bkol-B1
+	for injuldom@single-priva8.privatednsorg.com; Tue, 30 Jul 2019 06:04:42 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1564481082-eximdsn-2067526545
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hsOzq-00Bkol-B1@single-priva8.privatednsorg.com>
+Date: Tue, 30 Jul 2019 06:04:42 -0400
+
+--1564481082-eximdsn-2067526545
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1564481082-eximdsn-2067526545
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1564481082-eximdsn-2067526545
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1hsOzq-00Bkod-9Q
+	for info@injul.com.do; Tue, 30 Jul 2019 06:04:42 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "Here is  an respectedalms in the function of victory. injul.com.do"
+X-PHP-Script: injul.com.do/index.php for 193.7.200.176
+Date: Tue, 30 Jul 2019 10:04:42 +0000
+From: "injul.com.do" <info@injul.com.do>
+Reply-To: micgyhaelDathe@gmail.com
+Message-ID: <a297486dca46fe2a6c6f1866ff43ec73@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: injul.com.do <micgyhaelDathe@gmail.com>
+Subject: Here is  an respectedalms in the function of victory. injul.com.do
+
+Message Body:
+There is an overpowering  alms despite victory. injul.com.do 
+http://bit.ly/2NLAbGc
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1564481082-eximdsn-2067526545--

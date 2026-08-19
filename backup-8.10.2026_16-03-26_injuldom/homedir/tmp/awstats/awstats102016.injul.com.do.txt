@@ -1,0 +1,499 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201610 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2678                
+POS_VISITOR 16344               
+POS_DAY 16529               
+POS_DOMAIN 3375                
+POS_LOGIN 3599                
+POS_ROBOT 3754                
+POS_WORMS 3920                
+POS_EMAILSENDER 4051                
+POS_EMAILRECEIVER 4194                
+POS_SESSION 16606               
+POS_SIDER 16752               
+POS_FILETYPES 4329                
+POS_DOWNLOADS 4409                
+POS_OS 4457                
+POS_BROWSER 4543                
+POS_SCREENSIZE 4634                
+POS_UNKNOWNREFERER 4708                
+POS_UNKNOWNREFERERBROWSER 4878                
+POS_ORIGIN 4960                
+POS_SEREFERRALS 5090                
+POS_PAGEREFS 5234                
+POS_SEARCHWORDS 5382                
+POS_KEYWORDS 5534                
+POS_MISC 2342                
+POS_ERRORS 5593                
+POS_CLUSTER 3455                
+POS_SIDER_404 5722                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20161101000059 126 25143 11437966775975
+FirstTime 0
+LastTime 20161018093943
+LastUpdate 20161101083820 126 0 125 0 0
+TotalVisits 3                   
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 198 208 237636
+1 0 0 0 251 267 305278
+2 0 0 0 228 246 282390
+3 0 0 0 204 213 238766
+4 0 0 0 215 234 268623
+5 0 0 0 253 266 304184
+6 0 0 0 238 251 285834
+7 0 0 0 183 222 254847
+8 0 0 0 198 211 239914
+9 3 3 12216 188 202 233572
+10 0 0 0 197 217 246820
+11 0 0 0 228 241 275385
+12 0 0 0 242 260 298435
+13 0 0 0 208 227 258273
+14 0 0 0 244 264 303054
+15 0 0 0 422 433 497057
+16 0 0 0 291 310 355871
+17 0 0 0 242 261 297314
+18 0 0 0 318 334 379781
+19 0 0 0 201 216 242201
+20 0 0 0 253 268 299635
+21 0 0 0 240 250 285834
+22 0 0 0 253 262 291572
+23 0 0 0 296 309 354714
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 3 3 12216
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+googlebot 1 4072 20161018093705 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+cgi 3 12216 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+Unknown 1 1
+win7 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 3
+mozilla 1 1
+msie11.0 1 1
+firefox34.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_GroupHigh/1.0;__http://www.grouphigh.com/) 20161018091701
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 2 2
+From1 0 0
+From2 0 0
+From3 0 0
+From4 1 1
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 4 4492
+404 6076 6925884
+411 2 2310
+403 88 100232
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 263
+/2011/03/19 1 -
+/la-reforma-policial-del-presidente 5 -
+/wp-admin/test/test/file/2013gdocs/ 2 -
+/uso-del-monosilabo-de-o-del 4 -
+/tag/johan-liriano/ 1 -
+/imagenes-de-la-puesta-en-circulacion-de-la-busqueda/ 4 -
+/category/home-edition/ 1 -
+/tag/sopa/ 1 -
+/labistamechi/dropbox/dropbox/dropbox/ 1 -
+/wp-content/uploads/wppa/152.jpg 1 -
+/wp-content/uploads/wppa/68.jpg 1 -
+/page/7/ 1 -
+/conferencia-difusion-de-las-investigaciones-juridicas-2/ 2 -
+/tag/patrullaje-militar/ 2 -
+/labistamechi/dropbox/dropbox/dropbox/dropbox/ 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor 1 -
+/tag/gabriel-garcia-marquez/ 2 -
+/tag/crimen/ 1 -
+/wp-content/plugins/all-in-one-video-pack 1 -
+/servicios/ 1 -
+/labistamechi/dropbox/dropbox/dropbox/dropbox 4 -
+/tag/coronel-johan/feed/ 4 -
+/2014/11/ 2 -
+/felicidades-campeon/ 93 http://injul.com.do/
+/tag/spyware/ 1 -
+/novedades 2 -
+/novedades/ 7 -
+/injul-te-cura-en-salud/ 2 -
+/entrevista-al-lic-juan-ml-fructuoso-en-el-sanedrin 2 -
+/page/13/ 1 -
+/que-es-est 7 http://injul.com.do/
+/tag/culpable/ 1 -
+/principio-de-igualdad-en-la-republica-dominicana-en-su-nueva-constitucion/ 2 -
+/tag/congreso/ 1 -
+/common/fckeditor/editor/ 1 -
+/tag/juan-manuel-fructuoso/ 2 -
+/category/home-edition/page/5/ 3 -
+/tag/policidio/ 1 -
+/que-es-feminicidio-o-femicidio 2 -
+/page/4/ 1 -
+/js/fckeditor/editor/ 1 -
+/no-nos-pertenecen/ 9 http://injul.com.do/
+/tag/terremoto/ 1 -
+/tag/caso-yaguate/ 2 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 17 -
+/2014/12/ 1 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 23 http://injul.com.do/
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 16 -
+/1/wp-admin/setup-config.php 1 -
+/tag/justicia/ 1 -
+/censura-ordenes-procurador-ante-violencia-genero/feed/ 10 -
+/wp/wp-admin/setup-config.php 1 -
+/page/8/ 3 -
+/viajando-a-la-habana-cuba 4 -
+/otro/ 1 -
+/blog/wordpress/wp-admin/setup-config.php 1 -
+/tag/pujols-seipio/ 2 -
+/tag/carta-al-jefe-de-la-policia-nacional/feed/ 1 -
+/tag/san-cristobal/feed/ 4 -
+/tag/violencia/ 1 -
+/page/10/ 3 -
+/chase/update/chase/ 30 -
+/tag/ganara/ 3 -
+/tag/delincuencia-y-crimen-organizado/ 1 -
+/wp-content/plugins/simple-ads-manager/js/sam-dialog.js 1 -
+/2012/06/05/ 1 http://injul.com.do/2012/06/05/
+/index.php/component/users/ 1 http://injul.com.do/index.php/component/users/
+/excursions/js/plugins/elfinder2.0/elfinder.html 1 -
+/tag/dominicanas/ 2 -
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 2 -
+/tag/derechos/ 1 -
+/wp-content/uploads/2012/01/democracia_formal-294x300.jpg 2 -
+/entrevista-sobre-el-plan-de- 2 -
+/que-es-estado-social-y-democratico- 1 -
+/tag/fructuoso-heredia/ 5 -
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/feed/ 2 -
+/hello-world/ 148 http://injul.com.do/
+/tag/juan-de-los-palote/ 3 -
+/2012/10/ 1 -
+/tag/democracia/ 2 -
+/que-es-feminicidio-o-femicidio/ 155 http://injul.com.do/
+/wp-content/plugins/genesis-simple-defaults/readme.txt 1 -
+/contactos 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 162 http://injul.com.do/
+/tag/policia-molitar/feed/ 3 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 30 -
+/puesta-en-circulacion-de-la-novela-la-busqueda/ 3 -
+/wp-content/uploads/2012/09/toga3.jpg 7 -
+/que-debe-hacer-la-policia-para-ser-bien-valorada/ 4 -
+/dialogo-entre-las-altas-cortes 3 -
+/tag/palotes/ 1 -
+/tag/policia/ 1 -
+/xmlrpc-activate.php 1 -
+/news/wp-admin/setup-config.php 1 -
+/wordpress/wordpress/wp-admin/setup-config.php 1 -
+/feed/ 4 -
+/tag/platon/ 1 -
+/tag/incremento-de-la-delincuencia-y-crimen-organizado/ 1 -
+/carta-al-jefe-de-la-policia-nacional/ 30 http://injul.com.do/
+/que-es-estado-social-y-democratico-de-derecho-2 2 -
+/nos 2 -
+/2014/11/12/ 2 -
+/wp-content/plugins/all-in-one-video-pack/css/ 1 -
+/tag/militar/ 1 -
+/tag/jose-polanco-gomez/ 1 -
+/page/2/ 2 -
+/2013/08/ 1 -
+/tag/pirateria/ 1 -
+/wp-content/uploads/wppa/74.jpg 1 -
+/viajando-a-la-habana-cuba-segunda-parte/ 1 -
+/no-politizar-la-reforma-del-codigo-procesal-penal/ 1 -
+/tag/cambio/ 3 -
+/tag/policia-molitar/ 1 -
+/perfiles/ 2 -
+/assets/dashboard/js/elrte-1.3/elfinder/elfinder.html 1 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 51 http://injul.com.do/
+/category/home-edition 1 -
+/page/5/ 10 -
+/que-debe-hacer-la-policia-para-ser-bien-valorada 1 -
+/tag/novela-policiaca/ 1 -
+/quieres-sopa/ 1 -
+/2013/11/ 1 -
+/tag/manuel-castro-castillo/ 2 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias 2 -
+/como-la-cronica-de-una-muerte-anunciada 1 -
+/ 2575 http://injul.com.do
+/tag/crimen-organizado/ 1 -
+/wp-content/plugins/sam-pro-lite/js/sam.pro.layout.min.js 1 -
+/navidad-fiesta-de-la-familia-y-de-la-vida/ 4 -
+/hello-world/%7C0 6 http://injul.com.do/hello-world/%7C0
+/tag/troyanos/ 1 -
+/viajando-a-la-habana-cuba-segunda-parte 3 -
+/final-redes-sociales-ley-sopa 3 -
+/la-huelga-como-estrategia-de-marketing/ 1 -
+/tag/no-nos-pertenecen/ 1 -
+/inquiry/ 2 -
+/wordpress/blog/wp-admin/setup-config.php 1 -
+/tag/jefe-policia/feed/ 3 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 -
+/tag/2012/ 1 -
+/uso-del-monosilabo-de-o-del/ 7 http://injul.com.do/
+/hello-world 6 -
+/common/js/elfinder-2.0-rc1/elfinder.html 1 -
+/tag/johan-emilio/feed/ 1 -
+/tag/navidad-en-familia/ 2 -
+/fraudes-por-tarjetas-de-credito 4 -
+/wp-content/uploads/2011/10/navidad3.jpg 1 -
+/tag/policiacidio/ 3 -
+/wp-content/uploads/2012/01/democracia_formal.jpg 68 http://eastigela.astileku.eus/course/view.php
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/ 37 http://injul.com.do/
+/index.php/component/user/register 1 -
+/tag/seguridad/ 1 -
+/entrevista-sobre-el-plan-de-seguridad- 2 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/ 26 -
+/page/11/ 1 -
+/license.php 2 -
+/editor/editor/ 1 -
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/ 3 -
+/wp-content/uploads/wppa/149.jpg 1 -
+/category/home-edition/page/8/ 1 -
+/servicios 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/ 184 http://injul.com.do/
+/jvc/ 2 -
+/2013/11/05/ 1 -
+/el-espectaculo/ 136 http://injul.com.do/
+/tag/alfonso-torres-ulloa/ 1 -
+/anecdota-don-juan-de-los-palotes/ 57 http://injul.com.do/
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 15 -
+/chase/update/chase/personal_info.htm 15 -
+/por-que-debemos-destruir-el-ticket-del-cajero 2 -
+/tag/elecciones/ 1 -
+/vendor/mihaildev/yii2-elfinder/assets/elfinder.html 1 -
+/tag/pablo-pujols-seipio/ 5 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-ii/ 3 -
+/wp-content/uploads/wppa/150.jpg 1 -
+/tag/polanco-gomez/ 3 -
+/487/ 4 http://injul.com.do/487/
+/atencion-mujeres 2 -
+/tag/o-nos-montamos-o-nos-atropella/ 1 -
+/dialogo-entre-las-altas-cortes/ 1 -
+/tag/quien/ 3 -
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/ 3 http://injul.com.do/
+/labistamechi/ 1 -
+/tag/cronica-de-una-muerte-anunciada/ 2 -
+/backups.php 1 -
+/la-reforma-policial-del-presidente/feed/ 1 -
+/manage/fckeditor/editor/ 1 -
+/index.php 2 -
+/la-dignidad-de-la-toga/ 5 -
+/que-es-feminicidio-o-femicidio/\",\"\",\"\",\"\",\" 2 http://injul.com.do/
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 632 http://injul.com.do/el-incremento-de-la-delincuencia-y-el-crimen-organizado/#comment-15533
+/wordpress/wp-admin/setup-config.php 1 -
+/blog/wp-admin/setup-config.php 1 -
+/fckeditor/editor/ 1 -
+/IPES/ 2 -
+/wp-content/plugins/addblockblocker/readme.txt 1 -
+/tag/malware/ 1 -
+/page/12/ 5 -
+/admin/fckeditor/editor/ 1 -
+/el-oro-olimpico-de-gran-bretana 5 -
+/wp-content/uploads/wppa/70.jpg 1 -
+/wp-content/plugins/1-flash-gallery/config.php 1 -
+/recordando-a-garzon/ 86 http://injul.com.do/
+/2013/10/21/ 2 -
+/cibersecuestro/ 24 -
+/backup/wp-admin/setup-config.php 1 -
+/tag/jefe-de-la-policia-nacional/ 2 -
+/tag/mulata-iii/ 1 -
+/assets/b845e0c8/elfinder/elfinder.html 1 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 28 http://injul.com.do/
+/component/user/register 1 -
+/conferencia-difusion-de-las-investigaciones-juridicas-2 1 -
+/o-nos-montamos-o-nos-atropella/ 144 http://injul.com.do/o-nos-montamos-o-nos-atropella/#comment-19136
+/la-funcion-reductora-del-derecho-penal-ante-un-estado-de-derecho-amenazado-o-la-logica-del-carnicero-responsable/ 1 -
+/wp-content/uploads/2012/02/EleccionesRD2012-Los-Anuncios-de-Los-Pre-Candidatos-Dominicanos.jpg 1 -
+/ley-de-reforma-del-congreso-de-2011-enmienda-de-la-constitucion-de-espana/ 1 -
+/el-culpable-favorito/ 4 http://injul.com.do/
+/la-huelga-como-estrategia-de-marketing 3 -
+/respuestas/ 1 -
+/tag/aristocles/ 1 -
+/wp-content/plugins/all-in-one-video-pack/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 15 -
+/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 5 http://injul.com.do/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/
+/tag/carta-del-lic-juan-fructuoso/ 3 -
+/wp-login.php 11 http://www.injul.com.do/wp-login.php
+/medidas-para-evitar-el-spam-en-el-correo-electronico-o-email/ 8 http://injul.com.do/medidas-para-evitar-el-spam-en-el-correo-electronico-o-email/
+/xmlrpc.php 1 -
+/category/home-edition/page/12/ 1 -
+/wp-admin/test/test/file/2013gdocs 294 -
+/wp-content/plugins/cherry-plugin/lib/js/elasti-carousel/jquery.elastislide.js 2 -
+/tag/dominicana/ 1 -
+/contactos/ 5 -
+/page/9/ 3 -
+/robots.txt 287 -
+/tag/policias-de-higuey/ 1 -
+/tag/injul/ 1 -
+/2012/09/ 1 -
+/tag/virus/ 1 -
+/policiacidio-o-policidio/ 1 -
+/censura-ordenes-procurador-ante-violencia-genero 1 -
+/recordando-a-garzon 3 -
+/tag/castro-castillo/ 2 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 62 http://injul.com.do/
+/tag/caso-san-cristobal/feed/ 3 -
+/wp-content/plugins/1-flash-gallery/images.php 1 -
+/feliz-navidad-y-prospero-2015/ 2 http://injul.com.do/
+/tag/spam/ 1 -
+/la-clonacion-2-0-o-como-protegerte-del-robo-de-identidad-en-internet/ 1 http://injul.com.do/
+/wp-content/uploads/wppa/156.jpg 1 -
+/2013/10/ 1 -
+/include/fckeditor/editor/ 1 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto 1 -
+/tag/plan-de-seguridad-ciudadana/ 1 -
+/tag/genero/ 1 -
+/page/6/ 1 -
+/la-designacion-de-jueces-en-las-alta-cortes 2 -
+/transparencia/ 61 http://injul.com.do/
+/nos/ 3 -
+/feed/atom/ 24 -
+/admin/ 1 -
+/como-la-cronica-de-una-muerte-anunciada/ 80 http://injul.com.do/
+/final-redes-sociales-ley-sopa/ 5 -
+/tag/candido/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+50.203.216.14 1 1 4072 20161018091701
+107.150.62.250 1 1 4072 20161018093943
+23.83.92.93 1 1 4072 20161018092303
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20161018 3 3 12216 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/cgi-sys/suspendedpage.cgi 3 12216 3 3
+END_SIDER

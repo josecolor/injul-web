@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com (Dovecot) with LMTP id bfcyBIBGxFkMsQgA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Thu, 21 Sep 2017 19:08:48 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Thu, 21 Sep 2017 19:08:48 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dvAaO-002OeG-5u
+	for injuldom@single-priva8.privatednsorg.com; Thu, 21 Sep 2017 19:08:48 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1506035328-eximdsn-614442914
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dvAaO-002OeG-5u@single-priva8.privatednsorg.com>
+Date: Thu, 21 Sep 2017 19:08:48 -0400
+
+--1506035328-eximdsn-614442914
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1506035328-eximdsn-614442914
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1506035328-eximdsn-614442914
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dvAaO-002Odt-3E
+	for info@injul.com.do; Thu, 21 Sep 2017 19:08:48 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 47.89.36.19
+Date: Thu, 21 Sep 2017 23:08:48 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <78152c664e8999d07eb05176464eeca6@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: Ugg Cachemire Earmuffs Filaire écouteurs Violet Boutique Avis (IP: 47.89.36.19, 47.89.36.19)
+Correo electrónico: maybelle_haris@gmail.com
+URL: https://www.uggspascher.website/ugg-cachemire-earmuffs-filaire-écouteurs-violet-boutique-avis
+Comentario: 
+Quality articles is the key to interest the users to pay a visit the web page, that's what this 
+web site is providing.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=98#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=98#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=98#wpbody-content
+Actualmente hay 97 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1506035328-eximdsn-614442914--

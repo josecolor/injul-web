@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id eOWdEy7CwF224xEA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Mon, 04 Nov 2019 19:28:30 -0500
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Mon, 04 Nov 2019 19:28:30 -0500
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iRmhy-00500I-9J
+	for injuldom@single-priva8.privatednsorg.com; Mon, 04 Nov 2019 19:28:30 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1572913710-eximdsn-778174359
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iRmhy-00500I-9J@single-priva8.privatednsorg.com>
+Date: Mon, 04 Nov 2019 19:28:30 -0500
+
+--1572913710-eximdsn-778174359
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1572913710-eximdsn-778174359
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1572913710-eximdsn-778174359
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iRmhy-005007-7r
+	for info@injul.com.do; Mon, 04 Nov 2019 19:28:30 -0500
+To: info@injul.com.do
+Subject: www.injul.com.do "Short-term investments in bitcoin!"
+X-PHP-Script: injul.com.do/index.php for 185.93.182.134
+Date: Tue, 5 Nov 2019 00:28:30 +0000
+From: MichaelLic <info@injul.com.do>
+Reply-To: robertHooxy@gmail.com
+Message-ID: <ff11f2a6a4aecc24bed431867227f970@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+From: MichaelLic <robertHooxy@gmail.com>
+Subject: Short-term investments in bitcoin!
+
+Message Body:
+Registration to the international project "ELDORADO" is open" 
+The "Eldorado" project is currently the market leader in short-term investments in the blockchain-bitcoin community. 
+ 
+Investment program: 
+ 
+Investment currency: BTC. 
+The investment period is 2 days. 
+Minimum profit is 10% 
+The minimum investment amount is 0.0025 BTC. 
+The maximum investment amount is 10 BTC .  
+9% Daily bonus to each member of the affiliate program.   
+Re-investment is available. 
+ 
+Registration here : https://eldor.cc#enbtc
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1572913710-eximdsn-778174359--

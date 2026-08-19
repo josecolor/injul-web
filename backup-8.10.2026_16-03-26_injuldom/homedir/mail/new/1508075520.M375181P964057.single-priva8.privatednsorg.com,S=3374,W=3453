@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id kKUYFgBo41nZtQ4A6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Sun, 15 Oct 2017 09:52:00 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Sun, 15 Oct 2017 09:52:00 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1e3jKi-0042uq-AC
+	for injuldom@single-priva8.privatednsorg.com; Sun, 15 Oct 2017 09:52:00 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1508075520-eximdsn-965539793
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1e3jKi-0042uq-AC@single-priva8.privatednsorg.com>
+Date: Sun, 15 Oct 2017 09:52:00 -0400
+
+--1508075520-eximdsn-965539793
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1508075520-eximdsn-965539793
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1508075520-eximdsn-965539793
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1e3jKi-0042uj-8k
+	for info@injul.com.do; Sun, 15 Oct 2017 09:52:00 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 91.121.251.65
+Date: Sun, 15 Oct 2017 13:52:00 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <2e5933f63f8e7e1cccfa824ad23803a6@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: reallifecam, real life cam, reallife cam, reallifecams, reallife cams (IP: 91.121.251.65, ip65.ip-91-121-251.eu)
+Correo electrónico: elvin.eliott@bigstring.com
+URL: https://www.camarads.com/reallifecam
+Comentario: 
+Wonderful blog! I found it while browsing on Yahoo News. Do you have any tips on hhow to get listed in Yahoo 
+News? I've been trying for a while but I never seem too 
+get there! Many thanks
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=255#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=255#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=255#wpbody-content
+Actualmente hay 254 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1508075520-eximdsn-965539793--

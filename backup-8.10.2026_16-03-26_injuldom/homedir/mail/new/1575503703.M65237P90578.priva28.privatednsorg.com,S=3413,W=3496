@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: injuldom@priva28.privatednsorg.com
+Received: from priva28.privatednsorg.com
+	by priva28.privatednsorg.com with LMTP
+	id aDJEA1dH6F3SYQEAft/lqw
+	(envelope-from <>)
+	for <injuldom@priva28.privatednsorg.com>; Wed, 04 Dec 2019 18:55:03 -0500
+Return-path: <>
+Envelope-to: injuldom@priva28.privatednsorg.com
+Delivery-date: Wed, 04 Dec 2019 18:55:03 -0500
+Received: from mailnull by priva28.privatednsorg.com with local (Exim 4.92)
+	id 1iceU3-000Pip-0E
+	for injuldom@priva28.privatednsorg.com; Wed, 04 Dec 2019 18:55:03 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@priva28.privatednsorg.com>
+To: injuldom@priva28.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1575503702-eximdsn-234382888
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iceU3-000Pip-0E@priva28.privatednsorg.com>
+Date: Wed, 04 Dec 2019 18:55:03 -0500
+
+--1575503702-eximdsn-234382888
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1575503702-eximdsn-234382888
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; priva28.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1575503702-eximdsn-234382888
+Content-type: message/rfc822
+
+Return-path: <injuldom@priva28.privatednsorg.com>
+Received: from injuldom by priva28.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@priva28.privatednsorg.com>)
+	id 1iceTv-000Pd9-UL
+	for info@injul.com.do; Wed, 04 Dec 2019 18:54:55 -0500
+To: info@injul.com.do
+Subject: =?UTF-8?B?d3d3LmluanVsLmNvbS5kbyAi0KHQtdGA0LjQsNC7ICLQtdGB0YLRjCA=?=  =?UTF-8?B?0L/RgNC+0LHQuNGC0LjQtSAtINC10YHRgtGMINC/0L7Qv9Cw0LTQsNC90Lg=?=  =?UTF-8?B?0LUiIHwg0JzQvtC80LXQvdGC0Ysg0L/RgNC+0LHQuNGC0LjQtSDRgtCw0L0=?=  =?UTF-8?B?0LrQvtCyINCyIHdvcmxkIG9mIHRhbmtzIHwg0JHQsNCx0LDRhSAjMQ==?=  =?UTF-8?B?Ig==?=
+X-PHP-Script: injul.com.do/index.php for 5.153.178.92
+X-PHP-Originating-Script: 1966:class-phpmailer.php
+Date: Wed, 4 Dec 2019 23:54:55 +0000
+From: GammaFlup <info@injul.com.do>
+Reply-To: kavardaking@lenta.ru
+Message-ID: <3f16dc8aa22e94e203e0e05f18b7d860@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+X-cPanel-MailScanner-Information: Please contact the ISP for more information
+X-cPanel-MailScanner-ID: 1iceTv-000Pd9-UL
+X-cPanel-MailScanner: Found to be clean
+X-cPanel-MailScanner-SpamCheck: not spam, SpamAssassin (not cached,
+	score=1.999, required 5, SHORT_SHORTNER 2.00)
+X-cPanel-MailScanner-SpamScore: s
+X-cPanel-MailScanner-From: injuldom@priva28.privatednsorg.com
+X-Spam-Status: No
+
+From: GammaFlup <kavardaking@lenta.ru>
+Subject: Сериал "есть пробитие - есть попадание" | Моменты пробитие танков в world of tanks | Бабах #1
+
+Message Body:
+Сенсация!  - <a href=https://youtu.be/phaXc0aqS7Q>ворлд оф танкс</a>
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1575503702-eximdsn-234382888--

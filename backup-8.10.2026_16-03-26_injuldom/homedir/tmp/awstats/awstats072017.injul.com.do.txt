@@ -1,0 +1,417 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201707 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2662                
+POS_VISITOR 14344               
+POS_DAY 14416               
+POS_DOMAIN 3343                
+POS_LOGIN 3554                
+POS_ROBOT 3709                
+POS_WORMS 3841                
+POS_EMAILSENDER 3972                
+POS_EMAILRECEIVER 4115                
+POS_SESSION 14472               
+POS_SIDER 14609               
+POS_FILETYPES 4250                
+POS_DOWNLOADS 4314                
+POS_OS 4362                
+POS_BROWSER 4427                
+POS_SCREENSIZE 4477                
+POS_UNKNOWNREFERER 4551                
+POS_UNKNOWNREFERERBROWSER 4638                
+POS_ORIGIN 4720                
+POS_SEREFERRALS 4850                
+POS_PAGEREFS 4994                
+POS_SEARCHWORDS 5142                
+POS_KEYWORDS 5294                
+POS_MISC 2326                
+POS_ERRORS 5353                
+POS_CLUSTER 3410                
+POS_SIDER_404 5446                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170801005335 51 10426 13520970315109
+FirstTime 0
+LastTime 0
+LastUpdate 20170801081809 51 0 50 0 0
+TotalVisits 0                   
+TotalUnique 0                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 0                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 90 174 117096
+1 0 0 0 85 94 107912
+2 0 0 0 108 114 130872
+3 0 0 0 99 100 112504
+4 0 0 0 95 99 113652
+5 0 0 0 122 130 149240
+6 0 0 0 116 126 143500
+7 0 0 0 80 90 103320
+8 0 0 0 98 201 118244
+9 0 0 0 179 226 216972
+10 0 0 0 340 345 396060
+11 0 0 0 336 361 413280
+12 0 0 0 110 123 141204
+13 0 0 0 106 112 127428
+14 0 0 0 139 214 165312
+15 0 0 0 120 295 149240
+16 0 0 0 117 292 140056
+17 0 0 0 78 250 97580
+18 0 0 0 111 287 134316
+19 0 0 0 132 287 169904
+20 0 0 0 109 120 136612
+21 0 0 0 98 103 117096
+22 0 0 0 105 111 127428
+23 0 0 0 117 121 138908
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 0
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 4373 3767736
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 199
+/wp-content/uploads/wppa/72.jpg 33 -
+/servicios 1 -
+/2011/03/19 1 -
+/otro/ 1 -
+/no-nos-pertenecen/ 4 http://injul.com.do/
+/tiny_mce/plugins/tinybrowser/upload.php 2 -
+/Jshvasg.php 1 -
+/wp-content/uploads/wppa/85.jpg 32 -
+/wp-admin/test/test/file/2013gdocs/ 2 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 21 -
+/tag/polanco-gomez/ 1 -
+/wordpress/beta/wp-admin/setup-config.php 1 -
+/que-es-feminicidio-o-femicidio/trackback/ 30 http://injul.com.do/que-es-feminicidio-o-femicidio/
+/2012/02/06/ 1 -
+/wp-content/uploads/wppa/97.jpg 32 -
+/wp-content/uploads/wppa/88.jpg 32 -
+http://injul.com.do/hello-world/ 1 http://injul.com.do/
+/servicios/ 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/trackback/ 28 http://injul.com.do/que-es-estado-social-y-democratico-de-derecho-2/
+/press/wp-admin/setup-config.php 1 -
+/IPES/ 2 -
+/cibersecuestro/ 20 http://injul.com.do/
+/blog/ 2 -
+/wp-content/uploads/wppa/91.jpg 32 -
+/la-funcion-reductora-del-derecho-penal-ante-un-estado-de-derecho-amenazado-o-la-logica-del-carnicero-responsable/ 2 -
+/wp-content/uploads/wppa/74.jpg 37 http://149.154.66.90:8081/show/bing-site-explorer-homes-for-rent-in-andalusia.html
+/recordando-a-garzon/ 9 http://injul.com.do/
+/joomla/robots.txt 1 -
+/wp-content/themes/purevision/style.css 1 http://injul.com.do/wp-content/themes/purevision/style.css
+/page/9/ 2 -
+/contactos/ 1 -
+/wp-includes/js/thickbox/loadingAnimation.gif 2 -
+/labistamechi/ 2 -
+/wp-content/uploads/wppa/94.jpg 32 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 39 -
+/wp-content/uploads/wppa/92.jpg 32 -
+/main/wp-admin/setup-config.php 1 -
+/2013/10/21/ 1 -
+/category/home-edition 1 -
+/tag/fructuoso-heredia/ 1 -
+/site/wp-admin/setup-config.php 1 -
+/wp-content/uploads/wppa/95.jpg 32 -
+/Wdgvx.php 1 -
+/robots.txt 183 -
+/wp-content/uploads/2012/10/info.jpg 4 -
+/chase/update/ 1 -
+/wp-admin/admin-ajax.php 2 http://injul.com.do/wp-admin/
+/ 1627 http://injul.com.do
+/wp-content/plugins/1-flash-gallery/images.php 1 -
+/dialogo-entre-las-altas-cortes/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 21 -
+/injul-te-cura-en-salud/ 1 -
+/Oxcdnv.php 1 -
+/components/com_foxcontact/foxcontact.php 3 -
+/wp-content/uploads/wppa/64.jpg 33 -
+/como-la-cronica-de-una-muerte-anunciada/ 37 http://injul.com.do/
+/tag/democracia/ 2 -
+/Xuinvc.php 1 -
+/feed/atom/ 5 -
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/ 11 -
+/ley-de-reforma-del-congreso-de-2011-enmienda-de-la-constitucion-de-espana/ 1 -
+/tag/alfonso-torres-ulloa/ 1 -
+/blog/administrator/index.php 1 -
+/wp-content/plugins/revslider/temp/update_extract/conf.php 1 http://injul.com.do/wp-content/plugins/revslider/temp/update_extract/conf.php
+/que-es-estado-social-y-democratico-de-derecho-2 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 116 http://injul.com.do/
+/hello-world/trackback/ 31 http://injul.com.do/hello-world/
+/tag/juan-manuel-fructuoso/ 2 -
+/wp-content/uploads/wppa/69.jpg 33 -
+/wp-content/plugins/wp-vertical-gallery/readme.txt 1 http://injul.com.do/wp-content/plugins/wp-vertical-gallery/readme.txt
+/articulo-periodistico-del-dr-porfirio-rojas-nina-sobre-la-novela-la-busqueda/ 1 -
+/wp-content/uploads/wppa/76.jpg 32 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 9 -
+/page/4/ 1 -
+/wp-content/uploads/wppa/87.jpg 32 -
+/el-espectaculo/ 189 http://injul.com.do/
+/editors/tinymce/jscripts/tiny_mce/plugins/tinybrowser/upload.php 2 -
+/page/6/ 1 -
+/uploadify/uploadify.php 2 http://injul.com.do/wp-admin/
+/wp-content/uploads/wppa/93.jpg 32 -
+/wp-content/uploads/wppa/80.jpg 32 -
+/novedades 1 -
+/perfiles/ 3 -
+/contactos 1 -
+/anecdota-don-juan-de-los-palotes/ 11 http://injul.com.do/
+/wp-content/uploads/wppa/89.jpg 32 -
+/xmlrpc.php 2 -
+/wp-content/uploads/wppa/96.jpg 32 -
+/novedades/ 3 -
+/admin/lib/tiny_mce/plugins/tinybrowser/upload.php 2 -
+/wp-content/uploads/wppa/71.jpg 33 -
+/viajando-a-la-habana-cuba/ 1 -
+/cms/wp-admin/setup-config.php 1 -
+/principio-de-igualdad-en-la-republica-dominicana-en-su-nueva-constitucion/ 2 -
+/carta-al-jefe-de-la-policia-nacional/feed/ 1 -
+/2012/01/ 1 -
+/category/home-edition/page/12/ 1 -
+/chase/update/chase/ 39 -
+/wp/ 2 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 19 http://injul.com.do/
+/principio-de-igualdad-y-la-nueva-cons 2 -
+/tag/lic-juan-fructuoso/ 1 -
+/bcvnmx.php 1 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 8 http://injul.com.do/
+/labistamechi/dropbox/dropbox/dropbox/dropbox 1 -
+/wp/beta/wp-admin/setup-config.php 1 -
+/Evnsjg.php 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 16 http://injul.com.do/
+/Uncdsx.php 1 -
+/wp-content/plugins/wp-dreamworkgallery/readme.txt 1 -
+/wp-content/uploads/wppa/86.jpg 32 -
+/feliz-navidad-y-prospero-2015/ 6 http://injul.com.do/
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 21 -
+/index.php 1 http://injul.com.do/index.php
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 21 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/trackback/ 31 http://injul.com.do/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/
+/mide.php 1 -
+/wp-content/plugins/wp-photo-album-plus/images/loading.gif 2 -
+/Hxnbfa.php 1 -
+/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php 1 http://injul.com.do/wp-content/themes/ThisWay/includes/uploadify/upload_settings_image.php
+/wordpress/ 2 -
+/blog/robots.txt 3 -
+/wp-content/uploads/2012/09/toga3.jpg 4 http://aspectosdelderechoengeneral.blogspot.com.es/2015_05_01_archive.html
+/an$$99.php 1 -
+/tag/terremoto/ 2 -
+/page/8/ 2 -
+//license.php 2 -
+/wp-content/plugins/wp-photo-album-plus/images/clock.png 2 -
+/wp-content/uploads/wppa/77.jpg 32 -
+/transparencia/ 46 http://injul.com.do/
+/wp-content/uploads/wppa/83.jpg 32 -
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/feed/ 2 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 36 http://injul.com.do/
+/hello-world/ 57 http://injul.com.do/
+/2012/01/page/2/ 1 -
+/joomla/administrator/index.php 1 -
+/fckeditor/editor/ 1 -
+/wp-content/uploads/wppa/68.jpg 33 -
+/protal/wp-admin/setup-config.php 1 -
+/wp-content/uploads/wppa/70.jpg 33 -
+/404.php 1 -
+/felicidades-campeon/ 106 http://injul.com.do/
+/wp-content/uploads/wppa/75.jpg 32 -
+/wp-content/uploads/wppa/65.jpg 33 -
+/wp-login.php 7 http://injul.com.do/wp-login.php
+/wp-content/themes/famous/style.css 1 http://injul.com.do/wp-content/themes/famous/style.css
+/Tmcnva.php 1 -
+/que-es-feminicidio-o-femicidio/ 28 http://injul.com.do/
+/home/wp-admin/setup-config.php 1 -
+/Ucsdva.php 1 -
+/administrator/index.php 1 -
+/wp-content/uploads/2012/02/Haiti_09.jpg 4 http://free-stock-illustration.com/terremoto%20en%20haiti%202010
+/que-es-estado-social-y-democratico-de-derecho-2/ 103 -
+/Keiths.php 1 -
+http://injul.com.do/ 1 http://injul.com.do
+/chase/update/chase/personal_info.htm 21 -
+/moa.php 1 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/ 6 -
+/wp-content/uploads/wppa/81.jpg 32 -
+/Mgxun.php 1 -
+/uso-del-monosilabo-de-o-del/ 4 http://injul.com.do/
+/transparencia/trackback/ 31 http://injul.com.do/transparencia/
+/libraries/sfn.php 1 -
+/final-redes-sociales-ley-sopa/ 2 -
+/page/5/ 5 -
+/license.php 1 http://injul.com.do/wp-admin/
+/o-nos-montamos-o-nos-atropella/ 30 http://injul.com.do/
+/wp-content/uploads/wppa/82.jpg 32 -
+/wp-content/uploads/wppa/90.jpg 32 -
+/used.php 1 -
+/nos/ 2 -
+/wp-admin/setup-config.php 1 -
+/wp-content/uploads/wppa/84.jpg 32 -
+/inquiry/ 2 -
+/blog/beta/wp-admin/setup-config.php 1 -
+/up.php 2 -
+/wp-content/uploads/wppa/73.jpg 33 -
+/ob.php 1 -
+/Boyces.php 1 -
+/wp-content/uploads/wppa/66.jpg 33 -
+/wp-content/uploads/wppa/67.jpg 33 -
+/wp-admin/test/test/file/2013gdocs 62 -
+/administrator/components/com_joomlaupdate/restore.php 1 -
+/2014/11/12/ 1 -
+/wp-content/plugins/wp-photo-album-plus/images/tick.png 2 -
+/tag/injul/ 1 -
+/bdhbjs.php 1 -
+/wp-content/uploads/wppa/63.jpg 33 -
+/wp-content/themes/rightnow/includes/uploadify/upload_settings_image.php 1 http://injul.com.do/wp-content/themes/rightnow/includes/uploadify/upload_settings_image.php
+/tag/seguridad/ 1 -
+/2011/12/08/ 1 -
+/quieres-sopa/ 1 -
+/con-conferencias-los-curas-pedofilos-no-se-curan/ 2 -
+/tag/pablo-pujols-seipio/ 2 -
+/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 5 http://injul.com.do/
+/carta-al-jefe-de-la-policia-nacional/ 28 http://injul.com.do/
+/static/js/tiny_mce/plugins/tinybrowser/upload.php 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 1 http://injul.com.do/wp-content/upgrade/theme-compat/popup-pomo.php
+/page/2/ 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 0
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 0
+END_SIDER

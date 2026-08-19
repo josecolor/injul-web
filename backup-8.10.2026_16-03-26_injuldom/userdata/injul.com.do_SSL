@@ -1,0 +1,18 @@
+---
+documentroot: /home/injuldom/public_html
+group: injuldom
+hascgi: '0'
+homedir: /home/injuldom
+ip: 50.31.174.167
+ipv6: ~
+owner: i53nd1n
+phpopenbasedirprotect: ~
+port: '443'
+secruleengineoff: ~
+serveradmin: webmaster@injul.com.do
+serveralias: mail.injul.com.do www.injul.com.do
+servername: injul.com.do
+ssl: '1'
+usecanonicalname: 'Off'
+user: injuldom
+userdirprotect: ''

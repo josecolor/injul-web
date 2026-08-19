@@ -1,0 +1,680 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202509 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2080                
+POS_TIME 2758                
+POS_VISITOR 13337               
+POS_DAY 15834               
+POS_DOMAIN 3562                
+POS_LOGIN 4120                
+POS_ROBOT 4275                
+POS_WORMS 4928                
+POS_EMAILSENDER 5059                
+POS_EMAILRECEIVER 5202                
+POS_SESSION 16595               
+POS_FILESIZE 18181               
+POS_REQUESTTIME 18325               
+POS_SIDER 16783               
+POS_FILETYPES 5337                
+POS_DOWNLOADS 5566                
+POS_OS 5697                
+POS_BROWSER 5886                
+POS_SCREENSIZE 6389                
+POS_UNKNOWNREFERER 6463                
+POS_UNKNOWNREFERERBROWSER 6910                
+POS_ORIGIN 7150                
+POS_SEREFERRALS 7288                
+POS_PAGEREFS 7432                
+POS_SEARCHWORDS 7603                
+POS_KEYWORDS 7755                
+POS_MISC 2422                
+POS_ERRORS 7814                
+POS_CLUSTER 3976                
+POS_SIDER_404 7960                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251001024930 35 7319 20326518936731
+FirstTime 20250901051053
+LastTime 20250930233728
+LastUpdate 20251001082605 35 0 34 0 0
+TotalVisits 278                 
+TotalUnique 53                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 68                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 30 612601 30 47 304629
+1 12 14 360311 28 59 634682
+2 8 11 208715 19 34 6352543
+3 13 13 99131 16 64 756328
+4 10 11 197532 25 31 234863
+5 7 8 88346 21 28 238922
+6 15 15 236133 15 25 111971
+7 12 14 318779 13 19 142522
+8 13 15 305799 20 26 149753
+9 14 15 230433 47 74 589476
+10 22 22 334815 117 124 1303830
+11 21 21 96286 57 78 340213
+12 17 17 77780 55 74 404881
+13 22 39 918960 29 44 205407
+14 8 10 257504 33 45 137248
+15 14 30 535347 25 54 607664
+16 23 43 800040 31 40 148416
+17 12 29 562766 26 37 85309
+18 8 8 60180 15 24 70222
+19 22 38 783246 21 31 235970
+20 15 16 88346 25 49 464115
+21 14 15 1198 117 127 1817880
+22 25 27 237316 15 25 171793
+23 17 35 574133 22 42 161198
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 26
+us 309 349 3695874
+in 9 73 1763484
+vn 5 7 269023
+eg 5 10 56955
+mx 5 24 530655
+id 3 3 180540
+ma 2 2 120360
+de 2 2 88636
+pl 2 2 47689
+tw 1 1 60180
+jp 1 1 60180
+pe 1 1 60180
+au 1 1 60180
+za 1 1 60180
+cn 1 3 176692
+ua 1 1 27962
+pk 1 1 60180
+zz 1 1 87
+gb 1 1 0
+ni 1 1 60180
+fr 1 1 60180
+tr 1 1 60180
+ca 1 2 87
+ir 0 1 114149
+br 0 1 48798
+nl 0 5 323086
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+DotBot/ 129 2041079 20250930233724 70
+Googlebot/ 115 1494591 20250930061805 33
+SemrushBot/ 88 541721 20250930143347 38
+PetalBot 82 656796 20250930202826 6
+AhrefsBot/ 54 734916 20250930201543 25
+bingbot/ 38 168691 20250930003844 17
+unknown 36 2520 20250930101556 36
+bot[\s_+:,\.\;\/\\-] 12 6233544 20250927112440 3
+Feedfetcher\-Google 4 63592 20250924055433 0
+yak 3 34252 20250903081305 1
+YisouSpider 3 15238 20250922121538 1
+seek 3 27529 20250913150351 2
+Barkrowler 2 7654 20250910032550 1
+GPTBot/ 1 61 20250920213823 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+html 77 2589100 0 0
+Unknown 36 1385087 0 0
+png 10 270148 0 0
+gif 2 341 0 0
+css 56 826112 0 0
+js 54 1243410 0 0
+jpg 18 1053670 0 0
+woff2 8 617280 0 0
+php 235 549 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/wp-content/uploads/2021/05/2b295b61-386b-4c0b-9ad3-c85f9cec0558-1.mp4 1 0 6014787
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linux 79 60
+macosx15 40 5
+macosx12 1 1
+win10 89 33
+Unknown 251 250
+macosx10 2 1
+ios_iphone 23 4
+linuxubuntu 7 0
+macos12 4 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+opera89.0.4447.51 2 1
+firefox125.0 1 0
+firefox77.0 1 1
+netscape5.0 1 0
+chrome39.0.2171.95 2 1
+chrome130.0.0.0 1 1
+chrome136.0.0.0 2 0
+firefox114.0 2 1
+Unknown 244 243
+chrome114.0.0.0 6 3
+chrome96.0.4664.45 2 2
+iphone 23 4
+chrome120.0.0.0 24 23
+chrome58.0.3029.110 1 1
+firefox72.0 7 0
+chrome131.0.0.0 91 11
+chrome107.0.0.0 1 1
+chrome138.0.7204.96 18 2
+chrome135.0.0.0 1 0
+chrome138.0.0.0 1 0
+chrome91.0.4472.124 4 0
+chrome30.0.1599.66 54 54
+mozilla 7 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+GuzzleHttp/7 20250922194714
+Cpanel-HTTP-Client/1.0 20250907224801
+Mozilla/5.0_(compatible;_Dataprovider.com) 20250914232504
+python-requests/2.32.3 20250901015215
+Mozilla/5.0_(compatible;) 20250919003535
+WordPress/4.9.26;_https://injul.com.do 20250930233728
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250907225959
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+Cpanel-HTTP-Client/1.0 20250907224801
+GuzzleHttp/7 20250922194714
+WordPress/4.9.26;_https://injul.com.do 20250930233728
+python-requests/2.32.3 20250901015215
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 111 131
+From1 0 0
+From2 0 0
+From3 1 1
+From4 244 364
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://tugrub.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+500 1 2936
+302 1 0
+403 21 16527
+404 342 3621782
+301 255 5565
+405 2 46
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 216
+/bv3.php 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/ 2 -
+/wp-includes/PHPMailer/wp-conflg.php 1 -
+/wp-admin/file.php 1 -
+/nc4.php 1 -
+/Www 1 -
+/wp 9 -
+/novedades/ 1 -
+/wp-includes/style-engine/worksec.php 1 -
+/past.php 1 -
+/file7.php 1 -
+/presidente-injul-imparte-junto-carmjy-al-conaej-el-seminario-sobre-investigaciones-a-oficiales-fad/ 1 -
+/buy.php 1 -
+/chosen.php 3 -
+/function.php 1 -
+/2018/06/12/las-lecciones-aprendidas-del-caso-cambridge-analytica/ 1 -
+/f35.php 1 -
+/NewFile.php 1 -
+/blog/wp-admin/install.php 1 -
+/old-site 1 -
+/oldsite/wp-admin/install.php 1 -
+/.well-known/login.php 1 -
+/wp-content/hello.php 1 -
+/golden.php 1 -
+/wp-admin/css/colors/midnight/admin.php 1 -
+/aaaa.php 1 -
+/Test 1 -
+/dex.php 1 -
+/admin/function.php 1 -
+/bless.php 2 -
+/wp-includes/PHPMailer/options.php 1 -
+/wp-content/upgrade/item.php 1 -
+/admin/controller/extension/extension/ 2 binance.com
+/ar.php 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 1 -
+/Blog 1 -
+/wp-includes/widgets/wp-login.php 1 -
+/wp-includes/IXR/admin.php 1 -
+/admin.php 1 -
+/wp-admin/css/ 2 binance.com
+/sitio 1 -
+/core.php 1 -
+/SITE 1 -
+/TEST 1 -
+/doiconvs.php 1 -
+/lock360.php 2 -
+/BACKUP 1 -
+/wp-includes/IXR/fix.php7 1 -
+/wp-content/plugins/about.php 1 -
+/main 9 -
+/wp-admin/network/network.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/wp-content/plugins/core-plugin/include.php 1 -
+/wp-content/plugins/pwnd-1/admin.php 1 -
+/class9.php 1 -
+/WWW 1 -
+/new 9 -
+/modules/mod_simplefileuploadv1.3/elements/udd.php 1 -
+/images/ 2 binance.com
+/.well-known/security.txt 1 http://50.31.174.167:80/.well-known/security.txt
+/BLOG 1 -
+/wp-blog.php 1 -
+/wordpress/ 1 -
+/2017 1 -
+/ot.php 1 -
+/uploads/94056-upload.phtml 1 -
+/.well-known/pki-validation/admin.php 1 -
+/wp-content/plugins/linkpreview/db.php 1 -
+/new/wp-admin/install.php 1 -
+http://injul.com.do/wp-content/uploads/2013/10/la-foto1-150x150.jpg 1 -
+/www 1 -
+/wp-admin/maint/bootstrap.php 1 -
+/test/wp-admin/install.php 1 -
+/2020 1 -
+/wp-content/plugins/envato-css.php 1 -
+/witmm.php 1 -
+/Site 1 -
+/index/function.php 1 -
+/file17.php 1 -
+/wp-includes/widgets/dyqvcfqv.php 1 -
+/site 1 -
+/Wp 1 -
+/Sanskrit.php 1 -
+/wordpress/wp-admin/install.php 1 -
+/update/f35.php 1 -
+/ads.txt 1 -
+/blog 1 -
+/como-la-cronica-de-una-muerte-anunciada/ 2 -
+/xpas2.php 1 -
+/.well-known/ 2 binance.com
+/wp.php 2 -
+/epinyins.php 1 -
+/wp-content/themes/pridmag/db.php 1 -
+/js/bas.php 1 -
+/wp-mn.php 1 -
+/cool.php 1 -
+/OLD 1 -
+/wp-includes/images/smilies/about.php 1 -
+/file4.php 1 -
+/2019 1 -
+/transparencia/ 1 http://injul.com.do/
+/uploads/ 2 binance.com
+/New 1 -
+/Old 1 -
+/wp-admin/test/test/file/2013gdocs 17 -
+/wp-old 1 -
+/shop/wp-admin/install.php 1 -
+/wp-content/plugins/lwbdene/ 1 -
+/great.php 1 -
+/wp-includes/PHPMailer/admin.php 1 -
+/CLA.php 1 -
+/filemanager.php 1 -
+/wp-content/plugins/pwnd-1/pwnd.php 1 -
+/sito 1 -
+/backup 9 -
+/SHOP 1 -
+/cgi-bin/bypass.php 1 -
+/.well-known/pki-validation/moon.php 1 -
+/wp-update.php 1 -
+/goods.php 1 -
+/Wordpress 1 -
+/pp.php 1 -
+/geju.php 1 -
+/bk 9 -
+/axx.php 1 -
+/WordPress 1 -
+/packed.php 1 -
+/wp-content/plugins/elementor/wp-wjvngrh.php 1 -
+/wp-admin/style.php 1 -
+/lc.php 1 -
+/file8.php 1 -
+/lo.php 1 -
+/wp-l0gin.php 1 -
+/O-Simple.php 1 -
+/bc 9 -
+/wp-content/languages/wp-conflg.php 1 -
+/admin/upload/css.php 1 -
+/old/wp-admin/install.php 1 -
+/dejavu.php 1 -
+/tinyfilemanager.php 1 -
+/test 1 -
+/aa.php 1 -
+/old 9 -
+/WP 1 -
+/wp-content/style.php 1 -
+/sites/default/files/ 2 binance.com
+/manager.php 1 -
+/demo 1 -
+/bac 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 1 -
+/web/wp-admin/install.php 1 -
+/wp-includes/block-supports/autoload_classmap.php 1 -
+/wsr2.php 1 -
+/files/ 2 binance.com
+/file2.php 1 -
+/themes/zMousse/otuz1.php 1 -
+/cms/wp-admin/install.php 1 -
+/fai.php 1 -
+/wp-content/plugins/admin.php 1 -
+/wp-content/uploads/2012/09/toga3.jpg 22 -
+/gold.php 1 -
+/num.php 1 -
+/images/DJP9.php 1 -
+http://injul.com.do/wp-content/uploads/2013/10/la-foto1-150x150.png 1 -
+/we.php 1 -
+/backup/wp-admin/install.php 1 -
+/wordpress 9 -
+/2018 1 -
+/Backup 1 -
+/wp/wp-admin/install.php 1 -
+/inc.php 1 -
+/ahax.php 1 -
+/file5.php 2 -
+/gfile.php 1 -
+/zwso.php 1 -
+/co.php 1 -
+/images/upload.php 1 -
+/wp-gr.php 1 -
+/ss.php 1 -
+/mini.php 1 -
+/2022 1 -
+/admin/uploads/bn_1_1754420677.phtml 1 -
+/new.php 2 -
+/ffile.php 1 -
+/moddofuns.php 1 -
+/oldsite 1 -
+/asd67.php 1 -
+http://injul.com.do/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 1 -
+/about.php 2 -
+/simple.php 2 -
+/WORDPRESS 1 -
+/robots.php 1 -
+/wp-includes/js/crop/admin.php 1 -
+/wp-content/plugins/hellopress/wp_filemanager.php 1 -
+/gmo.php 1 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado 4 http://injul.com.do/
+/wp-admin/images/wp-conflg.php 1 -
+/ol.php 1 -
+/bolt.php 1 -
+/2024 1 -
+/NEW 1 -
+/shop 1 -
+/site/wp-admin/install.php 1 -
+/z.php 1 -
+/inputs.php 2 -
+/mah.php 1 -
+/style.php 2 -
+/Shop 1 -
+/classwithtostring.php 1 -
+/cfile.php 1 -
+/bak 1 -
+/wp-includes/defaults.php 1 -
+/wp-content/themes/classwithtostring.php 1 -
+/file.php 3 -
+/pass.php 1 -
+/re.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 68
+50.31.174.162 241 241 512 20250930233728
+152.228.220.143 54 54 2323261 20250930102005
+148.222.137.38 4 23 470475 20250920160445
+49.13.132.146 2 18 425826 20250905231545
+49.13.57.142 2 18 425826 20250908004013
+49.13.57.66 2 18 425826 20250903192546
+167.235.198.238 2 18 425826 20250901151240
+9.169.124.21 2 18 425826 20250905170230
+54.36.110.167 2 2 0 20250915101359
+49.13.222.152 2 18 425826 20250910133340
+111.94.35.38 1 1 60180 20250907132634
+36.225.66.157 1 1 60180 20250901105609
+46.248.185.246 1 1 744 20250922194714
+202.46.68.178 1 1 60180 20250911001653
+23.178.112.106 1 1 87 20250907225958
+178.239.163.88 1 1 0 20250910212731
+39.58.182.126 1 1 60180 20250901144536
+99.6.48.186 1 1 60180 20250914232359
+156.228.101.221 1 2 11391 20250909232149
+176.88.175.247 1 1 60180 20250909141556
+175.33.67.222 1 1 60180 20250927061542
+131.246.202.178 1 1 60180 20250924084529
+47.128.218.208 1 1 87 20250907225959
+149.56.150.58 1 1 27395 20250914232504
+114.10.152.67 1 1 60180 20250905170243
+111.229.118.69 0 1 88346 
+81.69.223.68 0 5 323086 
+31.58.23.222 0 1 114149 
+186.219.102.156 0 1 48798 
+113.176.94.156 0 1 173 
+8.28.34.120 0 1 88346 
+156.249.60.173 1 2 11391 20250919163903
+13.60.208.33 1 1 87 20250907225959
+210.211.61.89 1 1 60180 20250904093313
+8.218.202.136 0 1 88346 
+186.77.198.139 1 1 60180 20250907192341
+156.228.106.83 1 2 11391 20250904022624
+179.6.170.252 1 1 60180 20250902072917
+98.159.37.40 1 1 0 20250925195529
+171.238.153.158 1 1 60180 20250913065654
+156.233.91.136 1 2 11391 20250918093220
+187.188.23.193 1 1 60180 20250914160935
+120.92.209.39 0 1 88346 
+113.188.156.192 0 1 168 
+171.235.179.142 1 1 60180 20250915073616
+47.243.77.96 0 1 0 
+183.207.45.117 1 1 0 20250921004557
+45.126.187.0 1 1 60180 20250921094524
+34.16.57.160 0 1 0 
+95.134.63.48 1 1 27962 20250928175740
+15.204.16.65 0 1 48798 
+172.252.7.95 0 1 48798 
+45.251.6.184 1 1 60180 20250930024656
+3.144.91.82 1 1 87 20250907225958
+8.217.167.220 0 2 48798 
+86.218.80.45 1 1 60180 20250916105043
+54.185.170.42 1 1 87 20250907225959
+8.28.34.121 0 1 48798 
+45.117.164.28 1 1 27962 20250924125732
+45.228.233.223 1 1 60180 20250922151634
+164.92.141.175 1 1 549 20250908215807
+115.74.2.92 1 1 60180 20250923184516
+115.77.137.103 1 1 60180 20250914133542
+185.30.35.19 1 1 28456 20250919003535
+156.248.82.72 1 2 11391 20250912070548
+46.248.166.41 1 1 46945 20250914114111
+172.56.106.16 1 1 60180 20250918135843
+154.117.145.130 1 1 60180 20250914161551
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20250901 10 28 643782 9
+20250902 9 9 109521 9
+20250903 5 23 562970 3
+20250904 13 15 407072 11
+20250905 25 58 1411997 19
+20250906 15 16 443526 13
+20250907 30 31 515492 21
+20250908 6 22 426375 5
+20250909 17 18 268935 13
+20250910 11 27 475167 9
+20250911 9 10 108978 8
+20250912 12 14 149078 9
+20250913 7 7 110448 6
+20250914 9 9 315060 9
+20250915 10 12 197867 6
+20250916 10 11 240761 6
+20250917 12 12 0 8
+20250918 9 10 120912 7
+20250919 7 8 89188 7
+20250920 13 34 558821 9
+20250921 10 11 109689 9
+20250922 8 10 109895 8
+20250923 10 12 158768 9
+20250924 17 17 88142 12
+20250925 13 13 17567 10
+20250926 10 10 49341 9
+20250927 20 20 109521 11
+20250928 10 10 27962 6
+20250929 5 5 49341 5
+20250930 14 14 109521 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 230
+30mn-1h 30
+5mn-15mn 6
+1h+ 6
+15mn-30mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/wp-cron.php 233 0 174 174
+/feed/atom/ 46 2269686 45 45
+/wp-json/wp/v2/posts 23 1384140 23 23
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 8 617280 0 7
+/servicios/ 7 72899 7 1
+/contactenos/ 7 93919 7 7
+/.well-known/acme-challenge/O-8dXdkYmuUGjVfFUX-020pnlHEWZdqTTBLZxWpOBF8 5 435 5 5
+/feed/ 4 98218 4 3
+/carta-al-jefe-de-la-policia-nacional/feed/ 3 1349 2 3
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 2 953 2 2
+/ 2 28456 2 2
+/.well-known/acme-challenge/BM_PFYAP15EC3ONPO4EOKSIF9TYHGE5I 1 64 1 0
+/2023/05/26/corto-investigativo/ 1 12024 0 0
+/.well-known/acme-challenge/SYRVNCG-LL98XIV8DXQV62V4EK2T0UA7 1 64 0 0
+/wp-admin/install.php 1 549 1 1
+/comments/feed/ 1 744 1 1
+/.well-known/acme-challenge/0VWQVPNB_1Y94UEZ8U90VMP8M29XV4X2 1 64 0 1
+/wp-content/index.php 1 0 1 1
+/.well-known/acme-challenge/-2MIO1PY0NAQ9DNF9TXKF0DRS1K2WHU6 1 64 0 0
+/.well-known/acme-challenge/8E9P7AUS1DWCEPRAGB6ISV21SGSBF_4V 1 64 0 0
+/wp-content/ 1 0 1 1
+/2023/ 1 0 1 0
+/.well-known/acme-challenge/88J_388SNYO-CW0T6INED4EV1PE21G5A 1 64 0 0
+/2023/05/25/denuncian-robo-de-vehiculo-en-el-residencial-monumental/ 1 10852 1 0
+/2021/ 1 0 0 1
+/.well-known/acme-challenge/S0WDFRX1GPXGEC5F2JH518R_4I_USV3J 1 64 0 0
+/.well-known/acme-challenge/ZC47A7S15B-V6QWH9HDZ2SW3RY8TFYZB 1 64 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+5K+ 702
+44-100 248
+100-500 28
+1K-2K 13
+0-44 603
+500-1K 58
+2K-5K 45
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

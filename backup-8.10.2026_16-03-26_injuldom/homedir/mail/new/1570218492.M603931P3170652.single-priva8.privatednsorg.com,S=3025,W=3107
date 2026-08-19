@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id sE05I/yhl11cYTAA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 04 Oct 2019 15:48:12 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 04 Oct 2019 15:48:12 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iGTYi-00DPUT-Hn
+	for injuldom@single-priva8.privatednsorg.com; Fri, 04 Oct 2019 15:48:12 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1570218492-eximdsn-454797546
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iGTYi-00DPUT-Hn@single-priva8.privatednsorg.com>
+Date: Fri, 04 Oct 2019 15:48:12 -0400
+
+--1570218492-eximdsn-454797546
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1570218492-eximdsn-454797546
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1570218492-eximdsn-454797546
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iGTYi-00DPUH-Fg
+	for info@injul.com.do; Fri, 04 Oct 2019 15:48:12 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "unique domains backlinks package"
+X-PHP-Script: injul.com.do/index.php for 188.123.126.173
+Date: Fri, 4 Oct 2019 19:48:12 +0000
+From: Mikevax <info@injul.com.do>
+Reply-To: noreplyNeer@gmail.com
+Message-ID: <85b181f0f17ed7ace80e6105dfe0ac45@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: Mikevax <noreplyNeer@gmail.com>
+Subject: unique domains backlinks package
+
+Message Body:
+When you order 1000 backlinks with this service you get 1000 unique domains, Only receive 1 backlinks from each domain. All domains come with DA above 15-20 and with actual page high PA values. Simple yet very effective service to improve your linkbase and SEO metrics. 
+ 
+Order this great service from here today: 
+https://monkeydigital.co/product/unique-domains-backlinks/ 
+ 
+Multiple offers available 
+ 
+thanks and regards 
+Mike 
+monkeydigital.co@gmail.com
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1570218492-eximdsn-454797546--

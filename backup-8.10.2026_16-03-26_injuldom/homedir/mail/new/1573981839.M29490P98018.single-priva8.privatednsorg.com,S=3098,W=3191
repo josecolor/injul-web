@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id 0OVSAY8O0V3ifgEA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Sun, 17 Nov 2019 04:10:39 -0500
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Sun, 17 Nov 2019 04:10:39 -0500
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iWGZq-000Sfw-Vm
+	for injuldom@single-priva8.privatednsorg.com; Sun, 17 Nov 2019 04:10:39 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1573981838-eximdsn-882212974
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iWGZq-000Sfw-Vm@single-priva8.privatednsorg.com>
+Date: Sun, 17 Nov 2019 04:10:38 -0500
+
+--1573981838-eximdsn-882212974
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1573981838-eximdsn-882212974
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1573981838-eximdsn-882212974
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iWGZq-000Sfo-UJ
+	for info@injul.com.do; Sun, 17 Nov 2019 04:10:38 -0500
+To: info@injul.com.do
+Subject: www.injul.com.do "CCTV for your home/office"
+X-PHP-Script: injul.com.do/index.php for 37.120.142.155
+Date: Sun, 17 Nov 2019 09:10:38 +0000
+From: RichardGof <info@injul.com.do>
+Reply-To: info2@revlight.com.sg
+Message-ID: <614dd92076516d98042ede39da2be501@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: RichardGof <info2@revlight.com.sg>
+Subject: CCTV for your home/office
+
+Message Body:
+Dear Sir/mdm, 
+ 
+Tired 
+of cameras that always broke down easily? 
+ 
+Don't worry, we manufacture High-Definition Security Surveillance 
+Systems for Residential & Commercial uses. All our cameras are metal 
+weatherproof and comes with sony sensor for maximum quality. 
+IPcam video quality: https://youtu.be/VPG82dnXfWY 
+ 
++1 866-655-7056 
++65 6678-6557 
+Email: sales@revlightsecurity.com 
+W: http://www.revlightsecurity.com/ 
+ 
+Have a nice day! :) 
+ 
+regards, 
+Jessie Chang 
+7 Temasek Boulevard, Level 32, Suntec Tower One, Singapore 
+038987
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1573981838-eximdsn-882212974--

@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id IKODDmDk0l3EZiMA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Mon, 18 Nov 2019 13:35:12 -0500
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Mon, 18 Nov 2019 13:35:12 -0500
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iWlrk-009kGD-6b
+	for injuldom@single-priva8.privatednsorg.com; Mon, 18 Nov 2019 13:35:12 -0500
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1574102112-eximdsn-1908427115
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iWlrk-009kGD-6b@single-priva8.privatednsorg.com>
+Date: Mon, 18 Nov 2019 13:35:12 -0500
+
+--1574102112-eximdsn-1908427115
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1574102112-eximdsn-1908427115
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1574102112-eximdsn-1908427115
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iWlrk-009kG1-53
+	for info@injul.com.do; Mon, 18 Nov 2019 13:35:12 -0500
+To: info@injul.com.do
+Subject: www.injul.com.do "Check-in at the "ELDORADO"! First in the list of the cryptocurrency market."
+X-PHP-Script: injul.com.do/index.php for 185.217.71.134
+Date: Mon, 18 Nov 2019 18:35:12 +0000
+From: JamesHet <info@injul.com.do>
+Reply-To: anthonyNouri@gmail.com
+Message-ID: <e7ea3000a137c156a8da193b42cac8b1@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+From: JamesHet <anthonyNouri@gmail.com>
+Subject: Check-in at the "ELDORADO"! First in the list of the cryptocurrency market.
+
+Message Body:
+The project operates in more than 100 countries. Now ELDORADO is available in your country! 
+ 
+Investment currency: BTC. 
+The minimum investment amount is 0.0025 BTC. 
+The maximum investment amount is 10 BTC. 
+The investment period is 2 days. 
+Minimum profit is 10% 
+ 
+Register for free here: 
+http://bit.ly/2rSqNpH
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1574102112-eximdsn-1908427115--

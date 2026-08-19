@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com (Dovecot) with LMTP id QSQ2JIl/vlkSRQAA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Sun, 17 Sep 2017 09:58:33 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Sun, 17 Sep 2017 09:58:33 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dta5h-0008f2-Hz
+	for injuldom@single-priva8.privatednsorg.com; Sun, 17 Sep 2017 09:58:33 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1505656713-eximdsn-1254998882
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dta5h-0008f2-Hz@single-priva8.privatednsorg.com>
+Date: Sun, 17 Sep 2017 09:58:33 -0400
+
+--1505656713-eximdsn-1254998882
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1505656713-eximdsn-1254998882
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1505656713-eximdsn-1254998882
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dta5h-0008eu-GT
+	for info@injul.com.do; Sun, 17 Sep 2017 09:58:33 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_"Hello_world!?=  =?UTF-8?Q?"?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 79.184.181.118
+Date: Sun, 17 Sep 2017 13:58:33 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <2ba93a7c3d72c79444c680947ac2c4d3@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "Hello world!" está esperando tu aprobación
+http://injul.com.do/2017/09/05/hello-world/
+
+Autor: http://herb24.space (IP: 79.184.181.118, 79.184.181.118.ipv4.supernova.orange.pl)
+Correo electrónico: shantaecopley@yahoo.de
+URL: http://herb24.space
+Comentario: 
+If you want to take a great deal from this article then you have 
+to apply such methods to your won webpage.
+
+
+Website: http://herb24.space
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=64#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=64#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=64#wpbody-content
+Actualmente hay 63 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1505656713-eximdsn-1254998882--

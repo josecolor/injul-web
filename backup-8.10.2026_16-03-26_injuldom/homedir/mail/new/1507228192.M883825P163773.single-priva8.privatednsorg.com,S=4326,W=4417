@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id eK/gMyB61lm9fwIA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Thu, 05 Oct 2017 14:29:52 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Thu, 05 Oct 2017 14:29:52 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1e0Au8-000w5z-QN
+	for injuldom@single-priva8.privatednsorg.com; Thu, 05 Oct 2017 14:29:52 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1507228192-eximdsn-1292090899
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1e0Au8-000w5z-QN@single-priva8.privatednsorg.com>
+Date: Thu, 05 Oct 2017 14:29:52 -0400
+
+--1507228192-eximdsn-1292090899
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1507228192-eximdsn-1292090899
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1507228192-eximdsn-1292090899
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1e0Au8-000w5q-Or
+	for info@injul.com.do; Thu, 05 Oct 2017 14:29:52 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 148.251.36.67
+Date: Thu, 5 Oct 2017 18:29:52 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <1b2cdd8e5bd9e75daaa06a24bb8681c8@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: http://psosdan.7pm.jp/ (IP: 148.251.36.67, static.67.36.251.148.clients.your-server.de)
+Correo electrónico: averyduff@inbox.com
+URL: http://psosdan.7pm.jp/inoutbbs/mark2.php?new_form=1%3ESaiba%20Ainda%20mais%20aqui%3C/a%3E%20-
+Comentario: 
+Metamorfoza kucchni nie powinna sugerować kompletnego remontu 
+i konieczności wydawania dużej kwoty środków pieniężnych.
+Bowiem wiadome jest, że zabudowie z mebli w tym pomieszczeniu można nadać odświeżony look niewielkim 
+poświęceniem. Wystarczy pędzel, farba, odrobinę wolnego czasu 
+i para rąk gotowych do pracy. Efekt? Stare meble kuchenne zaczną 
+prezentować się niczym nowe.
+Jeżeli Meble kuchenne na wymiar (http://psosdan.7pm.jp/) w 
+naszym mieszkaniu nie jest w nadzwyczajnie złym stanie, ale chcielibyśmy do tego pomieszczenia zaaranżować 
+kilka zmian, nie musimy zastanawiać nad kosztowną jej wymianą.
+W takiej kolei rzeczy dobrze jest wymienić jedynie te szafki, na których nam najbardziej zależy, lub fronty,
+np. pokryte fornirem na lakierowane (przy okazji można zastanowić się o bardziej nowoczesnym systemie otwierania szafek, np.
+przez delikatne naciśnięcie, czyli system tip-on).
+Jeżeli marzymy o uniknięciu całkowitego przerobienia,
+a szafki są w wystarczającym stanie technicznym, spokojnie można rozważyć odswieżenie.
+Zachęcamy do eksperymentów.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=191#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=191#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=191#wpbody-content
+Actualmente hay 190 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1507228192-eximdsn-1292090899--

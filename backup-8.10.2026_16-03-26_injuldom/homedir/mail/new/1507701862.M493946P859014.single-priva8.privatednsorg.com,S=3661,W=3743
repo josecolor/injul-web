@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id wNAkHWa03VmGGw0A6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Wed, 11 Oct 2017 02:04:22 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Wed, 11 Oct 2017 02:04:22 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1e2A7y-003dp3-ET
+	for injuldom@single-priva8.privatednsorg.com; Wed, 11 Oct 2017 02:04:22 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1507701862-eximdsn-930030737
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1e2A7y-003dp3-ET@single-priva8.privatednsorg.com>
+Date: Wed, 11 Oct 2017 02:04:22 -0400
+
+--1507701862-eximdsn-930030737
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1507701862-eximdsn-930030737
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1507701862-eximdsn-930030737
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1e2A7y-003dou-Cy
+	for info@injul.com.do; Wed, 11 Oct 2017 02:04:22 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_"Hello_world!?=  =?UTF-8?Q?"?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 107.152.200.89
+Date: Wed, 11 Oct 2017 06:04:22 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <eed77d83da3b9a58001b6c4dc2bf8fc3@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "Hello world!" está esperando tu aprobación
+http://injul.com.do/2017/09/05/hello-world/
+
+Autor: testo xtreme cut (IP: 107.152.200.89, road.systemsroom.com)
+Correo electrónico: changsperry@bigstring.com
+URL: https://www.eventbrite.com/o/check-out-out-some-of-these-muscle-mass-developing-suggestions-15155371147
+Comentario: 
+Ꮋave yоu ever considerеd abоut including ɑ llittle Ƅit more than juѕt ｙour articles?
+Ι mean, wһаt you say іs fundamental and everythіng. Nеvertheless tһink оf 
+іf yoou adsed ѕome ցreat pictures orr video clips tߋ give your posts morе, "pop"!
+Үour content iis excelleent Ƅut witһ images and video 
+clips, this website сould undeniably be one off tһe Ƅest іn iits niche.
+Terfrific blog!
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=232#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=232#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=232#wpbody-content
+Actualmente hay 231 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1507701862-eximdsn-930030737--

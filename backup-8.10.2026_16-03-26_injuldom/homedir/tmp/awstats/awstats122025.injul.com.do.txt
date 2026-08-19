@@ -1,0 +1,551 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2080                
+POS_TIME 2758                
+POS_VISITOR 14748               
+POS_DAY 16160               
+POS_DOMAIN 3527                
+POS_LOGIN 3889                
+POS_ROBOT 4044                
+POS_WORMS 4558                
+POS_EMAILSENDER 4689                
+POS_EMAILRECEIVER 4832                
+POS_SESSION 16872               
+POS_FILESIZE 17479               
+POS_REQUESTTIME 17623               
+POS_SIDER 17060               
+POS_FILETYPES 4967                
+POS_DOWNLOADS 5136                
+POS_OS 5184                
+POS_BROWSER 5421                
+POS_SCREENSIZE 5906                
+POS_UNKNOWNREFERER 5980                
+POS_UNKNOWNREFERERBROWSER 6207                
+POS_ORIGIN 6371                
+POS_SEREFERRALS 6508                
+POS_PAGEREFS 6710                
+POS_SEARCHWORDS 6858                
+POS_KEYWORDS 7010                
+POS_MISC 2422                
+POS_ERRORS 7069                
+POS_CLUSTER 3745                
+POS_SIDER_404 7231                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260101032512 19 4031 13965990681731
+FirstTime 20251201000853
+LastTime 20251231220338
+LastUpdate 20260101071829 19 0 18 0 0
+TotalVisits 206                 
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 42                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 2 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 12 114016 17 35 326150
+1 9 10 114149 10 16 61932
+2 9 9 77303 18 25 110223
+3 9 10 98139 17 23 63196
+4 11 14 320322 13 20 166553
+5 12 13 32495 17 22 78924
+6 7 7 66432 7 9 17692
+7 16 16 27962 13 23 103195
+8 9 9 109521 11 20 70427
+9 6 6 0 19 37 313884
+10 10 10 46945 26 42 39065
+11 12 14 146937 121 130 382376
+12 21 24 218653 254 260 1298196
+13 15 16 114149 181 194 1075523
+14 13 13 83468 94 100 60805
+15 14 14 137483 118 126 24578
+16 15 16 123892 59 67 260131
+17 9 11 97596 53 71 412868
+18 6 6 0 46 52 21299
+19 6 8 147987 21 27 124502
+20 5 9 244178 54 57 79149
+21 12 12 49341 13 22 82404
+22 9 10 158588 11 16 30158
+23 8 9 110073 9 13 16560
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 243 263 1898110
+in 3 3 83886
+ru 2 2 120360
+cn 1 1 60180
+pl 1 1 46945
+vn 1 1 27962
+jp 1 2 56382
+se 1 1 6165
+gb 0 2 202495
+fr 0 1 88346
+ca 0 1 48798
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+PetalBot 113 1024364 20251231213044 3
+Googlebot/ 96 933931 20251231153516 43
+unknown 28 1954 20251231011815 28
+yak 24 342100 20251231220340 4
+bingbot/ 18 61605 20251228155656 12
+link 11 66035 20251231210342 5
+Applebot/ 5 20620 20251223020554 3
+java 2 137144 20251204045818 0
+YisouSpider 2 140 20251223024911 2
+crawl 1 70 20251231062218 1
+Googlebot\-Image/ 1 33743 20251225081958 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+php 220 0 0 0
+Unknown 4 240720 0 0
+jpg 20 1330032 0 0
+png 3 101229 0 0
+html 29 930018 0 0
+js 2 37630 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+Unknown 220 220
+ios_iphone 2 2
+android13 1 1
+android 1 1
+androidpie 1 1
+win10 19 12
+linux 15 15
+linuxubuntu 9 0
+winxp 2 0
+macosx10 1 0
+win7 1 0
+android12 1 1
+macosx15 5 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+mozilla 1 1
+chrome133.0.0.0 1 0
+firefox75.0 1 1
+chrome133.0.6943.122 1 1
+safari16.6 1 1
+firefox23.0 1 0
+chrome129.0.0.0 2 2
+chrome130.0.0.0 2 2
+chrome106.0.0.0 1 0
+safari13.0.3 1 1
+chrome41.0.2224.3 2 0
+chrome120.0.0.0 4 3
+chrome114.0.0.0 2 1
+Unknown 219 219
+firefox72.0 9 0
+chrome39.0.2171.95 1 0
+firefox114.0 1 0
+safari14.0.3 5 0
+chrome30.0.1599.66 15 15
+chrome119.0.0.0 1 1
+firefox101.0 1 1
+chrome116.0.0.0 2 2
+chrome131.0.0.0 4 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Dataprovider.com) 20251215043534
+WordPress/4.9.26;_https://injul.com.do 20251231220338
+GuzzleHttp/7 20251220104242
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+WordPress/4.9.26;_https://injul.com.do 20251231220338
+GuzzleHttp/7 20251220104242
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25 39
+From1 0 0
+From2 4 10
+From3 0 0
+From4 224 229
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_fr 2 2
+www_google_co_uk 1 1
+www_google_com 1 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+307 6 4782
+206 1 88346
+404 439 2445578
+301 585 4770
+406 15 11685
+302 7 0
+403 50 41333
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 148
+/wp-includes/rest-api/about.php 1 https://www.google.com/
+/wp-includes/block-supports/chosen.php 1 https://www.yahoo.com/
+/wp-content/uploads/wppa/15.jpg 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 1 http://loplop.cocolog-nifty.com/angeleddie/2005/07/10_7433.html
+/wp-includes/customize/wp-conflg.php 1 https://www.yahoo.com/
+/wp-includes/Text/about.php 1 https://www.bing.com/
+/wp-good.php 1 https://www.bing.com/
+/wp-content/w3tc/ 1 https://www.google.fr/
+/wp-admin/autoload_classmap.php 1 https://www.google.de/
+/vendor/phpunit/phpunit/src/Util/PHP/as.php 1 https://www.yahoo.com/
+/mini.php 1 https://www.yahoo.com/
+/akcc.php 1 https://www.google.de/
+/old/ 42 -
+/wp-includes/rest-api/fields/ 2 https://www.google.de/
+/wp-includes/Text/wp-conflg.php 1 https://www.google.de/
+/wp-includes/Requests/ 2 https://duckduckgo.com/
+/wp-signin.php 1 https://www.google.co.uk/
+/wp-content/plugins/dummyyummy/wp-signup.php 1 https://www.google.de/
+/2018/06/12/las-lecciones-aprendidas-del-caso-cambridge-analytica/ 1 -
+/wp-includes/Text/Diff/ 4 https://www.google.fr/
+/wp-includes/ 3 https://www.google.fr/
+/blog/ 42 -
+/wp-content/updraft/ 1 https://www.google.com/
+/wp-content/ai1wm-backups/ 1 https://www.google.com/
+/cc.php 1 https://duckduckgo.com/
+/wp-includes/Requests/Auth/ 1 https://www.google.fr/
+/media/system/js/core.js 1 -
+/wp-links.php 1 https://www.google.com/
+/wp-includes/block-patterns/ 2 https://www.google.co.uk/
+/wp-content/plugins/mechanic-visitor-counter/counter/mvconline.png 1 -
+/wp-content/autoload_classmap.php 1 https://www.google.de/
+/wp-includes/html-api/ 2 https://www.google.de/
+/wp-includes/theme-compat/ 2 https://www.google.com/
+/wp-content/backup-db/ 1 https://duckduckgo.com/
+/manager.php 1 https://www.bing.com/
+/wp-includes/assets/autoload_classmap.php 1 https://www.google.com/
+/wp-includes/Text/autoload_classmap.php 1 https://www.bing.com/
+/network.php 1 https://www.google.co.uk/
+/sitemap.xml.gz 1 -
+/wp-includes/Text/Diff/Engine/ 1 https://www.google.fr/
+/wp/ 42 -
+/wp-admin/test/test/file/2013gdocs 3 -
+/wp-includes/block-bindings/ 2 https://www.google.com/
+/.well-known/pki-validation/index.php 1 https://www.google.de/
+/wp-includes/blocks/post-author-name/ 1 https://duckduckgo.com/
+/options-reading.php 1 https://www.google.fr/
+/wp-content/uploads/2012/10/juri1.jpg 1 -
+/wp-includes/SimplePie/Content/ 1 https://www.google.co.uk/
+/mah/function.php 1 https://www.google.com/
+/num.php 1 https://www.bing.com/
+/wp-includes/rest-api/search/ 2 https://www.yahoo.com/
+/av.php 1 https://www.bing.com/
+/wp-includes/style-engine/wp-conflg.php 1 https://www.google.com/
+/wp-includes/customize/chosen.php 1 https://duckduckgo.com/
+/wp-includes/images/wlw/ 1 https://www.google.com/
+/wp-includes/IXR/ 1 https://duckduckgo.com/
+/www.php 1 https://www.google.co.uk/
+/wp-includes/css/ 1 https://www.google.de/
+/wp-trackback.php 1 https://www.google.com/
+/css/ 1 https://www.google.co.uk/
+/wp-content/plugins/HelloDollyV2/ 1 https://www.google.com/
+/wp-includes/js/ 2 https://duckduckgo.com/
+/wp-includes/widgets/autoload_classmap.php 1 https://www.yahoo.com/
+/wp-includes/images/media/ 1 https://duckduckgo.com/
+/wp-includes/bk/ 1 https://www.google.co.uk/
+/wp-includes/certificates/ 3 https://www.google.co.uk/
+/wp-content/plugins/mechanic-visitor-counter/counter/mvctotal.png 1 -
+/wp-includes/js/crop/ 1 https://www.google.com/
+/wp-includes/blocks/about.php 1 https://www.yahoo.com/
+/wp-includes/Text/ 2 https://www.yahoo.com/
+/wp-content/backups-dup-lite/ 1 https://www.google.co.uk/
+/wp-includes/pomo/ 3 https://www.google.co.uk/
+/wp-includes/PHPMailer/ 1 https://duckduckgo.com/
+/wp-includes/SimplePie/chosen.php 1 https://duckduckgo.com/
+/wp-includes/sitemaps/providers/ 2 https://www.google.co.uk/
+/wp-includes/pomo/nxc.php 1 https://www.google.co.uk/
+/wp-includes/js/dist/development/ 1 https://www.google.com/
+/wp-includes/Text/Diff/Renderer/ 1 https://www.google.co.uk/
+/wp-includes/images/crystal/ 1 https://www.google.co.uk/
+/wp-includes/rest-api/ 4 https://www.yahoo.com/
+/wordpress/ 42 -
+/wp-content/themes/themes.php 1 https://www.bing.com/
+/wp-content/et-cache/ 1 https://www.google.com/
+/wp-content/uploads/2013/10/la-foto1-150x150.jpg 1 -
+/ioxi-o.php 1 https://www.google.com/
+/wp-content/uploads/2013/10/la-foto1-150x150.png 1 -
+/wp-includes/style-engine/ 1 https://duckduckgo.com/
+/wp-content/uploads/wc-logs/ 1 https://www.bing.com/
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/sitemaps.xml 2 -
+/chosen.php 1 https://www.google.fr/
+/adminfuns.php 1 https://www.google.fr/
+/wp-content/upgrade/ 2 https://www.google.co.uk/
+/wp-includes/assets/ 2 https://duckduckgo.com/
+/wp-includes/blocks/code/ 1 https://duckduckgo.com/
+/wp-includes/SimplePie/about.php 1 https://www.google.fr/
+/wp-content/uploads/ 1 https://www.google.com/
+/wp-includes/blocks/file/ 1 https://www.google.co.uk/
+/new/ 42 -
+/sitemap.xml 1 -
+/wp-includes/js/dist/ 1 https://www.google.fr/
+/css/install.php 1 https://duckduckgo.com/
+/wp-includes/customize/ 2 https://www.google.co.uk/
+/wp-content/cache/supercache/ 1 https://www.google.fr/
+/aa.php 1 https://www.google.co.uk/
+/wp-includes/sodium_compat/src/ 1 https://www.google.fr/
+/goods.php 1 https://www.google.co.uk/
+/backup/ 42 -
+/wp-includes/ID3/ 2 https://duckduckgo.com/
+/wp-content/uploads/woocommerce/ 1 https://www.bing.com/
+/novedades/ 1 -
+/wp-includes/style-engine/autoload_classmap.php 1 https://www.google.de/
+/wp-includes/widgets/ 1 https://www.google.co.uk/
+/wp-includes/images/ 1 https://www.google.com/
+/x.php 1 https://www.google.com/
+/wp-content/uploads/woocommerce_uploads/ 1 https://www.google.co.uk/
+/install.php 1 https://www.google.co.uk/
+/wp.php 1 https://www.google.co.uk/
+/wp-includes/sitemaps/autoload_classmap.php 1 https://www.bing.com/
+/wp-includes/fonts/ 1 https://www.google.co.uk/
+/wp-includes/js/codemirror/ 1 https://duckduckgo.com/
+/wp-includes/sitemaps/ 2 https://duckduckgo.com/
+/wp-content/plugins/mechanic-visitor-counter/counter/mvcvisit.png 1 -
+/wp-includes/SimplePie/ 2 https://www.yahoo.com/
+/wp-includes/SimplePie/autoload_classmap.php 1 https://www.google.fr/
+/wp-includes/sodium_compat/ 2 https://www.google.de/
+/wp-content/cache/ 1 https://www.google.fr/
+/wp-includes/IXR/test1.php 1 https://duckduckgo.com/
+/wp-content/plugins/mechanic-visitor-counter/counter/mvcmonth.png 1 -
+/carta-al-jefe-de-la-policia-nacional/ 1 -
+/wp-content/uploads/2012/09/toga3.jpg 12 -
+/Sanskrit.php 1 https://www.google.fr/
+/file5.php 1 https://www.google.co.uk/
+/wp-includes/php-compat/ 1 https://www.google.com/
+/assets/as.php 1 https://duckduckgo.com/
+/sitemap.txt 2 -
+/autoload_classmap/function.php 1 https://www.google.de/
+/elp.php 1 https://duckduckgo.com/
+/.well-known/acme-challenge/file.php 1 https://www.google.com/
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado 1 -
+/wp-includes/blocks/tag-cloud/about.php 1 https://www.google.de/
+/wp-includes/random_compat/ 1 https://www.google.de/
+/wp-includes/images/smilies/ 1 https://www.yahoo.com/
+/wp-includes/block-supports/ 2 https://www.google.co.uk/
+/wp-includes/rest-api/endpoints/ 1 https://www.google.fr/
+/wp-includes/blocks/shortcode/ 1 https://duckduckgo.com/
+/sitemap_index.xml 1 -
+/wp-content/wflogs/ 1 https://www.yahoo.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 42
+50.31.174.162 218 218 0 20251231220338
+152.228.220.143 15 15 658974 20251230140614
+4.197.150.63 4 4 0 20251214120901
+103.157.204.70 1 1 27962 20251214163248
+104.207.33.118 1 2 11391 20251225230143
+20.118.34.36 1 1 7584 20251229164606
+69.167.30.6 1 1 27962 20251206140618
+103.157.204.45 1 1 27962 20251215152141
+185.65.134.222 1 1 6165 20251208141601
+119.254.177.141 1 1 60180 20251218154642
+24.189.7.37 1 1 60180 20251216220507
+46.248.189.127 1 1 46945 20251220104242
+104.193.252.131 1 1 27962 20251216024940
+185.190.132.136 1 1 60180 20251221080719
+58.187.181.76 1 1 27962 20251201000853
+213.135.158.75 1 1 60180 20251201044130
+43.157.82.252 1 1 7584 20251218042342
+103.157.204.34 1 1 27962 20251215074955
+149.56.150.101 1 1 27395 20251215043534
+198.199.78.180 0 1 88019 
+216.228.127.131 0 1 2520 
+108.181.23.235 0 1 48798 
+92.168.8.163 0 1 88346 
+192.112.165.164 0 1 49067 
+72.25.70.131 0 1 48798 
+66.55.75.165 0 1 88346 
+192.112.165.232 0 1 48798 
+152.42.249.90 0 1 48798 
+205.169.39.46 0 1 33743 
+34.26.235.50 0 1 33838 
+143.198.89.55 0 1 32495 
+216.228.125.128 0 1 114149 
+69.197.189.106 0 1 48798 
+52.144.44.69 0 1 48798 
+192.112.165.172 0 2 147892 
+216.228.125.131 0 1 33743 
+51.222.41.99 0 1 88346 
+43.129.178.63 0 1 48798 
+192.112.165.248 0 1 32495 
+192.112.165.185 0 1 88019 
+142.54.161.162 0 1 88346 
+167.172.130.37 0 1 114149 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20251201 6 6 88142 6
+20251202 6 8 97596 5
+20251203 10 10 0 6
+20251204 7 8 88346 5
+20251205 0 1 48798 0
+20251206 6 7 61800 6
+20251207 4 4 0 4
+20251208 7 7 6165 5
+20251209 10 10 0 8
+20251210 4 4 0 4
+20251211 3 5 136817 3
+20251212 4 7 169908 4
+20251213 6 9 236238 5
+20251214 9 9 27962 6
+20251215 15 20 480929 12
+20251216 8 8 88142 7
+20251217 9 9 0 7
+20251218 4 4 67764 4
+20251219 11 11 0 11
+20251220 10 11 95743 8
+20251221 16 16 109521 9
+20251222 18 20 363532 15
+20251223 10 10 49341 10
+20251224 10 10 49341 9
+20251225 8 10 149078 7
+20251226 8 9 65889 7
+20251227 8 8 49341 6
+20251228 10 10 49341 7
+20251229 8 8 8034 8
+20251230 11 12 51861 7
+20251231 7 7 0 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 2
+1h+ 7
+15mn-30mn 6
+30mn-1h 18
+0s-30s 173
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 12
+/wp-cron.php 218 0 174 174
+/feed/atom/ 13 641433 13 13
+/contactenos/ 7 175371 7 7
+/wp-json/wp/v2/posts 4 240720 4 4
+/servicios/ 3 42563 3 3
+/feed/ 2 64036 2 2
+/carta-al-jefe-de-la-policia-nacional/feed/ 1 450 1 1
+/page/7/ 1 6165 1 1
+/wp-content/themes/ 1 0 0 0
+/wp-content/index.php 1 0 1 0
+/wp-content/themes/index.php 1 0 0 1
+/wp-content/plugins/ 1 0 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+2K-5K 12
+1K-2K 3
+5K+ 364
+100-500 9
+500-1K 136
+44-100 101
+0-44 1060
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

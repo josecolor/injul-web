@@ -1,0 +1,74 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id GDk0Bwmgrl0QRQgA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Tue, 22 Oct 2019 02:22:01 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Tue, 22 Oct 2019 02:22:01 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iMnYP-002KLq-2i
+	for injuldom@single-priva8.privatednsorg.com; Tue, 22 Oct 2019 02:22:01 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1571725321-eximdsn-200340659
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iMnYP-002KLq-2i@single-priva8.privatednsorg.com>
+Date: Tue, 22 Oct 2019 02:22:01 -0400
+
+--1571725321-eximdsn-200340659
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1571725321-eximdsn-200340659
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1571725321-eximdsn-200340659
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iMnYP-002KLi-1F
+	for info@injul.com.do; Tue, 22 Oct 2019 02:22:01 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "Average cost of dentures | dentures and dental | immediate dentures | implant supported dentures | dentures a new smile | implant retained dentures"
+X-PHP-Script: injul.com.do/index.php for 46.166.142.214
+Date: Tue, 22 Oct 2019 06:22:01 +0000
+From: Uhoolilm <info@injul.com.do>
+Reply-To: ripukinru@ro.ru
+Message-ID: <bcbaaa4a3d4d05da40568cc77fc4cecd@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: Uhoolilm <ripukinru@ro.ru>
+Subject: Average cost of dentures | dentures and dental | immediate dentures | implant supported dentures | dentures a new smile | implant retained dentures
+
+Message Body:
+Welcome to Walsh University Where You Matter. As a Catholic University with 2,674 students from 40 states and 35 countries offering undergraduate, graduate, and adult accelerated degree programs, Walshs ultimate mission is to develop leaders in service to others.  
+<a href=http://dentures.denta.top/art/what-kind-of-dentist-does-dentures/>What kind of dentist does dentures</a>
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1571725321-eximdsn-200340659--

@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id AE+cCno9O10I0ioA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 26 Jul 2019 13:50:50 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 26 Jul 2019 13:50:50 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1hr4Mk-00Burt-4N
+	for injuldom@single-priva8.privatednsorg.com; Fri, 26 Jul 2019 13:50:50 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1564163450-eximdsn-2099442507
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1hr4Mk-00Burt-4N@single-priva8.privatednsorg.com>
+Date: Fri, 26 Jul 2019 13:50:50 -0400
+
+--1564163450-eximdsn-2099442507
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1564163450-eximdsn-2099442507
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1564163450-eximdsn-2099442507
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1hr4Mk-00Burf-28
+	for info@injul.com.do; Fri, 26 Jul 2019 13:50:50 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "Increase Domain Authority and Ranks"
+X-PHP-Script: injul.com.do/index.php for 193.148.19.165
+Date: Fri, 26 Jul 2019 17:50:50 +0000
+From: Eddiebib <info@injul.com.do>
+Reply-To: support@monkeydigital.co
+Message-ID: <1bc2b837fb578d55867bb32ab122a213@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: Eddiebib <support@monkeydigital.co>
+Subject: Increase Domain Authority and Ranks
+
+Message Body:
+What will we do to increase your DA? 
+ 
+Our Plan is very simple yet very effective. We have researched all available sources and gained access to thousands of High DA domains that are directly indexed and re-crawled by Moz Robots on each update. So, we will build and index: 
+ 
+- 5000 DA30+ backlinks 
+- 2500 dofollow from high PA pages 
+- 1000 unique domains links with high DA scores 
+ 
+start boosting ranks and SEO metrics with our plan today: 
+http://monkeydigital.co/product/moz-da-seo-plan/ 
+ 
+Best regards 
+Mike 
+monkeydigital.co@gmail.com
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1564163450-eximdsn-2099442507--

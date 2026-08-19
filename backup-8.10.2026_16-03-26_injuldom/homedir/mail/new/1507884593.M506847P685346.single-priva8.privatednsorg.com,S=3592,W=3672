@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id EOEnHjF+4FkidQoA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 13 Oct 2017 04:49:53 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 13 Oct 2017 04:49:53 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1e2vfF-002sLL-Ek
+	for injuldom@single-priva8.privatednsorg.com; Fri, 13 Oct 2017 04:49:53 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1507884593-eximdsn-1721734485
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1e2vfF-002sLL-Ek@single-priva8.privatednsorg.com>
+Date: Fri, 13 Oct 2017 04:49:53 -0400
+
+--1507884593-eximdsn-1721734485
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1507884593-eximdsn-1721734485
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1507884593-eximdsn-1721734485
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1e2vfF-002sLC-DG
+	for info@injul.com.do; Fri, 13 Oct 2017 04:49:53 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_"Hello_world!?=  =?UTF-8?Q?"?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 105.107.134.147
+Date: Fri, 13 Oct 2017 08:49:53 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <f5234e67d369d9e633118d67def9506e@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "Hello world!" está esperando tu aprobación
+http://injul.com.do/2017/09/05/hello-world/
+
+Autor: how much weight can i lose in 3 weeks (IP: 105.107.134.147, 105.107.134.147)
+Correo electrónico: jasper_martine@gmail.com
+URL: https://www.youtube.com/channel/UC8uSQ3rHtQI0eK3mbDZejpQ
+Comentario: 
+this could be higher that you should attempt to do as ar against to purchasing many different varieties of weight decrease publication beat the inside the meantime.
+Even some drugs, after taking, heartthrob accelerated and 
+I felt sick, really really irritating, just tortures for me.
+(6) Men Who Enjoy Alcohol - For many men, quitting alcohol is often a complete No-No.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=245#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=245#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=245#wpbody-content
+Actualmente hay 244 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1507884593-eximdsn-1721734485--

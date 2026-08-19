@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id IGvBIUA2pV37mQoA6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Mon, 14 Oct 2019 23:00:16 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Mon, 14 Oct 2019 23:00:16 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iKD4K-002vEr-H4
+	for injuldom@single-priva8.privatednsorg.com; Mon, 14 Oct 2019 23:00:16 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1571108416-eximdsn-1494223670
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iKD4K-002vEr-H4@single-priva8.privatednsorg.com>
+Date: Mon, 14 Oct 2019 23:00:16 -0400
+
+--1571108416-eximdsn-1494223670
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1571108416-eximdsn-1494223670
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1571108416-eximdsn-1494223670
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iKD4K-002vEe-FQ
+	for info@injul.com.do; Mon, 14 Oct 2019 23:00:16 -0400
+To: info@injul.com.do
+Subject: [www.injul.com.do] Tu sitio se ha actualizado a WordPress 4.9.12
+X-PHP-Script: injul.com.do/wp-cron.php for 65.60.22.66
+Date: Tue, 15 Oct 2019 03:00:16 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <4cbd88424e0c83f64d47e9b596a01c0d@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+¡Hola! Tu sitio http://injul.com.do se ha actualizado automáticamente a WordPress 4.9.12.
+
+Para más información sobre la versión 4.9.12 revisa la pantalla Acerca de WordPress:
+http://injul.com.do/wp-admin/about.php
+
+WordPress 5.2.4 también está ahora disponible. Actualizar es fácil y solo dura un momento:
+http://injul.com.do/wp-admin/update-core.php
+
+Si tienes algún problema o necesitas ayuda, los voluntarios en los foros de soporte WordPress.org pueden ayudarte.
+https://es.wordpress.org/support/
+
+Mantener tu sitio actualizado es importante para la seguridad. También hace que internet sea un lugar más seguro para ti y tus lectores.
+
+El equipo de WordPress
+
+
+--1571108416-eximdsn-1494223670--

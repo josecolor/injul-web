@@ -1,0 +1,4 @@
+[16-Sep-2024 12:52:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/injuldom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19

@@ -1,0 +1,528 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202404 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2687                
+POS_VISITOR 11854               
+POS_DAY 14309               
+POS_DOMAIN 3494                
+POS_LOGIN 3961                
+POS_ROBOT 4116                
+POS_WORMS 4945                
+POS_EMAILSENDER 5076                
+POS_EMAILRECEIVER 5219                
+POS_SESSION 15086               
+POS_SIDER 15296               
+POS_FILETYPES 5354                
+POS_DOWNLOADS 5510                
+POS_OS 5642                
+POS_BROWSER 5865                
+POS_SCREENSIZE 6587                
+POS_UNKNOWNREFERER 6661                
+POS_UNKNOWNREFERERBROWSER 6926                
+POS_ORIGIN 7128                
+POS_SEREFERRALS 7266                
+POS_PAGEREFS 7410                
+POS_SEARCHWORDS 7558                
+POS_KEYWORDS 7710                
+POS_MISC 2351                
+POS_ERRORS 7769                
+POS_CLUSTER 3817                
+POS_SIDER_404 7903                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240501015755 13 2705 16073615066165
+FirstTime 20240401005058
+LastTime 20240430210304
+LastUpdate 20240501082509 13 0 12 0 0
+TotalVisits 383                 
+TotalUnique 36                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 76                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 1 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 18 20 94786 23 43 438482
+1 27 30 157865 30 43 318464
+2 25 26 63943 40 55 1063355
+3 21 24 89389 41 60 6478147
+4 19 20 149412 22 27 111975
+5 26 27 103509 57 87 958605
+6 17 18 76749 42 65 354219
+7 18 20 131778 39 46 223965
+8 27 30 229163 31 43 329238
+9 18 20 110733 40 47 6271432
+10 25 26 221701 52 59 377640
+11 30 35 338983 25 44 557117
+12 18 21 163900 38 44 157226
+13 21 33 368765 25 32 229851
+14 22 26 273296 46 53 306059
+15 28 29 68496 42 59 264394
+16 23 26 106491 31 48 475325
+17 19 20 157125 31 50 373513
+18 19 20 66719 32 41 168981
+19 24 24 68779 22 40 259470
+20 17 18 36702 81 92 1406256
+21 18 18 34631 40 76 6574839
+22 21 22 68496 36 51 223593
+23 22 25 334647 15 23 99606
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 19
+us 505 525 2222886
+in 3 12 223465
+fr 2 3 39847
+gb 2 3 11806
+ru 2 3 11947
+pl 1 1 46945
+ro 1 1 27962
+eg 1 2 11391
+zz 1 2 11391
+jo 1 2 11391
+cr 1 2 11391
+il 1 2 11391
+au 1 2 11391
+dk 1 1 415
+cn 0 13 697167
+gr 0 1 33838
+kr 0 1 48798
+jp 0 1 48798
+nl 0 1 33838
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 18
+Googlebot/ 88 976977 20240429230009 21
+Applebot/ 77 1040527 20240430093248 20
+bot[\s_+:,\.\;\/\\-] 56 394832 20240430100528 35
+SemrushBot/ 53 339949 20240429122453 22
+AhrefsBot/ 33 315683 20240430074616 15
+link 20 199195 20240415100301 1
+bingbot/ 18 490407 20240430052228 7
+yak 17 239484 20240430020231 3
+facebookexternalhit/ 10 733870 20240422024802 3
+DotBot/ 9 63796 20240405004636 5
+unknown 6 420 20240427230530 6
+crawl 6 133784 20240428004857 0
+Feedfetcher\-Google 4 63319 20240426113331 0
+Go\-http\-client/ 4 137144 20240416085336 0
+Googlebot\-Video/ 3 18044361 20240430093326 0
+seek 3 27529 20240429155650 2
+(firefox/)([0-9]\.|[0-1][0]\.) 1 415 20240417012912 0
+Velen 1 70 20240420003101 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 93 1485270 0 0
+jpg 28 1567123 0 0
+Unknown 1 556 0 0
+php 429 36756 0 0
+js 27 426353 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/wp-content/uploads/2021/05/2b295b61-386b-4c0b-9ad3-c85f9cec0558-1.mp4 3 0 18044361
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+Unknown 411 410
+linux 82 78
+androidnougat 5 0
+macosx 10 5
+win8 2 2
+winlong 2 2
+ios_iphone 1 1
+linuxubuntu 20 0
+android10 1 1
+win10 36 18
+win7 7 5
+win8.1 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 34
+mozilla 1 1
+chrome72.0.3626.121 1 1
+chrome58.0.3029.110 1 0
+firefox44.0 1 1
+chrome121.0.0.0 9 1
+firefox63.0 1 1
+chrome114.0.0.0 15 8
+msie7.0 1 1
+chrome91.0.4472.114 1 1
+firefox72.0 20 0
+firefox67.0 1 1
+chrome63.0.3239.132 2 2
+firefox34.0 1 1
+chrome103.0.5060.114 1 1
+chrome88.0.4324.104 1 1
+chrome60.0.3112.107 5 0
+chrome30.0.1599.66 74 74
+Unknown 410 409
+firefox85.0 1 1
+firefox84.0 1 1
+safari15.4 2 1
+firefox60.0 1 1
+chrome89.0.4389.82 1 0
+chrome117.0.0.0 3 0
+opera89.0.4447.51 4 2
+chrome74.0.3729.169 1 1
+chrome74.0.3729.131 1 1
+firefox38.0 1 1
+chrome27.0.1453.116 2 0
+firefox114.0 8 4
+chrome68.0.3440.106 1 1
+safari 1 1
+chrome65.0.3152.119 1 1
+chrome60.0.3112.90 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_Dataprovider.com) 20240426065721
+python-requests/2.31.0 20240415112803
+WordPress/4.9.25;_https://injul.com.do 20240430210304
+GuzzleHttp/7 20240427113329
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+python-requests/2.31.0 20240415112803
+WordPress/4.9.25;_https://injul.com.do 20240430210304
+GuzzleHttp/7 20240427113329
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 114 142
+From1 0 5
+From2 0 0
+From3 0 0
+From4 409 431
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 61 48007
+301 236 4770
+302 4 0
+405 1 0
+404 511 4766418
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 87
+/wp-content/plugins/miniorange-malware-protection/includes/js/phone.js 2 -
+/viajando-a-la-habana-cuba-segunda-parte/ 4 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 1 http://injul.com.do/
+/contactos/ 3 -
+/dup-installer/main.installer.php 1 -
+/bk 5 -
+/wp-admin/function.php 2 http://simplesite.com
+/wp-head.php 1 -
+/bc 5 -
+/.well-known/trust.txt 1 -
+/wp-admin/includes/users.php 1 injul.com.do
+/wp-content/plugins/woocommerce-products-filter/js/plainoverlay/plainoverlay.jquery.json 1 -
+/backup 5 -
+/wp-content/plugins/master/mode/table.php 1 injul.com.do
+/no-nos-pertenecen/ 1 http://injul.com.do/
+/.well-known/ai.txt 4 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 2 http://injul.com.do/
+/humans.txt 4 -
+/ai.txt 4 -
+/wp-content/uploads/2015/02/8-.jpg 2 -
+/wordpress 5 -
+/anecdota-don-juan-de-los-palotes/ 2 http://injul.com.do/
+/licenses.php 1 injul.com.do
+/wp-admin/edit-forms.php 1 injul.com.do
+/upfile.php 1 injul.com.do
+/cibersecuestro 1 -
+/simple.php 6 http://simplesite.com
+/app-ads.txt 1 -
+/wp-admin/test/test/file/2013gdocs 1 -
+/class.api.php 1 injul.com.do
+/wp 5 -
+/.well-known/nodeinfo 1 -
+/classwithtostring.php 3 http://simplesite.com
+/old 5 -
+/wp-content/plugins/fix/up.php 3 -
+/about.php 3 injul.com.do
+/ads.txt 6 -
+/wp-checkbex.php 1 -
+/backup_1/cleaner.php 1 injul.com.do
+/music/bak_config.php 1 injul.com.do
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 1 http://injul.com.do/
+/ 55 -
+/el-culpable-favorito/ 1 http://injul.com.do/
+/da1.php 1 injul.com.do
+/wp-content/themes/rehub-theme/icons/modulobox.svg 3 -
+/cgi-bin/upfile.php 1 injul.com.do
+/transparencia/ 3 http://injul.com.do/
+/archivarix.cms.php 1 -
+/admin.php 5 http://simplesite.com
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/ 261 -
+/felicidades-campeon/ 1 http://injul.com.do/felicidades-campeon/
+/wp-admin/includes/upfile.php 1 injul.com.do
+/wp-includes/about.php 1 -
+/security.txt 1 http://www.injul.com.do/security.txt
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 1 http://injul.com.do/
+/wp-content/plugins/backup-backup/modules/gdrivebanner/assets/css/styles.css 3 -
+/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js 1 -
+/que-es-feminicidio-o-femicidio/ 2 http://injul.com.do/
+/radio.txt 1 injul.com.do
+/wp-includes/ 1 -
+/simple/function.php 1 http://simplesite.com
+/wp-admin/css/colors/light/ 1 injul.com.do
+/new 5 -
+/wp-content/themes/sketch/404.php 1 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 1 http://injul.com.do/
+/wp-content/plugins/forminator/assets/fonts/wpmudev-plugin-icons.svg 1 -
+/sitemap.xml 1 -
+/main 5 -
+/wp-admin/css/colors/blue/ 1 injul.com.do
+/.well-known/security.txt 1 http://www.injul.com.do/.well-known/security.txt
+/style.php 1 www.google.com
+/wp-admin/user/upfile.php 1 injul.com.do
+/hello-world/ 2 -
+/el-espectaculo/ 3 http://injul.com.do/
+/PHPMailer/web_config.php 1 injul.com.do
+/wp-admin/images/upfile.php 1 injul.com.do
+/radio.php 1 injul.com.do
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 3 http://injul.com.do/
+/wp-content/plugins/under-construction-page/themes/research/ 1 http://injul.com.do/wp-content/plugins/under-construction-page/themes/research/index.php
+/wp-aa.php 1 www.google.com
+/cibersecuestro/ 4 -
+/dropdown.php 2 http://simplesite.com
+/wp-content/uploads/2012/09/toga3.jpg 24 -
+/wp-admin/css/ 1 injul.com.do
+/que-es-estado-social-y-democratico-de-derecho-2/ 1 -
+/classwithtostring/function.php 1 http://simplesite.com
+/carta-al-jefe-de-la-policia-nacional/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 76
+50.31.174.162 408 408 0 20240430210304
+152.228.220.143 74 74 1261427 20240429234922
+34.142.214.245 5 5 2075 20240418235745
+35.214.190.212 3 3 1245 20240420024102
+18.189.196.129 2 2 830 20240419193020
+45.86.202.63 1 1 7571 20240403160038
+13.65.241.130 1 1 415 20240418163921
+104.196.110.70 1 1 415 20240413015857
+193.37.33.161 1 1 7599 20240405033629
+125.63.11.60 1 2 11391 20240413133344
+51.68.229.100 1 1 415 20240418235843
+23.80.164.156 1 1 7599 20240416022214
+194.5.82.68 1 1 7599 20240419113435
+104.165.127.130 1 2 11391 20240406013015
+156.239.37.244 1 1 7599 20240426131504
+40.84.226.176 1 1 415 20240417175131
+37.140.254.10 1 1 7599 20240413142452
+49.13.112.176 1 9 211659 20240411131518
+2.57.168.101 1 2 11391 20240407015642
+103.152.227.140 1 1 415 20240416090347
+104.252.131.122 1 1 7599 20240421165325
+193.202.110.29 1 1 415 20240421052156
+84.247.116.115 1 1 27962 20240408102244
+103.163.220.47 1 1 7599 20240416002649
+23.99.183.149 1 1 415 20240417133512
+34.221.203.180 0 1 48798 
+18.136.33.86 0 1 88346 
+194.26.192.140 0 1 33838 
+183.84.18.66 0 2 137144 
+34.222.190.38 0 1 48798 
+156.239.48.244 0 1 3792 
+193.37.33.120 0 1 3792 
+59.37.132.115 0 1 48798 
+130.44.215.125 0 1 48798 
+45.86.202.66 0 1 3792 
+37.140.254.36 0 1 3792 
+104.252.131.80 0 1 3792 
+8.130.95.146 0 1 88346 
+185.238.231.225 0 1 3792 
+194.5.82.103 0 1 3792 
+95.179.211.86 0 1 33838 
+59.37.132.113 0 1 48798 
+183.157.160.84 0 2 97596 
+183.84.18.65 0 1 48798 
+119.8.177.33 0 1 48798 
+14.116.239.37 0 1 48798 
+108.165.144.166 0 1 48798 
+23.106.16.158 0 1 3792 
+54.210.72.49 0 1 2520 
+149.28.182.71 0 1 33838 
+54.162.57.89 0 1 48798 
+129.226.131.6 0 1 48798 
+3.95.21.226 0 1 49067 
+216.155.135.119 0 1 33838 
+42.186.124.7 0 1 88346 
+183.84.18.69 0 1 48798 
+185.238.231.232 1 1 7599 20240409031433
+185.218.1.117 1 1 556 20240421063635
+104.210.145.181 1 1 415 20240422004627
+3.235.66.205 0 1 88346 
+149.56.160.149 1 1 27395 20240426065721
+108.61.177.181 0 1 33838 
+190.112.223.60 1 2 11391 20240427093411
+35.221.152.48 1 1 415 20240419233022
+104.238.38.218 0 1 48798 
+211.249.68.27 0 1 48798 
+195.154.49.91 1 1 28456 20240404105927
+134.73.18.20 1 2 11391 20240401083628
+119.8.243.110 0 1 48798 
+43.156.43.105 0 1 48798 
+173.244.55.19 1 1 7599 20240429144011
+54.172.109.220 0 1 114149 
+27.44.203.9 0 1 32495 
+103.163.220.12 0 1 3792 
+46.248.187.122 1 1 46945 20240427113329
+52.183.85.212 1 1 415 20240419021000
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20240401 24 26 127070 16
+20240402 16 18 97865 11
+20240403 19 22 126050 13
+20240404 26 26 45547 15
+20240405 24 27 108987 12
+20240406 23 25 77757 14
+20240407 24 26 129341 19
+20240408 25 26 196322 18
+20240409 22 25 262806 20
+20240410 22 22 85455 16
+20240411 16 25 326889 11
+20240412 24 25 49247 10
+20240413 24 28 203235 12
+20240414 10 10 17091 6
+20240415 12 15 173118 10
+20240416 15 18 89501 13
+20240417 14 15 51759 11
+20240418 13 14 50458 12
+20240419 19 22 66500 16
+20240420 13 13 415 9
+20240421 14 17 112089 11
+20240422 7 8 100685 6
+20240423 11 12 88795 7
+20240424 5 6 105437 5
+20240425 11 11 68291 11
+20240426 25 27 224173 20
+20240427 25 26 195540 22
+20240428 18 18 85455 17
+20240429 12 15 250180 10
+20240430 10 10 0 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+5mn-15mn 8
+0s-30s 287
+1h+ 26
+30s-2mn 1
+2mn-5mn 1
+15mn-30mn 20
+30mn-1h 40
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/wp-cron.php 408 0 269 269
+/feed/ 66 1157573 66 66
+/xmlrpc.php 20 8300 19 19
+/contactenos/ 16 141919 16 16
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 3 1429 3 3
+/feed/atom/ 3 148023 3 3
+/carta-al-jefe-de-la-policia-nacional/feed/ 3 1347 3 3
+/servicios/ 2 34979 2 2
+/index.php 1 28456 1 1
+/wp-json/wp/v2/users 1 556 1 1
+END_SIDER

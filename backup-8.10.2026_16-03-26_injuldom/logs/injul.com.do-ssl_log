@@ -1,0 +1,7 @@
+114.119.136.251 - - [10/Aug/2026:08:27:17 -0400] "GET /robots.txt HTTP/1.1" 404 796 "https://injul.com.do/robots.txt" "Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
+54.153.5.26 - - [10/Aug/2026:08:04:15 -0400] "GET /wp-admin/test/test/file/2013gdocs HTTP/1.1" 404 796 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36"
+18.235.181.91 - - [10/Aug/2026:09:44:12 -0400] "GET / HTTP/1.1" 200 10153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/138.0.0.0 Safari/537.36"
+205.210.31.164 - - [10/Aug/2026:12:53:07 -0400] "GET / HTTP/1.1" 200 40291 "-" "Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity"
+18.237.176.114 - - [10/Aug/2026:14:04:43 -0400] "GET / HTTP/1.1" 200 35978 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
+198.244.183.113 - - [10/Aug/2026:15:40:14 -0400] "GET /robots.txt HTTP/2" 404 796 "-" "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)"
+54.39.203.123 - - [10/Aug/2026:15:40:16 -0400] "GET /tag/justicia/ HTTP/2" 404 796 "-" "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)"

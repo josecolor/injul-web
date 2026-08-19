@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com (Dovecot) with LMTP id KW7qC+MSvFnuJwwA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 15 Sep 2017 13:50:27 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 15 Sep 2017 13:50:27 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.89)
+	id 1dsul1-003OcG-4T
+	for injuldom@single-priva8.privatednsorg.com; Fri, 15 Sep 2017 13:50:27 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1505497827-eximdsn-1789044768
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dsul1-003OcG-4T@single-priva8.privatednsorg.com>
+Date: Fri, 15 Sep 2017 13:50:27 -0400
+
+--1505497827-eximdsn-1789044768
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1505497827-eximdsn-1789044768
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1505497827-eximdsn-1789044768
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.89)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1dsul1-003Oc4-2B
+	for info@injul.com.do; Fri, 15 Sep 2017 13:50:27 -0400
+To: info@injul.com.do
+Subject: =?UTF-8?Q?[www.injul.com.do]_Pendientes_de_moderaci=C3=B3n:_""?=
+X-PHP-Script: injul.com.do/wp-comments-post.php for 138.128.227.31
+Date: Fri, 15 Sep 2017 17:50:27 +0000
+From: WordPress <wordpress@injul.com.do>
+Message-ID: <cded552cdf4ee82726fe765c8c8cffaa@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Un nuevo comentario en la entrada "" está esperando tu aprobación
+http://injul.com.do/2017/09/05/6/
+
+Autor: mozilla firefox download free 2017 (IP: 138.128.227.31, 138.128.227.31)
+Correo electrónico: lettie_sorlie@bigstring.com
+URL: http://format.anadolu.edu.tr/forum/member.php?action=profile&amp;uid=319536
+Comentario: 
+Hiya, I am really glad I've found this information. Nowadays bloggers 
+publish only about gossips and web and this is actually irritating.
+A good blog with exciting content, this is what 
+I need. Thanks for keeping this web-site, I'll be visiting 
+it. Do you do newsletters? Can't find it.
+
+Aprobarlo: http://injul.com.do/wp-admin/comment.php?action=approve&c=43#wpbody-content
+Enviar a la papelera: http://injul.com.do/wp-admin/comment.php?action=trash&c=43#wpbody-content
+Marcarlo como spam: http://injul.com.do/wp-admin/comment.php?action=spam&c=43#wpbody-content
+Actualmente hay 42 comentarios en espera de aprobación. Por favor visita el panel de moderación:
+http://injul.com.do/wp-admin/edit-comments.php?comment_status=moderated#wpbody-content
+
+
+--1505497827-eximdsn-1789044768--

@@ -1,0 +1,76 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP id UP9fLVWbylsn6CkA6bADhg
+	for <injuldom@single-priva8.privatednsorg.com>; Fri, 19 Oct 2018 23:04:53 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Fri, 19 Oct 2018 23:04:53 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.91)
+	id 1gDhZN-00BZhg-NG
+	for injuldom@single-priva8.privatednsorg.com; Fri, 19 Oct 2018 23:04:53 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1540004693-eximdsn-1614915334
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1gDhZN-00BZhg-NG@single-priva8.privatednsorg.com>
+Date: Fri, 19 Oct 2018 23:04:53 -0400
+
+--1540004693-eximdsn-1614915334
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1540004693-eximdsn-1614915334
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1540004693-eximdsn-1614915334
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.91)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1gDhZN-00BZhW-Li
+	for info@injul.com.do; Fri, 19 Oct 2018 23:04:53 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "Ciao!"
+X-PHP-Script: injul.com.do/index.php for 185.206.224.230
+Date: Sat, 20 Oct 2018 03:04:53 +0000
+From: OliverDig <info@injul.com.do>
+Reply-To: popovandrej1981@mail.ru
+Message-ID: <a776928de9f43260c3b6d7674aa7da55@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+From: OliverDig <popovandrej1981@mail.ru>
+Subject: Ciao!
+
+Message Body:
+Good man! 
+There is 
+an interesting 
+offering for you. 
+ 
+http://bit.ly/2P6mq47
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1540004693-eximdsn-1614915334--

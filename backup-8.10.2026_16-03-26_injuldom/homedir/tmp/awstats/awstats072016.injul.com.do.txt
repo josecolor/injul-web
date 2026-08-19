@@ -1,0 +1,671 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201607 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2009                
+POS_TIME 2665                
+POS_VISITOR 22680               
+POS_DAY 22752               
+POS_DOMAIN 3358                
+POS_LOGIN 3569                
+POS_ROBOT 3724                
+POS_WORMS 3856                
+POS_EMAILSENDER 3987                
+POS_EMAILRECEIVER 4130                
+POS_SESSION 22808               
+POS_SIDER 22945               
+POS_FILETYPES 4265                
+POS_DOWNLOADS 4329                
+POS_OS 4377                
+POS_BROWSER 4442                
+POS_SCREENSIZE 4492                
+POS_UNKNOWNREFERER 4566                
+POS_UNKNOWNREFERERBROWSER 4653                
+POS_ORIGIN 4735                
+POS_SEREFERRALS 4865                
+POS_PAGEREFS 5009                
+POS_SEARCHWORDS 5157                
+POS_KEYWORDS 5309                
+POS_MISC 2329                
+POS_ERRORS 5368                
+POS_CLUSTER 3425                
+POS_SIDER_404 5463                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160801003152 199 45253 19514971886193
+FirstTime 0
+LastTime 0
+LastUpdate 20160801083002 199 0 198 0 0
+TotalVisits 0                   
+TotalUnique 0                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 0                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 339 348 399504
+1 0 0 0 361 379 433944
+2 0 0 0 456 466 534968
+3 0 0 0 309 324 370804
+4 0 0 0 379 392 447720
+5 0 0 0 406 428 490196
+6 0 0 0 430 448 507416
+7 0 0 0 406 419 479864
+8 0 0 0 428 444 506268
+9 0 0 0 396 412 470680
+10 0 0 0 520 534 613032
+11 0 0 0 403 414 471828
+12 0 0 0 466 475 544152
+13 0 0 0 387 397 455756
+14 0 0 0 497 514 590072
+15 0 0 0 520 526 602700
+16 0 0 0 510 527 603848
+17 0 0 0 451 472 539560
+18 0 0 0 559 573 657804
+19 0 0 0 441 456 522340
+20 0 0 0 416 432 493640
+21 0 0 0 358 376 430500
+22 0 0 0 444 462 530376
+23 0 0 0 300 310 355880
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 0 0
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 10522 12052852
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 453
+/locoy.php 1 -
+/wordpress/xmlrpc.php 1 -
+/wp-content/uploads/wooh.php 1 -
+/mko.php 2 -
+/configbak.php 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii 2 -
+/wp-links-opml.php 1 -
+/tag/injul/ 4 -
+/Fbrrchive.php 2 -
+/wp-includes/css/modules.php 2 -
+/por-que-debemos-destruir-el-ticket-del-cajero/ 8 http://injul.com.do/
+http://injul.com.do/felicidades-campeon/ 1 http://injul.com.do/
+/wp-content/security.php 3 -
+/wp-admin/security.php 3 -
+/tag/policias-de-higuey/ 3 -
+/tag/navidad-en-familia/ 7 -
+/2013/11/ 2 -
+/ley-de-reforma-del-congreso-de-2011-enmienda-de-la-constitucion-de-espana/ 1 -
+/tag/pablo-pujols-seipio/ 2 -
+/mide.php 2 -
+/inquiry/ 3 -
+/tag/johan-liriano/ 1 -
+/wp-content/plugins/revslider/js/rev_admin.js 1 -
+/que-debe-hacer-la-policia-para-ser-bien-valorada 1 -
+/tag/terremoto/ 8 -
+/wp-content/uploads/wppa/20.jpg 1 http://image.baidu.com/i
+/chase/update/chase/ 31 -
+/wp-content/plugins/500.php 2 -
+/wp-content/uploads/2013/11/untitled1.png 1 http://image.baidu.com/i
+/default.php 2 -
+/tag/castro-castillo/ 3 -
+/tag/sopa/ 1 -
+/tag/blog/ 1 -
+/wp-load.php 2 -
+// 1 http://injul.com.do
+/wp-content/uploads/wppa/33.jpg 1 http://image.baidu.com/i
+/wp-content/uploads/2013/11/images1-150x150.jpg 1 http://image.baidu.com/i
+/wp-content/uploads/2013/11/images-150x150.jpg 1 http://image.baidu.com/i
+/ext/elFinder/elfinder.html 1 -
+/tag/fraude/ 1 -
+/nos/ 5 -
+/labistamechi/dropbox/dropbox/dropbox/dropbox 4 -
+/xmlrppc.php 2 -
+/testosteron.php 2 -
+/tag/spam/feed/ 1 -
+/uso-del-monosilabo-de-o-del/ 11 http://injul.com.do/
+/2011/09/ 2 -
+/wp-installation.php 3 -
+/tag/carta-al-jefe-de-la-policia-nacional/ 2 -
+/tag/curas/ 1 -
+/wp-admin/link-parse-editor.php 1 -
+/cgi-bin/security.php 3 -
+/o-nos-montamos-o-nos-atropella/ 260 http://injul.com.do/o-nos-montamos-o-nos-atropella/#comment-19136
+/tag/jefe-policia/feed/ 1 -
+/inquiry/sample/order/pdf/file/dropbox/dropbox/ 2 -
+/wp-content/plugins/Analyser.php 1 -
+/tag/juan/ 1 -
+/tag/johan/ 1 -
+/navidad-fiesta-de-la-familia-y-de-la-vida/ 14 http://injul.com.do/
+http://injul.com.do/anecdota-don-juan-de-los-palotes/ 3 http://injul.com.do/
+/web/tiki-calendar.php 1 -
+/category/home-edition/ 2 -
+/upsgrade.php 2 -
+/wp-includes/pomo/systemc.php 1 -
+/hello-world 2 -
+/recordando-a-garzon/%7C0 1 -
+/tag/caso-san-cristobal/ 1 -
+/revslider.php 2 -
+/error-log.php 2 -
+/tag/militar/ 1 -
+/wp-content/uploads/wppa/26.jpg 1 http://image.baidu.com/i
+/tag/no-nos-pertenecen/ 1 -
+/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 88 -
+/wp-content/uploads/wpfoot.php 1 -
+/extracts.php 1 -
+/wp-admin/uploader.php 1 -
+/systemcache.php 2 -
+/page/2/ 5 -
+/entrevista-sobre-el-plan-de-seguridad- 4 -
+/medidas-para-evitar-el-spam-en-el-correo-electronico-o-email/ 3 -
+/Hodienne.php 2 -
+/como-la-cronica-de-una-muerte-anunciada 1 -
+/tag/seguridad/feed/ 1 -
+/tag/fructuoso/ 2 -
+/index2.php 2 -
+/tag/patrullaje-militar/feed/ 1 -
+/wp-includes/upgrade/theme-compat/11.php 3 -
+/servicios/ 2 -
+/webszerk/elfinder/elfinder.html 1 -
+/felicidades-campeon/ 139 http://injul.com.do/
+/wp/ 4 -
+//administrator/index.php 1 -
+/wp-content/uploads/configbacks.php 1 -
+/no-nos-pertenecen/ 96 http://injul.com.do/
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/ 8 http://injul.com.do/
+/tag/vocero-pn/feed/ 2 -
+/tikiwiki/tiki-calendar.php 1 -
+/tag/codigo-procesal-penal/ 1 -
+/la-huelga-como-estrategia-de-marketing 2 -
+/tag/entrevista/ 2 -
+/con-conferencias-los-curas-pedofilos-no-se-curan/ 1 -
+/wp-trackback.php 3 -
+/modx.php 1 -
+/tag/culpable/ 1 -
+/tag/novela-policiaca/ 2 -
+/cibersecuestro/ 55 http://injul.com.do/
+/wp-mail.php 2 -
+//bitrix/admin/index.php 1 -
+/tag/anecdota/ 3 -
+/tag/fructuoso/feed/ 1 -
+/tag/ganara/ 3 -
+/tag/la-busqueda/feed/ 2 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/%7C0 1 -
+/tag/san-cristobal/feed/ 3 -
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/%7C0 1 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/%7C0 1 -
+/o-nos-montamos-o-nos-atropella/%7C0 1 -
+/2013/09/10/ 3 -
+/cibersecuestro/%7C0 1 -
+/wp-content/upgrade/theme-compat/11.php 2 -
+/Wellsfargo/Wellsfargo/Wellsfargo/verified.htm 6 -
+/wp-includes/pomo/wp-setting.php 1 -
+/tag/virus 2 -
+/tag/polanco-gomez/ 7 -
+/wp-content/uploads/wppa/22.jpg 1 http://image.baidu.com/i
+/que-debe-hacer-la-policia-para-ser-bien-valorada/ 11 http://injul.com.do/
+/tag/la-busqueda/ 6 -
+/wp-content/uploads/2013/11/imagesCAL32JS1.jpg 1 http://image.baidu.com/i
+/tmp.php 3 -
+/tag/policidio/ 1 -
+/tag/fraude/feed/ 1 -
+/el-oro-olimpico-de-gran-bretana/ 7 http://injul.com.do/
+/wp-includes/error_log.php 1 -
+/tag/fructuoso-heredia/ 3 -
+/wp-includes/error-log.php 3 -
+/tag/jacobo-mateo-moquete/ 2 -
+/configurationbak.php 2 -
+/wp-content/themes/felici/sprites/js/cufon-yui.js 1 -
+/wp-config-sample.php 2 -
+/wordpress/ 4 -
+/informaciones 1 -
+/config.php 2 -
+/wp-misc.php 2 -
+/tag/fructuoso-heredia/feed/ 1 -
+/main/tiki-calendar.php 1 -
+http://injul.com.do/que-es-feminicidio-o-femicidio/ 1 http://injul.com.do/
+/wp-content/plugins/wp-cache.php 3 -
+/2014/03/ 1 -
+/no-nos-pertenecen/%7C0 1 -
+/wp-content/uploads/2012/01/democracia_formal.jpg 1 http://image.baidu.com/i
+/que-es-estado-social-y-democratico-de-derecho-2/%7C0 1 -
+http://injul.com.do/hello-world/ 1 http://injul.com.do/
+/tag/democracia/feed/ 1 -
+/como-la-cronica-de-una-muerte-anunciada/ 125 http://injul.com.do/
+/wp-content/b374k-2.8.php 1 -
+/censura-ordenes-procurador-ante-violencia-genero/ 2 -
+/tag/conferencia/ 2 -
+/tag/aristocles/ 2 -
+/uy.php 2 -
+/tag/padres/feed/ 1 -
+/webshellkey.php 2 -
+/wp-checking.php 1 -
+/upgrade.php 2 -
+/tag/manuel-castro-castillo/ 2 -
+/wp-content/uploads/2013/11/la-foto1-150x150.jpg 1 http://image.baidu.com/i
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/ 111 http://injul.com.do/
+/perfiles/ 4 -
+/tag/culpable-favorito/feed/ 1 -
+/tag/muertos-en-san-cristobal/feed/ 2 -
+/contactos/ 6 -
+/tag/san-cristobal/ 1 -
+/carta-al-jefe-de-la-policia-nacional/feed/ 1 -
+/wp-admin/test/test/file/2013gdocs/ 17 -
+/recordando-a-garzon/ 421 http://injul.com.do/
+/articulo-periodistico-del-dr-porfirio-rojas-nina-sobre-la-novela-la-busqueda/ 1 -
+/tag/o-nos-montamos-o-nos-atropella/ 2 -
+/tag/pujols-seipio/ 2 -
+/wp-content/uploads/2013/11/images.jpg 1 http://image.baidu.com/i
+/wp-admin/options-smedia.php 1 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/feed/ 1 -
+/que-es-estado-social-y-democratico-de-derecho-2 1 -
+/wp-includes/upgrade/theme-compat/popup-pomo.php 1 -
+/tag/crimen-organizado/feed/ 1 -
+/wp-admin/image-true.php 1 -
+/wp-includes/upgrade/theme-compat/wp-functions.php 1 -
+/respuestas 1 -
+/tag/dominicana 2 -
+/thanks.php 2 -
+/wp-setup-step2.php 2 -
+/page/5/ 5 -
+http://injul.com.do/como-la-cronica-de-una-muerte-anunciada/ 1 http://injul.com.do/
+/tag/alfonso-torres-ulloa/ 4 -
+/tag/violencia/ 3 -
+/labistamechi/dropbox/ 1 -
+/wp-content/uploads/wppa/65.jpg 1 -
+/wp-content/uploads/2012/01/democracia_formal-294x300.jpg 2 http://image.baidu.com/i
+/fraudes-por-tarjetas-de-credito/ 2 -
+/tag/crimen/ 2 -
+/inquiry/sample/order/pdf/ 1 -
+/tag/simon 2 -
+/wp-content/plugins/wp-photo-album-plus/'+_wppaUrl[mocc][i]+' 1 -
+/policiacidio-o-policidio/ 10 http://injul.com.do/
+/tag/juan-manuel-fructuoso/feed/ 1 -
+/webconfig.txt.php 1 -
+/tag/vaticano/ 1 -
+/feed/ 3 -
+/imagenes-de-la-puesta-en-circulacion-de-la-busqueda/ 28 http://injul.com.do/
+/dialogo-entre-las-altas-cortes/ 5 -
+/wp-content/uploads/wppa/25.jpg 1 http://image.baidu.com/i
+/tag/alfonso-torres/ 2 -
+/kui.php 2 -
+/fg 3 -
+/wp-includes/security.php 3 -
+/robots.txt.php 2 -
+/tag/johan-liriano/feed/ 1 -
+/index.php 5 -
+/modules/modules/modules.php 3 -
+/presidente-injul-imparte-junto-carmjy-al-conaej-el-seminario-sobre-investigaciones-a-oficiales-fad/ 2 -
+/cibersecuestro 1 -
+/congreso-de-eu-congela-la-ley-sopa-buenas-o-malas-noticias/ 31 http://injul.com.do/
+/tag/dominicanas/ 1 -
+/LICENSES.php 2 -
+/novedades 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-ii/%7C0 1 -
+/el-culpable-favorito/ 33 http://injul.com.do/
+/wp-content/themes/THEME/functions.php 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-ii/ 4 -
+/tag/plan-de-seguridad-ciudadana/ 5 -
+/plugin.php 1 -
+/wiki/tiki-calendar.php 1 -
+/la-reforma-policial-del-presidente/ 8 http://injul.com.do/
+/wp-content/uploads/2012/09/toga3.jpg 4 http://aspectosdelderechoengeneral.blogspot.com.es/2015/05/la-toga-y-el-birrete-en-el-poder.html
+/quieres-sopa/ 1 -
+/upfilees.php 2 -
+/mysql.php 1 -
+/atencion-mujeres 1 -
+/tag/spam 2 -
+/2013/11/19/ 1 -
+/wp-content/themes/THEME/404.php 4 -
+/wp-content/themes/THEME/author.php 2 -
+http://injul.com.do/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 1 http://injul.com.do/
+/tag/johan/feed/ 1 -
+http://injul.com.do/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 3 http://injul.com.do/
+/4005..php 1 -
+/feliz-navidad-y-prospero-2015/ 2 http://injul.com.do/
+/tag/elecciones 2 -
+/wp-content/archive.php 1 -
+/el-culpable-favorito/feed/ 1 -
+/wp-settings.php 1 -
+/popup-pomo.php 3 -
+/blog/xmlrpc.php 1 -
+/final-redes-sociales-ley-sopa/ 6 http://injul.com.do/
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 1003 http://injul.com.do/el-incremento-de-la-delincuencia-y-el-crimen-organizado/#comment-15533
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 25 http://www.google.com/
+/2014/11/12/ 1 -
+/wp-content/uploads/wppa/162.jpg 1 http://image.baidu.com/i
+/entrevista-al-lic-juan-ml-fructuoso-en-democracia-tv/feed/ 4 -
+/wp-cache.php 1 -
+/tag/yaguate/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/SignOn.html 28 http://www.google.com/
+/transparencia 1 -
+/feed/atom/ 31 -
+/la-dignidad-de-la-toga/ 14 http://injul.com.do/
+/wp-content/plugins/configbacks.php 1 -
+/tag/johan-emilio/feed/ 2 -
+/js/lib/elfinder/elfinder.html 1 -
+/tag/mulata-iii/feed/ 1 -
+/que-es-feminicidio-o-femicidio/ 268 http://injul.com.do/
+/hello-world/ 220 http://injul.com.do/
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/%7C0 1 -
+/tag/spammers/ 1 -
+/tag/credito 1 -
+/tag/lic-juan-fructuoso/ 4 -
+/tag/final/feed/ 1 -
+/articulo-periodistico-del-dr-porfirio-rojas-nina-sobre-la-novela-la-busqueda/feed/ 1 -
+/el-espectaculo/%7C0 1 -
+/tag/patrullaje-militar/ 1 -
+/wp-content/uploads/2011/10/navidad3.jpg 1 -
+/tag/candido 1 -
+/category/home-edition/page/6/ 1 -
+/anecdota-don-juan-de-los-palotes/ 76 http://injul.com.do/
+/wp-content/uploads/2013/11/Pujols-150x150.jpg 1 http://image.baidu.com/i
+/el-espectaculo/ 272 http://injul.com.do/
+/novedades/ 2 -
+/wp-content/uploads/Fbrrchive.php 2 -
+/tag/seguridad/ 4 -
+/46456.php 1 -
+/tag/juan-manuel-fructuoso/ 4 -
+/tag/thunderbird/ 1 -
+/smoke/up.php 2 -
+/que-es-est 2 http://injul.com.do/
+/wp-content/uploads/2013/11/la-foto1.jpg 1 http://image.baidu.com/i
+/news.php 2 -
+/wpconf.php 2 -
+/tag/democracia-tv/ 3 -
+/IPES/ 5 http://www.injul.com.do/IPES/
+/2013/08/ 1 -
+/tag/la-educacion/feed/ 1 -
+/wp-content/plugins/custom-background/js/custom_background.js 1 -
+/entrevista-al-lic-juan-ml-fructuoso-heredia-donde-se-refiere-a-la-investigacion-de-la-muerte-del-ex-secretario-de-las-fuerzas-armadas-juan-rene-beauchamp-javier/http://maylammat.net/may-lam-mat-khong-khi-bang-hoi-nuoc-hanami/ 1 http://injul.com.do/
+/layouts.php 2 -
+/wp-content/themes/THEME/content-wp-authority.php 1 -
+/wp-config.php 2 -
+/tag/cronica-de-una-muerte-anunciada/feed/ 1 -
+/wp-content/uploads/wp-cache.php 3 -
+/la-clonacion-2-0-o-como-protegerte-del-robo-de-identidad-en-internet/ 1 http://injul.com.do/
+/analisis-del-libro-vigilar-y-castigar-de-la-autoria-del-sociologo-y-filosofo-frances-miguel-foucault-1926-1984/ 42 http://injul.com.do/
+/tag/caso-san-cristobal/feed/ 1 -
+/felicidades-campeon/%7C0 1 -
+/injul-te-cura-en-salud 3 -
+/tags/popup-pomo.php 1 -
+/11.php 2 -
+/category/home-edition/page/12/ 1 -
+/wp-content/upgrade/theme-compat/popup-pomo.php 2 -
+/wp-content/uploads/wppa/thumbs/74.jpg 1 http://image.baidu.com/i
+/487/ 8 http://injul.com.do/
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 248 -
+/tag/carta-del-lic-juan-fructuoso/ 2 -
+/transparencia/feed/ 1 -
+/fraudes-por-tarjetas-de-credito/feed/ 1 -
+/respuestas/ 1 -
+/tag/malware/ 2 -
+/blog/robots.txt 4 -
+/head.php 2 -
+/tag/caso-yaguate/ 1 -
+/wp-blog-header.php 2 -
+/wpindex.php 2 -
+/wp-content/smoke/up.php 1 -
+/tag/policia/ 2 -
+/2013/11/05/ 2 -
+/jvc/account/ 1 -
+/wp-login.php 11 http://injul.com.do/
+/tag/jefe-de-la-policia-nacional/ 2 -
+/otro/ 1 -
+/tiki/tiki-calendar.php 1 -
+/wp-signup.php 2 -
+/wp-admin/test/test/file/2013gdocs 321 -
+/tag/juan-manuel/ 2 -
+/wp-content/themes/world_of_business_bue028/style.css 1 -
+/wp-content/uploads/2013/11/untitled1-150x150.png 1 http://image.baidu.com/i
+/vendor/elfinder/elfinder.html 1 -
+/load.php 2 -
+/tag/palotes/ 2 -
+/tag/quien 2 -
+/wp-activate.php 2 -
+/page/10/ 2 -
+http://injul.com.do/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/ 5 http://injul.com.do/sabe-quien-ganara-las-elecciones-presidenciales-del-20-de-mayo-2012/
+/viajando-a-la-habana-cuba-segunda-parte/ 1 -
+/2013/11/11/ 2 -
+/la-funcion-reductora-del-derecho-penal-ante-un-estado-de-derecho-amenazado-o-la-logica-del-carnicero-responsable/ 1 -
+/wp/xmlrpc.php 1 -
+/principio-de-igualdad-en-la-republica-dominicana-en-su-nueva-constitucion/ 4 -
+/tag/jacobo-mateo-moquete/feed/ 2 -
+/balance%c2%a0en-la-designacion-de-las-altas-cortes-felices-poco-felices-y-tristes/feed/ 1 -
+//admin/index.php 1 -
+/uso-del-monosilabo-de-o-del 2 -
+/labistamechi/dropbox/dropbox/ 1 -
+/tiki2/tiki-calendar.php 1 -
+/tag/juan-de-los-palote/feed/ 1 -
+/inquiry/sample/order/pdf/file/dropbox/ 1 -
+http://injul.com.do/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 1 http://injul.com.do/
+/wp-includes/pomo/function-cloud.php 2 -
+/entrevista-sobre-el-plan-de-seguridad-ciudadana-al-lic-juan-ml-fructuoso-heredia/ 161 http://injul.com.do/
+/security.php 2 -
+/page/11/ 1 -
+/servicios 1 -
+/xmlrpc.php 8 -
+/seguridad-ante-la-ocurrencia-de-un-terremoto/ 55 http://injul.com.do/
+/wp-content/themes/THEME/system.php 1 -
+/wp-includes/class-wp-roles.php 1 -
+/transparencia/ 172 http://injul.com.do/
+/chase/update/chase/personal_info.htm 9 -
+/license.php 3 -
+/wp-content/uploads/2013/11/images1.jpg 1 http://image.baidu.com/i
+/contactos 1 -
+/dpllnzesgr4lops.php 2 -
+/wp-content/uploads/default.php 1 -
+/wp-cron.php 1 -
+/wp-content/uploads/2013/11/imagesCAL32JS1-150x150.jpg 1 http://image.baidu.com/i
+/domainsigma_removal_6d9509fcedee0b66ce72ab6a47fbab7f2cd093d0.html 1 -
+//fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 1 http://injul.com.do/
+/que-es-estado-social-y-democratico-de-derecho-2/ 394 http://injul.com.do/
+/wiki5/tiki-calendar.php 1 -
+/tag/gabriel-garcia-marquez/ 2 -
+/injul-te-cura-en-salud/ 1 -
+/tag/cambio/ 2 -
+/tag/policia-molitar/ 1 -
+/wp-includes/ms-files-qu.php 2 -
+/final-redes-sociales-ley-sopa 1 -
+/exit-point.php 2 -
+/stats.php 2 -
+/tag/johan-emilio/ 1 -
+/ 4293 http://injul.com.do/
+/wp-data.php 1 -
+/wp-content/uploads/500.php 2 -
+/tag/culpable-favorito/ 1 -
+/jvc/ 2 -
+/atencion-mujeres/feed/ 1 -
+/wp-conff.php 2 -
+/tag/coronel-johan/feed/ 3 -
+/robots.txt 304 -
+/webroot/plugins/elfinder/elfinder.html 1 -
+/tag/policia-molitar/feed/ 2 -
+/tag/platon/ 2 -
+/ratory.php 2 -
+/2014/11/ 2 -
+/carta-al-jefe-de-la-policia-nacional/ 184 http://injul.com.do/
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/ 57 http://injul.com.do/
+/tag/delincuencia/ 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info.html 6 -
+/load-config.php 1 -
+/cron.php 1 -
+/tag/carta-al-jefe-de-la-policia-nacional/feed/ 2 -
+/CHANGELOG.php 2 -
+/tag/crimen-organizado/ 2 -
+/wp-content/uploads/wpfeet.php 1 -
+/tag/jose-polanco-gomez/ 4 -
+/labistamechi/ 1 -
+/tag/troyanos/ 1 -
+/BirdsRio.php 2 -
+/2013/10/ 1 -
+/wp-content/themes/THEME/403.php 1 -
+/backup.php 2 -
+/tag/pedofilos/ 1 -
+/wp-content/plugins/wpfoot.php 3 -
+/tag/crimen/feed/ 1 -
+/wp-content/uploads/2011/08/Fructuoso.png 1 http://image.baidu.com/i
+/wpfoot.php 1 -
+http://injul.com.do/ 13 http://injul.com.do
+/tag/incremento-de-la-delincuencia-y-crimen-organizado/feed/ 3 -
+/LICENSE.php 1 -
+/tag/coronel-johan/ 2 -
+/Public/static/elfinder/elfinder.html 1 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 62 http://injul.com.do/
+/wp-content/uploads/thumbnail.php 1 -
+/tag/democracia/ 1 -
+/por-que-debemos-destruir-el-ticket-del-cajero/feed/ 1 -
+/tag/policiacidio/ 1 -
+/principio-de-igualdad-y-la-nueva-constitucion-dominicana-parte-iii/%7C0 1 -
+/home.bak.php 2 -
+/que-es-feminicidio-o-femicidio/%7C0 1 -
+/configuration.php 2 -
+/tag/padres/ 1 -
+/tag/juan-fructuoso/feed/ 2 -
+/quienes-somos/ 5 http://injul.com.do/
+/rssd.php 2 -
+/tag/juan-fructuoso/ 5 -
+/tag/caso-yaguate/feed/ 1 -
+/wp-content/plugins/1-flash-gallery/images.php 1 -
+/blog/ 4 -
+/uso-del-monosilabo-de-o-del/feed/ 1 -
+/wp-comments-post.php 2 -
+/gemb.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 0
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 0
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 0
+END_SIDER

@@ -1,0 +1,28 @@
+[07-Mar-2026 13:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[09-Mar-2026 10:38:50 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[13-Mar-2026 23:46:37 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[16-Mar-2026 01:02:13 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[20-Mar-2026 18:04:06 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[21-Mar-2026 00:24:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[23-Mar-2026 20:35:26 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Customize_Image_Control' not found in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/injuldom/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17

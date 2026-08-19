@@ -1,0 +1,670 @@
+AWSTATS DATA FILE 7.9 (build 20230108)
+# If you remove this file, all statistics for date 202503 will be lost/reset.
+# Last config file used to build this data file was /home/injuldom/tmp/awstats/awstats.injul.com.do.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2043                
+POS_TIME 2722                
+POS_VISITOR 16042               
+POS_DAY 18306               
+POS_DOMAIN 3556                
+POS_LOGIN 3964                
+POS_ROBOT 4119                
+POS_WORMS 5085                
+POS_EMAILSENDER 5216                
+POS_EMAILRECEIVER 5359                
+POS_SESSION 19098               
+POS_FILESIZE 20702               
+POS_SIDER 19298               
+POS_FILETYPES 5494                
+POS_DOWNLOADS 5714                
+POS_OS 5762                
+POS_BROWSER 5976                
+POS_SCREENSIZE 6391                
+POS_UNKNOWNREFERER 6465                
+POS_UNKNOWNREFERERBROWSER 7041                
+POS_ORIGIN 7398                
+POS_SEREFERRALS 7536                
+POS_PAGEREFS 7680                
+POS_SEARCHWORDS 7828                
+POS_KEYWORDS 7980                
+POS_MISC 2386                
+POS_ERRORS 8039                
+POS_CLUSTER 3820                
+POS_SIDER_404 8175                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20250401000618 73 16077 10631686987202
+FirstTime 20250301004327
+LastTime 20250331232333
+LastUpdate 20250401083401 73 0 72 0 0
+TotalVisits 372                 
+TotalUnique 37                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 70                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+AddToFavourites 0 3 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 58 60 151751 111 128 406183
+1 17 17 147625 35 49 157853
+2 21 23 61304 78 136 1329119
+3 19 20 246705 73 100 432812
+4 15 17 123586 133 151 819101
+5 14 15 7752 61 74 306012
+6 21 24 181318 56 70 288096
+7 18 21 127265 115 127 409311
+8 22 23 155079 114 135 483258
+9 23 26 266418 73 83 209118
+10 28 30 220340 115 133 431321
+11 25 28 223042 96 102 262518
+12 27 30 291868 88 102 570640
+13 26 44 673920 115 131 570393
+14 22 22 49341 122 138 430407
+15 22 24 134938 119 127 501080
+16 34 35 133376 74 91 332877
+17 25 25 72085 105 132 781935
+18 17 19 147480 125 135 342826
+19 26 30 359641 77 110 631062
+20 26 26 25590 62 77 369350
+21 22 22 176435 108 131 498143
+22 24 24 90289 65 82 345774
+23 17 19 88019 92 103 374108
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+us 514 554 3339100
+cn 35 40 291378
+ca 6 6 59588
+eg 3 3 22797
+nl 2 2 55924
+ao 1 1 7599
+fr 1 2 11391
+zz 1 1 87
+se 1 2 11391
+jp 1 1 7584
+ru 1 6 324573
+jo 1 2 11391
+pl 1 1 744
+tr 1 2 11391
+cl 0 1 229
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+DotBot/ 147 1677434 20250331104427 70
+PetalBot 100 858882 20250331085048 15
+SemrushBot/ 69 410233 20250330100027 32
+Googlebot/ 58 409574 20250331201430 22
+bot[\s_+:,\.\;\/\\-] 53 1086477 20250322034017 4
+AhrefsBot/ 31 22006 20250331185934 28
+yak 23 324894 20250330094015 4
+Applebot/ 20 337113 20250325193654 3
+link 20 198990 20250307041519 1
+YisouSpider 18 393323 20250308172105 1
+bingbot/ 17 70519 20250331144648 8
+no_user_agent 9 375560 20250310215521 0
+unknown 6 420 20250331021556 6
+Barkrowler 4 15308 20250322023754 2
+Feedfetcher\-Google 4 63458 20250327091207 0
+netEstate[\x20]NE[\x20]Crawler 3 7724 20250307000423 2
+facebookexternalhit/ 2 137 20250310143817 2
+checker 2 140 20250309193421 2
+BLEXBot/ 2 10198 20250324191657 1
+Go\-http\-client/ 1 0 20250313230218 0
+nutch 1 70 20250318212932 1
+TestCrawler 1 70 20250304221634 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+Unknown 12 860 0 0
+js 31 400038 0 0
+png 1 33743 0 0
+css 7 103264 0 0
+php 458 7840 0 0
+html 98 2612120 0 0
+woff2 1 77160 0 0
+gif 2 336 0 0
+jpg 14 919806 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+Unknown 479 474
+macosx10 15 0
+win8.1 1 1
+win10 41 17
+androidnougat 1 1
+win7 1 1
+ios_iphone 1 1
+macosx9 1 0
+macos12 10 6
+linuxubuntu 7 1
+linux 67 67
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome39.0.2171.95 15 0
+mozilla 7 7
+chrome114.0.0.0 19 14
+chrome103.0.5060.114 2 2
+msie11.0 1 1
+safari7.0.3 1 0
+safari13.0.3 1 1
+chrome133.0.0.0 18 2
+firefox114.0 1 1
+chrome91.0.4472.124 4 4
+chrome100.0.7016.715 1 0
+chrome60.0.3112.107 1 1
+Unknown 472 467
+chrome131.0.0.0 3 0
+chrome30.0.1599.66 65 65
+opera89.0.4447.51 6 4
+firefox72.0 6 0
+chrome100.0.5679.300 1 0
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Cpanel-HTTP-Client/1.0 20250308165002
+Mozilla/5.0_(compatible;_Trance/1.0) 20250309040346
+python-requests/2.31.0 20250322194106
+Mozilla/5.0_(compatible;_Dataprovider.com) 20250326090357
+Python/3.10_aiohttp/3.9.1 20250316074236
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20250308170337
+GuzzleHttp/7 20250309194431
+python-requests/2.27.1 20250320004820
+python-requests/2.32.3 20250324111330
+WordPress/4.9.26;_https://injul.com.do 20250331232333
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+GuzzleHttp/7 20250309194431
+python-requests/2.27.1 20250320004820
+python-requests/2.32.3 20250324111330
+WordPress/4.9.26;_https://injul.com.do 20250331232333
+Cpanel-HTTP-Client/1.0 20250308165002
+Python/3.10_aiohttp/3.9.1 20250316074236
+python-requests/2.31.0 20250322194106
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 101 133
+From1 0 0
+From2 0 0
+From3 0 0
+From4 468 491
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 5 3935
+302 7 0
+301 1045 29415
+405 3 108
+404 986 4984924
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 211
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado 31 -
+/wp-content/plugins/about.php 12 http://injul.com.do
+/dataojs/journals 1 -
+/wp-content/themes/social_icons/twitter_16.png 1 -
+/wp-content/uploads/wppa/thumbs/41.jpg 1 -
+/index/index/info 2 -
+/wp-content/uploads/2012/09/toga3.jpg 15 -
+/wp-content/plugins/wp-foodbakery/assets/frontend/css/bootstrap.css 1 -
+/.well-known/pki-validation/pwnd.php 1 -
+/wp-admin/test/test/file/2013gdocs 110 -
+/wp-content/uploads/wppa/thumbs/151.jpg 2 -
+/wp-content/uploads/wppa/thumbs/148.jpg 2 -
+/ojs_file/journals 1 -
+/fgallery-id1-w450-h385-bgffffff-t0-titlecooperativa-leonor/ 1 -
+/wp-content/uploads/2012/02/ruddy-150x150.jpg 1 -
+/data-ojs/journals 1 -
+/mah.php 1 -
+/wp-content/uploads/2013/04/pn.jpeg 1 -
+/wp-content/uploads/wppa/26.jpg 1 -
+/filesjurnal/journals 1 -
+/wordpress 64 -
+/filesojs/journals 1 -
+/old 63 -
+/wp-admin/images/ 1 -
+/la-designacion-de-jueces-en-las-alta-cortes/ 1 -
+/wp-content/uploads/wppa/thumbs/86.jpg 1 -
+/wp-content/uploads/wppa/thumbs/76.jpg 1 -
+/wp-content/uploads/wppa/thumbs/70.jpg 1 -
+/.well-known/pki-validation/about.php 1 -
+/wp-content/uploads/wppa/thumbs/63.jpg 1 -
+/wp-content/uploads/wppa/thumbs/67.jpg 1 -
+/wp-content/uploads/2013/10/la-foto1.jpg 1 -
+/wp-content/themes/social_icons/google_plus_16.png 1 -
+/wp-admin/css/themes.php 1 -
+/wp-content/uploads/wppa/thumbs/150.jpg 1 -
+/admin.php 2 -
+/ojsv2/files/journals 1 -
+/wp-content/uploads/wppa/thumbs/35.jpg 1 -
+/Filejournal/journals 1 -
+/.well-known/pki-validation/xmrlpc.php 1 -
+/wp-content/uploads/wppa/thumbs/66.jpg 1 -
+/wp-content/uploads/wppa/thumbs/83.jpg 1 -
+/ojs-file/journals 1 -
+/journalsv2/files/journals 1 -
+/data_ojs/journals 1 -
+/wp-includes/js/mediaelement/renderers/vimeo.min.js.map 1 -
+/uploads/ 10 binance.com
+/wp-content/plugins/mechanic-visitor-counter/counter/mvcmonth.png 1 -
+/ads.txt 1 -
+/.well-known/pki-validation/muse.php 1 -
+/wp-content/uploads/2013/10/la-foto1-150x150.png 1 -
+/wp-content/uploads/wppa/78.jpg 1 -
+/file_journals/journals 1 -
+/cong.php 1 -
+/wp-content/uploads/wppa/thumbs/73.jpg 1 -
+/wordpress/ 1 -
+/wp-content/uploads/wppa/thumbs/152.jpg 2 -
+/wp-content/uploads/wppa/thumbs/147.jpg 2 -
+/el-incremento-de-la-delincuencia-y-el-crimen-organizado/ 4 -
+/acfiles/journals 1 -
+/wp-content/uploads/wppa/thumbs/161.jpg 2 -
+/wp-content/uploads/wppa/thumbs/82.jpg 1 -
+/files/ 10 binance.com
+/wp-content/upgrade/ 1 -
+/journal2/files/journals 1 -
+/ojs-files/journals 1 -
+/wp-content/uploads/wppa/thumbs/158.jpg 2 -
+/.well-known/pki-validation/jp.php 1 -
+/uploaded_script.php 2 www.google.com
+/wp-content/uploads/wppa/thumbs/34.jpg 1 -
+/wp-content/themes/include.php 1 -
+/wp-content/uploads/2012/10/juri1.jpg 1 -
+/wp-content/plugins/mechanic-visitor-counter/counter/mvctotal.png 1 -
+/delpaths.php 1 -
+/journals2/files/journals 1 -
+/thoms.php 2 www.google.com
+/images/ 10 binance.com
+/main 63 -
+/wp-content/uploads/wppa/thumbs/89.jpg 1 -
+/wp-content/themes/Total/owl.video.play.png 1 -
+/wp-content/themes/social_icons/reddit_16.png 1 -
+/wp-content/uploads/wppa/thumbs/87.jpg 1 -
+/wp-includes/ID3/ 3 -
+/wp-content/plugins/fix/up.php 1 -
+/wp-content/uploads/2013/10/la-foto1-150x150.jpg 1 -
+/journal_files/journals 1 -
+/wp-content/themes/world_of_business_bue028/images/PostTagIcon.png 1 -
+/wp-content/uploads/2013/10/la-foto1.png 1 -
+/wp-content/languages/ 1 -
+/ojsdatajurnal/journals 1 -
+/wp-admin/css/ 11 -
+/wp-content/uploads/wppa/25.jpg 1 -
+/ojs_files/journals 1 -
+/.well-known/ 9 binance.com
+/wp-includes/SimplePie/Content/Type/ 1 -
+/wp-content/uploads/wppa/thumbs/77.jpg 1 -
+/ojsfiles/journals 1 -
+/geju.php 6 -
+/wp-content/uploads/wppa/thumbs/154.jpg 2 -
+/wp-content/plugins/mechanic-visitor-counter/counter/mvcvisit.png 1 -
+/wp-head.php 1 -
+/carta-al-jefe-de-la-policia-nacional 1 http://injul.com.do/carta-al-jefe-de-la-policia-nacional
+/media/system/js/core.js 5 -
+/wp-content/uploads/wppa/thumbs/92.jpg 1 -
+/ejournaldata/journals 1 -
+/wp-content/uploads/2013/04/pn-150x150.jpeg 1 -
+/wp-content/uploads/wppa/thumbs/65.jpg 1 -
+/bk 63 -
+/wp-content/uploads/wppa/thumbs/95.jpg 1 -
+/file_journal/journals 1 -
+/repeater.php 1 -
+/wp-content/uploads/wppa/thumbs/155.jpg 2 -
+/ojsv3/files/journals 1 -
+/wp-content/uploads/wppa/thumbs/33.jpg 1 -
+/bless.php 1 -
+/wp 63 -
+/transparencia/ 1 -
+/wp-content/uploads/wppa/thumbs/64.jpg 1 -
+/journal3/files/journals 1 -
+/radio.php 1 -
+/data_ejournal/journals 1 -
+/wp.php 9 http://injul.com.do
+/ojsfile/journals 1 -
+/wp-content/uploads/wppa/thumbs/68.jpg 1 -
+/hoot.php 1 -
+/ojsdata/journals 1 -
+/.well-known/pki-validation/siteindex.php 1 -
+/wp-content/uploads/wppa/thumbs/94.jpg 1 -
+/wp-content/themes/social_icons/facebook_16.png 1 -
+/jw 1 -
+/wp-content/themes/world_of_business_bue028/images/PostAuthorIcon.png 1 -
+/wp-content/uploads/wppa/20.jpg 2 -
+/wp-content/IXR/ 1 -
+/wp-content/uploads/wppa/thumbs/156.jpg 2 -
+/wp-content/uploads/wppa/22.jpg 1 -
+/installer-data.sql 1 -
+/journalsv3/files/journals 1 -
+/backup 63 -
+/wp-content/uploads/wppa/thumbs/71.jpg 1 -
+/wp-content/uploads/wppa/thumbs/96.jpg 1 -
+/wp-content/uploads/wppa/thumbs/42.jpg 1 -
+/sites/default/files/ 9 binance.com
+/wp-content/uploads/wppa/thumbs/111.jpg 1 -
+/acfilejurnal/journals 1 -
+/wp-content/uploads/wppa/thumbs/91.jpg 1 -
+/wp-content/themes/social_icons/digg_16.png 1 -
+/files_jurnal/journals 1 -
+/wp-content/plugins/mechanic-visitor-counter/counter/mvconline.png 1 -
+/wp-content/themes/world_of_business_bue028/images/PostCategoryIcon.png 1 -
+/wp-content/uploads/wppa/thumbs/80.jpg 1 -
+/bc 63 -
+/about.php 3 http://injul.com.do
+/recordando-a-garzon/ 1 -
+/admin/controller/extension/extension/ 10 binance.com
+/wp-content/uploads/wppa/thumbs/85.jpg 1 -
+/.well-known/pki-validation/fm.php 1 -
+/wp-content/about.php 6 http://injul.com.do
+/wp-admin/css/colors/ 1 -
+/fileojs/journals 1 -
+/wp-content/uploads/wppa/thumbs/37.jpg 1 -
+/wp-content/uploads/wppa/thumbs/39.jpg 1 -
+/wp-content/uploads/wppa/thumbs/38.jpg 1 -
+/wp-content/uploads/wppa/thumbs/84.jpg 1 -
+/lock360.php 1 -
+/wp-content/uploads/wppa/thumbs/90.jpg 1 -
+/wp-content/uploads/wppa/thumbs/97.jpg 1 -
+/wp-content/uploads/wppa/thumbs/93.jpg 1 -
+/que-es-estado-social-y-democratico-de-derecho-2/ 1 -
+/wp-content/themes/social_icons/delicious_16.png 1 -
+/wp-content/uploads/wppa/thumbs/72.jpg 1 -
+/ojs-data/journals 1 -
+/files-jurnal/journals 1 -
+/inputs.php 1 www.google.com
+/file-jurnal/journals 1 -
+/.well-known/pki-validation/parx.php 1 -
+/wp-content/uploads/wppa/thumbs/149.jpg 2 -
+/file-ojs/journals 1 -
+/.well-known/pki-validation/wp-login.php 1 -
+/tag/pablo-escobar/ 1 -
+/files-ojs/journals 1 -
+/acfile/journals 1 -
+/wp-content/uploads/wppa/thumbs/157.jpg 2 -
+/wp-includes/Requests/Auth/ 1 -
+/wp-content/themes/Total/assets/images/bullets-black.png 1 -
+/files/journals 1 -
+/Wellsfargo/Wellsfargo/Wellsfargo/info2.html 1 -
+/wp-content/uploads/2012/02/ruddy.jpg 1 -
+/ojs_data/journals 1 -
+/wp-content/uploads/wppa/thumbs/159.jpg 2 -
+/wp-admin/js/ 1 -
+/wp-content/uploads/wppa/thumbs/88.jpg 1 -
+/wp-content/uploads/wppa/18.jpg 1 -
+/wp-content/uploads/wppa/thumbs/153.jpg 2 -
+/wp-content/uploads/wppa/thumbs/75.jpg 1 -
+/journal-files/journals 1 -
+/wp-content/uploads/wppa/13.jpg 1 -
+/new 63 -
+/simple.php 4 www.google.com
+/css/ 1 -
+/chosen.php 3 -
+/journals3/files/journals 1 -
+/file_ojs/journals 1 -
+/journal/journals 1 -
+/file_jurnal/journals 1 -
+/file/journals 1 -
+/wp-content/uploads/wppa/thumbs/40.jpg 1 -
+/wp-content/uploads/wppa/thumbs/74.jpg 1 -
+/files_ojs/journals 1 -
+/wp-content/uploads/wppa/15.jpg 1 -
+/filejurnal/journals 1 -
+/wp-content/themes/world_of_business_bue028/images/PostDateIcon.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 70
+50.31.174.162 430 430 512 20250331232333
+152.228.220.143 65 65 2333398 20250331214013
+120.230.129.186 35 35 7840 20250320004833
+34.58.31.105 3 3 0 20250327162402
+185.53.251.28 2 2 55924 20250312213233
+52.247.61.136 2 18 425826 20250331134545
+68.69.184.202 2 2 7584 20250309040346
+144.91.110.164 1 1 0 20250324111330
+194.110.150.116 1 2 11391 20250328150716
+13.60.192.26 1 1 87 20250308170337
+37.140.254.25 1 1 7599 20250302114422
+204.12.231.186 1 1 6766 20250329094003
+23.81.55.234 1 2 11391 20250317094004
+18.119.103.19 1 1 87 20250308170337
+38.154.62.118 1 1 7599 20250301114054
+23.178.112.101 1 1 87 20250308170336
+43.157.251.48 1 1 7584 20250317054652
+173.208.248.50 1 1 6766 20250315225018
+47.82.11.108 1 1 7373 20250316012638
+44.245.150.63 1 1 87 20250308170337
+47.79.123.193 1 1 10128 20250316173436
+104.207.33.223 1 2 11391 20250308121339
+156.228.97.11 1 1 7599 20250325154401
+156.253.165.20 1 1 7599 20250330203015
+185.132.187.132 1 1 7599 20250310071624
+8.28.34.99 0 1 48798 
+34.41.110.59 0 1 0 
+194.5.83.23 0 1 3792 
+34.150.209.8 0 1 0 
+35.185.234.81 0 1 33838 
+181.214.208.27 0 1 229 
+87.242.90.180 0 1 88346 
+34.21.67.207 0 1 0 
+35.240.240.63 0 1 33838 
+116.132.237.12 0 1 48798 
+34.169.120.245 0 1 0 
+35.223.168.185 0 1 0 
+34.141.162.238 0 1 33838 
+185.241.110.9 0 1 48798 
+34.28.166.126 0 1 0 
+106.38.221.177 0 1 48798 
+8.28.34.27 0 1 88346 
+36.170.54.24 0 1 48798 
+152.53.115.76 0 1 168 
+34.28.221.90 0 1 0 
+37.230.196.116 0 1 88019 
+35.198.218.174 0 1 0 
+178.170.197.176 0 1 88019 
+117.50.192.19 0 2 137144 
+35.203.134.206 0 1 0 
+47.82.11.183 1 1 8476 20250316024737
+144.217.135.178 1 1 27395 20250326090357
+137.59.63.86 1 2 11391 20250304002434
+47.79.3.11 1 1 12268 20250316173804
+47.82.11.158 1 1 13955 20250316153337
+34.86.125.206 0 1 33838 
+156.228.0.36 1 1 7599 20250321020005
+194.5.83.47 1 1 7599 20250304024827
+104.207.53.187 1 1 7599 20250314155508
+152.53.115.18 0 1 168 
+34.21.82.242 0 1 0 
+185.132.187.155 0 1 3792 
+207.211.168.73 0 1 48798 
+34.68.199.75 0 1 33838 
+47.82.11.75 1 1 7388 20250316011235
+154.213.199.226 1 1 7599 20250317082336
+34.125.241.79 0 2 137144 
+209.126.7.56 1 1 0 20250319000851
+37.140.254.56 0 1 3792 
+46.248.167.103 1 1 744 20250309194431
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20250301 12 12 7599 8
+20250302 14 17 187429 10
+20250303 10 11 98589 6
+20250304 17 21 177560 12
+20250305 11 11 0 10
+20250306 14 15 83179 10
+20250307 17 20 98615 9
+20250308 28 30 46089 16
+20250309 23 25 342836 17
+20250310 30 32 406119 21
+20250311 27 27 394728 16
+20250312 24 24 302629 17
+20250313 11 12 0 8
+20250314 14 15 57390 9
+20250315 11 11 56107 9
+20250316 23 24 125477 18
+20250317 16 17 75915 13
+20250318 17 17 49341 11
+20250319 16 16 477 13
+20250320 55 55 57181 13
+20250321 19 20 57169 13
+20250322 14 16 137144 9
+20250323 2 3 83179 2
+20250324 10 11 98589 9
+20250325 15 17 105738 10
+20250326 17 19 61233 11
+20250327 21 23 83179 13
+20250328 22 25 145644 15
+20250329 23 24 193003 18
+20250330 17 19 113204 12
+20250331 19 35 509825 14
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 1
+30mn-1h 63
+15mn-30mn 10
+0s-30s 267
+1h+ 24
+5mn-15mn 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 26
+/wp-cron.php 422 0 271 271
+/feed/atom/ 41 2022981 41 40
+/xmlrpc.php 35 7840 1 1
+/feed/ 18 307638 17 18
+/contactenos/ 16 163187 16 16
+/servicios/ 7 63679 6 5
+/.well-known/acme-challenge/V9VTrfWuxqrU21HSZzzhEnCtcbzohqDv_tOgJUTuaBc 4 348 4 4
+/ 4 0 2 2
+/carta-al-jefe-de-la-policia-nacional/feed/ 3 1350 3 3
+/articulo-perdiodistico-del-peridodico-el-nacional-sobre-la-publicacion-de-la-busqueda/feed/ 3 1429 3 3
+/author/admin/ 1 10128 1 1
+/wp-content/index.php 1 0 1 1
+/.well-known/acme-challenge/AS-0A53XSAA8T6CFKNR8SKM84G5CO_X9 1 64 0 0
+/.well-known/acme-challenge/T8N-JDF5J1XCBIGSP-NBT4DZRSZBAX07 1 64 0 0
+/comments/feed/ 1 744 1 1
+/.well-known/acme-challenge/-6I5-JULIBAWH33FKBZJ57VF20E6DEP6 1 64 0 0
+/tag/justicia/ 1 7373 1 1
+/.well-known/acme-challenge/GUGCI5-DT37REJHVOG2PXMHZEW5H1WMF 1 64 1 0
+/.well-known/acme-challenge/UV57983OYT3_YIOXG72O5BG9V_1VIIFS 1 64 0 0
+/wp-content/themes/Total/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2 1 77160 0 1
+/.well-known/acme-challenge/8PZB5MQRFCARW2HOAOZ08OB4PI2HO_SM 1 64 0 0
+/2021/06/01/esclarecer-el-origen-del-coronavirus/ 1 12268 1 1
+/.well-known/acme-challenge/T_50Z83VQSZ-_XDFAMWWS2DRSICRQV9W 1 64 0 1
+/tag/politica/ 1 7388 1 1
+/.well-known/acme-challenge/05O3_1OUJLQ5C7PWJ5GHNTF2C3NN6WKD 1 64 0 0
+/2021/07/04/a-la-altura-de-las-circunstancias-magistrada-mirian-german/ 1 13955 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 7
+100-500 70
+44-100 222
+500-1K 138
+0-44 1962
+2K-5K 22
+5K+ 850
+1K-2K 7
+END_FILESIZE

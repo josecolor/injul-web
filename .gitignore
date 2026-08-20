@@ -3,3 +3,6 @@ node_modules/
 venv/
 __pycache__/
 *.tar.gz
+backup-8.10.2026*
+*.tar.gz
+injul_noticias_deploy/

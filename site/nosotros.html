@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros – INJUL Investigadores Jurídicos Leonor</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--b950:#08182E;--b900:#0E2540;--b800:#133358;--b700:#1A4473;--b600:#215590;--b500:#2B6AAE;--b400:#4485C8;--b300:#7AAEDD;--b200:#B0CFF0;--b100:#D8E9F8;--b50:#EFF6FC;--g700:#175C2E;--g600:#1E7A3C;--g500:#259448;--g400:#34B05C;--g300:#6DCB8A;--g200:#B0E5C0;--g100:#D8F4E0;--w:#FFFFFF;--ow:#F4F7FA;--lg:#DDE4EC;--mg:#7A8899;--tb:#3D4F63;}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}html{scroll-behavior:smooth;}
+body{font-family:'Poppins',sans-serif;background:var(--ow);color:var(--tb);overflow-x:hidden;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:20px 4%;display:flex;align-items:center;justify-content:space-between;min-height:118px;background:var(--w);border-bottom:3px solid var(--g600);box-shadow:0 2px 18px rgba(13,37,64,.10);transition:box-shadow .3s,min-height .3s;}
+nav.sc{min-height:100px;}
+img.logo{height:114px;width:auto;display:block;transition:height .3s;}
+nav.sc img.logo{height:92px;}
+#lfb{display:none;align-items:center;gap:12px;}
+.nl{display:flex;gap:24px;align-items:center;}
+.nl a{font-size:11.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--b800);text-decoration:none;position:relative;padding-bottom:4px;transition:color .2s;}
+.nl a::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--g600);transform:scaleX(0);transform-origin:left;transition:transform .25s;}
+.nl a:hover,.nl a.active{color:var(--g700);}
+.nl a:hover::after,.nl a.active::after{transform:scaleX(1);}
+.ncta{background:var(--g600)!important;color:var(--w)!important;padding:10px 20px;border-radius:4px;font-size:11.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;transition:background .2s;}
+.ncta:hover{background:var(--g700)!important;}.ncta::after{display:none!important;}
+/* PAGE HERO */
+.ph{padding:210px 4% 90px;background:linear-gradient(135deg,var(--b900) 0%,var(--b700) 100%);position:relative;overflow:hidden;}
+.ph::after{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--g400),var(--g700));}
+.ph::before{content:'';position:absolute;top:-100px;right:-100px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(52,176,92,.10) 0%,transparent 70%);}
+.ph-inner{max-width:1200px;margin:0 auto;position:relative;}
+.ph-label{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--g400);margin-bottom:12px;display:flex;align-items:center;gap:10px;}
+.ph-label::before{content:'';width:28px;height:2px;background:var(--g500);display:inline-block;}
+.ph-title{font-size:clamp(36px,5vw,60px);font-weight:800;color:var(--w);line-height:1.08;letter-spacing:-.02em;margin-bottom:16px;}
+.ph-title span{color:var(--g400);}
+.ph-sub{font-size:17px;font-weight:300;color:rgba(255,255,255,.65);max-width:580px;line-height:1.75;}
+/* SECTIONS */
+section{padding:56px 4%;}
+.si{max-width:1200px;margin:0 auto;}
+.sl{display:flex;align-items:center;gap:10px;font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--g700);margin-bottom:12px;}
+.sl::before{content:'';width:28px;height:2px;background:var(--g600);}
+.st{font-size:clamp(26px,3.8vw,40px);font-weight:700;color:var(--b900);line-height:1.15;margin-bottom:16px;}
+.st .ac{color:var(--g600);}.st .acl{color:var(--g400);}
+.ss{font-size:17px;font-weight:300;color:var(--mg);line-height:1.75;max-width:580px;margin-bottom:52px;}
+/* MV CARDS */
+.mvgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:0;}
+.mvc{border-radius:8px;padding:40px;position:relative;overflow:hidden;}
+.mvc.blue{background:var(--b800);}
+.mvc.green{background:var(--g600);}
+.mvc .orb{position:absolute;top:-20px;right:-20px;width:120px;height:120px;border-radius:50%;background:rgba(255,255,255,.06);}
+.mvc-lbl{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px;}
+.mvc.blue .mvc-lbl{color:var(--g400);}
+.mvc.green .mvc-lbl{color:var(--g200);}
+.mvc h3{font-size:22px;font-weight:700;color:var(--w);margin-bottom:16px;line-height:1.3;}
+.mvc p{font-size:16px;font-weight:300;line-height:1.8;}
+.mvc.blue p{color:rgba(255,255,255,.68);}
+.mvc.green p{color:rgba(255,255,255,.78);}
+/* VALUES SECTION */
+.val-grid{display:grid;grid-template-columns:380px 1fr;gap:48px;align-items:start;margin-bottom:32px;}
+.val-img{position:relative;max-width:380px;}
+.val-img img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 20px 60px rgba(13,45,82,.15);}
+.val-badge{position:absolute;bottom:-16px;right:-16px;background:var(--g600);border-radius:6px;padding:16px 22px;text-align:center;}
+.val-badge .num{font-size:28px;font-weight:800;color:var(--w);line-height:1;}
+.val-badge .lbl{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.8);margin-top:3px;}
+.val-items{display:flex;flex-direction:column;gap:16px;}
+.vi{display:flex;gap:16px;align-items:flex-start;}
+.vi-num{width:36px;height:36px;background:rgba(30,122,60,.1);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px;font-weight:800;color:var(--g700);}
+.vi-title{font-size:14px;font-weight:700;color:var(--b900);margin-bottom:3px;}
+.vi-desc{font-size:13px;font-weight:300;color:var(--tb);line-height:1.6;}
+/* CLIENTS */
+.cl-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.cl-card{background:var(--w);border:1px solid var(--lg);border-radius:6px;padding:28px 22px;position:relative;overflow:hidden;transition:border-color .2s,transform .2s;}
+.cl-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;}
+.cl-card.pub::before{background:var(--b700);}
+.cl-card.prv::before{background:var(--g600);}
+.cl-card.par::before{background:var(--b500);}
+.cl-card:hover{transform:translateY(-4px);}
+.cl-card.pub:hover{border-color:var(--b400);}
+.cl-card.prv:hover{border-color:var(--g400);}
+.cl-card.par:hover{border-color:var(--b500);}
+.cl-badge{display:inline-block;padding:4px 11px;border-radius:2px;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px;}
+.pub .cl-badge{background:var(--b100);color:var(--b600);}
+.prv .cl-badge{background:var(--g100);color:var(--g700);}
+.par .cl-badge{background:var(--b100);color:var(--b500);}
+.cl-card h3{font-size:16px;font-weight:700;color:var(--b900);margin-bottom:12px;}
+.cl-list{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.cl-list li{font-size:14px;font-weight:300;color:var(--tb);display:flex;align-items:center;gap:8px;}
+.cl-list li::before{content:'';width:5px;height:5px;border-radius:50%;flex-shrink:0;}
+.pub .cl-list li::before{background:var(--b600);}
+.prv .cl-list li::before{background:var(--g600);}
+.par .cl-list li::before{background:var(--b500);}
+/* FOOTER */
+footer{background:var(--b950);border-top:3px solid var(--g700);padding:40px 4% 26px;}
+.ftp{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;padding-bottom:24px;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:20px;}
+.fli{display:flex;gap:22px;flex-wrap:wrap;}
+.fli a{font-size:14px;font-weight:500;color:rgba(255,255,255,.82);text-decoration:none;transition:color .2s;}
+.fli a:hover{color:var(--g400);}
+.fco{text-align:right;}
+.fco p{font-size:14px;color:rgba(255,255,255,.82);line-height:1.8;}
+.fco a{color:var(--g400);text-decoration:none;font-weight:500;}
+.fbt{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+.fcp{font-size:13px;color:rgba(255,255,255,.55);}
+.ftg{font-size:13px;font-style:italic;color:rgba(255,255,255,.45);}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+.rd1{transition-delay:.10s}.rd2{transition-delay:.20s}.rd3{transition-delay:.30s}
+@media(max-width:900px){.nl{display:none;}.mvgrid,.val-grid{grid-template-columns:1fr;}.cl-grid{grid-template-columns:1fr;}.ftp{flex-direction:column;align-items:flex-start;}.fco{text-align:left;}.val-badge{right:0;}}
+@media(max-width:600px){section{padding:64px 5%;}img.logo{height:80px!important;}}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="index.html" style="text-decoration:none;display:block;">
+    <img class="logo" src="https://injul.com.do/wp-content/uploads/2017/10/heade-web-logo.png" alt="INJUL"
+      onerror="this.style.display='none';document.getElementById('lfb').style.display='flex';">
+    <div id="lfb" style="display:none;align-items:center;gap:12px;">
+      <div style="width:52px;height:52px;background:var(--b700);border-radius:5px;border:2px solid var(--g600);display:flex;align-items:center;justify-content:center;"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--g400)" stroke-width="1.8"><path d="M12 2L3 7v7c0 5.25 3.75 10.15 9 11.35C17.25 24.15 21 19.25 21 14V7L12 2z"/><path d="M9 12l2 2 4-4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div><div style="font-size:22px;font-weight:800;color:var(--b900);">INJUL</div><div style="font-size:8.5px;font-weight:600;color:var(--g700);letter-spacing:.12em;text-transform:uppercase;">Investigadores Jurídicos Leonor</div></div>
+    </div>
+  </a>
+  <div class="nl">
+    <a href="index.html">Inicio</a>
+    <a href="nosotros.html" class="active">Nosotros</a>
+    <a href="index.html#services">Servicios</a>
+    <a href="index.html#valores">Valores</a>
+    <a href="perfiles.html">Perfiles</a>
+    <a href="index.html#clientes">Clientes</a>
+    <a href="noticias.html">Noticias</a>
+    <a href="index.html#contacto" class="ncta">Contáctenos</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="ph">
+  <div class="ph-inner">
+    <div class="ph-label">Nuestra empresa</div>
+    <h1 class="ph-title">Conozca a <span>INJUL</span></h1>
+    <p class="ph-sub">Una institución fundada sobre valores sólidos, comprometida con la verdad y el servicio profesional en investigación jurídica en la República Dominicana.</p>
+  </div>
+</div>
+
+<!-- MISIÓN / VISIÓN -->
+<section style="background:var(--w);">
+  <div class="si">
+    <div class="sl reveal">Propósito institucional</div>
+    <h2 class="st reveal">Misión y <span class="ac">Visión</span></h2>
+    <div class="mvgrid reveal">
+      <div class="mvc blue"><div class="orb"></div><div class="mvc-lbl">Nuestra Visión</div><h3>Líderes nacionales en investigación jurídica</h3><p>Convertirnos en la empresa líder a nivel nacional de las investigaciones jurídicas públicas o privadas, a través del desarrollo de las técnicas investigativas requeridas y las destrezas en la materia de nuestro personal.</p></div>
+      <div class="mvc green"><div class="orb"></div><div class="mvc-lbl">Nuestra Misión</div><h3>Encontrar la verdad en cada caso</h3><p>Desarrollar técnicas investigativas, pericias y argucias en nuestro personal que nos permitan encontrar la verdad, dando respuestas puntuales a las 6W: qué, cuándo, cómo, quién, por qué y dónde.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VALORES -->
+<section style="background:var(--b50);">
+  <div class="si">
+    <div class="sl reveal">Los 5 valores que nos definen</div>
+    <h2 class="st reveal" style="margin-bottom:36px;">Solo nos limitan <span class="ac">nuestros valores.</span></h2>
+    <div class="val-grid">
+      <div class="val-img reveal">
+        <img src="https://injul.com.do/imagenesweb/manoinjulvalores.png" alt="Los 5 valores de INJUL representados en la mano">
+        <div class="val-badge"><div class="num">5</div><div class="lbl">Valores</div></div>
+      </div>
+      <div class="val-items reveal">
+        <div class="vi"><div class="vi-num">01</div><div><div class="vi-title">Lealtad — Dedo Pulgar</div><div class="vi-desc">El Dedo Pulgar representa la actitud positiva para asumir cualquier trabajo o reto; y en nosotros la LEALTAD, porque es nuestro más fuerte valor.</div></div></div>
+        <div class="vi"><div class="vi-num">02</div><div><div class="vi-title">Discrecionalidad — Dedo Índice</div><div class="vi-desc">El Dedo Índice corresponde a la razón, al proyecto de vida que deseamos construir; y en nosotros representa la DISCRECIONALIDAD porque tratándose del dedo que las personas acostumbramos utilizar para señalar, hemos colocado allí la discreción como advertencia de su no uso a los fines de preservar la identidad de nuestros clientes.</div></div></div>
+        <div class="vi"><div class="vi-num">03</div><div><div class="vi-title">Legitimidad — Dedo Mayor</div><div class="vi-desc">El Dedo Mayor representa el amor al trabajo a cualquier acción de nuestra vida articulada con la actitud positiva; y en nosotros la LEGITIMIDAD, porque en la grandeza de ella apoyamos todas nuestras acciones, y siendo éste dedo el más largo de la mano no nos quedará meta u objetivo sin alcanzar.</div></div></div>
+        <div class="vi"><div class="vi-num">04</div><div><div class="vi-title">Legalidad — Dedo Anular</div><div class="vi-desc">El Dedo Anular corresponde al compromiso con que asumimos nuestras metas; y en nosotros representa la LEGALIDAD debido a que es el dedo donde se coloca el anillo de compromiso y/o de boda y que sella la relación entre parejas, como sella nuestro compromiso con los clientes.</div></div></div>
+        <div class="vi"><div class="vi-num">05</div><div><div class="vi-title">Verdad — Dedo Meñique</div><div class="vi-desc">El Dedo Meñique corresponde al trabajo, debe ser la fuerza de voluntad empleada para alcanzar el éxito deseado; y en nosotros representa la VERDAD que como el meñique solo alcanza fortaleza unida a los demás valores.</div></div></div>
+        <div class="vi"><div class="vi-num">06</div><div><div class="vi-title">El significado de la mano</div><div class="vi-desc">Los dedos de las manos tienen su significado y la ubicación de nuestros valores en cada uno de ellos también, no han sido puestos allí al azar ni como simple estrategia mercadológica; nos ha movido el hecho de que cada valor y su significado y nuestra forma de trabajar para lograr nuestras metas y objetivos.</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTES -->
+<section style="background:var(--w);">
+  <div class="si">
+    <div class="sl reveal">Quiénes nos contratan</div>
+    <h2 class="st reveal">Nuestros principales <span class="ac">clientes</span></h2>
+    <p class="ss reveal">Trabajamos con instituciones públicas, empresas privadas y personas particulares en la República Dominicana.</p>
+    <div class="cl-grid">
+      <div class="cl-card pub reveal rd1"><div class="cl-badge">Instituciones Públicas</div><h3>Sector Público</h3><ul class="cl-list"><li>Ministerios del Estado Dominicano</li><li>Ministerio Público</li><li>Policía Nacional</li><li>Entidades gubernamentales</li></ul></div>
+      <div class="cl-card prv reveal rd2"><div class="cl-badge">Instituciones Privadas</div><h3>Sector Privado</h3><ul class="cl-list"><li>Agencias aseguradoras y reaseguradoras</li><li>Bancos e instituciones financieras</li><li>Medios de comunicación</li><li>Compañías ajustadoras</li></ul></div>
+      <div class="cl-card par reveal rd3"><div class="cl-badge">Particulares</div><h3>Personas Particulares</h3><ul class="cl-list"><li>Investigaciones de interés personal</li><li>Abogados en ejercicio (defensa o acusación)</li><li>Situaciones que les atormenten o preocupen</li><li>Asuntos de interés familiar o personal</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="ftp">
+    <div class="fli">
+      <a href="index.html">Inicio</a><a href="nosotros.html">Nosotros</a>
+      <a href="index.html#services">Servicios</a><a href="index.html#valores">Valores</a>
+      <a href="perfiles.html">Perfiles</a><a href="index.html#clientes">Clientes</a>
+      <a href="index.html#contacto">Contacto</a>
+    </div>
+    <div class="fco"><p>809-547-3178<br><a href="mailto:injul01@gmail.com">injul01@gmail.com</a><br><a href="https://www.google.com/maps/search/?api=1&amp;query=C%2F+Rafael+Augusto+S%C3%A1nchez+125+Edif.+Alexander+Evaristo+Morales+Santo+Domingo" target="_blank" rel="noopener">Evaristo Morales, D.N.</a></p></div>
+  </div>
+  <div class="fbt"><div class="fcp">© 2025 INJUL · Investigadores Jurídicos Leonor · Todos los derechos reservados</div><div class="ftg">«Solo nos limitan nuestros valores.»</div></div>
+</footer>
+<script>
+const nav=document.getElementById('nav');
+const li=document.querySelector('img.logo');
+window.addEventListener('scroll',()=>{const s=window.scrollY>30;nav.classList.toggle('sc',s);if(li)li.style.height=s?'92px':'114px';});
+const revs=document.querySelectorAll('.reveal');
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:.08});
+revs.forEach(el=>obs.observe(el));
+</script>
+</body></html>

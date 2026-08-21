@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>INJUL — Panel de Redacción</title>
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Segoe UI', system-ui, sans-serif; background:#f4f6f9; color:#1a2233; }
+  header {
+    background:#133358; color:#fff; padding:16px 28px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  header h1 { font-size:18px; font-weight:700; }
+  header button {
+    background:transparent; border:1px solid rgba(255,255,255,0.4); color:#fff;
+    padding:8px 16px; border-radius:6px; cursor:pointer; font-size:13px;
+  }
+  header button:hover { background:rgba(255,255,255,0.1); }
+  main { max-width: 860px; margin: 30px auto; padding: 0 20px 60px; }
+  .card { background:#fff; border-radius:12px; padding:28px; box-shadow:0 2px 10px rgba(0,0,0,0.06); margin-bottom:20px; }
+  label { display:block; font-size:13px; font-weight:700; color:#334; margin-bottom:8px; text-transform:uppercase; letter-spacing:.4px; }
+  input[type=text] {
+    width:100%; padding:12px 14px; border:1px solid #dde; border-radius:8px; font-size:15px; margin-bottom:20px;
+  }
+  #editor { height: 320px; margin-bottom: 20px; background:#fff; }
+  .dest-options { display:flex; gap:12px; margin-bottom:24px; flex-wrap:wrap; }
+  .dest-opt {
+    flex:1; min-width:180px; border:2px solid #dde; border-radius:10px; padding:14px 16px; cursor:pointer;
+    transition: border-color .15s, background .15s;
+  }
+  .dest-opt.active { border-color:#215590; background:#eef4fb; }
+  .dest-opt input { display:none; }
+  .dest-opt .title { font-weight:700; font-size:14px; color:#133358; }
+  .dest-opt .desc { font-size:12px; color:#667; margin-top:2px; }
+  .dest-opt.disabled { opacity:.5; cursor:not-allowed; }
+  .img-drop {
+    border:2px dashed #ccd; border-radius:10px; padding:26px; text-align:center; cursor:pointer;
+    margin-bottom:20px; color:#667; font-size:14px;
+  }
+  .img-drop:hover { border-color:#215590; }
+  .img-drop img { max-width:100%; max-height:200px; border-radius:8px; margin-top:12px; }
+  .actions { display:flex; gap:12px; justify-content:flex-end; }
+  .btn-primary {
+    background:#215590; color:#fff; border:none; padding:13px 28px; border-radius:8px;
+    font-size:15px; font-weight:700; cursor:pointer;
+  }
+  .btn-primary:hover { background:#1a4372; }
+  .btn-primary:disabled { opacity:.5; cursor:not-allowed; }
+  .status { margin-top:14px; font-size:14px; padding:10px 14px; border-radius:8px; display:none; }
+  .status.ok { background:#e6f6ec; color:#1e7e42; display:block; }
+  .status.err { background:#fdecea; color:#c0392b; display:block; }
+  .list-item {
+    display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid #eee;
+  }
+  .list-item:last-child { border-bottom:none; }
+  .list-item .t { font-weight:600; font-size:14px; }
+  .list-item .d { font-size:12px; color:#889; }
+  .list-item button {
+    background:#fdecea; color:#c0392b; border:none; padding:6px 12px; border-radius:6px; font-size:12px; cursor:pointer;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Panel de Redacción — INJUL</h1>
+  <button onclick="logout()">Cerrar sesión</button>
+</header>
+
+<main>
+  <div class="card">
+    <label>Título de la publicación</label>
+    <input type="text" id="titulo" placeholder="Escribe el título aquí...">
+
+    <label>¿Dónde se publica?</label>
+    <div class="dest-options">
+      <label class="dest-opt active" data-dest="portada">
+        <input type="radio" name="dest" value="portada" checked>
+        <div class="title">📰 Portada</div>
+        <div class="desc">Noticias principales</div>
+      </label>
+      <label class="dest-opt disabled" data-dest="servicios">
+        <input type="radio" name="dest" value="servicios" disabled>
+        <div class="title">🛠️ Servicios</div>
+        <div class="desc">Próximamente</div>
+      </label>
+      <label class="dest-opt disabled" data-dest="blog">
+        <input type="radio" name="dest" value="blog" disabled>
+        <div class="title">✍️ Blog</div>
+        <div class="desc">Próximamente</div>
+      </label>
+    </div>
+
+    <label>Imagen de portada (opcional)</label>
+    <div class="img-drop" id="imgDrop" onclick="document.getElementById('imgInput').click()">
+      <span id="imgDropText">Haz clic para subir una imagen (JPG o PNG)</span>
+      <input type="file" id="imgInput" accept="image/jpeg,image/png" style="display:none">
+      <div id="imgPreviewWrap"></div>
+    </div>
+
+    <label>Contenido</label>
+    <div id="editor"></div>
+
+    <div class="actions">
+      <button class="btn-primary" id="publishBtn" onclick="publicar()">Publicar</button>
+    </div>
+    <div class="status" id="statusMsg"></div>
+  </div>
+
+  <div class="card">
+    <label style="margin-bottom:14px;">Publicaciones recientes</label>
+    <div id="recentList">Cargando...</div>
+  </div>
+</main>
+
+<script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+<script>
+const token = sessionStorage.getItem('injul_admin_token');
+if (!token) window.location.href = '/admin-login.html';
+
+const quill = new Quill('#editor', {
+  theme: 'snow',
+  placeholder: 'Escribe el contenido de la noticia aquí...',
+  modules: {
+    toolbar: [
+      [{ header: [2, 3, false] }],
+      ['bold', 'italic', 'underline'],
+      [{ list: 'ordered' }, { list: 'bullet' }],
+      ['link', 'blockquote'],
+      ['clean']
+    ]
+  }
+});
+
+let uploadedImagePath = "";
+
+document.getElementById('imgInput').addEventListener('change', async function(e){
+  const file = e.target.files[0];
+  if (!file) return;
+  const dropText = document.getElementById('imgDropText');
+  dropText.textContent = 'Subiendo...';
+  const formData = new FormData();
+  formData.append('image', file);
+  try {
+    const resp = await fetch('/api/admin-upload-image', {
+      method: 'POST',
+      headers: {'X-Admin-Token': token},
+      body: formData
+    });
+    const data = await resp.json();
+    if (data.ok) {
+      uploadedImagePath = data.path;
+      dropText.textContent = 'Imagen cargada ✓';
+      document.getElementById('imgPreviewWrap').innerHTML = `<img src="${data.path}">`;
+    } else {
+      dropText.textContent = 'Error: ' + (data.msg || 'no se pudo subir');
+    }
+  } catch(err) {
+    dropText.textContent = 'Error de conexión al subir imagen';
+  }
+});
+
+document.querySelectorAll('.dest-opt:not(.disabled)').forEach(el => {
+  el.addEventListener('click', () => {
+    document.querySelectorAll('.dest-opt').forEach(o => o.classList.remove('active'));
+    el.classList.add('active');
+    el.querySelector('input').checked = true;
+  });
+});
+
+async function publicar(){
+  const titulo = document.getElementById('titulo').value.trim();
+  const contenido = quill.root.innerHTML;
+  const destino = document.querySelector('input[name=dest]:checked').value;
+  const statusEl = document.getElementById('statusMsg');
+  const btn = document.getElementById('publishBtn');
+
+  if (!titulo || quill.getText().trim().length < 5) {
+    statusEl.className = 'status err';
+    statusEl.textContent = 'Completa el título y el contenido antes de publicar.';
+    return;
+  }
+
+  btn.disabled = true;
+  btn.textContent = 'Publicando...';
+
+  try {
+    const resp = await fetch('/api/admin-publicar', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json', 'X-Admin-Token': token},
+      body: JSON.stringify({ titulo, contenido, destino, cover: uploadedImagePath })
+    });
+    const data = await resp.json();
+    if (data.ok) {
+      statusEl.className = 'status ok';
+      statusEl.textContent = '¡Publicado con éxito! Ya está visible en el sitio.';
+      document.getElementById('titulo').value = '';
+      quill.setContents([]);
+      uploadedImagePath = "";
+      document.getElementById('imgDropText').textContent = 'Haz clic para subir una imagen (JPG o PNG)';
+      document.getElementById('imgPreviewWrap').innerHTML = '';
+      cargarRecientes();
+    } else {
+      statusEl.className = 'status err';
+      statusEl.textContent = 'Error: ' + (data.msg || 'no se pudo publicar');
+    }
+  } catch(err) {
+    statusEl.className = 'status err';
+    statusEl.textContent = 'Error de conexión al publicar.';
+  }
+  btn.disabled = false;
+  btn.textContent = 'Publicar';
+}
+
+async function cargarRecientes(){
+  const listEl = document.getElementById('recentList');
+  try {
+    const resp = await fetch('/api/noticias');
+    const data = await resp.json();
+    if (!data.length) { listEl.textContent = 'Aún no hay publicaciones.'; return; }
+    listEl.innerHTML = data.slice(0, 8).map(n => `
+      <div class="list-item">
+        <div>
+          <div class="t">${n.title}</div>
+          <div class="d">${new Date(n.date).toLocaleDateString('es-DO')}</div>
+        </div>
+        <button onclick="eliminar(${n.id})">Eliminar</button>
+      </div>
+    `).join('');
+  } catch(err) {
+    listEl.textContent = 'No se pudo cargar la lista.';
+  }
+}
+
+async function eliminar(id){
+  if (!confirm('¿Eliminar esta publicación? No se puede deshacer.')) return;
+  try {
+    const resp = await fetch(`/api/admin-eliminar/${id}`, {
+      method: 'DELETE',
+      headers: {'X-Admin-Token': token}
+    });
+    const data = await resp.json();
+    if (data.ok) cargarRecientes();
+    else alert('Error: ' + (data.msg || 'no se pudo eliminar'));
+  } catch(err) {
+    alert('Error de conexión.');
+  }
+}
+
+function logout(){
+  sessionStorage.removeItem('injul_admin_token');
+  window.location.href = '/admin-login.html';
+}
+
+cargarRecientes();
+</script>
+</body>
+</html>

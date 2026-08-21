@@ -4,8 +4,12 @@ from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 import os
 import shutil
+import json
+import asyncio
+import time
 import requests
 import psycopg2
+import psycopg2.extras
 
 app = FastAPI()
 UPLOAD_DIR = "/data"
@@ -30,6 +34,149 @@ def serve_page(filename: str):
     raise HTTPException(status_code=404, detail=f"{filename} no encontrado")
 
 
+def get_db_connection():
+    return psycopg2.connect(os.getenv("DATABASE_URL"))
+
+
+def ensure_noticias_table():
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS noticias (
+            id SERIAL PRIMARY KEY,
+            title TEXT NOT NULL,
+            content TEXT NOT NULL,
+            date TIMESTAMP NOT NULL,
+            cover TEXT DEFAULT '',
+            category TEXT DEFAULT 'Noticias',
+            author TEXT DEFAULT 'INJUL',
+            excerpt TEXT DEFAULT '',
+            published BOOLEAN DEFAULT TRUE
+        );
+    """)
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+def seed_noticias_if_empty():
+    """Carga las 23 noticias rescatadas del sitio original, solo si la tabla está vacía."""
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT COUNT(*) FROM noticias;")
+    count = cur.fetchone()[0]
+    if count == 0:
+        seed_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noticias_seed.json")
+        if os.path.exists(seed_path):
+            with open(seed_path, "r", encoding="utf-8") as f:
+                noticias = json.load(f)
+            ok, fail = 0, 0
+            for n in noticias:
+                try:
+                    cur.execute(
+                        """INSERT INTO noticias (title, content, date, cover, category, author, excerpt, published)
+                           VALUES (%s, %s, %s, %s, %s, %s, %s, %s)""",
+                        (
+                            n.get("title", ""),
+                            n.get("content", ""),
+                            n.get("date"),
+                            n.get("cover", ""),
+                            n.get("category", "Noticias"),
+                            n.get("author", "INJUL"),
+                            n.get("excerpt", ""),
+                            n.get("published", True),
+                        ),
+                    )
+                    conn.commit()
+                    ok += 1
+                except Exception as e:
+                    conn.rollback()
+                    fail += 1
+                    print(f"SEED ERROR en '{n.get('title','?')[:40]}': {e}")
+            print(f"SEED RESULT: {ok} insertadas, {fail} fallidas de {len(noticias)}")
+    cur.close()
+    conn.close()
+
+
+@app.post("/api/reseed-noticias")
+async def reseed_noticias():
+    """Endpoint temporal: borra todas las noticias y las recarga desde el seed, reportando errores por artículo."""
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("DELETE FROM noticias;")
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    seed_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noticias_seed.json")
+    if not os.path.exists(seed_path):
+        return JSONResponse(status_code=404, content={"error": "noticias_seed.json no encontrado"})
+
+    with open(seed_path, "r", encoding="utf-8") as f:
+        noticias = json.load(f)
+
+    conn = get_db_connection()
+    cur = conn.cursor()
+    ok, errores = 0, []
+    for n in noticias:
+        try:
+            cur.execute(
+                """INSERT INTO noticias (title, content, date, cover, category, author, excerpt, published)
+                   VALUES (%s, %s, %s, %s, %s, %s, %s, %s)""",
+                (
+                    n.get("title", ""),
+                    n.get("content", ""),
+                    n.get("date"),
+                    n.get("cover", ""),
+                    n.get("category", "Noticias"),
+                    n.get("author", "INJUL"),
+                    n.get("excerpt", ""),
+                    n.get("published", True),
+                ),
+            )
+            conn.commit()
+            ok += 1
+        except Exception as e:
+            conn.rollback()
+            errores.append({"title": n.get("title", "?")[:60], "error": str(e)})
+    cur.close()
+    conn.close()
+
+    return JSONResponse(content={"insertadas": ok, "total": len(noticias), "errores": errores})
+
+
+SERVER_START_TIME = time.time()
+
+
+async def keep_alive_loop():
+    """Se hace ping a sí mismo cada 4 minutos para evitar que Railway duerma el servicio por inactividad."""
+    own_url = os.getenv("RAILWAY_PUBLIC_DOMAIN", "")
+    await asyncio.sleep(30)
+    while True:
+        try:
+            if own_url:
+                requests.get(f"https://{own_url}/health", timeout=10)
+        except Exception as e:
+            print(f"Keep-alive ping falló: {e}")
+        await asyncio.sleep(240)
+
+
+@app.get("/health")
+async def health_check():
+    uptime = round(time.time() - SERVER_START_TIME)
+    return JSONResponse(content={"status": "ok", "uptime_seconds": uptime})
+
+
+@app.on_event("startup")
+async def startup_event():
+    try:
+        ensure_noticias_table()
+        seed_noticias_if_empty()
+    except Exception as e:
+        print(f"Aviso: no se pudo inicializar noticias ({e})")
+    asyncio.create_task(keep_alive_loop())
+
+
 @app.get("/", response_class=HTMLResponse)
 async def serve_index():
     return serve_page("index.html")
@@ -50,6 +197,11 @@ async def serve_noticias():
     return serve_page("noticias.html")
 
 
+@app.get("/noticia.html", response_class=HTMLResponse)
+async def serve_noticia():
+    return serve_page("noticia.html")
+
+
 @app.get("/perfiles.html", response_class=HTMLResponse)
 async def serve_perfiles():
     return serve_page("perfiles.html")
@@ -60,12 +212,35 @@ async def serve_admin():
     return serve_page("admin.html")
 
 
+# API de noticias — sirve los artículos reales desde PostgreSQL a todos los visitantes
+@app.get("/api/noticias")
+async def api_get_noticias():
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+        cur.execute("SELECT * FROM noticias WHERE published = TRUE ORDER BY date DESC;")
+        rows = cur.fetchall()
+        cur.close()
+        conn.close()
+        noticias = []
+        for r in rows:
+            noticias.append({
+                "id": r["id"],
+                "title": r["title"],
+                "content": r["content"],
+                "date": r["date"].isoformat() if r["date"] else "",
+                "cover": r["cover"],
+                "category": r["category"],
+                "author": r["author"],
+                "excerpt": r["excerpt"],
+                "published": r["published"],
+            })
+        return JSONResponse(content=noticias)
+    except Exception as e:
+        return JSONResponse(status_code=500, content={"error": str(e)})
+
+
 # Formulario de contacto — envía por la API HTTPS de Resend en vez de SMTP directo
-@app.get("/noticia.html", response_class=HTMLResponse)
-async def serve_noticia():
-    return serve_page("noticia.html")
-
-
 @app.post("/enviar.php")
 async def enviar_contacto(
     nombre: str = Form(""),
@@ -138,7 +313,7 @@ async def upload_file(file: UploadFile = File(...)):
         with open(file_path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
 
-        conn = psycopg2.connect(os.getenv("DATABASE_URL"))
+        conn = get_db_connection()
         cur = conn.cursor()
         cur.execute("CREATE TABLE IF NOT EXISTS uploaded_files (id SERIAL PRIMARY KEY, filename TEXT, path TEXT);")
         cur.execute("INSERT INTO uploaded_files (filename, path) VALUES (%s, %s)", (file.filename, file_path))

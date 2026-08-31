@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form, Request
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 import os
 import shutil
@@ -9,20 +9,29 @@ import asyncio
 import time
 import secrets
 import hashlib
+import base64
+from urllib.parse import urlencode
+from email.mime.text import MIMEText
 import requests
 import psycopg2
 import psycopg2.extras
 from PIL import Image
 from io import BytesIO
+from cryptography.fernet import Fernet
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request as GoogleAuthRequest
 
 app = FastAPI()
 UPLOAD_DIR = "/data"
 SITE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "site")
 
-# Configuración de Resend (envío de correo por API, evita el bloqueo de puertos SMTP de Railway)
-RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
-RESEND_FROM = os.getenv("RESEND_FROM", "onboarding@resend.dev")
-RESEND_DEST = os.getenv("RESEND_DEST", "jose.colorvision@gmail.com")
+# ── Configuración de envío de correo por Gmail API (OAuth) ──────────
+GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "")
+GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET", "")
+GOOGLE_REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI", "")
+TOKEN_ENCRYPTION_KEY = os.getenv("TOKEN_ENCRYPTION_KEY", "")
+GMAIL_SEND_ADDRESS = os.getenv("GMAIL_SEND_ADDRESS", "injul01@gmail.com")
+NOTIFY_DEST = os.getenv("RESEND_DEST", "jose.colorvision@gmail.com")
 
 # Sirve wp-content e imagenesweb como archivos estáticos
 if os.path.isdir(os.path.join(SITE_DIR, "wp-content")):
@@ -254,7 +263,6 @@ async def api_get_noticias():
         return JSONResponse(status_code=500, content={"error": str(e)})
 
 
-# Formulario de contacto — envía por la API HTTPS de Resend en vez de SMTP directo
 # ── Panel de administración (CMS) ────────────────────────────────────
 ACTIVE_TOKENS = set()  # tokens de sesión válidos en memoria
 
@@ -476,6 +484,233 @@ async def admin_eliminar(noticia_id: int, request: Request):
         return JSONResponse(status_code=500, content={"ok": False, "msg": str(e)})
 
 
+def ensure_contact_log_table():
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("""
+        CREATE TABLE IF NOT EXISTS contact_attempts (
+            id SERIAL PRIMARY KEY,
+            fecha TIMESTAMP DEFAULT NOW(),
+            nombre TEXT,
+            correo TEXT,
+            telefono TEXT,
+            servicio TEXT,
+            mensaje TEXT,
+            exito BOOLEAN,
+            detalle_error TEXT
+        );
+    """)
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+def log_contact_attempt(nombre, correo, telefono, servicio, mensaje, exito, detalle_error=""):
+    try:
+        ensure_contact_log_table()
+        conn = get_db_connection()
+        cur = conn.cursor()
+        cur.execute(
+            """INSERT INTO contact_attempts (nombre, correo, telefono, servicio, mensaje, exito, detalle_error)
+               VALUES (%s, %s, %s, %s, %s, %s, %s)""",
+            (nombre, correo, telefono, servicio, mensaje[:500], exito, detalle_error[:500]),
+        )
+        conn.commit()
+        cur.close()
+        conn.close()
+    except Exception as e:
+        print(f"No se pudo registrar el intento de contacto: {e}")
+
+
+@app.get("/api/contact-attempts")
+async def get_contact_attempts(request: Request):
+    """Panel de diagnóstico: lista los últimos intentos del formulario de contacto (requiere sesión de admin)."""
+    check_admin_token(request)
+    conn = get_db_connection()
+    cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+    cur.execute("SELECT * FROM contact_attempts ORDER BY fecha DESC LIMIT 100;")
+    rows = cur.fetchall()
+    cur.close()
+    conn.close()
+    resultado = []
+    for r in rows:
+        resultado.append({
+            "id": r["id"],
+            "fecha": r["fecha"].isoformat() if r["fecha"] else "",
+            "nombre": r["nombre"],
+            "correo": r["correo"],
+            "telefono": r["telefono"],
+            "servicio": r["servicio"],
+            "exito": r["exito"],
+            "detalle_error": r["detalle_error"],
+        })
+    return JSONResponse(content=resultado)
+
+
+# ── Gmail API (OAuth) — reemplaza el envío por Resend ────────────────
+
+def _fernet():
+    if not TOKEN_ENCRYPTION_KEY:
+        raise RuntimeError("Falta configurar TOKEN_ENCRYPTION_KEY en las variables de entorno")
+    return Fernet(TOKEN_ENCRYPTION_KEY.encode())
+
+
+def save_google_refresh_token(refresh_token: str):
+    ensure_admin_settings_table()
+    encrypted = _fernet().encrypt(refresh_token.encode()).decode()
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute(
+        "INSERT INTO admin_settings (key, value) VALUES ('google_refresh_token_enc', %s) "
+        "ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value;",
+        (encrypted,),
+    )
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+def get_google_refresh_token():
+    ensure_admin_settings_table()
+    conn = get_db_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT value FROM admin_settings WHERE key = 'google_refresh_token_enc';")
+    row = cur.fetchone()
+    cur.close()
+    conn.close()
+    if not row:
+        return None
+    return _fernet().decrypt(row[0].encode()).decode()
+
+
+def get_gmail_access_token():
+    refresh_token = get_google_refresh_token()
+    if not refresh_token:
+        raise RuntimeError("No hay cuenta de Gmail conectada todavía. Visita /oauth/google/start?key=TU_RECOVERY_KEY")
+    creds = Credentials(
+        token=None,
+        refresh_token=refresh_token,
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=GOOGLE_CLIENT_ID,
+        client_secret=GOOGLE_CLIENT_SECRET,
+    )
+    creds.refresh(GoogleAuthRequest())
+    return creds.token
+
+
+@app.get("/oauth/google/start")
+async def oauth_google_start(key: str = ""):
+    """Paso 1 de la autorización única: redirige a la pantalla de consentimiento de Google.
+    Protegido con RECOVERY_KEY para que no cualquiera pueda iniciar la conexión."""
+    if not key or key != os.getenv("RECOVERY_KEY", ""):
+        raise HTTPException(status_code=403, detail="No autorizado")
+    if not GOOGLE_CLIENT_ID or not GOOGLE_REDIRECT_URI:
+        raise HTTPException(status_code=500, detail="Faltan GOOGLE_CLIENT_ID / GOOGLE_REDIRECT_URI en el servidor")
+
+    params = {
+        "client_id": GOOGLE_CLIENT_ID,
+        "redirect_uri": GOOGLE_REDIRECT_URI,
+        "response_type": "code",
+        "scope": "https://www.googleapis.com/auth/gmail.send",
+        "access_type": "offline",
+        "prompt": "consent",
+    }
+    url = f"https://accounts.google.com/o/oauth2/v2/auth?{urlencode(params)}"
+    return RedirectResponse(url)
+
+
+@app.get("/oauth/google/callback")
+async def oauth_google_callback(code: str = "", error: str = ""):
+    """Paso 2: Google redirige aquí con el código. Lo cambiamos por un refresh_token y lo guardamos encriptado."""
+    if error:
+        return HTMLResponse(f"<h3>Autorización cancelada: {error}</h3>", status_code=400)
+    if not code:
+        return HTMLResponse("<h3>Falta el código de autorización</h3>", status_code=400)
+
+    resp = requests.post(
+        "https://oauth2.googleapis.com/token",
+        data={
+            "code": code,
+            "client_id": GOOGLE_CLIENT_ID,
+            "client_secret": GOOGLE_CLIENT_SECRET,
+            "redirect_uri": GOOGLE_REDIRECT_URI,
+            "grant_type": "authorization_code",
+        },
+        timeout=15,
+    )
+    data = resp.json()
+    refresh_token = data.get("refresh_token")
+    if not refresh_token:
+        return HTMLResponse(
+            "<h3>No se recibió un refresh_token de Google.</h3>"
+            "<p>Esto suele pasar si ya habías autorizado antes. Revoca el acceso en "
+            "<a href='https://myaccount.google.com/permissions' target='_blank'>myaccount.google.com/permissions</a> "
+            "y vuelve a intentar desde /oauth/google/start.</p>"
+            f"<pre>{json.dumps(data, indent=2)}</pre>",
+            status_code=400,
+        )
+    save_google_refresh_token(refresh_token)
+    return HTMLResponse("<h3>✅ Cuenta de Gmail conectada correctamente. Ya puedes cerrar esta ventana.</h3>")
+
+
+def enviar_correo_gmail(destinatario: str, asunto: str, html: str, reply_to: str = None):
+    """Envía un correo usando la Gmail API con el token guardado. Devuelve (ok, detalle)."""
+    try:
+        access_token = get_gmail_access_token()
+    except Exception as e:
+        return False, f"No se pudo obtener token de Gmail: {e}"
+
+    msg = MIMEText(html, "html", "utf-8")
+    msg["to"] = destinatario
+    msg["from"] = GMAIL_SEND_ADDRESS
+    msg["subject"] = asunto
+    if reply_to:
+        msg["reply-to"] = reply_to
+
+    raw = base64.urlsafe_b64encode(msg.as_bytes()).decode()
+
+    try:
+        resp = requests.post(
+            "https://gmail.googleapis.com/gmail/v1/users/me/messages/send",
+            headers={
+                "Authorization": f"Bearer {access_token}",
+                "Content-Type": "application/json",
+            },
+            json={"raw": raw},
+            timeout=15,
+        )
+        return resp.status_code in (200, 202), resp.text
+    except Exception as e:
+        return False, str(e)
+
+
+def enviar_respuesta_automatica(nombre, correo, mensaje_original, ref):
+    """Envía una respuesta de confirmación personalizada al remitente del formulario, vía Gmail."""
+    saludo_nombre = nombre.strip() if nombre and nombre.strip() else None
+    saludo = f"Estimado/a {saludo_nombre}" if saludo_nombre else "Estimado/a cliente"
+
+    asunto = f"Hemos recibido su consulta — INJUL (Ref. {ref})"
+    html = f"""
+    <div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 560px; margin: 0 auto; color: #2E3E52;">
+      <p style="font-size: 15px; line-height: 1.7;">
+        {saludo},<br><br>
+        Hemos recibido su consulta de manera exitosa. Nuestro equipo de
+        <b>Investigadores Jurídicos Leonor (INJUL)</b> ya la tiene en sus manos
+        y le estará respondiendo en un breve momento con la confidencialidad
+        y rigor que nos caracteriza.
+      </p>
+      <div style="background:#F4F7FA; border-left: 3px solid #215590; padding: 14px 18px; margin: 20px 0; font-size: 14px; color: #3D4F63;">
+        <b>Su mensaje:</b><br>{mensaje_original}
+      </div>
+      <p style="font-size: 13px; color: #7A8899;">
+        Si necesita comunicarse con nosotros de inmediato, puede llamarnos al
+        809-547-3178 o escribirnos a injul01@gmail.com.
+      </p>
+    </div>
+    """
+    return enviar_correo_gmail(correo, asunto, html)
+
+
 @app.post("/enviar.php")
 async def enviar_contacto(
     nombre: str = Form(""),
@@ -491,12 +726,14 @@ async def enviar_contacto(
     mensaje = mensaje.strip()
 
     if not nombre or not correo or not mensaje:
+        log_contact_attempt(nombre, correo, telefono, servicio, mensaje, False, "Campos obligatorios vacíos")
         return JSONResponse(
             status_code=400,
             content={"ok": False, "msg": "Complete los campos obligatorios."},
         )
 
-    asunto = f"Consulta web: {servicio} - {nombre}"
+    ref = secrets.token_hex(4).upper()
+    asunto = f"Consulta web: {servicio} - {nombre} (Ref. {ref})"
     html = f"""<h3>Nueva consulta desde la web</h3>
     <p><b>Nombre:</b> {nombre} <br>
     <b>Correo:</b> {correo} <br>
@@ -504,40 +741,20 @@ async def enviar_contacto(
     <b>Servicio:</b> {servicio} </p>
     <p><b>Mensaje:</b><br>{mensaje}</p>"""
 
-    if not RESEND_API_KEY:
+    ok, detalle = enviar_correo_gmail(NOTIFY_DEST, asunto, html, reply_to=correo)
+
+    if ok:
+        log_contact_attempt(nombre, correo, telefono, servicio, mensaje, True)
+        # Respuesta automática al remitente — best-effort, no afecta la respuesta principal si falla
+        ok_autoreply, detalle_autoreply = enviar_respuesta_automatica(nombre, correo, mensaje, ref)
+        if not ok_autoreply:
+            print(f"Aviso: respuesta automática a {correo} no se pudo enviar: {detalle_autoreply}")
+        return JSONResponse(content={"ok": True, "msg": "¡Mensaje enviado con éxito!"})
+    else:
+        log_contact_attempt(nombre, correo, telefono, servicio, mensaje, False, detalle)
         return JSONResponse(
             status_code=500,
-            content={"ok": False, "msg": "Fallo: falta configurar RESEND_API_KEY"},
-        )
-
-    try:
-        resp = requests.post(
-            "https://api.resend.com/emails",
-            headers={
-                "Authorization": f"Bearer {RESEND_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={
-                "from": RESEND_FROM,
-                "to": [RESEND_DEST],
-                "subject": asunto,
-                "html": html,
-                "reply_to": correo,
-            },
-            timeout=15,
-        )
-
-        if resp.status_code in (200, 201):
-            return JSONResponse(content={"ok": True, "msg": "¡Mensaje enviado con éxito!"})
-        else:
-            return JSONResponse(
-                status_code=500,
-                content={"ok": False, "msg": f"Fallo: {resp.status_code} - {resp.text}"},
-            )
-    except Exception as e:
-        return JSONResponse(
-            status_code=500,
-            content={"ok": False, "msg": f"Fallo: {str(e)}"},
+            content={"ok": False, "msg": f"Fallo al enviar: {detalle}"},
         )
 
 

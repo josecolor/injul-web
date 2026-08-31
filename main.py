@@ -694,10 +694,15 @@ def enviar_respuesta_automatica(nombre, correo, mensaje_original, ref):
     <div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 560px; margin: 0 auto; color: #2E3E52;">
       <p style="font-size: 15px; line-height: 1.7;">
         {saludo},<br><br>
-        Hemos recibido su consulta de manera exitosa. Nuestro equipo de
-        <b>Investigadores Jurídicos Leonor (INJUL)</b> ya la tiene en sus manos
-        y le estará respondiendo en un breve momento con la confidencialidad
-        y rigor que nos caracteriza.
+        Gracias por confiar en nosotros. Su consulta ya está en nuestras manos
+        y un miembro de nuestro equipo de
+        <b>Investigadores Jurídicos Leonor (INJUL)</b> la está revisando en
+        este momento — <b>estamos con usted</b> desde ya, con toda la
+        confidencialidad y rigor que nos caracteriza.
+      </p>
+      <p style="font-size: 15px; line-height: 1.7;">
+        En breve nos pondremos en contacto directo con usted para darle
+        seguimiento personalizado.
       </p>
       <div style="background:#F4F7FA; border-left: 3px solid #215590; padding: 14px 18px; margin: 20px 0; font-size: 14px; color: #3D4F63;">
         <b>Su mensaje:</b><br>{mensaje_original}

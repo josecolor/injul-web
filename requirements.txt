@@ -4,3 +4,5 @@ psycopg2-binary
 python-multipart
 requests
 pillow
+google-auth
+cryptography

@@ -208,6 +208,19 @@ def enviar_correo(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
     return _enviar_smtp(destino, asunto, cuerpo_html, cuerpo_texto, reply_to)
 
 
+import time
+from concurrent.futures import ThreadPoolExecutor
+
+
+def _con_reintento(*args, **kwargs):
+    """Envia; si el proveedor limita las peticiones (HTTP 429), reintenta una vez."""
+    ok, det = enviar_correo(*args, **kwargs)
+    if not ok and "HTTP 429" in det:
+        time.sleep(1.2)
+        ok, det = enviar_correo(*args, **kwargs)
+    return ok, det
+
+
 def procesar_contacto(nombre, correo, telefono="", servicio="", mensaje="", origen="Portal"):
     nombre = _limpio(nombre, 120)
     correo = _limpio(correo, 254)
@@ -218,23 +231,26 @@ def procesar_contacto(nombre, correo, telefono="", servicio="", mensaje="", orig
 
     destino = _cfg("NOTIFY_DEST", CORREO_INST)
     asunto_interno = f"Nueva Solicitud de Contacto — INJUL ({servicio})"
-    ok_int, det_int = enviar_correo(
-        destino, asunto_interno,
-        html_interno(nombre, correo, telefono, servicio, mensaje, ref, origen),
-        texto_interno(nombre, correo, telefono, servicio, mensaje, ref, origen),
-        reply_to=correo,
-    )
 
-    ok_cli, det_cli = False, "no se envio: fallo la notificacion interna"
-    if ok_int:
-        ok_cli, det_cli = enviar_correo(
-            correo, "Hemos recibido su consulta — INJUL",
+    # Aviso interno y cartilla al cliente salen al mismo tiempo.
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        f_int = pool.submit(
+            _con_reintento, destino, asunto_interno,
+            html_interno(nombre, correo, telefono, servicio, mensaje, ref, origen),
+            texto_interno(nombre, correo, telefono, servicio, mensaje, ref, origen),
+            reply_to=correo,
+        )
+        f_cli = pool.submit(
+            _con_reintento, correo, "Hemos recibido su consulta — INJUL",
             html_cliente(nombre, servicio, mensaje, ref),
             texto_cliente(nombre, servicio, mensaje, ref),
             reply_to=destino,
         )
-        if not ok_cli:
-            print("Aviso: no se envio la cartilla al cliente:", det_cli)
+        ok_int, det_int = f_int.result()
+        ok_cli, det_cli = f_cli.result()
+
+    if not ok_cli:
+        print("Aviso: no se envio la cartilla al cliente:", det_cli)
 
     return {"ref": ref, "interno": ok_int, "cliente": ok_cli,
             "detalle": {"interno": det_int, "cliente": det_cli}}

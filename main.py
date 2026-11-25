@@ -749,7 +749,7 @@ async def enviar_contacto(nombre: str = Form(""), telefono: str = Form(""), corr
         except Exception as e:
             print("No se pudo registrar el intento de contacto:", e)
     if r["interno"]:
-        return JSONResponse(status_code=200, content={"ok": True, "msg": "Consulta enviada con éxito. Revise su correo."})
+        return JSONResponse(status_code=200, content={"ok": True, "msg": "Consulta enviada con éxito. Revise su correo." if r["cliente"] else "Consulta enviada con éxito. Nos comunicaremos con usted."})
     print("Fallo SMTP:", r["detalle"])
     if registrado:
         return JSONResponse(status_code=200, content={"ok": True, "msg": "Consulta recibida. Nos comunicaremos con usted."})

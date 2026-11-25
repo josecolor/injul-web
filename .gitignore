@@ -2,7 +2,10 @@
 node_modules/
 venv/
 __pycache__/
+*.pyc
 *.tar.gz
+.DS_Store
+Screenshot*.png
 backup-8.10.2026*
-*.tar.gz
 injul_noticias_deploy/
+site/wp-content/uploads/cms/

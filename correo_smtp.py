@@ -128,12 +128,45 @@ def texto_interno(nombre, correo, telefono, servicio, mensaje, ref, origen):
     )
 
 
-def enviar_correo(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
-    """Devuelve (ok, detalle). Nunca lanza excepcion."""
+def _enviar_resend(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
+    import json
+    import urllib.error
+    import urllib.request
+
+    remitente = _cfg("RESEND_FROM") or "INJUL <onboarding@resend.dev>"
+    datos = {
+        "from": remitente,
+        "to": [destino],
+        "subject": asunto,
+        "html": cuerpo_html,
+        "text": cuerpo_texto,
+    }
+    if reply_to:
+        datos["reply_to"] = reply_to
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=json.dumps(datos).encode("utf-8"),
+        headers={
+            "Authorization": "Bearer " + _cfg("RESEND_API_KEY"),
+            "Content-Type": "application/json",
+            "User-Agent": "injul-web/1.0",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            return True, f"resend HTTP {r.status}"
+    except urllib.error.HTTPError as e:
+        return False, f"Resend HTTP {e.code}: " + e.read().decode("utf-8", "replace")[:300]
+    except Exception as e:
+        return False, f"{type(e).__name__}: {e}"
+
+
+def _enviar_smtp(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
     usuario = _cfg("SMTP_USER")
     clave = _cfg("SMTP_PASS")
     if not usuario or not clave:
-        return False, "Faltan SMTP_USER o SMTP_PASS en las variables de Railway"
+        return False, "Faltan RESEND_API_KEY o SMTP_USER/SMTP_PASS en las variables de Railway"
     host = _cfg("SMTP_HOST", "smtp.gmail.com")
     try:
         puerto = int(_cfg("SMTP_PORT", "587") or 587)
@@ -151,7 +184,6 @@ def enviar_correo(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
         msg["Reply-To"] = reply_to
     msg.attach(MIMEText(cuerpo_texto, "plain", "utf-8"))
     msg.attach(MIMEText(cuerpo_html, "html", "utf-8"))
-
     try:
         contexto = ssl.create_default_context()
         if puerto == 465:
@@ -166,6 +198,14 @@ def enviar_correo(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
         return True, "enviado"
     except Exception as e:
         return False, f"{type(e).__name__}: {e}"
+
+
+def enviar_correo(destino, asunto, cuerpo_html, cuerpo_texto, reply_to=None):
+    """Devuelve (ok, detalle). Nunca lanza excepcion.
+    Con RESEND_API_KEY usa la API HTTPS de Resend; si no, SMTP."""
+    if _cfg("RESEND_API_KEY"):
+        return _enviar_resend(destino, asunto, cuerpo_html, cuerpo_texto, reply_to)
+    return _enviar_smtp(destino, asunto, cuerpo_html, cuerpo_texto, reply_to)
 
 
 def procesar_contacto(nombre, correo, telefono="", servicio="", mensaje="", origen="Portal"):
@@ -193,6 +233,8 @@ def procesar_contacto(nombre, correo, telefono="", servicio="", mensaje="", orig
             texto_cliente(nombre, servicio, mensaje, ref),
             reply_to=destino,
         )
+        if not ok_cli:
+            print("Aviso: no se envio la cartilla al cliente:", det_cli)
 
     return {"ref": ref, "interno": ok_int, "cliente": ok_cli,
             "detalle": {"interno": det_int, "cliente": det_cli}}

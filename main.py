@@ -102,7 +102,16 @@ def seed_noticias_if_empty():
     conn.close()
 
 
-@app.post("/api/reseed-noticias")
+from fastapi import Depends, Header as _Header, HTTPException as _HTTPException
+
+
+def _requiere_clave_admin(x_clave: str = _Header("")):
+    clave = os.getenv("RECOVERY_KEY", "")
+    if not clave or not secrets.compare_digest(x_clave.encode("utf-8"), clave.encode("utf-8")):
+        raise _HTTPException(status_code=403, detail="No autorizado")
+
+
+@app.post("/api/reseed-noticias", dependencies=[Depends(_requiere_clave_admin)])
 async def reseed_noticias():
     """Endpoint temporal: borra todas las noticias y las recarga desde el seed, reportando errores por artículo."""
     conn = get_db_connection()
@@ -219,11 +228,6 @@ async def serve_panel():
 @app.get("/perfiles.html", response_class=HTMLResponse)
 async def serve_perfiles():
     return serve_page("perfiles.html")
-
-
-@app.get("/admin.html", response_class=HTMLResponse)
-async def serve_admin():
-    return serve_page("admin.html")
 
 
 # API de noticias — sirve los artículos reales desde PostgreSQL a todos los visitantes
@@ -756,7 +760,7 @@ async def enviar_contacto(nombre: str = Form(""), telefono: str = Form(""), corr
     return JSONResponse(status_code=502, content={"ok": False, "msg": "No pudimos enviar su consulta. Llámenos al 809-547-3178."})
 
 
-@app.post("/upload/")
+@app.post("/upload/", dependencies=[Depends(_requiere_clave_admin)])
 async def upload_file(file: UploadFile = File(...)):
     file_path = os.path.join(UPLOAD_DIR, file.filename)
     try:

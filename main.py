@@ -1,6 +1,6 @@
 import uvicorn
 from fastapi import FastAPI, UploadFile, File, HTTPException, Form, Request
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 import os
 import shutil
@@ -9,29 +9,20 @@ import asyncio
 import time
 import secrets
 import hashlib
-import base64
-from urllib.parse import urlencode
-from email.mime.text import MIMEText
 import requests
 import psycopg2
 import psycopg2.extras
 from PIL import Image
 from io import BytesIO
-from cryptography.fernet import Fernet
-from google.oauth2.credentials import Credentials
-from google.auth.transport.requests import Request as GoogleAuthRequest
 
 app = FastAPI()
 UPLOAD_DIR = "/data"
 SITE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "site")
 
-# ── Configuración de envío de correo por Gmail API (OAuth) ──────────
-GOOGLE_CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID", "")
-GOOGLE_CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET", "")
-GOOGLE_REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI", "")
-TOKEN_ENCRYPTION_KEY = os.getenv("TOKEN_ENCRYPTION_KEY", "")
-GMAIL_SEND_ADDRESS = os.getenv("GMAIL_SEND_ADDRESS", "injul01@gmail.com")
-NOTIFY_DEST = os.getenv("RESEND_DEST", "jose.colorvision@gmail.com")
+# Configuración de Resend (envío de correo por API, evita el bloqueo de puertos SMTP de Railway)
+RESEND_API_KEY = os.getenv("RESEND_API_KEY", "")
+RESEND_FROM = os.getenv("RESEND_FROM", "onboarding@resend.dev")
+RESEND_DEST = os.getenv("RESEND_DEST", "injul01@gmail.com")
 
 # Sirve wp-content e imagenesweb como archivos estáticos
 if os.path.isdir(os.path.join(SITE_DIR, "wp-content")):
@@ -263,6 +254,7 @@ async def api_get_noticias():
         return JSONResponse(status_code=500, content={"error": str(e)})
 
 
+# Formulario de contacto — envía por la API HTTPS de Resend en vez de SMTP directo
 # ── Panel de administración (CMS) ────────────────────────────────────
 ACTIVE_TOKENS = set()  # tokens de sesión válidos en memoria
 
@@ -679,7 +671,28 @@ def enviar_correo_gmail(destinatario: str, asunto: str, html: str, reply_to: str
             json={"raw": raw},
             timeout=15,
         )
-        return resp.status_code in (200, 202), resp.text
+        ok = resp.status_code in (200, 202)
+
+        # Si el destino es la misma cuenta que envía (correo interno de la empresa),
+        # Gmail lo registra como "Enviado" pero no lo entrega a la bandeja de entrada.
+        # Forzamos la etiqueta INBOX para que sí aparezca como recibido.
+        if ok and destinatario.strip().lower() == GMAIL_SEND_ADDRESS.strip().lower():
+            try:
+                msg_id = resp.json().get("id")
+                if msg_id:
+                    requests.post(
+                        f"https://gmail.googleapis.com/gmail/v1/users/me/messages/{msg_id}/modify",
+                        headers={
+                            "Authorization": f"Bearer {access_token}",
+                            "Content-Type": "application/json",
+                        },
+                        json={"addLabelIds": ["INBOX", "UNREAD"]},
+                        timeout=10,
+                    )
+            except Exception as e:
+                print(f"Aviso: no se pudo forzar INBOX en correo interno: {e}")
+
+        return ok, resp.text
     except Exception as e:
         return False, str(e)
 
@@ -717,50 +730,30 @@ def enviar_respuesta_automatica(nombre, correo, mensaje_original, ref):
 
 
 @app.post("/enviar.php")
-async def enviar_contacto(
-    nombre: str = Form(""),
-    telefono: str = Form(""),
-    correo: str = Form(""),
-    servicio: str = Form(""),
-    mensaje: str = Form(""),
-):
-    nombre = nombre.strip()
-    telefono = telefono.strip()
-    correo = correo.strip()
-    servicio = servicio.strip()
-    mensaje = mensaje.strip()
-
+async def enviar_contacto(nombre: str = Form(""), telefono: str = Form(""), correo: str = Form(""), servicio: str = Form(""), mensaje: str = Form("")):
+    import asyncio
+    import correo_smtp
+    nombre, telefono, correo, servicio, mensaje = nombre.strip(), telefono.strip(), correo.strip(), servicio.strip(), mensaje.strip()
     if not nombre or not correo or not mensaje:
-        log_contact_attempt(nombre, correo, telefono, servicio, mensaje, False, "Campos obligatorios vacíos")
-        return JSONResponse(
-            status_code=400,
-            content={"ok": False, "msg": "Complete los campos obligatorios."},
-        )
-
-    ref = secrets.token_hex(4).upper()
-    asunto = f"Consulta web: {servicio} - {nombre} (Ref. {ref})"
-    html = f"""<h3>Nueva consulta desde la web</h3>
-    <p><b>Nombre:</b> {nombre} <br>
-    <b>Correo:</b> {correo} <br>
-    <b>Teléfono:</b> {telefono} <br>
-    <b>Servicio:</b> {servicio} </p>
-    <p><b>Mensaje:</b><br>{mensaje}</p>"""
-
-    ok, detalle = enviar_correo_gmail(NOTIFY_DEST, asunto, html, reply_to=correo)
-
-    if ok:
-        log_contact_attempt(nombre, correo, telefono, servicio, mensaje, True)
-        # Respuesta automática al remitente — best-effort, no afecta la respuesta principal si falla
-        ok_autoreply, detalle_autoreply = enviar_respuesta_automatica(nombre, correo, mensaje, ref)
-        if not ok_autoreply:
-            print(f"Aviso: respuesta automática a {correo} no se pudo enviar: {detalle_autoreply}")
-        return JSONResponse(content={"ok": True, "msg": "¡Mensaje enviado con éxito!"})
-    else:
-        log_contact_attempt(nombre, correo, telefono, servicio, mensaje, False, detalle)
-        return JSONResponse(
-            status_code=500,
-            content={"ok": False, "msg": f"Fallo al enviar: {detalle}"},
-        )
+        return JSONResponse(status_code=400, content={"ok": False, "msg": "Complete los campos obligatorios."})
+    if not correo_smtp.correo_valido(correo):
+        return JSONResponse(status_code=400, content={"ok": False, "msg": "Escriba un correo electrónico válido."})
+    loop = asyncio.get_running_loop()
+    r = await loop.run_in_executor(None, correo_smtp.procesar_contacto, nombre, correo, telefono, servicio, mensaje, "Portal")
+    registrado = False
+    registrar = globals().get("log_contact_attempt")
+    if registrar:
+        try:
+            registrar(nombre, correo, telefono, servicio, mensaje, r["interno"], str(r["detalle"]))
+            registrado = True
+        except Exception as e:
+            print("No se pudo registrar el intento de contacto:", e)
+    if r["interno"]:
+        return JSONResponse(status_code=200, content={"ok": True, "msg": "Consulta enviada con éxito. Revise su correo."})
+    print("Fallo SMTP:", r["detalle"])
+    if registrado:
+        return JSONResponse(status_code=200, content={"ok": True, "msg": "Consulta recibida. Nos comunicaremos con usted."})
+    return JSONResponse(status_code=502, content={"ok": False, "msg": "No pudimos enviar su consulta. Llámenos al 809-547-3178."})
 
 
 @app.post("/upload/")

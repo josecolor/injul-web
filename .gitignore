@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 *.tar.gz
 .DS_Store
+.nixpacks/
 Screenshot*.png
 backup-8.10.2026*
 injul_noticias_deploy/
